@@ -11,6 +11,37 @@ let scanPage=1, lessonFlow=false, pendingPhase=false, phaseResponseId=null, phas
 let phaseSpoken='', readingRetries=0;
 let autoStudy=true, continueTimer=null, learnerSpeaking=false, replyDone=false, replyPlayed=false, replyId=null;
 const phaseNames={es:{introduction:'Introducción',hebrew:'Lectura en hebreo',translation:'Traducción',explanation:'Explicación',pause:'Pausa para preguntas'},en:{introduction:'Introduction',hebrew:'Hebrew reading',translation:'Translation',explanation:'Explanation',pause:'Pause for questions'}};
+const voiceChoices=['cedar','ash','echo'], voiceSpeeds=[0.75,1,1.15,1.25,1.5];
+let voicePreference='cedar', speedPreference=1.25, pendingSpeed=false;
+try {
+  const saved=JSON.parse(localStorage.getItem('virtualrabbi.voice')||'{}');
+  if(voiceChoices.includes(saved.voice))voicePreference=saved.voice;
+  if(voiceSpeeds.includes(saved.speed))speedPreference=saved.speed;
+} catch (_) {}
+function saveVoicePreferences(){
+  try{localStorage.setItem('virtualrabbi.voice',JSON.stringify({voice:voicePreference,speed:speedPreference}));}
+  catch(_){toast(english()?'Preference applies now, but could not be saved in this browser.':'La preferencia se aplica ahora, pero no se pudo guardar en este navegador.');}
+}
+function renderVoiceOptions(){
+  if(!$('voiceSelect'))return;
+  $('voiceLabel').textContent=english()?'Voice':'Voz';
+  $('speedLabel').textContent=english()?'Speed':'Velocidad';
+  $('voiceSelect').value=voicePreference;$('voiceSelect').disabled=connected||connecting;
+  $('voiceSpeed').value=String(speedPreference);
+  $('voiceHint').textContent=connected||connecting
+    ?(english()?'Voice: change between calls · Speed: next response':'Voz: cambia entre llamadas · Velocidad: siguiente respuesta')
+    :(english()?'Your preferences are saved in this browser.':'Tus preferencias se guardan en este navegador.');
+}
+function applyPendingSpeed(){
+  if(!pendingSpeed||!connected||activeResponse)return;
+  sendEvent({type:'session.update',session:{type:'realtime',audio:{output:{speed:speedPreference}}}});
+  pendingSpeed=false;
+}
+function selectSpeed(value){
+  if(!voiceSpeeds.includes(value))return;
+  speedPreference=value;saveVoicePreferences();pendingSpeed=true;
+  applyPendingSpeed();renderVoiceOptions();
+}
 function english(){return doc?.study_language==='en';}
 function local(field,u=unit()){return english()?(u?.[field+'_en']||u?.[field]||''):(u?.[field]||'');}
 function locationText(loc=doc?.location){if(!loc?.page)return english()?'Location pending':'Ubicación pendiente';const cols=english()?{right:'right column',left:'left column',single:'single column'}:{right:'columna derecha',left:'columna izquierda',single:'columna única'};return `${english()?'PDF page':'Página PDF'} ${loc.page} · ${cols[loc.column]} · ${english()?'line':'línea'} ${loc.line||'—'}`;}
@@ -116,8 +147,9 @@ async function enterStudy() {
   messages=await request('/api/history?id='+doc.id);renderHistory();
 }
 function renderStudy() {
+  renderVoiceOptions();
   $('studyTitle').textContent=english()?(doc.title_en||doc.title):doc.title;
-  $('studyLanguage').value=doc.study_language||'es';
+  $('studyLanguage').value=doc.study_language||'es';renderVoiceOptions();
   document.documentElement.lang=english()?'en':'es';
   if(!connected&&!connecting){$('callBtn').textContent=$('callBtn').title=$('callBtn').ariaLabel=english()?'◉ Start call':'◉ Comenzar llamada';callState(english()?'Ready to study':'Listo para estudiar');}
   $('teacherTagline').textContent=english()?'Your virtual chavruta for Torah Or':'Tu jabrutá virtual para Torá Or';
@@ -218,12 +250,12 @@ function pauseGuided(){
   checkpoint(doc.cursor?.phase||'hebrew',true).catch(e=>toast(e.message,true));
   callState(english()?'Paused · your questions':'En pausa · tus preguntas');
 }
-function callState(text,speaking=false){$('callState').textContent=text;}
+function callState(text,speaking=false){$('callState').textContent=text;renderVoiceOptions();}
 function finalizeDrafts(){for(const [id,draft] of assistantDrafts){if(draft.text.trim()){messages.push({role:'assistant',text:draft.text,id});persist('assistant',draft.text,id,'voice',draft.docId,draft.unitId);}assistantDrafts.delete(id);}}
 function cleanupCall(){
   cancelContinuation();replyDone=false;replyPlayed=false;learnerSpeaking=false;
   const oldChannel=channel,oldPeer=peer,oldStream=microphone;channel=null;peer=null;microphone=null;
-  connected=false;connecting=false;activeResponse=false;
+  connected=false;connecting=false;activeResponse=false;pendingSpeed=false;
   oldStream?.getTracks().forEach(t=>t.stop());oldChannel?.close();oldPeer?.close();
   $('remoteAudio').pause();$('remoteAudio').srcObject=null;
   $('callDialog').classList.remove('in-call');$('callBtn').textContent=$('callBtn').title=$('callBtn').ariaLabel=english()?'◉ Start call':'◉ Comenzar llamada';$('callBtn').classList.remove('connected');$('callBtn').disabled=false;$('muteBtn').classList.add('hidden');$('readUnit').disabled=false;callState('Listo para estudiar');
@@ -248,6 +280,7 @@ async function handleCallEvent(event,generation){
     draft.text+=event.delta||'';draft.bubble.querySelector('.message-text').textContent=draft.text;$('chatLog').scrollTop=$('chatLog').scrollHeight;callState('Compartiendo la idea…',true);
   }
   if(event.type==='response.done'){
+    activeResponse=false;applyPendingSpeed();
     if(event.response?.id===replyId)replyDone=event.response?.status==='completed';
     activeResponse=false;finalizeDrafts();callState(english()?'Listening':'Te escucho');
     if(event.response?.id===phaseResponseId){const spoken=(event.response.output||[]).flatMap(i=>i.content||[]).map(c=>c.transcript||c.text||'').join(' ');if(spoken)phaseSpoken=spoken;phaseGenerationComplete=event.response.status==='completed';if(!phaseGenerationComplete){lessonFlow=false;pendingPhase=false;}maybeAdvancePhase();}
@@ -290,7 +323,7 @@ async function startCall(read=false){
     const offer=await connection.createOffer();await connection.setLocalDescription(offer);
     await new Promise((resolve,reject)=>{if(connection.iceGatheringState==='complete')return resolve();let timer=setTimeout(()=>{connection.removeEventListener('icegatheringstatechange',check);reject(new Error('No se pudo preparar la conexión de audio.'));},10000);function check(){if(connection.iceGatheringState==='complete'){clearTimeout(timer);connection.removeEventListener('icegatheringstatechange',check);resolve();}}connection.addEventListener('icegatheringstatechange',check);});
     if(generation!==callGeneration)return false;
-    const answer=await request('/api/call',{id:callDocument,unit_id:callUnit,sdp:connection.localDescription.sdp});
+    const answer=await request('/api/call',{id:callDocument,unit_id:callUnit,sdp:connection.localDescription.sdp,voice:voicePreference,speed:speedPreference});
     if(generation!==callGeneration)return false;
     await connection.setRemoteDescription({type:'answer',sdp:answer.sdp});
     setTimeout(()=>{if(generation===callGeneration&&!connected){stopCall();toast('La sesión no respondió. Revisa el acceso de tu cuenta al modelo de voz.',true);}},20000);
@@ -418,6 +451,13 @@ chatTab.onclick=()=>{desk.classList.add('hidden');chat.classList.remove('hidden'
 $('studyTextTarget').append(document.querySelector('.sources-card'));
 $('callDialog').replaceChildren(document.querySelector('.call-dialog-header'),teacher,tabs,document.querySelector('.lesson-nav'),document.querySelector('.location-bar'),desk,chat);
 $('studyContent').prepend($('callDialog'));
+const voiceControls=element('div','voice-options');
+voiceControls.innerHTML='<label><span id="voiceLabel">Voz</span><select id="voiceSelect"><option value="cedar">Cedar</option><option value="ash">Ash</option><option value="echo">Echo</option></select></label><label><span id="speedLabel">Velocidad</span><select id="voiceSpeed"><option value="0.75">0.75×</option><option value="1">1×</option><option value="1.15">1.15×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label><small id="voiceHint"></small>';
+teacher.after(voiceControls);
+$('voiceSelect').onchange=e=>{if(connected||connecting){renderVoiceOptions();return;}voicePreference=e.target.value;saveVoicePreferences();};
+$('voiceSpeed').onchange=e=>selectSpeed(Number(e.target.value));
+renderVoiceOptions();
+
 $('languageSlot').append($('studyLanguage'));
 const scanViewport=element('div','scan-viewport');scanViewport.id='scanViewport';
 const scanCanvas=document.querySelector('.scan-canvas');scanCanvas.before(scanViewport);scanViewport.append(scanCanvas);

@@ -101,3 +101,15 @@ await vm.runInContext(`(async()=>{
 })()`,context);
 assert.equal(vm.runInContext('doc.cursor.phase',context),'hebrew','ordinary idea advances without a question');
 console.log('Section-end prompts are restricted to verified aleph/bet boundaries.');
+// Changing pace waits for generation completion and does not navigate the lesson.
+await vm.runInContext(`(async()=>{
+ connected=true;activeResponse=true;lessonFlow=false;pendingToolAction=null;
+ const cursorBefore=JSON.stringify(doc.cursor);
+ selectSpeed(1.5);
+ if(!pendingSpeed)throw new Error('Speed must queue during generation');
+ await handleCallEvent({type:'response.done',response:{id:'pace-test',status:'completed'}},1);
+ if(pendingSpeed)throw new Error('Queued speed must apply between responses');
+ if(JSON.stringify(doc.cursor)!==cursorBefore)throw new Error('Pace must preserve cursor');
+})()`,context);
+assert.equal(sent.filter(e=>e.type==='session.update'&&e.session.audio?.output?.speed===1.5).length,1);
+console.log('Voice speed queues safely and preserves the study cursor.');

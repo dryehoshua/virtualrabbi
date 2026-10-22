@@ -115,6 +115,17 @@ def save(doc):
 
 
 
+VOICE_CHOICES = ('cedar', 'ash', 'echo')
+VOICE_SPEEDS = (0.75, 1.0, 1.15, 1.25, 1.5)
+
+def call_audio_options(body):
+    voice = body.get('voice', CONFIG.get('voice', 'cedar'))
+    speed = body.get('speed', CONFIG.get('voice_speed', 1.25))
+    if voice not in VOICE_CHOICES or isinstance(speed, bool) or speed not in VOICE_SPEEDS:
+        raise ValueError('Selecciona una voz y una velocidad disponibles.')
+    return {'voice': voice, 'speed': speed}
+
+
 def key():
     if os.environ.get('VIRTUALRABBI_OPENAI_API_KEY'):
         return os.environ['VIRTUALRABBI_OPENAI_API_KEY'].strip()
@@ -561,7 +572,7 @@ class Handler(BaseHTTPRequestHandler):
                 sdp = str(body.get('sdp', ''))
                 if not sdp.startswith('v=0') or len(sdp) > 100000:
                     raise ValueError('Oferta de audio no válida.')
-                session = {'type': 'realtime', 'model': CONFIG['voice_model'], 'instructions': PERSONA + '\nContexto de la unidad actual:\n' + context(doc, unit), 'audio': {'input': {'transcription': {'model': 'gpt-4o-mini-transcribe'}, 'turn_detection': {'type': 'semantic_vad'}}, 'output': {'voice': CONFIG['voice'], 'speed': CONFIG.get('voice_speed', 1.25)}}, 'tools': [{'type': 'function', 'name': 'retomar_estudio', 'description': 'Retomar la etapa del texto guardada por la aplicación. Úsala cuando el alumno diga continuar, seguir o volver al texto. No elijas ni recites tú el siguiente fragmento: la aplicación lo enviará.', 'parameters': {'type': 'object', 'properties': {}, 'additionalProperties': False}}, {'type': 'function', 'name': 'siguiente_unidad', 'description': 'Pasar a la siguiente idea ÚNICAMENTE si el alumno lo pide expresamente. Nunca al terminar tu respuesta ni ante una pregunta.', 'parameters': {'type': 'object', 'properties': {}, 'additionalProperties': False}}, {'type': 'function', 'name': 'buscar_fuentes', 'description': 'Buscar fuentes primarias en Chabad.org para la unidad actual. Usar antes de atribuir una fuente que no esté verificada.', 'parameters': {'type': 'object', 'properties': {'query': {'type': 'string'}}, 'required': ['query'], 'additionalProperties': False}}]}
+                session = {'type': 'realtime', 'model': CONFIG['voice_model'], 'instructions': PERSONA + '\nContexto de la unidad actual:\n' + context(doc, unit), 'audio': {'input': {'transcription': {'model': 'gpt-4o-mini-transcribe'}, 'turn_detection': {'type': 'semantic_vad'}}, 'output': call_audio_options(body)}, 'tools': [{'type': 'function', 'name': 'retomar_estudio', 'description': 'Retomar la etapa del texto guardada por la aplicación. Úsala cuando el alumno diga continuar, seguir o volver al texto. No elijas ni recites tú el siguiente fragmento: la aplicación lo enviará.', 'parameters': {'type': 'object', 'properties': {}, 'additionalProperties': False}}, {'type': 'function', 'name': 'siguiente_unidad', 'description': 'Pasar a la siguiente idea ÚNICAMENTE si el alumno lo pide expresamente. Nunca al terminar tu respuesta ni ante una pregunta.', 'parameters': {'type': 'object', 'properties': {}, 'additionalProperties': False}}, {'type': 'function', 'name': 'buscar_fuentes', 'description': 'Buscar fuentes primarias en Chabad.org para la unidad actual. Usar antes de atribuir una fuente que no esté verificada.', 'parameters': {'type': 'object', 'properties': {'query': {'type': 'string'}}, 'required': ['query'], 'additionalProperties': False}}]}
                 session['tools'].append({'type': 'function', 'name': 'pausar_estudio', 'description': 'Detener el avance automático cuando el alumno pide esperar, pausar, parar o terminar. Conserva el punto y no retomes hasta que lo pida.', 'parameters': {'type': 'object', 'properties': {}, 'additionalProperties': False}})
                 if CONFIG.get('voice_only', True):
                     session['tools'] = [t for t in session['tools'] if t['name'] != 'buscar_fuentes']
