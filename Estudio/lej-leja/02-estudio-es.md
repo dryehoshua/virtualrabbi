@@ -2,7 +2,7 @@
 
 Estudiaremos la apertura de Lej Lejá en Torá Or, la colección de maamarim del Alter Rebbe, publicada por primera vez en 1837. El pasaje pregunta cómo la sabiduría oculta llega a revelarse y a refinar la existencia. Leeremos una idea en hebreo, después su traducción y explicación, y haremos una pausa para tus preguntas.
 
-Entrega 01 · Primer párrafo del maamar הנה אברם · 10 unidades. Las seis hojas están disponibles como facsímil; esta entrega no afirma transcribirlas por completo. Líneas contadas desde el comienzo del maamar en cada columna.
+13 unidades: primer párrafo y comienzo del segundo, hasta «והתענוג הוא למעלה מן החכמה». Continuación parcial: no equivale a una sección álef/bet completa. Seis hojas disponibles para consulta.
 
 
 ## 1. Avram: la sabiduría todavía oculta
@@ -253,3 +253,72 @@ Texto primario: Torá Or, Lej Lejá, comienzo del maamar «הנה אברם»; ed
 - [Torá Or · Lej Lejá · Texto hebreo Kehot / Chabad.org](https://www.chabad.org/torah-texts/7440873)
 
 ¿Cuál es la pregunta que queda abierta para el siguiente párrafo?
+
+
+## 11. De Avram a Avraham: la pregunta
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 10}, "end": {"page": 1, "column": "left", "line": 10}, "basis": "Líneas contadas desde שיתוסף en la columna izquierda del maamar.", "printed_page": "יא"}
+
+
+### עברית
+והנה לפ"ז היא ירידה להיות מא"ב ר"ם אברהם.
+
+
+### Traducción
+Según esto, pasar de Av Ram a Avraham constituye un descenso.
+
+
+### Explicación
+El texto vuelve sobre una dificultad: si Av Ram representa una sabiduría oculta y elevada, su revelación parece un descenso. La pregunta prepara la explicación de la letra he añadida al nombre.
+
+
+### Fuentes
+Transcripción cotejada visualmente con la hoja 1 aportada y con Torá Or en Chabad/Kehot, segundo párrafo. Traducción y explicación editoriales. La cita del Zóhar se atribuye aquí al propio maamar; su folio no se ha verificado.
+
+- [Torá Or · Lej Lejá · Segundo párrafo / Second paragraph](https://www.chabad.org/torah-texts/7440873)
+
+
+## 12. La he superior y Atik
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 10}, "end": {"page": 1, "column": "left", "line": 12}, "basis": "Líneas contadas desde שיתוסף en la columna izquierda del maamar.", "printed_page": "יא"}
+
+
+### עברית
+אך הענין מה שנתוסף לו ה' הוא ה' עילאה ובזוהר אי' גבי ועבד הלוי הוא. הוא דא עתיקא
+
+
+### Traducción
+La cuestión es que la he que se le añadió es la he superior. En el Zóhar, acerca de «y el levita servirá, él», se dice: «Él» alude a Atik.
+
+
+### Explicación
+El maamar conecta la he añadida con un nivel superior. Cita el Zóhar para introducir Atik; aquí conservamos el término técnico y la referencia tal como aparecen, sin atribuirle un número de folio que todavía no hemos comprobado.
+
+
+### Fuentes
+Transcripción cotejada visualmente con la hoja 1 aportada y con Torá Or en Chabad/Kehot, segundo párrafo. Traducción y explicación editoriales. La cita del Zóhar se atribuye aquí al propio maamar; su folio no se ha verificado.
+
+- [Torá Or · Lej Lejá · Segundo párrafo / Second paragraph](https://www.chabad.org/torah-texts/7440873)
+
+
+## 13. El deleite se revela en Biná
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 12}, "end": {"page": 1, "column": "left", "line": 14}, "basis": "Líneas contadas desde שיתוסף en la columna izquierda del maamar.", "printed_page": "יא"}
+
+
+### עברית
+שהתגלות עתיק הוא בבינה דוקא ולא בחכמה כי חכמה נק' עדן ואין שם התגלות עתיק כי עתיק הוא מקור התענוגים והתענוג הוא למעלה מן החכמה
+
+
+### Traducción
+La revelación de Atik ocurre precisamente en Biná y no en Jojmá, pues Jojmá se llama Edén y allí no se da la revelación de Atik. Atik es la fuente de los deleites, y el deleite está por encima de Jojmá.
+
+
+### Explicación
+El pasaje distingue el nivel de origen del deleite del lugar donde se revela. Por eso no basta suponer que una facultad más alta, Jojmá, muestre todo lo que puede revelarse en Biná. La frase siguiente desarrollará esta diferencia mediante la imagen del punto.
+
+
+### Fuentes
+Transcripción cotejada visualmente con la hoja 1 aportada y con Torá Or en Chabad/Kehot, segundo párrafo. Traducción y explicación editoriales. La cita del Zóhar se atribuye aquí al propio maamar; su folio no se ha verificado.
+
+- [Torá Or · Lej Lejá · Segundo párrafo / Second paragraph](https://www.chabad.org/torah-texts/7440873)

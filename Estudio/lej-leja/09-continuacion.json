@@ -1,0 +1,197 @@
+[
+  {
+    "id": "lej-leja-01-11",
+    "title": "De Avram a Avraham: la pregunta",
+    "title_en": "From Avram to Avraham: the question",
+    "hebrew": "והנה לפ\"ז היא ירידה להיות מא\"ב ר\"ם אברהם.",
+    "translation": "Según esto, pasar de Av Ram a Avraham constituye un descenso.",
+    "translation_en": "Accordingly, becoming Avraham from Av Ram constitutes a descent.",
+    "explanation": "El texto vuelve sobre una dificultad: si Av Ram representa una sabiduría oculta y elevada, su revelación parece un descenso. La pregunta prepara la explicación de la letra he añadida al nombre.",
+    "explanation_en": "The text returns to a difficulty: if Av Ram represents elevated, concealed wisdom, its revelation appears to be a descent. This sets up the explanation of the letter he added to the name.",
+    "questions": [],
+    "questions_en": [],
+    "pages": [
+      1
+    ],
+    "location": {
+      "start": {
+        "page": 1,
+        "column": "left",
+        "line": 10
+      },
+      "end": {
+        "page": 1,
+        "column": "left",
+        "line": 10
+      },
+      "basis": "Líneas contadas desde שיתוסף en la columna izquierda del maamar.",
+      "printed_page": "יא"
+    },
+    "regions": [
+      {
+        "page": 1,
+        "column": "left",
+        "line": 10,
+        "left": 0.17326732673267325,
+        "top": 0.748,
+        "width": 0.3175388967468175,
+        "height": 0.0115
+      }
+    ],
+    "source_notes": "Transcripción cotejada visualmente con la hoja 1 aportada y con Torá Or en Chabad/Kehot, segundo párrafo. Traducción y explicación editoriales. La cita del Zóhar se atribuye aquí al propio maamar; su folio no se ha verificado.",
+    "source_notes_en": "Transcription visually checked against supplied sheet 1 and the second paragraph of Torah Or on Chabad/Kehot. Translation and explanation are editorial. The Zohar reference is attributed here to the discourse itself; its folio has not been verified.",
+    "sources": [
+      {
+        "title": "Torá Or · Lej Lejá · Segundo párrafo / Second paragraph",
+        "url": "https://www.chabad.org/torah-texts/7440873",
+        "kind": "primary_text",
+        "checked_at": "2026-10-22"
+      }
+    ],
+    "source_status": "primary_text",
+    "review_state": "curated",
+    "research": ""
+  },
+  {
+    "id": "lej-leja-01-12",
+    "title": "La he superior y Atik",
+    "title_en": "The upper he and Atik",
+    "hebrew": "אך הענין מה שנתוסף לו ה' הוא ה' עילאה ובזוהר אי' גבי ועבד הלוי הוא. הוא דא עתיקא",
+    "translation": "La cuestión es que la he que se le añadió es la he superior. En el Zóhar, acerca de «y el levita servirá, él», se dice: «Él» alude a Atik.",
+    "translation_en": "The point is that the he added to his name is the upper he. In the Zohar, concerning “and the Levite shall serve, he,” it says: “He” refers to Atik.",
+    "explanation": "El maamar conecta la he añadida con un nivel superior. Cita el Zóhar para introducir Atik; aquí conservamos el término técnico y la referencia tal como aparecen, sin atribuirle un número de folio que todavía no hemos comprobado.",
+    "explanation_en": "The discourse connects the added he with a higher level. It cites the Zohar to introduce Atik; we retain the technical term and the reference as given, without assigning an unverified folio number.",
+    "questions": [],
+    "questions_en": [],
+    "pages": [
+      1
+    ],
+    "location": {
+      "start": {
+        "page": 1,
+        "column": "left",
+        "line": 10
+      },
+      "end": {
+        "page": 1,
+        "column": "left",
+        "line": 12
+      },
+      "basis": "Líneas contadas desde שיתוסף en la columna izquierda del maamar.",
+      "printed_page": "יא"
+    },
+    "regions": [
+      {
+        "page": 1,
+        "column": "left",
+        "line": 10,
+        "left": 0.07991513437057991,
+        "top": 0.748,
+        "width": 0.09264497878359264,
+        "height": 0.0115
+      },
+      {
+        "page": 1,
+        "column": "left",
+        "line": 11,
+        "left": 0.07991513437057991,
+        "top": 0.765,
+        "width": 0.41089108910891087,
+        "height": 0.01
+      },
+      {
+        "page": 1,
+        "column": "left",
+        "line": 12,
+        "left": 0.3635077793493635,
+        "top": 0.781,
+        "width": 0.1272984441301273,
+        "height": 0.01
+      }
+    ],
+    "source_notes": "Transcripción cotejada visualmente con la hoja 1 aportada y con Torá Or en Chabad/Kehot, segundo párrafo. Traducción y explicación editoriales. La cita del Zóhar se atribuye aquí al propio maamar; su folio no se ha verificado.",
+    "source_notes_en": "Transcription visually checked against supplied sheet 1 and the second paragraph of Torah Or on Chabad/Kehot. Translation and explanation are editorial. The Zohar reference is attributed here to the discourse itself; its folio has not been verified.",
+    "sources": [
+      {
+        "title": "Torá Or · Lej Lejá · Segundo párrafo / Second paragraph",
+        "url": "https://www.chabad.org/torah-texts/7440873",
+        "kind": "primary_text",
+        "checked_at": "2026-10-22"
+      }
+    ],
+    "source_status": "primary_text",
+    "review_state": "curated",
+    "research": ""
+  },
+  {
+    "id": "lej-leja-01-13",
+    "title": "El deleite se revela en Biná",
+    "title_en": "Delight is revealed in Binah",
+    "hebrew": "שהתגלות עתיק הוא בבינה דוקא ולא בחכמה כי חכמה נק' עדן ואין שם התגלות עתיק כי עתיק הוא מקור התענוגים והתענוג הוא למעלה מן החכמה",
+    "translation": "La revelación de Atik ocurre precisamente en Biná y no en Jojmá, pues Jojmá se llama Edén y allí no se da la revelación de Atik. Atik es la fuente de los deleites, y el deleite está por encima de Jojmá.",
+    "translation_en": "The revelation of Atik occurs specifically in Binah rather than in Chochmah, for Chochmah is called Eden and Atik is not revealed there. Atik is the source of delights, and delight is above Chochmah.",
+    "explanation": "El pasaje distingue el nivel de origen del deleite del lugar donde se revela. Por eso no basta suponer que una facultad más alta, Jojmá, muestre todo lo que puede revelarse en Biná. La frase siguiente desarrollará esta diferencia mediante la imagen del punto.",
+    "explanation_en": "The passage distinguishes the source of delight from the place where it is revealed. Thus a higher faculty, Chochmah, need not display everything that can become manifest in Binah. The next sentence will develop this distinction through the image of a point.",
+    "questions": [],
+    "questions_en": [],
+    "pages": [
+      1
+    ],
+    "location": {
+      "start": {
+        "page": 1,
+        "column": "left",
+        "line": 12
+      },
+      "end": {
+        "page": 1,
+        "column": "left",
+        "line": 14
+      },
+      "basis": "Líneas contadas desde שיתוסף en la columna izquierda del maamar.",
+      "printed_page": "יא"
+    },
+    "regions": [
+      {
+        "page": 1,
+        "column": "left",
+        "line": 12,
+        "left": 0.07991513437057991,
+        "top": 0.781,
+        "width": 0.2828854314002829,
+        "height": 0.01
+      },
+      {
+        "page": 1,
+        "column": "left",
+        "line": 13,
+        "left": 0.07991513437057991,
+        "top": 0.797,
+        "width": 0.41089108910891087,
+        "height": 0.01
+      },
+      {
+        "page": 1,
+        "column": "left",
+        "line": 14,
+        "left": 0.21711456859971712,
+        "top": 0.8125,
+        "width": 0.2736916548797737,
+        "height": 0.0105
+      }
+    ],
+    "source_notes": "Transcripción cotejada visualmente con la hoja 1 aportada y con Torá Or en Chabad/Kehot, segundo párrafo. Traducción y explicación editoriales. La cita del Zóhar se atribuye aquí al propio maamar; su folio no se ha verificado.",
+    "source_notes_en": "Transcription visually checked against supplied sheet 1 and the second paragraph of Torah Or on Chabad/Kehot. Translation and explanation are editorial. The Zohar reference is attributed here to the discourse itself; its folio has not been verified.",
+    "sources": [
+      {
+        "title": "Torá Or · Lej Lejá · Segundo párrafo / Second paragraph",
+        "url": "https://www.chabad.org/torah-texts/7440873",
+        "kind": "primary_text",
+        "checked_at": "2026-10-22"
+      }
+    ],
+    "source_status": "primary_text",
+    "review_state": "curated",
+    "research": ""
+  }
+]

@@ -6,6 +6,7 @@ let peer = null, channel = null, microphone = null, connected = false, connectin
 let assistantDrafts = new Map(), messages = [], queuedWrites = new Map();
 let callDocument = null, callUnit = null, callGeneration = 0, callStartRead = false;
 let currentFile = null, toastTimer;
+let scanZoom=1;
 let scanPage=1, lessonFlow=false, pendingPhase=false, phaseResponseId=null, phaseGenerationComplete=false, phasePlaybackComplete=false, pendingToolAction=null;
 let phaseSpoken='', readingRetries=0;
 let autoStudy=true, continueTimer=null, learnerSpeaking=false, replyDone=false, replyPlayed=false, replyId=null;
@@ -296,7 +297,24 @@ async function startCall(read=false){
     return true;
   }catch(e){if(generation===callGeneration){stopCall();toast(e.name==='NotAllowedError'?'Permite el micrófono en el navegador para hablar con Virtual Rabbi.':e.message,true);}return false;}
 }
-function fitScan(){const img=$('scanImage'),viewer=document.querySelector('.original-viewer'),canvas=document.querySelector('.scan-canvas');if(!img.naturalWidth)return;const ratio=img.naturalWidth/img.naturalHeight;const width=Math.min(viewer.clientWidth-12,Math.max(100,viewer.clientHeight-48)*ratio);canvas.style.width=width+'px';canvas.style.height=width/ratio+'px';}
+function fitScan(){
+ const img=$('scanImage'),viewport=$('scanViewport'),canvas=document.querySelector('.scan-canvas');
+ if(!img.naturalWidth||!viewport)return;
+ const ratio=img.naturalWidth/img.naturalHeight;
+ const base=Math.min(viewport.clientWidth-12,Math.max(100,viewport.clientHeight-12)*ratio);
+ canvas.style.width=base*scanZoom+'px';canvas.style.height=base*scanZoom/ratio+'px';
+ $('zoomReset').textContent=Math.round(scanZoom*100)+'%';$('zoomOut').disabled=scanZoom<=1;$('zoomIn').disabled=scanZoom>=5;
+ viewport.classList.toggle('zoomed',scanZoom>1);
+}
+function setScanZoom(value){
+ const viewport=$('scanViewport'),canvas=document.querySelector('.scan-canvas');
+ const cx=(viewport.scrollLeft+viewport.clientWidth/2)/Math.max(1,canvas.clientWidth);
+ const cy=(viewport.scrollTop+viewport.clientHeight/2)/Math.max(1,canvas.clientHeight);
+ scanZoom=Math.max(1,Math.min(5,value));fitScan();
+ viewport.scrollLeft=cx*canvas.clientWidth-viewport.clientWidth/2;
+ viewport.scrollTop=cy*canvas.clientHeight-viewport.clientHeight/2;
+}
+
 function renderScan(){
   if(!doc)return;
   $('scanImage').onload=fitScan;
@@ -401,7 +419,18 @@ $('studyTextTarget').append(document.querySelector('.sources-card'));
 $('callDialog').replaceChildren(document.querySelector('.call-dialog-header'),teacher,tabs,document.querySelector('.lesson-nav'),document.querySelector('.location-bar'),desk,chat);
 $('studyContent').prepend($('callDialog'));
 $('languageSlot').append($('studyLanguage'));
-new ResizeObserver(fitScan).observe(document.querySelector('.original-viewer'));
+const scanViewport=element('div','scan-viewport');scanViewport.id='scanViewport';
+const scanCanvas=document.querySelector('.scan-canvas');scanCanvas.before(scanViewport);scanViewport.append(scanCanvas);
+const zoomTools=element('div','zoom-tools');
+for(const [id,label,title] of [['zoomOut','−','Reducir / Zoom out'],['zoomReset','100%','Ajustar hoja / Fit page'],['zoomIn','+','Ampliar / Zoom in']]){const button=element('button','icon-btn',label);button.id=id;button.title=title;button.ariaLabel=title;zoomTools.append(button);}
+document.querySelector('.scan-toolbar').append(zoomTools);
+$('zoomIn').onclick=()=>setScanZoom(scanZoom+.5);$('zoomOut').onclick=()=>setScanZoom(scanZoom-.5);$('zoomReset').onclick=()=>setScanZoom(1);
+let scanDrag=null;
+scanViewport.addEventListener('pointerdown',e=>{if(scanZoom<=1||e.button!==0)return;scanDrag={x:e.clientX,y:e.clientY,left:scanViewport.scrollLeft,top:scanViewport.scrollTop};scanViewport.setPointerCapture(e.pointerId);e.preventDefault();});
+scanViewport.addEventListener('pointermove',e=>{if(!scanDrag)return;scanViewport.scrollLeft=scanDrag.left+scanDrag.x-e.clientX;scanViewport.scrollTop=scanDrag.top+scanDrag.y-e.clientY;});
+for(const name of ['pointerup','pointercancel','lostpointercapture'])scanViewport.addEventListener(name,()=>scanDrag=null);
+$('scanImage').draggable=false;
+new ResizeObserver(fitScan).observe(scanViewport);
 $('beginStudy').onclick=async()=>{await startCall(true);};
 $('resumeLesson').onclick=async()=>{try{if(connected)await resumeGuided();else await startCall(true);}catch(e){toast(e.message,true);}};
 $('pauseLesson').onclick=pauseGuided;

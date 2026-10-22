@@ -1,6 +1,6 @@
 # Lej Lejá · Torá Or · עברית
 
-Entrega 01 · Primer párrafo del maamar הנה אברם · 10 unidades. Las seis hojas están disponibles como facsímil; esta entrega no afirma transcribirlas por completo. Líneas contadas desde el comienzo del maamar en cada columna.
+13 unidades: primer párrafo y comienzo del segundo, hasta «והתענוג הוא למעלה מן החכמה». Continuación parcial: no equivale a una sección álef/bet completa. Seis hojas disponibles para consulta.
 
 El hebreo de cada unidad es la fuente de lectura; las traducciones y explicaciones se guardan aparte. / Each unit’s Hebrew is the reading source; translations and explanations are stored separately.
 
@@ -63,3 +63,21 @@ Ubicación / Location: {"start": {"page": 1, "column": "left", "line": 3}, "end"
 Ubicación / Location: {"start": {"page": 1, "column": "left", "line": 5}, "end": {"page": 1, "column": "left", "line": 9}, "basis": "Líneas del maamar: derecha desde הנה אברם; izquierda desde שיתוסף. No se cuenta el final del discurso anterior.", "printed_page": "יא"}
 
 ומאברם מתחיל עולם התיקון לך לך יציאת שם מ"ה המתקן ומברר כו'. וצ"ל ירידה אחר ירידה מא"ב ר"ם בחי' יסוד אבא עד אל הארץ בחי' מל'. אשר אראך. פי' אראה ואגלה אותך בעצמך כלומר שאתה תבא לידי התגלות במצות מילה. והיה שמך אברהם אב המון גוים כו':
+
+## 11. lej-leja-01-11
+
+Ubicación / Location: {"start": {"page": 1, "column": "left", "line": 10}, "end": {"page": 1, "column": "left", "line": 10}, "basis": "Líneas contadas desde שיתוסף en la columna izquierda del maamar.", "printed_page": "יא"}
+
+והנה לפ"ז היא ירידה להיות מא"ב ר"ם אברהם.
+
+## 12. lej-leja-01-12
+
+Ubicación / Location: {"start": {"page": 1, "column": "left", "line": 10}, "end": {"page": 1, "column": "left", "line": 12}, "basis": "Líneas contadas desde שיתוסף en la columna izquierda del maamar.", "printed_page": "יא"}
+
+אך הענין מה שנתוסף לו ה' הוא ה' עילאה ובזוהר אי' גבי ועבד הלוי הוא. הוא דא עתיקא
+
+## 13. lej-leja-01-13
+
+Ubicación / Location: {"start": {"page": 1, "column": "left", "line": 12}, "end": {"page": 1, "column": "left", "line": 14}, "basis": "Líneas contadas desde שיתוסף en la columna izquierda del maamar.", "printed_page": "יא"}
+
+שהתגלות עתיק הוא בבינה דוקא ולא בחכמה כי חכמה נק' עדן ואין שם התגלות עתיק כי עתיק הוא מקור התענוגים והתענוג הוא למעלה מן החכמה

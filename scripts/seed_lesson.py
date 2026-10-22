@@ -114,7 +114,9 @@ def seed():
     coverage_en='Installment 01 · First paragraph of the Hinei Avram discourse · 10 units. All six scanned sheets are available; this installment does not claim to transcribe them in full. Lines are counted from the start of the discourse within each column.',
     weekly={'parasha':'Lej Lejá','hebrew':'לך לך','shabbat':'2026-10-24','hebrew_date':'י״ג חשוון תשפ״ז','source':'https://www.chabad.org/parshah/torahreading_cdo/aid/2474599/p/complete/jewish/Lech-Lecha-Torah-Reading.htm'})
     server.save(doc)
-    print('Instalada una lección: Lej Lejá, diez unidades bilingües, seis hojas de consulta.')
+    from extend_lej_leja import extend
+    extend()
+    print('Instalada una lección: Lej Lejá, trece unidades bilingües, seis hojas de consulta.')
 
 if __name__ == '__main__':
     seed()

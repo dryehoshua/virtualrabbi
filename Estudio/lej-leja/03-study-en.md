@@ -2,7 +2,7 @@
 
 We will study the opening of Lech Lecha in Torah Or, the Alter Rebbe’s collection of Chassidic discourses, first published in 1837. The passage asks how concealed wisdom becomes revealed and refines existence. We will read one idea in Hebrew, then its translation and explanation, and pause for your questions.
 
-Installment 01 · First paragraph of the Hinei Avram discourse · 10 units. All six scanned sheets are available; this installment does not claim to transcribe them in full. Lines are counted from the start of the discourse within each column.
+13 units: the first paragraph and the beginning of the second, through “והתענוג הוא למעלה מן החכמה”. Partial continuation, not a complete aleph/bet section. Six sheets available for reference.
 
 
 ## 1. Avram: wisdom still concealed
@@ -253,3 +253,72 @@ Primary text: Torah Or, Lech Lecha, opening of the discourse “Hinei Avram”; 
 - [Torá Or · Lej Lejá · Texto hebreo Kehot / Chabad.org](https://www.chabad.org/torah-texts/7440873)
 
 What question remains open for the next paragraph?
+
+
+## 11. From Avram to Avraham: the question
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 10}, "end": {"page": 1, "column": "left", "line": 10}, "basis": "Líneas contadas desde שיתוסף en la columna izquierda del maamar.", "printed_page": "יא"}
+
+
+### עברית
+והנה לפ"ז היא ירידה להיות מא"ב ר"ם אברהם.
+
+
+### Translation
+Accordingly, becoming Avraham from Av Ram constitutes a descent.
+
+
+### Explanation
+The text returns to a difficulty: if Av Ram represents elevated, concealed wisdom, its revelation appears to be a descent. This sets up the explanation of the letter he added to the name.
+
+
+### Sources
+Transcription visually checked against supplied sheet 1 and the second paragraph of Torah Or on Chabad/Kehot. Translation and explanation are editorial. The Zohar reference is attributed here to the discourse itself; its folio has not been verified.
+
+- [Torá Or · Lej Lejá · Segundo párrafo / Second paragraph](https://www.chabad.org/torah-texts/7440873)
+
+
+## 12. The upper he and Atik
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 10}, "end": {"page": 1, "column": "left", "line": 12}, "basis": "Líneas contadas desde שיתוסף en la columna izquierda del maamar.", "printed_page": "יא"}
+
+
+### עברית
+אך הענין מה שנתוסף לו ה' הוא ה' עילאה ובזוהר אי' גבי ועבד הלוי הוא. הוא דא עתיקא
+
+
+### Translation
+The point is that the he added to his name is the upper he. In the Zohar, concerning “and the Levite shall serve, he,” it says: “He” refers to Atik.
+
+
+### Explanation
+The discourse connects the added he with a higher level. It cites the Zohar to introduce Atik; we retain the technical term and the reference as given, without assigning an unverified folio number.
+
+
+### Sources
+Transcription visually checked against supplied sheet 1 and the second paragraph of Torah Or on Chabad/Kehot. Translation and explanation are editorial. The Zohar reference is attributed here to the discourse itself; its folio has not been verified.
+
+- [Torá Or · Lej Lejá · Segundo párrafo / Second paragraph](https://www.chabad.org/torah-texts/7440873)
+
+
+## 13. Delight is revealed in Binah
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 12}, "end": {"page": 1, "column": "left", "line": 14}, "basis": "Líneas contadas desde שיתוסף en la columna izquierda del maamar.", "printed_page": "יא"}
+
+
+### עברית
+שהתגלות עתיק הוא בבינה דוקא ולא בחכמה כי חכמה נק' עדן ואין שם התגלות עתיק כי עתיק הוא מקור התענוגים והתענוג הוא למעלה מן החכמה
+
+
+### Translation
+The revelation of Atik occurs specifically in Binah rather than in Chochmah, for Chochmah is called Eden and Atik is not revealed there. Atik is the source of delights, and delight is above Chochmah.
+
+
+### Explanation
+The passage distinguishes the source of delight from the place where it is revealed. Thus a higher faculty, Chochmah, need not display everything that can become manifest in Binah. The next sentence will develop this distinction through the image of a point.
+
+
+### Sources
+Transcription visually checked against supplied sheet 1 and the second paragraph of Torah Or on Chabad/Kehot. Translation and explanation are editorial. The Zohar reference is attributed here to the discourse itself; its folio has not been verified.
+
+- [Torá Or · Lej Lejá · Segundo párrafo / Second paragraph](https://www.chabad.org/torah-texts/7440873)
