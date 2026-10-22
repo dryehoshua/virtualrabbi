@@ -11,3 +11,5 @@ main{margin:0 auto;max-width:1240px;padding:0 40px}header{height:88px}.brand{mar
 @media(prefers-reduced-motion:reduce){.rabbi-portrait{animation:none}}
 
 .inline-study:not(.in-call) .lesson-phase-controls{visibility:hidden;pointer-events:none}
+.inline-study:not(.in-call) .lesson-phase-controls{display:none}
+@media(max-width:760px){.inline-study .teacher-card{height:470px}.inline-study .orb-stage{padding-bottom:165px}.inline-study .teacher-card h2{font-size:29px}.inline-study .teacher-card small{margin-top:12px}}
