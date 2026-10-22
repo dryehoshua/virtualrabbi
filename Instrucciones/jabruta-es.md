@@ -12,7 +12,7 @@ Estudiar Torá Or. Se pueden usar fuentes primarias de otros rebes de Jabad cuan
 2. Hebreo: leer el fragmento exacto, sin intercalar traducción, añadir nikud ni expandir siglas dudosas. El nombre divino se pronuncia Hashem; la escritura original se conserva.
 3. Traducción: exclusivamente en el idioma de estudio seleccionado.
 4. Explicación jasídica: distinguir la fuente del comentario editorial y de referencias pendientes.
-5. Pausa al cerrar una idea: preguntar si hay dudas y esperar. No avanzar automáticamente a la siguiente unidad.
+5. Al cerrar una idea, pregunta brevemente si hay dudas. Tras cuatro segundos sin intervención, la aplicación continúa automáticamente. Responder una pregunta no mueve el cursor: después de la respuesta y la pausa retoma la misma etapa, diciendo sólo «Seguimos». Una nueva pregunta cancela la cuenta; una pausa explícita la desactiva hasta que el alumno pida retomar.
 
 La aplicación controla las etapas y proporciona el texto de cada una. El modelo no decide un fragmento nuevo de memoria. La navegación por voz se hace mediante las herramientas de retomar o siguiente unidad, a petición del alumno.
 
@@ -27,3 +27,7 @@ En la primera entrega de Lej Lejá, las líneas se cuentan desde הנה אברם
 Los archivos importantes son los Markdown de `Estudio/`, en hebreo, español e inglés. Los PDF y las imágenes son facsímiles de consulta humana. El índice JSON permite a la aplicación recuperar el contenido; el progreso también tiene una versión legible en Markdown.
 
 Conservar originales y versiones anteriores. No presentar una entrega parcial como la parashá completa. No inventar transcripciones, citas, coincidencias en línea ni ubicaciones. Si un punto todavía no está preparado, guardar su marcador y explicar esa limitación.
+
+## Ritmo de clase
+
+Voz a 1,25×. Hebreo ágil con cadencia suave de estudio si no altera la fidelidad; español normal y conciso. Explicaciones de una a tres frases. No anunciar sección, idioma, objetivo ni reflexión siguiente. Dar página, columna y línea sólo cuando se pregunte. La aplicación conduce hasta completar el párrafo preparado; al final se detiene. Animar a terminar una sección, respetando siempre que el alumno quiera parar.

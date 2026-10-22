@@ -7,6 +7,7 @@ let assistantDrafts = new Map(), messages = [], queuedWrites = new Map();
 let callDocument = null, callUnit = null, callGeneration = 0, callStartRead = false;
 let currentFile = null, toastTimer;
 let scanPage=1, lessonFlow=false, pendingPhase=false, phaseResponseId=null, phaseGenerationComplete=false, phasePlaybackComplete=false, pendingToolAction=null;
+let autoStudy=true, continueTimer=null, learnerSpeaking=false, replyDone=false, replyPlayed=false, replyId=null;
 const phaseNames={es:{introduction:'Introducción',hebrew:'Lectura en hebreo',translation:'Traducción',explanation:'Explicación',pause:'Pausa para preguntas'},en:{introduction:'Introduction',hebrew:'Hebrew reading',translation:'Translation',explanation:'Explanation',pause:'Pause for questions'}};
 function english(){return doc?.study_language==='en';}
 function local(field,u=unit()){return english()?(u?.[field+'_en']||u?.[field]||''):(u?.[field]||'');}
@@ -182,6 +183,7 @@ function requestSpoken(instruction){if(!connected)return;if(activeResponse)sendE
 async function sendMessage(text) {
   text=text.trim();if(!text||!unit()||busyChat)return;if(!needKey())return;
   if(status.voice_only&&!connected){toast(english()?'Start a call to ask your question.':'Comienza una llamada para hacer tu pregunta.');return;}
+  cancelContinuation();if(lessonFlow){lessonFlow=false;pendingPhase=false;phaseResponseId=null;await checkpoint(doc.cursor?.phase||'hebrew',true);}
   const history=messages.filter(m=>m.role!=='note').slice(-16);
   const id=crypto.randomUUID();appendBubble('user',text);messages.push({role:'user',text,id});await persist('user',text,id);
   $('chatInput').value='';
@@ -197,9 +199,27 @@ async function searchSources(query='',forCall=false){
   $('researchBtn').disabled=true;$('researchBtn').textContent='Consultando Chabad.org…';
   try{const result=await request('/api/research',{id:capturedDoc,unit_id:capturedUnit,query});if(doc.id===capturedDoc&&unit()?.id===capturedUnit){doc=await request('/api/document?id='+capturedDoc);renderSources();if(!forCall){appendBubble('assistant',result.text);await persist('assistant',result.text);toast(result.sources.length?'Fuentes consultadas y guardadas.':'No se recuperaron enlaces citables.');}}return result;}finally{$('researchBtn').disabled=false;$('researchBtn').textContent='Buscar y contrastar en Chabad.org ↗';}
 }
+function cancelContinuation(){clearTimeout(continueTimer);continueTimer=null;}
+function scheduleContinuation(){
+  if(!connected||!autoStudy||lessonFlow||learnerSpeaking||activeResponse||!replyDone||!replyPlayed||continueTimer)return;
+  const generation=callGeneration,uid=unit()?.id;
+  continueTimer=setTimeout(()=>{
+    continueTimer=null;
+    if(generation!==callGeneration||!connected||!autoStudy||learnerSpeaking||activeResponse||lessonFlow||unit()?.id!==uid)return;
+    resumeGuided(false,true).catch(e=>toast(e.message,true));
+  },4000);
+}
+function pauseGuided(){
+  autoStudy=false;cancelContinuation();lessonFlow=false;pendingPhase=false;phaseResponseId=null;pendingToolAction=null;
+  if(activeResponse)sendEvent({type:'response.cancel'});
+  sendEvent({type:'output_audio_buffer.clear'});
+  checkpoint(doc.cursor?.phase||'hebrew',true).catch(e=>toast(e.message,true));
+  callState(english()?'Paused · your questions':'En pausa · tus preguntas');
+}
 function callState(text,speaking=false){$('callState').textContent=text;}
 function finalizeDrafts(){for(const [id,draft] of assistantDrafts){if(draft.text.trim()){messages.push({role:'assistant',text:draft.text,id});persist('assistant',draft.text,id,'voice',draft.docId,draft.unitId);}assistantDrafts.delete(id);}}
 function cleanupCall(){
+  cancelContinuation();replyDone=false;replyPlayed=false;learnerSpeaking=false;
   const oldChannel=channel,oldPeer=peer,oldStream=microphone;channel=null;peer=null;microphone=null;
   connected=false;connecting=false;activeResponse=false;
   oldStream?.getTracks().forEach(t=>t.stop());oldChannel?.close();oldPeer?.close();
@@ -213,23 +233,27 @@ async function handleCallEvent(event,generation){
     connected=true;connecting=false;$('callDialog').classList.add('in-call');$('callBtn').disabled=false;$('callBtn').textContent=english()?'■ End call':'■ Terminar llamada';$('callBtn').classList.add('connected');$('muteBtn').classList.remove('hidden');$('readUnit').disabled=false;callState('Te escucho');
     if(callStartRead){callStartRead=false;resumeGuided().catch(e=>toast(e.message,true));}
   }
-  if(event.type==='input_audio_buffer.speech_started'){if(lessonFlow){lessonFlow=false;pendingPhase=false;phaseResponseId=null;checkpoint(doc.cursor?.phase||'hebrew',true).catch(e=>toast(e.message,true));}callState(english()?'Listening…':'Escuchando…');}
+  if(event.type==='input_audio_buffer.speech_stopped')learnerSpeaking=false;
+  if(event.type==='input_audio_buffer.speech_started'){cancelContinuation();learnerSpeaking=true;replyId=null;replyDone=false;replyPlayed=false;if(lessonFlow){lessonFlow=false;pendingPhase=false;phaseResponseId=null;checkpoint(doc.cursor?.phase||'hebrew',true).catch(e=>toast(e.message,true));}callState(english()?'Listening…':'Escuchando…');}
   if(event.type==='conversation.item.input_audio_transcription.completed' && event.transcript?.trim()){
     appendBubble('user',event.transcript);messages.push({role:'user',text:event.transcript});persist('user',event.transcript,event.item_id,'voice',callDocument,callUnit);
   }
-  if(event.type==='response.created'){activeResponse=true;if(pendingPhase){phaseResponseId=event.response?.id;pendingPhase=false;}callState(english()?'Thinking…':'Pensando…');}
+  if(event.type==='response.created'){cancelContinuation();replyDone=false;replyPlayed=false;replyId=event.response?.id;activeResponse=true;if(pendingPhase){phaseResponseId=event.response?.id;pendingPhase=false;}callState(english()?'Thinking…':'Pensando…');}
   if(['response.output_audio_transcript.delta','response.audio_transcript.delta'].includes(event.type)){
     const id=event.item_id||event.response_id;let draft=assistantDrafts.get(id);
     if(!draft){draft={text:'',bubble:appendBubble('assistant',''),docId:callDocument,unitId:callUnit};assistantDrafts.set(id,draft);}
     draft.text+=event.delta||'';draft.bubble.querySelector('.message-text').textContent=draft.text;$('chatLog').scrollTop=$('chatLog').scrollHeight;callState('Compartiendo la idea…',true);
   }
   if(event.type==='response.done'){
+    if(event.response?.id===replyId)replyDone=event.response?.status==='completed';
     activeResponse=false;finalizeDrafts();callState(english()?'Listening':'Te escucho');
     if(event.response?.id===phaseResponseId){phaseGenerationComplete=event.response.status==='completed';if(!phaseGenerationComplete){lessonFlow=false;pendingPhase=false;}maybeAdvancePhase();}
     if(pendingToolAction){const action=pendingToolAction;pendingToolAction=null;resumeGuided(action==='next').catch(e=>toast(e.message,true));}
+    scheduleContinuation();
     if(event.response?.status==='failed')toast(event.response.status_details?.error?.message||'La respuesta de voz falló.',true);
   }
-  if(event.type==='output_audio_buffer.stopped'){phasePlaybackComplete=true;maybeAdvancePhase();}
+  if(event.type==='output_audio_buffer.stopped'){if(!event.response_id||event.response_id===replyId)replyPlayed=true;if(!event.response_id||event.response_id===phaseResponseId)phasePlaybackComplete=true;await maybeAdvancePhase();scheduleContinuation();}
+  if(event.type==='response.function_call_arguments.done'&&event.name==='pausar_estudio'){pauseGuided();sendEvent({type:'conversation.item.create',item:{type:'function_call_output',call_id:event.call_id,output:JSON.stringify({ok:true,paused:true})}});}
   if(event.type==='response.function_call_arguments.done'&&['retomar_estudio','siguiente_unidad'].includes(event.name)){
     lessonFlow=false;
     sendEvent({type:'conversation.item.create',item:{type:'function_call_output',call_id:event.call_id,output:JSON.stringify({ok:true,location:doc.location,phase:doc.cursor?.phase,note:'La aplicación proporcionará el siguiente fragmento exacto. No lo generes tú.'})}});
@@ -245,7 +269,7 @@ async function handleCallEvent(event,generation){
 }
 async function startCall(read=false){
   if(!unit())return false;if(doc.location_unmapped){toast(english()?'This bookmark has no prepared text yet. Choose a prepared idea.':'Este marcador aún no tiene texto preparado. Selecciona una idea de la lección.',true);return false;}if(!needKey())return false;if(connected||connecting)return connected;
-  connecting=true;callStartRead=read;callDocument=doc.id;callUnit=unit().id;
+  autoStudy=true;connecting=true;callStartRead=read;callDocument=doc.id;callUnit=unit().id;
   const generation=++callGeneration;callState('Conectando…');$('callBtn').disabled=true;$('readUnit').disabled=true;
   try{
     if(!navigator.mediaDevices?.getUserMedia)throw new Error('Este navegador no permite micrófono. Abre la aplicación en Chrome o Safari desde el acceso del escritorio.');
@@ -290,27 +314,29 @@ async function updateCallContext(){
   const result=await request('/api/call-context',{id:doc.id,unit_id:unit().id});
   sendEvent({type:'session.update',session:{type:'realtime',instructions:result.instructions}});
 }
-async function resumeGuided(next=false){
+async function resumeGuided(next=false,automatic=false){
   if(!connected)return;
+  cancelContinuation();autoStudy=true;learnerSpeaking=false;
   if(next||doc.cursor?.phase==='pause'){
-    if(unitIndex>=doc.units.length-1){toast(english()?'You have reached the end of this installment.':'Llegaste al final de esta entrega. Puedes repasar o hacer preguntas.');return;}
+    if(unitIndex>=doc.units.length-1){autoStudy=false;await request('/api/progress',{id:doc.id,current_unit:unitIndex,complete:true});toast(english()?'You have reached the end of this installment.':'Llegaste al final de esta entrega. Puedes repasar o hacer preguntas.');return;}
     doc=await request('/api/progress',{id:doc.id,current_unit:unitIndex,complete:true});
     doc=await request('/api/progress',{id:doc.id,current_unit:unitIndex+1});unitIndex++;callUnit=unit().id;scanPage=doc.location?.page||1;renderStudy();
   }
-  if(doc.cursor?.unit_id!==unit().id)await checkpoint('hebrew');
-  await updateCallContext();lessonFlow=true;await speakPhase(doc.cursor?.phase||'introduction');
+  if(doc.cursor?.unit_id!==unit().id||doc.cursor?.phase==='introduction')await checkpoint('hebrew');
+  await updateCallContext();lessonFlow=true;await speakPhase(doc.cursor?.phase||'introduction',automatic);
 }
-async function speakPhase(phase){
+async function speakPhase(phase,announce=false){
   if(!connected||!lessonFlow)return;
   await checkpoint(phase);
   await updateCallContext();
   const en=english(),u=unit();
-  let instruction='You remain a virtual Chabad study companion exclusively for Torah Or. Perform ONLY the requested stage. Do not switch stage or unit yourself. Do not call study navigation tools during this requested reading. ';
+  let instruction='You remain a virtual Chabad study companion exclusively for Torah Or. Perform ONLY the requested stage. Do not switch stage or unit yourself. Do not call study navigation tools during this requested reading. Start directly with the requested content: no stage, section, language or location announcements, no lesson plan or reflection preamble. Speak briskly and concisely. ';
   if(phase==='introduction')instruction+=(en?'Briefly introduce this lesson in English using the following introduction. Do not read the Hebrew yet.':'Da una breve introducción en español usando este texto. No leas todavía el hebreo: ')+(doc[en?'introduction_en':'introduction']||'Torá Or · Alter Rebbe');
-  if(phase==='hebrew')instruction+='Read ONLY the following Hebrew passage, exactly, without translating, paraphrasing, adding explanations or adding words that are not in the text. Pause naturally at punctuation. Say Hashem for the Divine Name; do not invent expansions of ambiguous abbreviations. Hebrew: '+u.hebrew;
-  if(phase==='translation')instruction+=(en?'Read ONLY this English translation: ':'Lee SÓLO esta traducción en español: ')+local('translation');
-  if(phase==='explanation')instruction+=(en?'Explain ONLY this idea in English. Be concise and faithful to the following editorial study notes, not a claimed quotation: ':'Explica SÓLO esta idea en español, brevemente y fiel a estas notas editoriales, sin presentarlas como cita literal: ')+local('explanation')+' Verified source links: '+JSON.stringify(u.sources)+' Do not start a new unit. Do not read URLs aloud.';
-  if(phase==='pause')instruction+=en?'Say only: “Let’s pause here. What would you like to ask about this idea? Say continue when you are ready.” Then stop and wait.':'Di solamente: «Hagamos una pausa aquí. ¿Qué duda te queda sobre esta idea? Dime continuar cuando quieras seguir». Después detente y espera.';
+  if(phase==='hebrew')instruction+='Read ONLY the following Hebrew passage, exactly, without translating, paraphrasing, adding explanations or adding words that are not in the text. Read briskly with short natural pauses, a light traditional study cadence if natural, never prolonged singing or added syllables. Say Hashem for the Divine Name; do not invent expansions of ambiguous abbreviations. Hebrew: '+u.hebrew;
+  if(phase==='translation')instruction+=(en?'Read ONLY this English translation: ':'Lee con ritmo ágil y voz normal SÓLO esta traducción en español: ')+local('translation');
+  if(phase==='explanation')instruction+=(en?'Explain ONLY this idea in English in one to three short sentences. Be concise and faithful to the following editorial study notes, not a claimed quotation: ':'Explica SÓLO esta idea en español, en una a tres frases cortas, brevemente y fiel a estas notas editoriales, sin presentarlas como cita literal: ')+local('explanation')+' Verified source links: '+JSON.stringify(u.sources)+' Do not start a new unit. Do not read URLs aloud.';
+  if(phase==='pause')instruction+=en?'Say only: “Any questions about this idea?” Then stop speaking. The application will continue after a short pause.':'Di solamente: «¿Alguna duda sobre esta idea?». Después deja un silencio breve; la aplicación continuará.';
+  if(announce)instruction+=(en?' Before this stage, briefly say “Let’s continue.” Then perform the stage exactly.':' Antes de esta etapa di brevemente «Seguimos». Luego realiza exactamente la etapa indicada.');
   if(activeResponse)sendEvent({type:'response.cancel'});
   phaseGenerationComplete=false;phasePlaybackComplete=false;phaseResponseId=null;pendingPhase=true;
   sendEvent({type:'response.create',response:{instructions:instruction,metadata:{lesson_phase:phase,unit_id:u.id}}});
@@ -320,7 +346,7 @@ async function maybeAdvancePhase(){
   if(!lessonFlow||!phaseGenerationComplete||!phasePlaybackComplete)return;
   phaseGenerationComplete=false;phasePlaybackComplete=false;phaseResponseId=null;
   const phase=doc.cursor?.phase||'hebrew';
-  if(phase==='pause'){lessonFlow=false;callState(english()?'Your questions':'Espacio para tus preguntas');return;}
+  if(phase==='pause'){lessonFlow=false;scheduleContinuation();callState(english()?'Your questions':'Espacio para tus preguntas');return;}
   const sequence=['introduction','hebrew','translation','explanation','pause'];
   await speakPhase(sequence[sequence.indexOf(phase)+1]);
 }
@@ -355,7 +381,7 @@ $('studyContent').prepend($('callDialog'));
 $('languageSlot').append($('studyLanguage'));
 $('beginStudy').onclick=async()=>{await startCall(true);};
 $('resumeLesson').onclick=async()=>{try{if(connected)await resumeGuided();else await startCall(true);}catch(e){toast(e.message,true);}};
-$('pauseLesson').onclick=()=>{lessonFlow=false;pendingPhase=false;phaseResponseId=null;sendEvent({type:'response.cancel'});sendEvent({type:'output_audio_buffer.clear'});checkpoint(doc.cursor?.phase||'hebrew',true).catch(e=>toast(e.message,true));callState(english()?'Paused · your questions':'En pausa · tus preguntas');};
+$('pauseLesson').onclick=pauseGuided;
 $('prevScan').onclick=()=>{if(scanPage>1){scanPage--;renderScan();}};$('nextScan').onclick=()=>{if(scanPage<doc.pages.length){scanPage++;renderScan();}};
 $('editLocation').onclick=()=>{const loc=doc.location||{page:scanPage,column:'right',line:1};$('locationPage').value=loc.page;$('locationPage').max=doc.pages.length;$('locationColumn').value=loc.column;$('locationLine').value=loc.line||1;$('locationDialog').showModal();};
 $('locationForm').onsubmit=async e=>{e.preventDefault();try{if(connected||connecting)stopCall();doc=await request('/api/location',{id:doc.id,location:{page:Number($('locationPage').value),column:$('locationColumn').value,line:Number($('locationLine').value)}});unitIndex=doc.current_unit||0;scanPage=doc.location.page;renderStudy();$('locationDialog').close();toast(english()?'Bookmark saved.':'Página, columna y línea guardadas.');}catch(error){toast(error.message,true);}};

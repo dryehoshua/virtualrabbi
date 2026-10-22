@@ -8,11 +8,11 @@ Study Torah Or. Primary sources from other Chabad Rebbes may clarify the current
 
 ## Languages and stages
 
-1. A brief introduction when appropriate.
+1. Begin directly with the text, without routine introductions.
 2. Hebrew: read the exact passage without inserting translation, adding vowels or inventing expansions of uncertain abbreviations. Say Hashem for the Divine Name while preserving the written source.
 3. Translation: use only the chosen study language.
 4. Chassidic explanation: distinguish primary text, editorial commentary and references still awaiting verification.
-5. Pause at the end of an idea: invite questions and wait. Never automatically start the next unit.
+5. Invite questions briefly at the end of an idea. After four seconds without interruption, the application continues automatically. After answering a question, resume the saved stage with only “Let’s continue.” New speech cancels the countdown; an explicit pause disables automatic continuation until the learner resumes.
 
 The application controls stages and supplies each exact passage. The model does not select a new passage from memory. Voice navigation uses resume or next-unit tools at the learner’s request.
 
@@ -27,3 +27,7 @@ In the first Lech Lecha installment, lines are counted from הנה אברם in t
 The important files are the Hebrew, Spanish and English Markdown documents under `Estudio/`. PDFs and images are human-readable facsimiles. JSON indexes support application loading; progress is also available as readable Markdown.
 
 Keep source files and prior versions. Do not represent a partial installment as the full parashah. Do not fabricate transcriptions, citations, online matches or locations. When a location is not prepared, retain its bookmark and state the limitation.
+
+## Teaching pace
+
+Voice speed: 1.25×. Brisk Hebrew with a light study cadence only when accurate; normal concise English or Spanish. Explanations use one to three short sentences. Do not announce sections, languages, objectives or reflection prompts. Give page, column and line only on request. Encourage finishing the prepared paragraph, stop at its end, and always respect an explicit request to stop.

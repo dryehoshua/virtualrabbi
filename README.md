@@ -11,8 +11,8 @@ Una lección precargada: Lej Lejá, entrega 01. Las seis hojas escaneadas sirven
 ## Estudiar / Study
 
 - **Comenzar llamada** inicia el estudio en la misma landing, con retrato generado por IA y conversación. / **Start call** begins study on the landing page, with an AI-generated portrait and conversation.
-- La aplicación conduce introducción → hebreo → traducción → explicación → pausa. / The application conducts introduction → Hebrew → translation → explanation → pause.
-- Una pregunta conserva el punto. **Retomar texto** repite la etapa interrumpida; después de una idea terminada pasa a la siguiente sólo por solicitud. / A question preserves the checkpoint. **Resume text** repeats the interrupted stage; the next idea starts only on request.
+- La aplicación conduce hebreo → traducción → explicación breve → pausa de cuatro segundos. / The application conducts Hebrew → translation → short explanation → four-second question window.
+- Una pregunta conserva el punto. **Retomar texto** repite la etapa interrumpida; tras la pausa sin preguntas continúa automáticamente hasta el final de la entrega; una pausa explícita detiene el avance. / A question preserves the checkpoint. **Resume text** repeats the interrupted stage; study resumes automatically after the question window, until the installment ends; an explicit pause stops progression.
 - **Ubicarme** guarda página PDF, columna y línea. Si no hay texto preparado ahí, la aplicación lo indica en lugar de inventarlo. / Saves PDF page, column and line. Unprepared locations are identified rather than invented.
 - El progreso se guarda localmente; esta versión usa un perfil de estudio en este Mac. / Progress is stored locally; this version has one study profile on this Mac.
 
@@ -63,3 +63,5 @@ Repositorio: https://github.com/dryehoshua/virtualrabbi. Se versionan código, r
 `input_transcription: false` elimina el cargo separado por transcribir la voz del alumno. Las respuestas del rabino siguen mostrando su transcripción; las preguntas habladas del alumno no se transcriben. Realtime sigue facturando los tokens de audio y texto del contexto de la llamada. / Student microphone transcription is disabled to avoid its separate charge. Assistant captions remain available. Realtime still bills audio and text context tokens within the call.
 
 El operador crea una clave en un proyecto dedicado de OpenAI Platform y ejecuta `python3 scripts/configure_voice_key.py` en Terminal. La entrada se oculta y la clave se guarda en el llavero de macOS, sin archivos ni argumentos de proceso que contengan el secreto. Recargar la web después. / The operator creates a dedicated project key and runs the setup script in Terminal; hidden input is stored in macOS Keychain. Reload the app afterward.
+
+Ritmo de voz / Voice pace: `voice_speed: 1.25`, con entonación hebrea solicitada por instrucciones, sin garantía de canto. / Hebrew study cadence is prompted, not guaranteed singing. [Realtime speed configuration](https://developers.openai.com/api/reference/resources/realtime/client-events#session.update).
