@@ -84,4 +84,4 @@ Voz y velocidad / Voice and speed: los selectores visibles ofrecen Cedar, Ash y 
 
 Realtime constraints verified against the [official session.update reference](https://developers.openai.com/api/reference/resources/realtime/client-events#session.update): voice cannot change after audio output, and speed changes must occur between model turns. Validation uses local tests and browser checks; no paid call was made for this change.
 
-Nombres del selector / Selector labels: Deep Voice → Cedar; Dynamic Voice → Ash; Relax Voice → Echo. Los identificadores y preferencias guardadas se conservan. / Voice identifiers and saved preferences are preserved.
+Nombres del selector / Selector labels: Deep Voice → Ash; Dynamic Voice → Cedar; Relax Voice → Echo. Los identificadores y preferencias guardadas se conservan. / Voice identifiers and saved preferences are preserved.
