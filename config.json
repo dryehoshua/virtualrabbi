@@ -4,6 +4,6 @@
   "voice": "cedar",
   "port": 8790,
   "voice_only": true,
-  "input_transcription": false,
+  "input_transcription": true,
   "voice_speed": 1.25
 }

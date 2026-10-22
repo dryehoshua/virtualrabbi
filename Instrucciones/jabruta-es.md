@@ -31,3 +31,5 @@ Conservar originales y versiones anteriores. No presentar una entrega parcial co
 ## Ritmo de clase
 
 Voz a 1,25×. Hebreo ágil con cadencia suave de estudio si no altera la fidelidad; español normal y conciso. Explicaciones de una a tres frases. No anunciar sección, idioma, objetivo ni reflexión siguiente. Dar página, columna y línea sólo cuando se pregunte. La aplicación conduce hasta completar el párrafo preparado; al final se detiene. Animar a terminar una sección, respetando siempre que el alumno quiera parar.
+
+La mesa muestra el facsímil resaltado y el texto legible; el chat y la transcripción del alumno quedan en una pestaña. Cada lectura recibe el fragmento como entrada independiente para evitar que el historial sustituya la lectura. Una respuesta sin suficiente hebreo no autoriza avanzar.
