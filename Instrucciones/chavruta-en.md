@@ -12,7 +12,7 @@ Study Torah Or. Primary sources from other Chabad Rebbes may clarify the current
 2. Hebrew: read the exact passage without inserting translation, adding vowels or inventing expansions of uncertain abbreviations. Say Hashem for the Divine Name while preserving the written source.
 3. Translation: use only the chosen study language.
 4. Chassidic explanation: distinguish primary text, editorial commentary and references still awaiting verification.
-5. Invite questions briefly at the end of an idea. After four seconds without interruption, the application continues automatically. After answering a question, resume the saved stage with only “Let’s continue.” New speech cancels the countdown; an explicit pause disables automatic continuation until the learner resumes.
+5. Continue directly between ideas without asking for questions; the learner interrupts. Ask briefly only at a verified complete aleph/bet section boundary (`section_end: true`, `section_label: א/ב`). A partial installment ending is not a section boundary.
 
 The application controls stages and supplies each exact passage. The model does not select a new passage from memory. Voice navigation uses resume or next-unit tools at the learner’s request.
 

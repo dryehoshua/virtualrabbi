@@ -118,7 +118,7 @@ function renderStudy() {
   $('studyTitle').textContent=english()?(doc.title_en||doc.title):doc.title;
   $('studyLanguage').value=doc.study_language||'es';
   document.documentElement.lang=english()?'en':'es';
-  if(!connected&&!connecting){$('callBtn').textContent=english()?'◉ Start call':'◉ Comenzar llamada';callState(english()?'Ready to study':'Listo para estudiar');}
+  if(!connected&&!connecting){$('callBtn').textContent=$('callBtn').title=$('callBtn').ariaLabel=english()?'◉ Start call':'◉ Comenzar llamada';callState(english()?'Ready to study':'Listo para estudiar');}
   $('teacherTagline').textContent=english()?'Your virtual chavruta for Torah Or':'Tu jabrutá virtual para Torá Or';
   $('resumeLesson').textContent=english()?'▷ Resume text':'▷ Retomar texto';
   $('pauseLesson').textContent=english()?'Ⅱ Pause study':'Ⅱ Pausar estudio';
@@ -225,13 +225,13 @@ function cleanupCall(){
   connected=false;connecting=false;activeResponse=false;
   oldStream?.getTracks().forEach(t=>t.stop());oldChannel?.close();oldPeer?.close();
   $('remoteAudio').pause();$('remoteAudio').srcObject=null;
-  $('callDialog').classList.remove('in-call');$('callBtn').textContent=english()?'◉ Start call':'◉ Comenzar llamada';$('callBtn').classList.remove('connected');$('callBtn').disabled=false;$('muteBtn').classList.add('hidden');$('readUnit').disabled=false;callState('Listo para estudiar');
+  $('callDialog').classList.remove('in-call');$('callBtn').textContent=$('callBtn').title=$('callBtn').ariaLabel=english()?'◉ Start call':'◉ Comenzar llamada';$('callBtn').classList.remove('connected');$('callBtn').disabled=false;$('muteBtn').classList.add('hidden');$('readUnit').disabled=false;callState('Listo para estudiar');
 }
 function stopCall(){lessonFlow=false;pendingPhase=false;pendingToolAction=null;callGeneration++;finalizeDrafts();cleanupCall();flushWrites();}
 async function handleCallEvent(event,generation){
   if(generation!==callGeneration)return;
   if(event.type==='session.created'||event.type==='session.updated'){
-    connected=true;connecting=false;$('callDialog').classList.add('in-call');$('callBtn').disabled=false;$('callBtn').textContent=english()?'■ End call':'■ Terminar llamada';$('callBtn').classList.add('connected');$('muteBtn').classList.remove('hidden');$('readUnit').disabled=false;callState('Te escucho');
+    connected=true;connecting=false;$('callDialog').classList.add('in-call');$('callBtn').disabled=false;$('callBtn').textContent=$('callBtn').title=$('callBtn').ariaLabel=english()?'■ End call':'■ Terminar llamada';$('callBtn').classList.add('connected');$('muteBtn').classList.remove('hidden');$('readUnit').disabled=false;callState('Te escucho');
     if(callStartRead){callStartRead=false;resumeGuided().catch(e=>toast(e.message,true));}
   }
   if(event.type==='input_audio_buffer.speech_stopped')learnerSpeaking=false;
@@ -278,7 +278,7 @@ async function startCall(read=false){
     if(!navigator.mediaDevices?.getUserMedia)throw new Error('Este navegador no permite micrófono. Abre la aplicación en Chrome o Safari desde el acceso del escritorio.');
     const stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true}});
     if(generation!==callGeneration){stream.getTracks().forEach(t=>t.stop());return false;}
-    microphone=stream;muted=false;$('muteBtn').textContent='Silenciar micrófono';
+    microphone=stream;muted=false;$('muteBtn').classList.remove('muted');$('muteBtn').textContent=$('muteBtn').title=$('muteBtn').ariaLabel='Silenciar micrófono';
     const connection=new RTCPeerConnection();peer=connection;
     connection.ontrack=event=>{if(generation!==callGeneration)return;$('remoteAudio').srcObject=event.streams[0]||new MediaStream([event.track]);$('remoteAudio').play().catch(()=>toast('El navegador bloqueó el audio. Vuelve a iniciar la llamada.',true));};
     stream.getTracks().forEach(track=>connection.addTrack(track,stream));
@@ -335,12 +335,12 @@ async function speakPhase(phase,announce=false){
   await checkpoint(phase);
   await updateCallContext();
   const en=english(),u=unit();
-  let instruction='You remain a virtual Chabad study companion exclusively for Torah Or. Perform ONLY the requested stage. Do not switch stage or unit yourself. Do not call study navigation tools during this requested reading. Start directly with the requested content: no stage, section, language or location announcements, no lesson plan or reflection preamble. Speak briskly and concisely. ';
+  let instruction='You remain a virtual Chabad study companion exclusively for Torah Or. Perform ONLY the requested stage. Do not switch stage or unit yourself. Do not call study navigation tools during this requested reading. Do not ask the student any questions unless the requested stage is explicitly a section-end question. Start directly with the requested content: no stage, section, language or location announcements, no lesson plan or reflection preamble. Speak briskly and concisely. ';
   if(phase==='introduction')instruction+=(en?'Briefly introduce this lesson in English using the following introduction. Do not read the Hebrew yet.':'Da una breve introducción en español usando este texto. No leas todavía el hebreo: ')+(doc[en?'introduction_en':'introduction']||'Torá Or · Alter Rebbe');
   if(phase==='hebrew')instruction+='Read ONLY the following Hebrew passage, exactly, without translating, paraphrasing, adding explanations or adding words that are not in the text. Read briskly with short natural pauses, a light traditional study cadence if natural, never prolonged singing or added syllables. Say Hashem for the Divine Name; do not invent expansions of ambiguous abbreviations. Hebrew: '+u.hebrew;
   if(phase==='translation')instruction+=(en?'Read ONLY this English translation: ':'Lee con ritmo ágil y voz normal SÓLO esta traducción en español: ')+local('translation');
   if(phase==='explanation')instruction+=(en?'Explain ONLY this idea in English in one to three short sentences. Be concise and faithful to the following editorial study notes, not a claimed quotation: ':'Explica SÓLO esta idea en español, en una a tres frases cortas, brevemente y fiel a estas notas editoriales, sin presentarlas como cita literal: ')+local('explanation')+' Verified source links: '+JSON.stringify(u.sources)+' Do not start a new unit. Do not read URLs aloud.';
-  if(phase==='pause')instruction+=en?'Say only: “Any questions about this idea?” Then stop speaking. The application will continue after a short pause.':'Di solamente: «¿Alguna duda sobre esta idea?». Después deja un silencio breve; la aplicación continuará.';
+  if(phase==='pause')instruction+=en?'This is a verified complete section boundary. Say only: “Any questions about this section?” Then stop speaking briefly.':'Este es el final verificado de una sección completa. Di solamente: «¿Alguna duda sobre esta sección?». Después deja un silencio breve.';
   if(announce)instruction+=(en?' Before this stage, briefly say “Let’s continue.” Then perform the stage exactly.':' Antes de esta etapa di brevemente «Seguimos». Luego realiza exactamente la etapa indicada.');
   if(activeResponse)sendEvent({type:'response.cancel'});
   phaseSpoken='';phaseGenerationComplete=false;phasePlaybackComplete=false;phaseResponseId=null;pendingPhase=true;
@@ -357,9 +357,11 @@ async function maybeAdvancePhase(){
   readingRetries=0;
   const phase=doc.cursor?.phase||'hebrew';
   if(phase==='pause'){lessonFlow=false;scheduleContinuation();callState(english()?'Your questions':'Espacio para tus preguntas');return;}
+  if(phase==='explanation'&&!isCompleteSectionEnd(unit())){await checkpoint('pause');await resumeGuided(true);return;}
   const sequence=['introduction','hebrew','translation','explanation','pause'];
   await speakPhase(sequence[sequence.indexOf(phase)+1]);
 }
+function isCompleteSectionEnd(u){return u?.section_end===true&&['א','ב','aleph','bet'].includes(u.section_label);}
 function containsHebrewReading(spoken,source){const letters=t=>(t.match(/[א-ת]/g)||[]).join('');return letters(spoken).length>=Math.max(2,letters(source).length*.65);}
 function readCurrentUnit(){return resumeGuided();}
 
@@ -383,7 +385,7 @@ $('chatInput').onkeydown=e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault()
 document.querySelectorAll('[data-prompt]').forEach(b=>b.onclick=()=>sendMessage(b.dataset.prompt));
 $('researchBtn').onclick=()=>searchSources().catch(e=>toast(e.message,true));
 $('callBtn').onclick=()=>{if(connected||connecting)stopCall();else startCall(true);};
-$('muteBtn').onclick=()=>{muted=!muted;microphone?.getAudioTracks().forEach(t=>t.enabled=!muted);$('muteBtn').textContent=muted?'Activar micrófono':'Silenciar micrófono';};
+$('muteBtn').onclick=()=>{muted=!muted;$('muteBtn').classList.toggle('muted',muted);microphone?.getAudioTracks().forEach(t=>t.enabled=!muted);$('muteBtn').textContent=$('muteBtn').title=$('muteBtn').ariaLabel=muted?'Activar micrófono':'Silenciar micrófono';};
 $('readUnit').onclick=async()=>{if(connected)await resumeGuided();else await startCall(true);};
 $('noteBtn').onclick=()=>$('noteDialog').showModal();
 $('noteForm').onsubmit=async e=>{e.preventDefault();try{const text=$('noteInput').value.trim();if(!text)return;await request('/api/note',{id:doc.id,unit_id:unit().id,text});appendBubble('note',text);$('noteDialog').close();$('noteInput').value='';toast('Nota guardada en la carpeta del documento.');}catch(error){toast(error.message,true);}};

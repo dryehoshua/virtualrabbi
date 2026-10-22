@@ -14,7 +14,7 @@ let source=fs.readFileSync('web/app.js','utf8');
 source=source.slice(0,source.indexOf("$('backLibrary').onclick"));
 vm.runInContext(source,context);
 await vm.runInContext(`(async()=>{
- doc={id:'test',title:'Torah Or',study_language:'es',pages:[{}],units:[{id:'one',title:'Uno',hebrew:'אב גד',translation:'Traducción española',translation_en:'English translation',explanation:'Explicación',explanation_en:'Explanation',source_notes:'',questions:[],sources:[],location:{start:{page:1,column:'right',line:7},end:{page:1,column:'right',line:8}}}],current_unit:0,completed:[],location:{page:1,column:'right',line:7},cursor:{unit_id:'one',phase:'hebrew'}};
+ doc={id:'test',title:'Torah Or',study_language:'es',pages:[{}],units:[{id:'one',section_end:true,section_label:'א',title:'Uno',hebrew:'אב גד',translation:'Traducción española',translation_en:'English translation',explanation:'Explicación',explanation_en:'Explanation',source_notes:'',questions:[],sources:[],location:{start:{page:1,column:'right',line:7},end:{page:1,column:'right',line:8}}}],current_unit:0,completed:[],location:{page:1,column:'right',line:7},cursor:{unit_id:'one',phase:'hebrew'}};
  request=async(url,data)=>{if(url==='/api/cursor'){doc.cursor={unit_id:data.unit_id,phase:data.phase,interrupted:data.interrupted};return doc;}if(url==='/api/call-context')return{instructions:'Torah Or only'};throw new Error('Unexpected request: '+url);};
  connected=true;channel={readyState:'open',send(raw){sent.push(JSON.parse(raw));}};callGeneration=1;lessonFlow=true;
  await speakPhase('hebrew');
@@ -88,3 +88,16 @@ await event({type:'response.done',response:{id:'retried-reading',status:'complet
 await event({type:'output_audio_buffer.stopped'});
 assert.equal(vm.runInContext('doc.cursor.phase',context),'translation','actual reading unlocks translation');
 console.log('Verified isolated text input and no advancement after a non-reading response.');
+
+assert.equal(vm.runInContext("isCompleteSectionEnd({section_end:true,section_label:'א'})",context),true);
+assert.equal(vm.runInContext("isCompleteSectionEnd({section_end:true,section_label:'ב'})",context),true);
+assert.equal(vm.runInContext("isCompleteSectionEnd({})",context),false);
+assert.equal(vm.runInContext("isCompleteSectionEnd({section_label:'א'})",context),false);
+await vm.runInContext(`(async()=>{
+ unit().section_end=false;doc.cursor.phase='explanation';lessonFlow=true;
+ phaseGenerationComplete=true;phasePlaybackComplete=true;
+ resumeGuided=async(next)=>{if(!next)throw new Error('Must advance directly');doc.cursor.phase='hebrew';};
+ await maybeAdvancePhase();
+})()`,context);
+assert.equal(vm.runInContext('doc.cursor.phase',context),'hebrew','ordinary idea advances without a question');
+console.log('Section-end prompts are restricted to verified aleph/bet boundaries.');

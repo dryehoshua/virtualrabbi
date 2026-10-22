@@ -11,7 +11,7 @@ Una lección precargada: Lej Lejá, entrega 01. Las seis hojas escaneadas sirven
 ## Estudiar / Study
 
 - **Comenzar llamada** inicia el estudio en la misma landing, con retrato generado por IA y conversación. / **Start call** begins study on the landing page, with an AI-generated portrait and conversation.
-- La aplicación conduce hebreo → traducción → explicación breve → pausa de cuatro segundos. / The application conducts Hebrew → translation → short explanation → four-second question window.
+- La aplicación conduce hebreo → traducción → explicación breve → siguiente idea. / The application conducts Hebrew → translation → short explanation → next idea.
 - Una pregunta conserva el punto. **Retomar texto** repite la etapa interrumpida; tras la pausa sin preguntas continúa automáticamente hasta el final de la entrega; una pausa explícita detiene el avance. / A question preserves the checkpoint. **Resume text** repeats the interrupted stage; study resumes automatically after the question window, until the installment ends; an explicit pause stops progression.
 - **Ubicarme** guarda página PDF, columna y línea. Si no hay texto preparado ahí, la aplicación lo indica en lugar de inventarlo. / Saves PDF page, column and line. Unprepared locations are identified rather than invented.
 - El progreso se guarda localmente; esta versión usa un perfil de estudio en este Mac. / Progress is stored locally; this version has one study profile on this Mac.
@@ -69,3 +69,5 @@ Ritmo de voz / Voice pace: `voice_speed: 1.25`, con entonación hebrea solicitad
 ## Mesa de lectura / Reading desk
 
 Retrato compacto, controles, facsímil resaltado y texto legible en la misma vista. Chat en una pestaña aparte. La llamada comienza leyendo el hebreo de la unidad guardada. Las lecturas usan `conversation: none` con el fragmento como entrada explícita, sin herramientas, para que el historial de preguntas no sustituya el texto por promesas de continuar. Una comprobación de longitud de hebreo detecta respuestas vacías o sin lectura, reintenta una vez y conserva el marcador si vuelve a fallar; no equivale a verificación palabra por palabra. / Compact portrait, controls, highlighted facsimile and readable text share the view. Chat has its own tab. Calls start with the saved unit’s Hebrew. Isolated reading responses contain the explicit passage and disable tools. A Hebrew-length check catches empty/non-reading output, retries once and preserves the checkpoint on repeated failure; it is not word-level verification.
+
+Sólo se pregunta por dudas al completar una sección álef/bet con límites verificados en los datos; las diez unidades iniciales no tienen ese marcado y avanzan sin preguntas rutinarias. / Questions are invited only at verified aleph/bet section boundaries; the ten initial units have no such markers and proceed without routine questions.
