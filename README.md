@@ -83,3 +83,5 @@ The corpus contains 28 bilingual units: the discourse on sheet 1 and the complet
 Voz y velocidad / Voice and speed: los selectores visibles ofrecen Cedar, Ash y Echo, con 0.75×, 1×, 1.15×, 1.25× y 1.5×. Las preferencias se guardan por navegador. La voz se elige antes de llamar; la velocidad puede cambiar durante la llamada y se aplica entre respuestas, conservando el cursor. / Visible selectors offer Cedar, Ash, and Echo at the listed speeds. Preferences persist per browser. Choose a voice before calling; pace changes apply between responses without moving the study cursor.
 
 Realtime constraints verified against the [official session.update reference](https://developers.openai.com/api/reference/resources/realtime/client-events#session.update): voice cannot change after audio output, and speed changes must occur between model turns. Validation uses local tests and browser checks; no paid call was made for this change.
+
+Nombres del selector / Selector labels: Deep Voice → Cedar; Dynamic Voice → Ash; Relax Voice → Echo. Los identificadores y preferencias guardadas se conservan. / Voice identifiers and saved preferences are preserved.

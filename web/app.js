@@ -452,7 +452,7 @@ $('studyTextTarget').append(document.querySelector('.sources-card'));
 $('callDialog').replaceChildren(document.querySelector('.call-dialog-header'),teacher,tabs,document.querySelector('.lesson-nav'),document.querySelector('.location-bar'),desk,chat);
 $('studyContent').prepend($('callDialog'));
 const voiceControls=element('div','voice-options');
-voiceControls.innerHTML='<label><span id="voiceLabel">Voz</span><select id="voiceSelect"><option value="cedar">Cedar</option><option value="ash">Ash</option><option value="echo">Echo</option></select></label><label><span id="speedLabel">Velocidad</span><select id="voiceSpeed"><option value="0.75">0.75×</option><option value="1">1×</option><option value="1.15">1.15×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label><small id="voiceHint"></small>';
+voiceControls.innerHTML='<label><span id="voiceLabel">Voz</span><select id="voiceSelect"><option value="cedar">Deep Voice</option><option value="ash">Dynamic Voice</option><option value="echo">Relax Voice</option></select></label><label><span id="speedLabel">Velocidad</span><select id="voiceSpeed"><option value="0.75">0.75×</option><option value="1">1×</option><option value="1.15">1.15×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label><small id="voiceHint"></small>';
 teacher.after(voiceControls);
 $('voiceSelect').onchange=e=>{if(connected||connecting){renderVoiceOptions();return;}voicePreference=e.target.value;saveVoicePreferences();};
 $('voiceSpeed').onchange=e=>selectSpeed(Number(e.target.value));
