@@ -196,7 +196,7 @@ async function searchSources(query='',forCall=false){
   $('researchBtn').disabled=true;$('researchBtn').textContent='Consultando Chabad.org…';
   try{const result=await request('/api/research',{id:capturedDoc,unit_id:capturedUnit,query});if(doc.id===capturedDoc&&unit()?.id===capturedUnit){doc=await request('/api/document?id='+capturedDoc);renderSources();if(!forCall){appendBubble('assistant',result.text);await persist('assistant',result.text);toast(result.sources.length?'Fuentes consultadas y guardadas.':'No se recuperaron enlaces citables.');}}return result;}finally{$('researchBtn').disabled=false;$('researchBtn').textContent='Buscar y contrastar en Chabad.org ↗';}
 }
-function callState(text,speaking=false){$('callState').textContent=text;$('orb').classList.toggle('speaking',speaking);}
+function callState(text,speaking=false){$('callState').textContent=text;}
 function finalizeDrafts(){for(const [id,draft] of assistantDrafts){if(draft.text.trim()){messages.push({role:'assistant',text:draft.text,id});persist('assistant',draft.text,id,'voice',draft.docId,draft.unitId);}assistantDrafts.delete(id);}}
 function cleanupCall(){
   const oldChannel=channel,oldPeer=peer,oldStream=microphone;channel=null;peer=null;microphone=null;

@@ -10,7 +10,7 @@ Una lección precargada: Lej Lejá, entrega 01. Las seis hojas escaneadas sirven
 
 ## Estudiar / Study
 
-- **Comenzar llamada** inicia el estudio en la misma landing, con retrato generado por IA, orbe y conversación. / **Start call** begins study on the landing page, with an AI-generated portrait, orb and conversation.
+- **Comenzar llamada** inicia el estudio en la misma landing, con retrato generado por IA y conversación. / **Start call** begins study on the landing page, with an AI-generated portrait and conversation.
 - La aplicación conduce introducción → hebreo → traducción → explicación → pausa. / The application conducts introduction → Hebrew → translation → explanation → pause.
 - Una pregunta conserva el punto. **Retomar texto** repite la etapa interrumpida; después de una idea terminada pasa a la siguiente sólo por solicitud. / A question preserves the checkpoint. **Resume text** repeats the interrupted stage; the next idea starts only on request.
 - **Ubicarme** guarda página PDF, columna y línea. Si no hay texto preparado ahí, la aplicación lo indica en lugar de inventarlo. / Saves PDF page, column and line. Unprepared locations are identified rather than invented.
