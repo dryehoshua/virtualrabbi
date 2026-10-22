@@ -10,7 +10,7 @@ Una lección precargada: Lej Lejá, entrega 01. Las seis hojas escaneadas sirven
 
 ## Estudiar / Study
 
-- **Estudiar con mi jabrutá** abre el orbe y el chat e inicia la voz cuando OpenAI está configurado. / Opens the orb and chat and starts voice when OpenAI is configured.
+- **Comenzar llamada** inicia el estudio en la misma landing, con retrato generado por IA, orbe y conversación. / **Start call** begins study on the landing page, with an AI-generated portrait, orb and conversation.
 - La aplicación conduce introducción → hebreo → traducción → explicación → pausa. / The application conducts introduction → Hebrew → translation → explanation → pause.
 - Una pregunta conserva el punto. **Retomar texto** repite la etapa interrumpida; después de una idea terminada pasa a la siguiente sólo por solicitud. / A question preserves the checkpoint. **Resume text** repeats the interrupted stage; the next idea starts only on request.
 - **Ubicarme** guarda página PDF, columna y línea. Si no hay texto preparado ahí, la aplicación lo indica en lugar de inventarlo. / Saves PDF page, column and line. Unprepared locations are identified rather than invented.
@@ -24,7 +24,9 @@ Los cambios de contenido conservan versiones en `.historial/`. Las preguntas no 
 
 ## Configurar IA / Configure AI
 
-Ajustes → clave de OpenAI. La clave se guarda en el llavero de macOS bajo `virtualrabbi.net.openai`, cuenta `virtualrabbi.net`. También se admite `OPENAI_API_KEY` en el entorno y la credencial antigua de Kim cuando esté disponible. Nunca se devuelve la clave al navegador. / Settings → OpenAI key. Stored in macOS Keychain under `virtualrabbi.net.openai`, account `virtualrabbi.net`. An `OPENAI_API_KEY` environment variable and an existing Kim credential are also supported. The key is never returned to the browser.
+La configuración es responsabilidad del operador: define `OPENAI_API_KEY` en el entorno del servidor, o usa la credencial existente en el llavero de macOS (`virtualrabbi.net.openai`, cuenta `virtualrabbi.net`). No hay ajustes ni formulario de claves para visitantes. / The operator configures `OPENAI_API_KEY` on the server, or uses the existing macOS Keychain credential. Visitors have no settings or key form.
+
+La interfaz está orientada a usuarios, pero esta instalación sigue siendo local y de un solo perfil. Antes de alojarla para varios usuarios hay que separar progreso, notas y conversaciones por usuario y proteger los endpoints de administración. / The interface is visitor-facing, but this installation remains local with one profile. Multi-user hosting requires isolated progress, notes and conversations, plus protected administration endpoints.
 
 ChatGPT y la API tienen facturación separada. Se requiere acceso a los modelos configurados en `config.json` y permiso de micrófono. / ChatGPT and the API have separate billing. Access to the models in `config.json` and browser microphone permission are required.
 
@@ -49,3 +51,7 @@ La secuencia de voz tiene además una prueba de eventos sin llamadas pagadas: `n
 Inspirado en el patrón de Kim Live (WebRTC, transcripción y memoria local), con servidor independiente y sin sus herramientas ajenas al estudio. / Based on Kim Live’s WebRTC, transcription and local-memory pattern, with an independent server and no unrelated tools.
 
 API references: [OpenAI WebRTC](https://developers.openai.com/api/docs/guides/realtime-webrtc), [file inputs](https://developers.openai.com/api/docs/guides/file-inputs).
+
+## Sincronización / Synchronization
+
+Repositorio: https://github.com/dryehoshua/virtualrabbi. Se versionan código, retrato IA y Markdown de estudio. Claves, logs, PDFs locales, conversaciones y progreso personal quedan fuera de Git. / Code, AI portrait and study Markdown are versioned. Keys, logs, local PDFs, conversations and personal progress stay outside Git.

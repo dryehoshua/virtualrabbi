@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .env
 .runtime/
+
+# Personal study state is never synchronized to the source repository.
+Estudio/*/05-progreso.md
+Estudio/*/06-notas.md
+Estudio/*/07-conversaciones.md

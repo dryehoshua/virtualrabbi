@@ -371,9 +371,9 @@ class Handler(BaseHTTPRequestHandler):
             elif parsed.path == '/api/history':
                 path = folder(params.get('id', [''])[0]) / 'conversaciones.json'
                 self.reply(json.loads(path.read_text()) if path.exists() else [])
-            elif parsed.path in ('/', '/style.css', '/app.js', '/icon.svg'):
+            elif parsed.path in ('/', '/style.css', '/app.js', '/icon.svg', '/rabbi-portrait.png'):
                 name = 'index.html' if parsed.path == '/' else parsed.path[1:]
-                mime = {'html': 'text/html; charset=utf-8', 'css': 'text/css; charset=utf-8', 'js': 'text/javascript; charset=utf-8', 'svg': 'image/svg+xml'}[name.split('.')[-1]]
+                mime = {'html': 'text/html; charset=utf-8', 'css': 'text/css; charset=utf-8', 'js': 'text/javascript; charset=utf-8', 'svg': 'image/svg+xml', 'png': 'image/png'}[name.split('.')[-1]]
                 self.reply((ROOT / 'web' / name).read_bytes(), mime=mime)
             else:
                 self.reply({'error': 'No encontrado.'}, 404)
@@ -394,19 +394,7 @@ class Handler(BaseHTTPRequestHandler):
                 return
             body = json.loads(self.rfile.read(length))
             path = urllib.parse.urlparse(self.path).path
-            if path == '/api/settings/key':
-                secret = str(body.get('key', '')).strip()
-                if not secret.startswith('sk-') or len(secret) < 25 or len(secret) > 512 or '\n' in secret:
-                    raise ValueError('La clave no tiene un formato válido.')
-                # security -i reads commands from stdin, avoiding secrets in process arguments.
-                command = f'add-generic-password -U -a virtualrabbi.net -s {KEY_SERVICE} -w "{secret}"\n'
-                if not re.fullmatch(r'[A-Za-z0-9_-]+', secret):
-                    raise ValueError('La clave contiene caracteres no válidos.')
-                result = subprocess.run(['security', '-i'], input=command, text=True, capture_output=True, timeout=15)
-                if result.returncode != 0 or 'error' in result.stderr.lower() or 'SecKeychain' in result.stderr:
-                    raise ValueError('No se pudo guardar en el llavero de macOS.')
-                self.reply({'ok': True})
-            elif path == '/api/upload':
+            if path == '/api/upload':
                 raw = base64.b64decode(body.get('data', ''), validate=True)
                 if len(raw) > MAX_UPLOAD or not raw.startswith(b'%PDF-'):
                     raise ValueError('Sube un PDF válido de hasta 30 MB.')

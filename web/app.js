@@ -28,24 +28,16 @@ function element(tag, cls, text) {const e = document.createElement(tag); if(cls)
 function show(next) {
   view = next;
   for (const name of ['library','document','study']) $(name+'View').classList.toggle('hidden',name!==next);
-  $('libraryNav').classList.toggle('active',next==='library'||next==='document');
-  $('studyNav').classList.toggle('active',next==='study');
-  $('crumb').textContent = {library:'La biblioteca',document:'Revisión del documento',study:'Mesa de estudio'}[next];
+
+
   window.scrollTo({top:0,behavior:'smooth'});
 }
-async function refreshStatus() {
-  status = await request('/api/status');
-  $('apiDot').classList.toggle('ready',status.configured);
-  $('apiState').textContent = status.configured ? 'OpenAI configurado' : 'Configura OpenAI';
-  $('libraryPath').textContent = status.library_path;
-  $('modelInfo').textContent = 'Texto: '+status.text_model+' · Voz: '+status.voice_model;
-}
-function needKey() {if(status.configured)return true;$('settingsDialog').showModal();toast('Configura tu clave de OpenAI para activar esta función.');return false;}
+async function refreshStatus() { status = await request('/api/status'); }
+function needKey() {if(status.configured)return true;callState(english()?'Calls will be available soon':'Las llamadas estarán disponibles pronto');toast(english()?'Calls are not available yet. Please try again later.':'Las llamadas aún no están disponibles. Inténtalo más tarde.',true);return false;}
 async function refreshLibrary() {
   docs = (await request('/api/library')).documents; renderLibrary();
 }
 function renderLibrary() {
-  $('docCount').textContent = docs.length;
   $('libraryTotal').textContent = `${docs.length} documento${docs.length===1?'':'s'}`;
   const query = $('search').value.trim().toLocaleLowerCase();
   const filtered = docs.filter(d => (d.title+' '+d.author).toLocaleLowerCase().includes(query));
@@ -123,6 +115,15 @@ async function enterStudy() {
 function renderStudy() {
   $('studyTitle').textContent=english()?(doc.title_en||doc.title):doc.title;
   $('studyLanguage').value=doc.study_language||'es';
+  document.documentElement.lang=english()?'en':'es';
+  if(!connected&&!connecting){$('callBtn').textContent=english()?'◉ Start call':'◉ Comenzar llamada';callState(english()?'Ready to study':'Listo para estudiar');}
+  $('teacherTagline').textContent=english()?'Your virtual chavruta for Torah Or':'Tu jabrutá virtual para Torá Or';
+  $('resumeLesson').textContent=english()?'▷ Resume text':'▷ Retomar texto';
+  $('pauseLesson').textContent=english()?'Ⅱ Pause study':'Ⅱ Pausar estudio';
+  document.querySelector('.chat-heading h2').textContent=english()?'The conversation':'La conversación';
+  document.querySelector('.chat-heading div span').textContent=english()?'Your study is saved with this lesson.':'Tu estudio queda guardado con esta lección.';
+  $('chatInput').placeholder=english()?'Ask a question, explore an idea…':'Pregunta, comparte una duda, profundiza…';
+  document.querySelector('.teacher-card small').textContent=english()?'AI-generated character and voice · Torah Or':'Personaje y voz generados con IA · Torá Or';
   $('lessonIntro').textContent=doc[english()?'introduction_en':'introduction']||'';
   $('lessonCoverage').textContent=doc[english()?'coverage_en':'coverage']||'';
   $('weeklyHeading').textContent=english()?'From concealed wisdom to revelation.':'De la sabiduría oculta a la revelación.';
@@ -202,13 +203,13 @@ function cleanupCall(){
   connected=false;connecting=false;activeResponse=false;
   oldStream?.getTracks().forEach(t=>t.stop());oldChannel?.close();oldPeer?.close();
   $('remoteAudio').pause();$('remoteAudio').srcObject=null;
-  $('callBtn').textContent='◉ Iniciar llamada';$('callBtn').classList.remove('connected');$('callBtn').disabled=false;$('muteBtn').classList.add('hidden');$('readUnit').disabled=false;callState('Listo para estudiar');
+  $('callDialog').classList.remove('in-call');$('callBtn').textContent=english()?'◉ Start call':'◉ Comenzar llamada';$('callBtn').classList.remove('connected');$('callBtn').disabled=false;$('muteBtn').classList.add('hidden');$('readUnit').disabled=false;callState('Listo para estudiar');
 }
 function stopCall(){lessonFlow=false;pendingPhase=false;pendingToolAction=null;callGeneration++;finalizeDrafts();cleanupCall();flushWrites();}
 async function handleCallEvent(event,generation){
   if(generation!==callGeneration)return;
   if(event.type==='session.created'||event.type==='session.updated'){
-    connected=true;connecting=false;$('callBtn').disabled=false;$('callBtn').textContent='■ Terminar llamada';$('callBtn').classList.add('connected');$('muteBtn').classList.remove('hidden');$('readUnit').disabled=false;callState('Te escucho');
+    connected=true;connecting=false;$('callDialog').classList.add('in-call');$('callBtn').disabled=false;$('callBtn').textContent=english()?'■ End call':'■ Terminar llamada';$('callBtn').classList.add('connected');$('muteBtn').classList.remove('hidden');$('readUnit').disabled=false;callState('Te escucho');
     if(callStartRead){callStartRead=false;resumeGuided().catch(e=>toast(e.message,true));}
   }
   if(event.type==='input_audio_buffer.speech_started'){if(lessonFlow){lessonFlow=false;pendingPhase=false;phaseResponseId=null;checkpoint(doc.cursor?.phase||'hebrew',true).catch(e=>toast(e.message,true));}callState(english()?'Listening…':'Escuchando…');}
@@ -325,11 +326,8 @@ async function maybeAdvancePhase(){
 function readCurrentUnit(){return resumeGuided();}
 
 
-$('libraryNav').onclick=()=>{show('library');refreshLibrary().catch(e=>toast(e.message,true));};
-$('studyNav').onclick=()=>enterStudy().catch(e=>toast(e.message,true));
 $('backLibrary').onclick=$('chooseLesson').onclick=()=>{show('library');refreshLibrary();};
-for(const id of ['uploadNav','uploadMain','emptyUpload'])$(id).onclick=()=>$('uploadDialog').showModal();
-$('settingsNav').onclick=()=>{$('settingsDialog').showModal();refreshStatus();};
+for(const id of ['uploadMain','emptyUpload'])$(id).onclick=()=>$('uploadDialog').showModal();
 document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>$(b.dataset.close).close());
 $('search').oninput=renderLibrary;
 $('pdfFile').onchange=()=>{currentFile=$('pdfFile').files[0];if(currentFile){$('fileLabel').textContent=currentFile.name;if(!$('uploadTitle').value)$('uploadTitle').value=currentFile.name.replace(/\.pdf$/i,'');}};
@@ -337,7 +335,6 @@ for(const event of ['dragenter','dragover'])$('dropZone').addEventListener(event
 for(const event of ['dragleave','drop'])$('dropZone').addEventListener(event,e=>{e.preventDefault();$('dropZone').classList.remove('drag');});
 $('dropZone').addEventListener('drop',e=>{if(e.dataTransfer.files.length){$('pdfFile').files=e.dataTransfer.files;$('pdfFile').dispatchEvent(new Event('change'));}});
 $('uploadForm').onsubmit=async e=>{e.preventDefault();if(!currentFile)return;$('uploadError').textContent='';if(currentFile.size>30*1024*1024){$('uploadError').textContent='El PDF supera el máximo de 30 MB.';return;}$('uploadSubmit').disabled=true;$('uploadSubmit').textContent='Guardando documento…';try{const data=await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(reader.result.split(',')[1]);reader.onerror=()=>reject(new Error('No se pudo leer el archivo.'));reader.readAsDataURL(currentFile);});const uploaded=await request('/api/upload',{filename:currentFile.name,title:$('uploadTitle').value,author:$('uploadAuthor').value,data});$('uploadDialog').close();$('uploadForm').reset();currentFile=null;$('fileLabel').textContent='PDF con texto o imágenes · hasta 30 MB · 150 páginas';await refreshLibrary();await openDocument(uploaded.id,false);toast('Original guardado. Ya puedes transcribirlo.');}catch(error){$('uploadError').textContent=error.message;}finally{$('uploadSubmit').disabled=false;$('uploadSubmit').textContent='Guardar en la biblioteca →';}};
-$('keyForm').onsubmit=async e=>{e.preventDefault();$('keySubmit').disabled=true;try{await request('/api/settings/key',{key:$('apiKey').value});$('apiKey').value='';await refreshStatus();$('keyMessage').textContent='Clave guardada en el llavero. La próxima operación comprobará su acceso a OpenAI.';}catch(error){$('keyMessage').textContent=error.message;}finally{$('keySubmit').disabled=false;}};
 $('approveBtn').onclick=()=>savePage(true);$('saveReviewBtn').onclick=()=>savePage(false);$('ocrBtn').onclick=()=>startJob('process');$('prepareBtn').onclick=()=>startJob('prepare');$('openStudyBtn').onclick=()=>enterStudy();
 $('studyDocument').onclick=()=>{if(doc){renderDocument();show('document');}else show('library');};
 $('unitSelect').onchange=e=>changeUnit(Number(e.target.value));$('prevUnit').onclick=()=>changeUnit(unitIndex-1);$('nextUnit').onclick=()=>changeUnit(unitIndex+1);
@@ -347,15 +344,15 @@ $('chatForm').onsubmit=e=>{e.preventDefault();sendMessage($('chatInput').value).
 $('chatInput').onkeydown=e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();$('chatForm').requestSubmit();}};
 document.querySelectorAll('[data-prompt]').forEach(b=>b.onclick=()=>sendMessage(b.dataset.prompt));
 $('researchBtn').onclick=()=>searchSources().catch(e=>toast(e.message,true));
-$('callBtn').onclick=()=>{if(connected||connecting)stopCall();else startCall();};
+$('callBtn').onclick=()=>{if(connected||connecting)stopCall();else startCall(true);};
 $('muteBtn').onclick=()=>{muted=!muted;microphone?.getAudioTracks().forEach(t=>t.enabled=!muted);$('muteBtn').textContent=muted?'Activar micrófono':'Silenciar micrófono';};
-$('readUnit').onclick=async()=>{if(!$('callDialog').open)$('callDialog').showModal();if(connected)await resumeGuided();else await startCall(true);};
+$('readUnit').onclick=async()=>{if(connected)await resumeGuided();else await startCall(true);};
 $('noteBtn').onclick=()=>$('noteDialog').showModal();
 $('noteForm').onsubmit=async e=>{e.preventDefault();try{const text=$('noteInput').value.trim();if(!text)return;await request('/api/note',{id:doc.id,unit_id:unit().id,text});appendBubble('note',text);$('noteDialog').close();$('noteInput').value='';toast('Nota guardada en la carpeta del documento.');}catch(error){toast(error.message,true);}};
 $('studyTextTarget').append(document.querySelector('.text-card'),document.querySelector('.sources-card'));
-$('beginStudy').onclick=async()=>{if(!$('callDialog').open)$('callDialog').showModal();await startCall(true);};
-$('closeCall').onclick=()=>{stopCall();$('callDialog').close();};
-$('callDialog').addEventListener('cancel',()=>stopCall());
+$('studyContent').prepend($('callDialog'));
+$('languageSlot').append($('studyLanguage'));
+$('beginStudy').onclick=async()=>{await startCall(true);};
 $('resumeLesson').onclick=async()=>{try{if(connected)await resumeGuided();else await startCall(true);}catch(e){toast(e.message,true);}};
 $('pauseLesson').onclick=()=>{lessonFlow=false;pendingPhase=false;phaseResponseId=null;sendEvent({type:'response.cancel'});sendEvent({type:'output_audio_buffer.clear'});checkpoint(doc.cursor?.phase||'hebrew',true).catch(e=>toast(e.message,true));callState(english()?'Paused · your questions':'En pausa · tus preguntas');};
 $('prevScan').onclick=()=>{if(scanPage>1){scanPage--;renderScan();}};$('nextScan').onclick=()=>{if(scanPage<doc.pages.length){scanPage++;renderScan();}};

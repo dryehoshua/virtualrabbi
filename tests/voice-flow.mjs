@@ -8,7 +8,7 @@ const document={getElementById(id){if(!nodes.has(id))nodes.set(id,node());return
 const sent=[];
 const context=vm.createContext({document,console,URL,crypto:globalThis.crypto,fetch(){throw new Error('Network access is not part of this test.');},setTimeout,clearTimeout,setInterval,Map,JSON,Promise,window:{scrollTo(){}},sent});
 let source=fs.readFileSync('web/app.js','utf8');
-source=source.slice(0,source.indexOf("$('libraryNav').onclick"));
+source=source.slice(0,source.indexOf("$('backLibrary').onclick"));
 vm.runInContext(source,context);
 await vm.runInContext(`(async()=>{
  doc={id:'test',title:'Torah Or',study_language:'es',pages:[{}],units:[{id:'one',title:'Uno',hebrew:'אב גד',translation:'Traducción española',translation_en:'English translation',explanation:'Explicación',explanation_en:'Explanation',source_notes:'',questions:[],sources:[],location:{start:{page:1,column:'right',line:7},end:{page:1,column:'right',line:8}}}],current_unit:0,completed:[],location:{page:1,column:'right',line:7},cursor:{unit_id:'one',phase:'hebrew'}};
