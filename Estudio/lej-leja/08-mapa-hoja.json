@@ -1,0 +1,325 @@
+{
+  "image_width": 1414,
+  "image_height": 2000,
+  "page": 1,
+  "method": "Measured scan line bands; manually reviewed phrase boundaries. Edition-specific, not word timing.",
+  "units": {
+    "lej-leja-01-01": [
+      {
+        "page": 1,
+        "column": "right",
+        "line": 1,
+        "left": 0.5077793,
+        "top": 0.6045,
+        "width": 0.4080622,
+        "height": 0.0115
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 2,
+        "left": 0.5077793,
+        "top": 0.6215,
+        "width": 0.4080622,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 3,
+        "left": 0.8734088,
+        "top": 0.6375,
+        "width": 0.0424328,
+        "height": 0.0105
+      }
+    ],
+    "lej-leja-01-02": [
+      {
+        "page": 1,
+        "column": "right",
+        "line": 3,
+        "left": 0.5077793,
+        "top": 0.6375,
+        "width": 0.3649222,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 4,
+        "left": 0.5077793,
+        "top": 0.6535,
+        "width": 0.4080622,
+        "height": 0.01
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 5,
+        "left": 0.7786421,
+        "top": 0.6695,
+        "width": 0.1371994,
+        "height": 0.0105
+      }
+    ],
+    "lej-leja-01-03": [
+      {
+        "page": 1,
+        "column": "right",
+        "line": 5,
+        "left": 0.5077793,
+        "top": 0.6695,
+        "width": 0.2701556,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 6,
+        "left": 0.5714286,
+        "top": 0.6855,
+        "width": 0.344413,
+        "height": 0.0105
+      }
+    ],
+    "lej-leja-01-04": [
+      {
+        "page": 1,
+        "column": "right",
+        "line": 6,
+        "left": 0.5077793,
+        "top": 0.6855,
+        "width": 0.062942,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 7,
+        "left": 0.5077793,
+        "top": 0.7015,
+        "width": 0.4080622,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 8,
+        "left": 0.5077793,
+        "top": 0.7175,
+        "width": 0.4080622,
+        "height": 0.01
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 9,
+        "left": 0.6435644,
+        "top": 0.733,
+        "width": 0.2722772,
+        "height": 0.0105
+      }
+    ],
+    "lej-leja-01-05": [
+      {
+        "page": 1,
+        "column": "right",
+        "line": 9,
+        "left": 0.5077793,
+        "top": 0.733,
+        "width": 0.1350778,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 10,
+        "left": 0.5077793,
+        "top": 0.749,
+        "width": 0.4080622,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 11,
+        "left": 0.5077793,
+        "top": 0.765,
+        "width": 0.4080622,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 12,
+        "left": 0.8889675,
+        "top": 0.781,
+        "width": 0.0268741,
+        "height": 0.0105
+      }
+    ],
+    "lej-leja-01-06": [
+      {
+        "page": 1,
+        "column": "right",
+        "line": 12,
+        "left": 0.5077793,
+        "top": 0.781,
+        "width": 0.3804809,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 13,
+        "left": 0.5339463,
+        "top": 0.797,
+        "width": 0.3818953,
+        "height": 0.0105
+      }
+    ],
+    "lej-leja-01-07": [
+      {
+        "page": 1,
+        "column": "right",
+        "line": 13,
+        "left": 0.5077793,
+        "top": 0.797,
+        "width": 0.0254597,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 14,
+        "left": 0.5077793,
+        "top": 0.813,
+        "width": 0.4080622,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 15,
+        "left": 0.7800566,
+        "top": 0.829,
+        "width": 0.135785,
+        "height": 0.01
+      }
+    ],
+    "lej-leja-01-08": [
+      {
+        "page": 1,
+        "column": "right",
+        "line": 15,
+        "left": 0.5077793,
+        "top": 0.829,
+        "width": 0.27157,
+        "height": 0.01
+      },
+      {
+        "page": 1,
+        "column": "left",
+        "line": 1,
+        "left": 0.0799151,
+        "top": 0.6055,
+        "width": 0.4108911,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "left",
+        "line": 2,
+        "left": 0.0799151,
+        "top": 0.6215,
+        "width": 0.4108911,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "left",
+        "line": 3,
+        "left": 0.384017,
+        "top": 0.6375,
+        "width": 0.1067893,
+        "height": 0.0105
+      }
+    ],
+    "lej-leja-01-09": [
+      {
+        "page": 1,
+        "column": "left",
+        "line": 3,
+        "left": 0.0799151,
+        "top": 0.6375,
+        "width": 0.3033946,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "left",
+        "line": 4,
+        "left": 0.0799151,
+        "top": 0.6535,
+        "width": 0.4108911,
+        "height": 0.01
+      },
+      {
+        "page": 1,
+        "column": "left",
+        "line": 5,
+        "left": 0.3076379,
+        "top": 0.6695,
+        "width": 0.1831683,
+        "height": 0.0105
+      }
+    ],
+    "lej-leja-01-10": [
+      {
+        "page": 1,
+        "column": "left",
+        "line": 5,
+        "left": 0.0799151,
+        "top": 0.6695,
+        "width": 0.2270156,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "left",
+        "line": 6,
+        "left": 0.0799151,
+        "top": 0.6855,
+        "width": 0.4108911,
+        "height": 0.01
+      },
+      {
+        "page": 1,
+        "column": "left",
+        "line": 7,
+        "left": 0.0799151,
+        "top": 0.701,
+        "width": 0.4108911,
+        "height": 0.0105
+      },
+      {
+        "page": 1,
+        "column": "left",
+        "line": 8,
+        "left": 0.0799151,
+        "top": 0.7175,
+        "width": 0.4108911,
+        "height": 0.01
+      },
+      {
+        "page": 1,
+        "column": "left",
+        "line": 9,
+        "left": 0.1534653,
+        "top": 0.7335,
+        "width": 0.2673267,
+        "height": 0.01
+      }
+    ]
+  }
+}
