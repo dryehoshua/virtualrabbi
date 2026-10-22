@@ -116,19 +116,21 @@ def save(doc):
 
 
 def key():
-    if os.environ.get('OPENAI_API_KEY'):
-        return os.environ['OPENAI_API_KEY'].strip()
-    for service, account in [(KEY_SERVICE, 'virtualrabbi.net'), ('codex.openai.api_key', 'dryehoshuapython'), ('codex.openai.api_key', 'dabbabot')]:
+    if os.environ.get('VIRTUALRABBI_OPENAI_API_KEY'):
+        return os.environ['VIRTUALRABBI_OPENAI_API_KEY'].strip()
+    for service, account in [(KEY_SERVICE, 'virtualrabbi.net')]:
         try:
             result = subprocess.run(['security', 'find-generic-password', '-s', service, '-a', account, '-w'], capture_output=True, text=True, timeout=4)
             if result.returncode == 0 and result.stdout.strip():
                 return result.stdout.strip()
         except (OSError, subprocess.TimeoutExpired):
             pass
-    raise ValueError('Configura tu clave de OpenAI en Ajustes para activar la IA y la llamada.')
+    raise ValueError('El operador debe configurar la clave de Virtual Rabbi en el servidor para activar las llamadas.')
 
 
 def api(path, payload, multipart=False):
+    if CONFIG.get('voice_only', True) and path != '/realtime/calls':
+        raise ValueError('Este proyecto permite gasto de API únicamente en las llamadas de voz.')
     data = payload if multipart else json.dumps(payload, ensure_ascii=False).encode()
     headers = {'Authorization': 'Bearer ' + key(), 'Content-Type': 'multipart/form-data; boundary=rabbiblueboundary' if multipart else 'application/json'}
     request = urllib.request.Request('https://api.openai.com/v1' + path, data=data, headers=headers, method='POST')
@@ -342,7 +344,7 @@ class Handler(BaseHTTPRequestHandler):
                     configured = True
                 except ValueError:
                     configured = False
-                self.reply({'configured': configured, 'library_path': str(DATA), 'text_model': CONFIG['text_model'], 'voice_model': CONFIG['voice_model']})
+                self.reply({'configured': configured, 'library_path': str(DATA), 'text_model': CONFIG['text_model'], 'voice_model': CONFIG['voice_model'], 'voice_only': CONFIG.get('voice_only', True)})
             elif parsed.path == '/api/library':
                 self.reply({'documents': library()})
             elif parsed.path == '/api/document':
@@ -560,6 +562,11 @@ class Handler(BaseHTTPRequestHandler):
                 if not sdp.startswith('v=0') or len(sdp) > 100000:
                     raise ValueError('Oferta de audio no válida.')
                 session = {'type': 'realtime', 'model': CONFIG['voice_model'], 'instructions': PERSONA + '\nContexto de la unidad actual:\n' + context(doc, unit), 'audio': {'input': {'transcription': {'model': 'gpt-4o-mini-transcribe'}, 'turn_detection': {'type': 'semantic_vad'}}, 'output': {'voice': CONFIG['voice']}}, 'tools': [{'type': 'function', 'name': 'retomar_estudio', 'description': 'Retomar la etapa del texto guardada por la aplicación. Úsala cuando el alumno diga continuar, seguir o volver al texto. No elijas ni recites tú el siguiente fragmento: la aplicación lo enviará.', 'parameters': {'type': 'object', 'properties': {}, 'additionalProperties': False}}, {'type': 'function', 'name': 'siguiente_unidad', 'description': 'Pasar a la siguiente idea ÚNICAMENTE si el alumno lo pide expresamente. Nunca al terminar tu respuesta ni ante una pregunta.', 'parameters': {'type': 'object', 'properties': {}, 'additionalProperties': False}}, {'type': 'function', 'name': 'buscar_fuentes', 'description': 'Buscar fuentes primarias en Chabad.org para la unidad actual. Usar antes de atribuir una fuente que no esté verificada.', 'parameters': {'type': 'object', 'properties': {'query': {'type': 'string'}}, 'required': ['query'], 'additionalProperties': False}}]}
+                if CONFIG.get('voice_only', True):
+                    session['tools'] = [t for t in session['tools'] if t['name'] != 'buscar_fuentes']
+                    session['instructions'] += '\nUsa sólo las fuentes ya incluidas en la lección. No tienes búsqueda web en esta sesión.'
+                if not CONFIG.get('input_transcription', False):
+                    session['audio']['input'].pop('transcription', None)
                 data = b''
                 for name, value in [('sdp', sdp), ('session', json.dumps(session, ensure_ascii=False))]:
                     data += f'--rabbiblueboundary\r\nContent-Disposition: form-data; name="{name}"\r\n\r\n{value}\r\n'.encode()

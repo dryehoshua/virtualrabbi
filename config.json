@@ -2,5 +2,7 @@
   "text_model": "gpt-4.1",
   "voice_model": "gpt-realtime",
   "voice": "cedar",
-  "port": 8790
+  "port": 8790,
+  "voice_only": true,
+  "input_transcription": false
 }

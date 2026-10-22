@@ -24,7 +24,7 @@ Los cambios de contenido conservan versiones en `.historial/`. Las preguntas no 
 
 ## Configurar IA / Configure AI
 
-La configuración es responsabilidad del operador: define `OPENAI_API_KEY` en el entorno del servidor, o usa la credencial existente en el llavero de macOS (`virtualrabbi.net.openai`, cuenta `virtualrabbi.net`). No hay ajustes ni formulario de claves para visitantes. / The operator configures `OPENAI_API_KEY` on the server, or uses the existing macOS Keychain credential. Visitors have no settings or key form.
+La configuración es responsabilidad del operador: define `VIRTUALRABBI_OPENAI_API_KEY` en el entorno del servidor, o usa la credencial existente en el llavero de macOS (`virtualrabbi.net.openai`, cuenta `virtualrabbi.net`). No hay ajustes ni formulario de claves para visitantes. / The operator configures `VIRTUALRABBI_OPENAI_API_KEY` on the server, or uses the existing macOS Keychain credential. Visitors have no settings or key form.
 
 La interfaz está orientada a usuarios, pero esta instalación sigue siendo local y de un solo perfil. Antes de alojarla para varios usuarios hay que separar progreso, notas y conversaciones por usuario y proteger los endpoints de administración. / The interface is visitor-facing, but this installation remains local with one profile. Multi-user hosting requires isolated progress, notes and conversations, plus protected administration endpoints.
 
@@ -55,3 +55,11 @@ API references: [OpenAI WebRTC](https://developers.openai.com/api/docs/guides/re
 ## Sincronización / Synchronization
 
 Repositorio: https://github.com/dryehoshua/virtualrabbi. Se versionan código, retrato IA y Markdown de estudio. Claves, logs, PDFs locales, conversaciones y progreso personal quedan fuera de Git. / Code, AI portrait and study Markdown are versioned. Keys, logs, local PDFs, conversations and personal progress stay outside Git.
+
+## Voz únicamente / Voice-only spending
+
+`voice_only: true` bloquea todas las solicitudes salientes salvo `/v1/realtime/calls`, antes de leer la credencial o abrir la conexión. Se deshabilitan las búsquedas web y el chat independiente. La clave se lee exclusivamente del llavero de Virtual Rabbi o `VIRTUALRABBI_OPENAI_API_KEY`; no se reutiliza Kim ni una clave genérica. / Outbound requests other than Realtime calls are blocked before credential access or network activity. Web search and standalone chat are disabled. Only this project's credential is used.
+
+`input_transcription: false` elimina el cargo separado por transcribir la voz del alumno. Las respuestas del rabino siguen mostrando su transcripción; las preguntas habladas del alumno no se transcriben. Realtime sigue facturando los tokens de audio y texto del contexto de la llamada. / Student microphone transcription is disabled to avoid its separate charge. Assistant captions remain available. Realtime still bills audio and text context tokens within the call.
+
+El operador crea una clave en un proyecto dedicado de OpenAI Platform y ejecuta `python3 scripts/configure_voice_key.py` en Terminal. La entrada se oculta y la clave se guarda en el llavero de macOS, sin archivos ni argumentos de proceso que contengan el secreto. Recargar la web después. / The operator creates a dedicated project key and runs the setup script in Terminal; hidden input is stored in macOS Keychain. Reload the app afterward.

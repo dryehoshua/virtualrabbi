@@ -32,7 +32,7 @@ function show(next) {
 
   window.scrollTo({top:0,behavior:'smooth'});
 }
-async function refreshStatus() { status = await request('/api/status'); }
+async function refreshStatus() { status = await request('/api/status');$('researchBtn').classList.toggle('hidden',!!status.voice_only); }
 function needKey() {if(status.configured)return true;callState(english()?'Calls will be available soon':'Las llamadas estarán disponibles pronto');toast(english()?'Calls are not available yet. Please try again later.':'Las llamadas aún no están disponibles. Inténtalo más tarde.',true);return false;}
 async function refreshLibrary() {
   docs = (await request('/api/library')).documents; renderLibrary();
@@ -181,6 +181,7 @@ function sendEvent(event){if(channel?.readyState==='open')channel.send(JSON.stri
 function requestSpoken(instruction){if(!connected)return;if(activeResponse)sendEvent({type:'response.cancel'});sendEvent({type:'response.create',response:instruction?{instructions:instruction}:undefined});}
 async function sendMessage(text) {
   text=text.trim();if(!text||!unit()||busyChat)return;if(!needKey())return;
+  if(status.voice_only&&!connected){toast(english()?'Start a call to ask your question.':'Comienza una llamada para hacer tu pregunta.');return;}
   const history=messages.filter(m=>m.role!=='note').slice(-16);
   const id=crypto.randomUUID();appendBubble('user',text);messages.push({role:'user',text,id});await persist('user',text,id);
   $('chatInput').value='';
