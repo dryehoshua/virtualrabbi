@@ -2,7 +2,7 @@
 
 We will study the opening of Lech Lecha in Torah Or, the Alter Rebbe’s collection of Chassidic discourses, first published in 1837. The passage asks how concealed wisdom becomes revealed and refines existence. We will read one idea in Hebrew, then its translation and explanation, and pause for your questions.
 
-28 bilingual units: the discourse on sheet 1 and all of sheet 2 (printed page 22), through “מן שכל הנעלם”. The last paragraph continues on sheet 3, still awaiting preparation; this is not an aleph/bet section ending or the end of the discourse. Six sheets available for reference.
+45 bilingual units: the discourse on sheet 1 and complete sheets 2 and 3. Includes the conclusion of “ענין לך לך”, all of “אנכי מגן לך”, and the beginning of “ולא יקרא עוד שמך אברם”. Unit 45 continues on sheet 4, still awaiting preparation; a page boundary is not a section ending. Six sheets available for reference.
 
 
 ## 1. Avram: wisdom still concealed
@@ -19,7 +19,7 @@ Avram represents intellect concealed beyond every conception: Av Ram. It must co
 
 
 ### Explanation
-In this discourse, the name Avram is a key to understanding elevated, concealed wisdom. The opening question is how what is hidden can become accessible. This is a Chassidic interpretation of the name, rather than a literal psychological description of Abraham.
+Av Ram here denotes elevated, concealed wisdom. The discourse begins by asking how this wisdom becomes revealed through Avraham’s avodah.
 
 
 ### Sources
@@ -44,7 +44,7 @@ It is a descent from level to level, to the very end. Its purpose is revelation 
 
 
 ### Explanation
-Descent is not presented as a purposeless loss: it makes revelation receivable by created beings. The online text includes בבי״ע, an abbreviation absent from the example guide. It is preserved here and translated as Beriah, Yetzirah and Asiyah.
+Descent enables created beings to receive revelation. Wisdom extends into Beriah, Yetzirah, and Asiyah according to those worlds’ capacity to receive.
 
 
 ### Sources
@@ -69,7 +69,7 @@ This is the meaning of “chesed is revealed at the opening of the organ [of the
 
 
 ### Explanation
-The Aramaic דאמה is retained as printed. It is not replaced with דאימא or translated as “of Imma.” The passage uses the Kabbalistic language of covenant and transmission for an influence that establishes connection. This editorial clarification addresses the problematic rendering in the supporting guide.
+The discourse connects Chesed with the covenant and with hitkashrut, a bond. The influence is revealed in a way that joins the giver and the recipient.
 
 
 ### Sources
@@ -94,7 +94,7 @@ But this revelation comes through contractions and concealment, the aspect of da
 
 
 ### Explanation
-Here yesh denotes created existence perceived as something. Bitul does not mean physically destroying the world: the text retains both terms, “yesh and batel.” A recipient exists, and divine unity can be recognized within that existence.
+Yesh denotes created existence perceived as something. The purpose is for that existence to recognize its dependence on Hashem: to be yesh and, at the same time, batel.
 
 
 ### Sources
@@ -119,7 +119,7 @@ For this revelation, the mitzvah of milah is necessary: removing the orlah, iden
 
 
 ### Explanation
-The discourse connects a concrete mitzvah with concealment and revelation. The mitzvah should not be reduced to a metaphor, nor should this reading become practical instruction or a halachic ruling. Our focus is the conceptual explanation of the passage.
+The orlah covers revelation and allows yenikah, the nourishment of kelipah. The discourse explains that milah removes this covering to make gilui possible.
 
 
 ### Sources
@@ -169,7 +169,7 @@ For what are the righteous like before the Shechinah? A candle before a great fl
 
 
 ### Explanation
-The image suggests inclusion, rather than merely external force. The smaller flame remains light, but before the greater flame it is no longer distinct as an independent presence. This is the passage’s analogy; not every physical property of a flame should be projected onto the spiritual.
+Before a great flame, the candle’s light becomes included within it. This is how the discourse explains the bittul of the tzaddikim before the Shechinah: inclusion within a greater revelation.
 
 
 ### Sources
@@ -194,7 +194,7 @@ It is said that they were exiled to Edom so that converts would be added to them
 
 
 ### Explanation
-The passage applies the preceding image to the refinement of everyday life. Its Chassidic reading of “converts” as sparks should be distinguished from the ordinary human meaning of the word; it does not erase that meaning or justify claims about particular people. The sentence crosses from the right column to the left, so both locations are preserved.
+The discourse applies the candle image to the birur of sparks present in food and drink. Revelation of the Shechinah enables these sparks to rise and become included in kedushah.
 
 
 ### Sources
@@ -219,7 +219,7 @@ This is the meaning of this passage: “Hashem said to Avram,” Av Ram—that h
 
 
 ### Explanation
-The discourse returns to the verse after developing its vocabulary. The journey can now be read as a movement from concealment toward a revelation capable of refinement. The Flood reference belongs to the text’s spiritual argument, rather than an exhaustive historical explanation.
+The text returns to Avraham’s journey as descent from concealed wisdom toward tikkun. The revelation he receives makes birur and the inclusion of sparks in kedushah possible.
 
 
 ### Sources
@@ -244,7 +244,7 @@ With Avram begins the world of tikkun: “Lech Lecha,” the emergence of the Na
 
 
 ### Explanation
-The discourse’s first extended idea concludes by connecting descent with Abraham’s own revelation. The following paragraph asks how that descent constitutes elevation and what the added letter hei means. We pause here: this installment covers the opening passage, not all six scanned pages.
+“The land that I will show you” is explained as Avraham’s own revelation through milah. The passage from Avram to Avraham connects descent into Malchut with the ability to refine and include sparks.
 
 
 ### Sources
@@ -292,7 +292,7 @@ The point is that the he added to his name is the upper he. In the Zohar, concer
 
 
 ### Explanation
-The discourse connects the added he with a higher level. It cites the Zohar to introduce Atik; we retain the technical term and the reference as given, without assigning an unverified folio number.
+The he added to the name is the upper he, Binah. The Zohar citation introduces Atik, whose revelation in Binah will explain why this descent also involves elevation.
 
 
 ### Sources
@@ -338,7 +338,7 @@ Within Chochmah itself, which is a point, it has not yet become revealed; this o
 
 
 ### Explanation
-The point of understanding must unfold for delight to become perceptible. In the passage’s symbolic vocabulary, Binah receives from Atik and surrounds the point of Chochmah. This introduces the central principle: descent and communication require a higher root. The sentence begins on the preceding sheet and ends here.
+Binah develops the point of Chochmah and makes perceptible the delight that comes from Atik. The discourse thus establishes that expansion into lower levels depends on a higher root.
 
 
 ### Sources
@@ -384,7 +384,7 @@ Therefore, when a level must descend so that contemplation can unfold expansivel
 
 
 ### Explanation
-The teacher analogy is now applied to Chochmah and Binah. The concentrated idea unfolds through a root beyond the initial point. The shapes of yud and he illustrate point and expansion; they do not describe physical dimensions of the divine.
+The teacher analogy is applied to Chochmah and Binah. Yud represents the concentrated point; he represents its expansion in length and breadth. The illumination of Atik makes this expansion possible.
 
 
 ### Sources
@@ -407,7 +407,7 @@ As explained in the Pardes, the yud has three tips; the he extends from the lowe
 
 
 ### Explanation
-This answers unit 11’s question: becoming Avraham involves revelation downward, yet reveals a higher root. The discourse reads Avraham’s journeys as movements between levels of revelation. The Pardes reference occurs in the text; its chapter has not been independently checked.
+The descent from Av Ram to Avraham reveals a higher root, the light of Keter. The journeys from the Negev to Bet El express movement between Chesed and Malchut, from above downward and from below upward.
 
 
 ### Sources
@@ -430,7 +430,7 @@ To understand this in divine service, the sages said: “What falls from the wis
 
 
 ### Explanation
-The etrog example brings the argument into concrete action. The higher root enables a physical mitzvah to be a vehicle for divine wisdom. “Skull” and “pathways” belong to Kabbalistic symbolic language; they do not attribute a body to God. This studies the discourse’s meaning rather than giving a halachic ruling.
+The etrog shows how divine wisdom is clothed in a concrete mitzvah. The root of mitzvot in Keter enables that wisdom to reach the physical: hence the discourse counts 620 pillars of light, corresponding to Torah and rabbinic mitzvot.
 
 
 ### Sources
@@ -453,7 +453,7 @@ Therefore, the revelation of higher wisdom clothed, for example, in the passage 
 
 
 ### Explanation
-In this context “Kadesh” refers to the tefillin passage. Dalet and he return to the theme of reception and expansion. The discourse contrasts the union brought about by a mitzvah with the delight received by souls; it is not measuring material values or promising rewards for an amount of money.
+The union brought about by the mitzvah reaches Atzilut, while the delight of souls described here corresponds to Beriah. The transformation of tzedek into tzedakah, and dalet into he, expresses the reception and revelation of a higher influence.
 
 
 ### Sources
@@ -476,7 +476,7 @@ Therefore Torah does not recount Avraham’s virtue of feeding guests until he r
 
 
 ### Explanation
-The contrast concerns the spiritual function enabled by the divine command, not a denial of the human value of earlier hospitality. The original’s phrase “Bereishit does not contain the Torah’s mitzvot” concerns its preparatory role relative to the giving of Torah; it should not be read as denying the commandments that do appear in Bereishit.
+The command “Lech lecha” establishes the link between Avraham’s action and the higher yichud. Bereishit presents the patriarchs’ preparation for the giving of Torah: Avraham draws down the line of Chesed.
 
 
 ### Sources
@@ -499,7 +499,7 @@ Yet we must understand why Israel did not merit receiving Torah until undergoing
 
 
 ### Explanation
-These questions sharpen the difference between preparation and the giving of Torah. The answer will distinguish inward fulfillment from physical enactment. They are the text’s own questions: read them and continue to its answer, without requiring the student to solve them before proceeding.
+The questions clarify the difference between the patriarchs’ avodah and the giving of Torah. The example of tefillin leads the discourse to distinguish inward fulfillment from performing the mitzvah with a physical object.
 
 
 ### Sources
@@ -522,7 +522,7 @@ In truth, there are inward and outward aspects, and his fulfillment was inward. 
 
 
 ### Explanation
-The distinction does not dispense with physical mitzvot: it explains why their possibility requires revelation beyond the scale of levels. The discourse interprets the Egyptian exile within that history; it does not give a rule for justifying particular suffering or causing it.
+For divinity to be revealed in the parchment of tefillin, an illumination beyond hishtalshelut is needed. The discourse explains the Egyptian exile as preparation for that revelation, before which above and below are equal.
 
 
 ### Sources
@@ -545,7 +545,7 @@ Avraham, however, drew down from above only inwardly. There was not yet outward 
 
 
 ### Explanation
-Milah appears as a concrete gift preparing the Avraham–Yitzchak–Yaakov line for the giving of Torah. The genealogical reference belongs to the discourse’s argument and does not authorize judgments about present-day people or peoples. The cross-reference to “Moses shall speak” comes from the original and remains pending independent verification.
+Milah was given to Avraham as a mitzvah of concrete action preparing for Yitzchak’s birth and Yaakov’s descendants. In Yaakov’s children the preparation culminates in receiving Torah and performing mitzvot in the physical realm.
 
 
 ### Sources
@@ -568,7 +568,7 @@ This is the meaning of “He made us, and not we”: it is read velo with vav, �
 
 
 ### Explanation
-The discourse works with ketiv and keri, the written form and traditional reading of the verse. Aleph alludes to the higher root, and vav to the extension that makes “we are His” possible. These are letters discussed within the paragraph, not aleph or bet section headings; reading should continue without a closing pause.
+The ketiv with aleph alludes to Keter, the higher root; the keri with vav expresses the extension through which we are His people. The aleph of Anochi returns to the same idea: mitzvot of action receive their power from Keter.
 
 
 ### Sources
@@ -614,7 +614,7 @@ Just as it is said that Esav’s head is in Yitzchak’s lap, before refinement 
 
 
 ### Explanation
-The metallurgical metaphor introduces a mixture before separation: gold and dross are together before birur. The terms of kelipah describe the text’s spiritual reading of its figures; they are not labels to apply to present-day people.
+Gold and dross are mixed before birur. This is how the discourse describes Lot’s inclusion in Avraham before separation, preparing the explanation of Ruth and Naamah’s emergence.
 
 
 ### Sources
@@ -660,10 +660,401 @@ Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 48}, "end
 
 
 ### Explanation
-The new paragraph interprets the places as aspects of Nukva, Malchut, the receiving level. This sheet ends here: the argument continues on sheet 3. It is not the end of the discourse or an aleph/bet section. “ויאהל” is preserved as printed, without silently replacing it with a different biblical quotation.
+Shechem and Elon Moreh are explained as aspects of Nukva, Malchut. Avraham draws into that receiving level the influence that comes from concealed intellect.
 
 
 ### Sources
 Hebrew checked against the scanned sheet and the Chabad/Kehot edition of Torah Or, Lech Lecha. Editorial study translation and explanation, not an official Chabad translation. Internal citations are attributed to the discourse; their locations in other works have not been independently verified. Highlights cover whole lines, not individual words.
 
 - [Torah Or · Lech Lecha · Chabad/Kehot](https://www.chabad.org/torah-texts/7440873)
+
+
+## 29. The elevation of sparks
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 1}, "end": {"page": 3, "column": "right", "line": 4}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+לכן אמר לו ישמעאל יחיה לפניך כי אחרי שנקרא אברהם בה"א שעי"ז המשיך התגלות בבחי' מל' ונתנה לו המילה הי' יכול להעלות נצוצות כנר בפני אבוקה שיהיו נכללי' בבחי' מל' כו' וכמ"ש ואת הנפש אשר עשו וכו'.
+
+
+### Translation
+Therefore he said, “May Ishmael live before You!” After being called Avraham with a he, thereby drawing revelation into Malchut, and receiving milah, he could elevate sparks like a candle before a great flame, so that they would be included in Malchut, as it is written, “And the souls they made.”
+
+
+### Explanation
+This continues the preceding sheet: Avraham draws concealed wisdom into Malchut. Revelation enables sparks to rise and become included in holiness, like the light of a candle before a greater flame.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · ענין לך לך וילך למסעיו · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899139)
+
+
+## 30. Sarai and Sarah: from yud to he
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 4}, "end": {"page": 3, "column": "right", "line": 8}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+גם שרי היתה נקראת מקודם ביו"ד מורה על צמצום ואח"כ כשהיתה צריכה להוליד את יצחק היתה נק' בה"א בהרחבה להורות על המשכה והתגלות. וזהו ויקרא שם אברם בשם ה'. ויקרא היינו המשכה מא"ב ר"ם שכל הנעלם המשכ' מיסוד אבא לע"ס דנוק' הנק' שם ה' כו':
+
+
+### Translation
+Sarai too was previously named with yud, indicating contraction. Later, when she was to give birth to Yitzchak, she was named with he, in expansion, indicating extension and revelation. This is the meaning of “Avram called there in the name of Hashem.” “Called” means drawing down from Av Ram, concealed intellect: an extension from Yesod of Abba into the ten sefirot of Nukva, called “the name of Hashem.”
+
+
+### Explanation
+The change from Sarai to Sarah returns to the contrast between point and expansion. The first discourse concludes by explaining “calling” as hamshachah: drawing concealed wisdom into the receiving level, Malchut.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · ענין לך לך וילך למסעיו · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899139)
+
+
+## 31. Anochi magen lach: Avraham’s kindness
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 9}, "end": {"page": 3, "column": "right", "line": 14}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+(אנכי מגן לך). פי' מגן אברהם. דהנה נודע שאברהם הוא בחי' חסד גדול עד מאד בלי שום מונע וכולם טובים בעיניו והוא רק טוב ולכן אמר לו ישמעאל יחיה לפניך שפי' שיחיה לעד לפניך שהוא בחי' א"ס בלי גבול ואעפ"י שהוא יודע מהו ישמעאל אעפ"כ מחמת חסד גדול וטובו הגדול רוצה שיחיה ולא זו בלבד אלא שרצה שיחיה לחסד בלי גבול.
+
+
+### Translation
+“I am your shield”: this means Magen Avraham, the shield of Avraham. Avraham represents immense kindness without any impediment; all are good in his eyes, and he is entirely goodness. Therefore he said, “May Ishmael live before You!”—that he live forever before You, in the aspect of Ein Sof without limit. Although he knows what Ishmael is, his great kindness and goodness make him desire that he live; moreover, he desires that he live in limitless kindness.
+
+
+### Explanation
+The discourse “Anochi magen lach” begins. Its question is why Avraham’s kindness needs a magen, a protective covering. It first describes the impulse to give life without limit, then explains how that impulse must be directed.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved. The sheet’s footnote refers to manuscript additions printed later; they are not included in this excerpt.
+
+- [Torá Or · אנכי מגן לך · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899140)
+
+
+## 32. Kindness, judgment, and Yaakov’s completeness
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 14}, "end": {"page": 3, "column": "right", "line": 21}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+וזהו דאיתא לא כאברהם שיצא ממנו ישמעאל ויצא מחמת רוב חסדו. אבל באמת אין מהראוי כן. דהנה בביאת משיח אי"ה כתיב בלע המות לנצח. ואת רוח הטומאה אעביר מן הארץ. וצריך לבער כל הרע מן הארץ ואם יתנהג העולם בחסדו הגדול כנ"ל לא היה העולם יכולים לבא למדרגה הנ"ל של משיח. ולכן בא יצחק בחי' דין ואף יצחק יצא ממנו עשו מחמת דינו הקשה על חרבך תחיה. אך יעקב היתה מטתו שלימה:
+
+
+### Translation
+This is the meaning of the statement, “Not like Avraham, from whom Ishmael emerged,” emerging through the abundance of his kindness. Yet this is not the fitting order. Concerning the coming of Mashiach, with God’s help, it is written, “He will swallow up death forever,” and “I will remove the spirit of impurity from the earth.” All evil must be removed from the earth. If the world were governed by such unlimited kindness, it could not attain that level of Mashiach. Therefore Yitzchak came, the aspect of din, judgment. Esav also emerged from Yitzchak through the severity of his judgment: “By your sword you shall live.” Yaakov’s offspring, however, were complete.
+
+
+### Explanation
+The discourse presents the difficulty of kindness without measure and then of severe judgment. Against both it places Yaakov’s completeness. The purpose of the vitality given to the world is bound to refinement and the removal of evil.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · אנכי מגן לך · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899140)
+
+
+## 33. The sun and its covering
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 21}, "end": {"page": 3, "column": "right", "line": 26}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+והנה נודע כי מגן נק' דבר המכסה למשל במלחמה נק' מגן מה שמכסה בו שלא ישלוט עליו הקשת. והנה כתיב כי שמש ומגן ה' אלקים שכמו שהשמש אם לא היה לו נרתק לא היו יכולים לסבול אורו הגדול והנרתק הוא המגין שנוכל לסבול. וזהו לעתיד לבא הקב"ה מוציא חמה מנרתקה וצדיקים מתהנים בה ורשעים נדונים בה.
+
+
+### Translation
+Magen denotes a covering: in battle a shield covers a person so that the bow cannot strike him. It is written, “For Hashem Elokim is a sun and shield.” Just as we could not bear the sun’s great light without its covering, that covering protects us so that we can bear it. This is the meaning of the teaching that in the future the Holy One, blessed be He, will take the sun out of its covering: the righteous will delight in it, and the wicked will be judged by it.
+
+
+### Explanation
+The shield makes it possible to receive the light. The image explains the relation between revelation and measure: the recipient needs the influence to arrive in a form it can sustain.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · אנכי מגן לך · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899140)
+
+
+## 34. Magen Avraham each morning
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 26}, "end": {"page": 3, "column": "right", "line": 34}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+והנה נודע שבכל בוקר דאברהם בחי' חסד מתעורר בעולם וישכם אברהם בבוקר וכדאיתא בזוה"ק והקב"ה רוצה להנהיג את העולם בבחי' חסד. אם לא היה מגן לבחי' חסד הנ"ל לצמצם חסדו וטובו ולתת דרך צמצום כמו שצריך רק להחיות הקליפות מפני שצריכין בשביל סטרא דקדושה שיהיה אתהפכא חשוכא לנהורא כידוע. ואם לא היה דרך צמצום היה חיותם בלי גבול ולא היו יכולים לבער הרע מן הארץ. ולכן בכל בוקר כשמתעורר מדת אברהם מדת חסד כנ"ל אנו צריכין לברך ברכת מגן אברהם. מגין שיעשה מגין לבחי' אברהם הנ"ל לטובתינו:
+
+
+### Translation
+Each morning the aspect of Avraham, Chesed, awakens in the world: “Avraham rose early in the morning,” as explained in the holy Zohar. The Holy One, blessed be He, wishes to govern the world through kindness. A shield is needed for that kindness: to limit it and give it in the necessary measure, sustaining the kelipot only insofar as they are needed for the side of holiness, so that darkness may be transformed into light. Without that limitation their vitality would be unlimited, and evil could not be removed from the earth. Therefore each morning, when Avraham’s attribute of Chesed awakens, we must recite the blessing Magen Avraham: that a shield be made for this aspect of Avraham, for our benefit.
+
+
+### Explanation
+The discourse concludes by connecting the explanation to the Amidah blessing. The magen directs kindness toward its purpose: sustaining the work of transforming darkness into light.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved. Sheet variant: “בחסד” against “בחסדו”; the body reading “בחסדו”, also in Chabad, is retained. The editorial note also refers to glosses and corrections.
+
+- [Torá Or · אנכי מגן לך · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899140)
+
+
+## 35. Creation requires tikkun
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 35}, "end": {"page": 3, "column": "right", "line": 42}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+ולא יקרא עוד שמך אברם והיה שמך אברהם כי אב המון גוים וכו'. הענין כי הטעם למילה דכתיב אשר ברא אלקים לעשות לתקן שעדיין צריך תקון ע"י האדם כי הגם שכבר ברא אלקים את האדם לא בראו בשלימות וכדאיתא במדרש רבה (פ' בראשית פ' י"א) ששאל על המילה אם חביבה היא המילה למה נברא האדם ערל והיתה התשובה שכל מה שנברא בשימ"ב צריכים עשייה ותקון וכמו התורמסין שצריכין תיקון. ולהבין המשל איך הוא דומה לנמשל.
+
+
+### Translation
+“Your name shall no longer be Avram, but Avraham, for [I have made you] the father of a multitude of nations.” The reason for milah is explained by “which God created to do”—to repair, for repair through the human being is still needed. Although God created the human being, He did not create him finished. As related in Midrash Rabbah, Bereishit chapter 11, it was asked why, if milah is cherished, the human being was created uncircumcised. The answer was that everything created in the six days of Creation needs work and repair, like lupin beans that require preparation. We must understand how this comparison corresponds to what it explains.
+
+
+### Explanation
+The discourse “Velo yikarei od shimcha Avram” begins. Its question connects milah, creation, and human work. Lupin beans introduce a tikkun that transforms what has been received to bring it to its intended purpose.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 36. The curtain and the descent of light
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 42}, "end": {"page": 3, "column": "left", "line": 1}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+הנה נודע מאמר המחדש בטובו בכל יום תמיד מע"ב תמיד הוא החדוש יש מאין וענין התהוות יש וגשמי מאין ורוחני א"א להיות כך רק ע"י בחינ' מ"ש והבדילה הפרוכת לכם בין הקודש כו' כי בהמ"ק שם היה מקור ההשפעה וגילוי השכינה בקדה"ק ולהיות ההשפעה נמשך משם ולהלאה לא היה ע"י גילוי כל כך כי א"כ היה הכל אחד רק שנמשך ע"י מסך מבדיל והוא הפרוכת המבדיל בין קדה"ק ששם הי' גילוי השכינה לבחי' קדש ופרכת ת"א פרסא וכמה בחי' פרוכת הי' בבהמ"ק ומשכן שכל ההשתלשלות מעולם ועד עולם הוא ע"י מסך פרסא מפסיק בין כל עולם כו'.
+
+
+### Translation
+The phrase is known: “Who in His goodness renews each day, continuously, the work of Creation.” Existence from nothing is renewed continuously. Material existence emerging from the unmanifest and spiritual is possible only through the principle expressed in “The curtain shall divide for you between the holy…”. In the Temple, the source of influence and revelation of the Shechinah was in the Holy of Holies. For the influence to extend beyond it, it could not retain that intensity of revelation, for then everything would be one. It extended through a dividing screen: the parochet between the Holy of Holies and the holy. Onkelos translates parochet as parsa. There were several aspects of curtain in the Temple and Mishkan, for the entire chain from one world to another occurs through a screen, a parsa separating the worlds.
+
+
+### Explanation
+The discourse begins from the continual renewal of creation. The parochet expresses the mediation that makes a distinct receiving level possible: light passes into an order in which the lower world can exist.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 37. A derivative light
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 1}, "end": {"page": 3, "column": "left", "line": 4}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+וזהו ענין המחדש בטובו שהתהוות מאין ליש הוא ע"י חדוש דהיינו ע"י מסך ופרסא נעשה אור חדש אור של תולדה ואין זה ממהות אור הראשון וכשיורד ומשתלשל נעשה עוד פרסא עד שנתהוה גשמיות ממש:
+
+
+### Translation
+This is the meaning of “Who renews in His goodness”: emergence from nothing into existence occurs through something new. Through the screen and parsa a new light is produced, a derivative light that is not of the essence of the first light. As the levels descend in sequence, another parsa arises, until actual materiality comes into being.
+
+
+### Explanation
+“Derivative light” specifies the effect of the parsa: a manifestation suited to the lower level appears. A succession of these mediations explains how the influence reaches material existence.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 38. Two kinds of separation
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 5}, "end": {"page": 3, "column": "left", "line": 10}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+אך יש כמה מיני מסכים המבדילין שיש עוד בחינה שאומרים במוצאי שבת המבדיל בין קדש לחול שהוא מסך מבדיל גמור ואינו דומה לפרסא שמפסיק בין הקודש לקדה"ק שזהו דרך השתלשלות אותו אור עצמו שנתגשם וגם לאחר הפרסא הוא קודש (וע"ד שמבדילין במ"ש ליו"ט המבדיל בין קדש לקדש) משא"כ בין קדש לחול הוא מסך שמעלים ומסתיר האור עד שנעשה נפרד ממש
+
+
+### Translation
+There are several kinds of dividing screens. Another aspect is expressed at the end of Shabbat: “Who distinguishes between holy and ordinary,” a complete dividing screen. It differs from the parsa separating the holy from the Holy of Holies: there the same light descends through the chain of levels and becomes more concrete, and even after the parsa it remains holy, like distinguishing between Shabbat and a festival: “between holy and holy.” Between holy and ordinary, however, a screen conceals and hides the light until an actual separation results.
+
+
+### Explanation
+The central distinction lies in the result: one transition preserves the character of kodesh; the other allows chol, the everyday realm, to appear with an experience of separation. This prepares the explanation of the work of the six days.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 39. Vitality within concealment
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 11}, "end": {"page": 3, "column": "left", "line": 15}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+כמו היכלות החיצונים המגביהים א"ע לומר לי יאורי כו' אלא שואתה מחיה את כולם וקרו ליה אלהא דאלהיא ואינן כופרים ממש וזהו הודו לאלקי האלקי' כל"ח שלעולם חסדו והשפעתו מעולם ועד עולם עד שהוא בבחי' אלקי האלקים במקום ההעלם וההסתר והחושך ועל מסך מבדיל זה נאמר אלביש שמים קדרות וכו':
+
+
+### Translation
+Like the palaces of the external forces, which exalt themselves to say, “My river is mine.” Nevertheless, “You give life to them all,” and they call Him “God of gods”: they do not deny entirely. This is the meaning of “Give thanks to the God of gods, for His kindness is everlasting”: His kindness and influence extend from world to world, even to the aspect of “God of gods,” in the place of concealment, hiding, and darkness. Of this dividing screen it is said, “I will clothe the heavens in darkness.”
+
+
+### Explanation
+Even where independence is felt, existence depends on divine vitality. Concealment affects the recognition of that dependence. The discourse thus connects the screen with the possibility of refinement in everyday life.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 40. Holiness illuminating everyday life
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 16}, "end": {"page": 3, "column": "left", "line": 22}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+והנה בבחי' חול זה יש ב' בחינות א' חול גמור היכלות דנוגה דקרו לי' אלקא דאלקיא כנ"ל. הב' הוא בחי' חולין שנעשו על טהרת הקדש חולו של מועד דהיינו שנמשך הארה מקדושה בחי' בטול גם בהחול וכמו ע"י שמירת שבת יש הארה בששת ימי החול מבחי' קדושת השבת. ג' ימים הראשונים משבת שעברה וג' ימים אחרונים משבת הבא וזה נמשך לישראל בששת ימי המעשה מקדושת שבת להיות כל מעשיהם בחול ע"ד חולין שנעשו עטה"ק
+
+
+### Translation
+Within this realm of chol there are two aspects. One is the entirely ordinary, the palaces of nogah that call Him “God of gods,” as explained. The second is everyday activity carried out with the purity of the holy, like Chol Hamoed: an illumination of holiness, of bittul, extends into the ordinary as well. Thus observing Shabbat brings illumination from its holiness into the six weekdays: the first three receive from the preceding Shabbat and the last three from the coming one. Shabbat’s holiness extends to Israel during the six working days, so that all their ordinary deeds resemble everyday things carried out with the purity of the holy.
+
+
+### Explanation
+Shabbat’s kedushah accompanies the week. The aim is for everyday action to receive an illumination of bittul: working with awareness of its bond with Hashem. The discourse places each half of the week in relation to Shabbat.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 41. Havdalah and the room to act
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 23}, "end": {"page": 3, "column": "left", "line": 28}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+(וזהו ענין הבדלה במו"ש ברוך המבדיל כו' הברכה היא המשכה שיהיו החולין נעשי' עטה"ק) וע"ז נאמר ששת ימים תעשה מעשיך וכו' וצריך להיות ששת ימי המעשה דוקא ע"י ההעלם ומסך (המבדיל בין קדש לחול) שאל"כ היה בטול ממש וכמו ענין תפלת שמו"ע בהשתחוואו' וכמו שא"א להרים יד לפני המלך כו' ומאן דמחוי במחוג קמי מלכא כו'.
+
+
+### Translation
+This is the meaning of Havdalah at the end of Shabbat: “Blessed is He who distinguishes…”. The blessing is an extension, so that everyday activity is carried out with the purity of the holy. Of this it is said, “Six days you shall do your work.” The six working days specifically require concealment and a screen distinguishing holy from ordinary; otherwise there would be complete bittul, as in Shemoneh Esreh with its bowing, or as one cannot raise a hand before the king, and the teaching concerning making a gesture in the king’s presence.
+
+
+### Explanation
+The blessing draws holiness into the week, while the separation makes work possible. The king’s presence illustrates a bittul so intense that it leaves no room for personal initiative. Weekday service requires a measure of concealment.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 42. From weekday work to Shabbat rest
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 28}, "end": {"page": 3, "column": "left", "line": 34}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+ובאמת כתי' יגיע כפיך כי תאכל ע"י ל"ט מלאכות הזורע והחורש והקוצר כו' דהיינו שע"י המעשה ממשיך הוי' חדשה והתהוות דבר חדש להיות המחדש בטובו מעשה בראשית דוקא וזהו אשר ברא אלקים לעשות. תורמוסין צריכין תקון להפוך מרירו למיתקו להיות מי שטרח בע"ש יאכל בשבת שיתעלה הכל בבחי' שבת כי שבת היא מנוחה בחי' בטול כמו שמו"ע וא"א להיות כולו שבת כמו כולו שמו"ע רק תחלה להיות ימי החול כו'.
+
+
+### Translation
+Indeed, it is written, “When you eat the labor of your hands,” through the thirty-nine labors: sowing, plowing, harvesting, and the others. Through action one brings about new existence, something new, expressing “Who in His goodness renews the work of Creation.” This is “which God created to do.” Lupin beans require preparation: turning bitterness into sweetness. “One who labored before Shabbat will eat on Shabbat”: everything rises to the aspect of Shabbat, which is rest and bittul, like Shemoneh Esreh. It cannot be entirely Shabbat, just as it cannot be entirely Shemoneh Esreh; the weekdays must come first.
+
+
+### Explanation
+The example of lupin beans is explained here: tikkun transforms bitterness into sweetness. Work prepares the elevation, and Shabbat rest receives what was developed during the week.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 43. Milah and the inclusion of sparks
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 35}, "end": {"page": 3, "column": "left", "line": 41}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+ותקון זה הוא ג"כ בחי' המילה כי עד שלא נימול אברהם היה שמו אברם אב הוא בחי' ראשית הגילוי יש מאין שהוא מקור ההשפעה נק' בשם אב והיה בבחי' רם על כל גוים כו' מפני שהיה ע"י מסך. וע"י המילה נק' אברהם אב המון גוים להוסיף התכללות ניצוצות כי להיות ההארה בגלוי גמור עד שיתקרב הניצוץ ליכלל תחת כנפי השכינה הוא ע"י המילה כי מילה אותיות מל י"ה הם חו"ב.
+
+
+### Translation
+This repair is also the aspect of milah. Before circumcision, Avraham was called Avram. Av is the beginning of revelation of existence from nothing; as the source of influence it is called “father.” It was in the aspect of ram, “exalted above all nations,” because there was a screen. Through milah he is called Avraham, father of a multitude of nations, increasing the inclusion of sparks. For illumination to be fully revealed, bringing the spark near to be included beneath the wings of the Shechinah, occurs through milah. Milah consists of mal and yud-he, which correspond to Chochmah and Binah.
+
+
+### Explanation
+The argument returns to Avraham’s name. Milah makes the illumination accessible so that sparks can draw near and become included. The reading mal–yud-he connects this revelation with Chochmah and Binah.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 44. Speech reveals wisdom
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 41}, "end": {"page": 3, "column": "left", "line": 45}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+ומל הוא ל' התגלות כי מל מלשון ממללא שהדבור הוא המגלה את החכמה להיות החכמה יוצאת מכח אל הפועל ומההעל' אל הגילוי ולכן לע"ל דכתי' אז אהפך אל עמים שפה ברורה כתי' וראו כל בשר יחדיו כי פי ה' דבר מחמת שיהי' גילוי בחי' דבור התגלות אלקות התגלות חכמה:
+
+
+### Translation
+Mal expresses revelation, being related to memalel, speaking: speech reveals wisdom and brings it from potential into actuality, from concealment into manifestation. Therefore concerning the future, when it is written, “Then I will transform the peoples [to have] a pure language,” it is also written, “All flesh together will see that the mouth of Hashem has spoken.” There will be revelation of the aspect of speech: revelation of divinity, revelation of wisdom.
+
+
+### Explanation
+Speech offers a close example of revelation: a concealed idea becomes expressed. The discourse applies this relationship to mal and connects it with the future revelation announced in the verses.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 45. Chashmal: silence and expression
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 46}, "end": {"page": 3, "column": "left", "line": 50}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+
+### עברית
+וגילוי זה למעלה הוא בבחי' חשמל עתים חשות דהיינו שלפעמים הוא בבחי' העלם סייג לחכמה שתיקה ועתים ממללות בחי' דבור וגילוי וגם מל מלשון והוא ישב ממולי שהוא פי' נגדי כלומר דבר שנראה כאילו הוא לנוכח עיניו. ולמטה באדם התחתון הנה כתיב נעשה אדם בצלמנו כדמותנו יש ג"כ מסך על אבר המשפיע שהוא
+
+
+### Translation
+Above, this revelation corresponds to chashmal: “at times silent,” meaning that at times there is concealment, for “the fence of wisdom is silence”; “and at times speaking,” the aspect of speech and revelation. Mal also relates to “he dwells opposite me,” meaning in front: something that appears to be before one’s eyes. Below, in the human being, it is written, “Let us make man in our image, according to our likeness”; there is also a covering over the transmitting organ, which…
+
+
+### Explanation
+Chashmal articulates the two moments of the argument: concealment and expression. The relation to “opposite me” adds the idea of manifest presence. The paragraph continues on sheet 4 with the application to milah; the final sentence remains open.
+
+
+### Sources
+Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)

@@ -1,6 +1,6 @@
 # Lej Lejá · Torá Or · עברית
 
-28 unidades bilingües: texto del maamar de la hoja 1 y toda la hoja 2 (página impresa 22), hasta «מן שכל הנעלם». El último párrafo continúa en la hoja 3, aún pendiente de preparación; no es cierre de sección álef/bet ni del maamar. Seis hojas disponibles para consulta.
+45 unidades bilingües: maamar de la hoja 1 y hojas 2 y 3 completas. Incluye el cierre de «ענין לך לך», «אנכי מגן לך» completo y el comienzo de «ולא יקרא עוד שמך אברם». La unidad 45 continúa en la hoja 4, aún pendiente; el cambio de hoja no equivale a un cierre de sección. Seis hojas disponibles para consulta.
 
 El hebreo de cada unidad es la fuente de lectura; las traducciones y explicaciones se guardan aparte. / Each unit’s Hebrew is the reading source; translations and explanations are stored separately.
 
@@ -171,3 +171,105 @@ Ubicación / Location: {"start": {"page": 2, "column": "left", "line": 44}, "end
 Ubicación / Location: {"start": {"page": 2, "column": "left", "line": 48}, "end": {"page": 2, "column": "left", "line": 50}, "basis": "Hoja 2: líneas de cada columna desde arriba, sin encabezado ni nota al pie. Bandas de líneas completas; una línea compartida puede pertenecer a dos unidades. / Sheet 2: lines counted from the top of each column, excluding heading and footnote. Whole-line bands; shared lines may belong to two units.", "printed_page": "22 (hoja 2 del PDF)"}
 
 ויאהל אברם עד מקום שכם כתפין חו"ג דנוק' ואלון מורה ת"ת דנוק' כי כל המשכות והתגלות הי' אברהם ממשיך להמלכות מן שכל הנעלם
+
+## 29. lej-leja-01-29
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 1}, "end": {"page": 3, "column": "right", "line": 4}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+לכן אמר לו ישמעאל יחיה לפניך כי אחרי שנקרא אברהם בה"א שעי"ז המשיך התגלות בבחי' מל' ונתנה לו המילה הי' יכול להעלות נצוצות כנר בפני אבוקה שיהיו נכללי' בבחי' מל' כו' וכמ"ש ואת הנפש אשר עשו וכו'.
+
+## 30. lej-leja-01-30
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 4}, "end": {"page": 3, "column": "right", "line": 8}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+גם שרי היתה נקראת מקודם ביו"ד מורה על צמצום ואח"כ כשהיתה צריכה להוליד את יצחק היתה נק' בה"א בהרחבה להורות על המשכה והתגלות. וזהו ויקרא שם אברם בשם ה'. ויקרא היינו המשכה מא"ב ר"ם שכל הנעלם המשכ' מיסוד אבא לע"ס דנוק' הנק' שם ה' כו':
+
+## 31. lej-leja-01-31
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 9}, "end": {"page": 3, "column": "right", "line": 14}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+(אנכי מגן לך). פי' מגן אברהם. דהנה נודע שאברהם הוא בחי' חסד גדול עד מאד בלי שום מונע וכולם טובים בעיניו והוא רק טוב ולכן אמר לו ישמעאל יחיה לפניך שפי' שיחיה לעד לפניך שהוא בחי' א"ס בלי גבול ואעפ"י שהוא יודע מהו ישמעאל אעפ"כ מחמת חסד גדול וטובו הגדול רוצה שיחיה ולא זו בלבד אלא שרצה שיחיה לחסד בלי גבול.
+
+## 32. lej-leja-01-32
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 14}, "end": {"page": 3, "column": "right", "line": 21}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+וזהו דאיתא לא כאברהם שיצא ממנו ישמעאל ויצא מחמת רוב חסדו. אבל באמת אין מהראוי כן. דהנה בביאת משיח אי"ה כתיב בלע המות לנצח. ואת רוח הטומאה אעביר מן הארץ. וצריך לבער כל הרע מן הארץ ואם יתנהג העולם בחסדו הגדול כנ"ל לא היה העולם יכולים לבא למדרגה הנ"ל של משיח. ולכן בא יצחק בחי' דין ואף יצחק יצא ממנו עשו מחמת דינו הקשה על חרבך תחיה. אך יעקב היתה מטתו שלימה:
+
+## 33. lej-leja-01-33
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 21}, "end": {"page": 3, "column": "right", "line": 26}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+והנה נודע כי מגן נק' דבר המכסה למשל במלחמה נק' מגן מה שמכסה בו שלא ישלוט עליו הקשת. והנה כתיב כי שמש ומגן ה' אלקים שכמו שהשמש אם לא היה לו נרתק לא היו יכולים לסבול אורו הגדול והנרתק הוא המגין שנוכל לסבול. וזהו לעתיד לבא הקב"ה מוציא חמה מנרתקה וצדיקים מתהנים בה ורשעים נדונים בה.
+
+## 34. lej-leja-01-34
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 26}, "end": {"page": 3, "column": "right", "line": 34}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+והנה נודע שבכל בוקר דאברהם בחי' חסד מתעורר בעולם וישכם אברהם בבוקר וכדאיתא בזוה"ק והקב"ה רוצה להנהיג את העולם בבחי' חסד. אם לא היה מגן לבחי' חסד הנ"ל לצמצם חסדו וטובו ולתת דרך צמצום כמו שצריך רק להחיות הקליפות מפני שצריכין בשביל סטרא דקדושה שיהיה אתהפכא חשוכא לנהורא כידוע. ואם לא היה דרך צמצום היה חיותם בלי גבול ולא היו יכולים לבער הרע מן הארץ. ולכן בכל בוקר כשמתעורר מדת אברהם מדת חסד כנ"ל אנו צריכין לברך ברכת מגן אברהם. מגין שיעשה מגין לבחי' אברהם הנ"ל לטובתינו:
+
+## 35. lej-leja-01-35
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 35}, "end": {"page": 3, "column": "right", "line": 42}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+ולא יקרא עוד שמך אברם והיה שמך אברהם כי אב המון גוים וכו'. הענין כי הטעם למילה דכתיב אשר ברא אלקים לעשות לתקן שעדיין צריך תקון ע"י האדם כי הגם שכבר ברא אלקים את האדם לא בראו בשלימות וכדאיתא במדרש רבה (פ' בראשית פ' י"א) ששאל על המילה אם חביבה היא המילה למה נברא האדם ערל והיתה התשובה שכל מה שנברא בשימ"ב צריכים עשייה ותקון וכמו התורמסין שצריכין תיקון. ולהבין המשל איך הוא דומה לנמשל.
+
+## 36. lej-leja-01-36
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 42}, "end": {"page": 3, "column": "left", "line": 1}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+הנה נודע מאמר המחדש בטובו בכל יום תמיד מע"ב תמיד הוא החדוש יש מאין וענין התהוות יש וגשמי מאין ורוחני א"א להיות כך רק ע"י בחינ' מ"ש והבדילה הפרוכת לכם בין הקודש כו' כי בהמ"ק שם היה מקור ההשפעה וגילוי השכינה בקדה"ק ולהיות ההשפעה נמשך משם ולהלאה לא היה ע"י גילוי כל כך כי א"כ היה הכל אחד רק שנמשך ע"י מסך מבדיל והוא הפרוכת המבדיל בין קדה"ק ששם הי' גילוי השכינה לבחי' קדש ופרכת ת"א פרסא וכמה בחי' פרוכת הי' בבהמ"ק ומשכן שכל ההשתלשלות מעולם ועד עולם הוא ע"י מסך פרסא מפסיק בין כל עולם כו'.
+
+## 37. lej-leja-01-37
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 1}, "end": {"page": 3, "column": "left", "line": 4}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+וזהו ענין המחדש בטובו שהתהוות מאין ליש הוא ע"י חדוש דהיינו ע"י מסך ופרסא נעשה אור חדש אור של תולדה ואין זה ממהות אור הראשון וכשיורד ומשתלשל נעשה עוד פרסא עד שנתהוה גשמיות ממש:
+
+## 38. lej-leja-01-38
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 5}, "end": {"page": 3, "column": "left", "line": 10}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+אך יש כמה מיני מסכים המבדילין שיש עוד בחינה שאומרים במוצאי שבת המבדיל בין קדש לחול שהוא מסך מבדיל גמור ואינו דומה לפרסא שמפסיק בין הקודש לקדה"ק שזהו דרך השתלשלות אותו אור עצמו שנתגשם וגם לאחר הפרסא הוא קודש (וע"ד שמבדילין במ"ש ליו"ט המבדיל בין קדש לקדש) משא"כ בין קדש לחול הוא מסך שמעלים ומסתיר האור עד שנעשה נפרד ממש
+
+## 39. lej-leja-01-39
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 11}, "end": {"page": 3, "column": "left", "line": 15}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+כמו היכלות החיצונים המגביהים א"ע לומר לי יאורי כו' אלא שואתה מחיה את כולם וקרו ליה אלהא דאלהיא ואינן כופרים ממש וזהו הודו לאלקי האלקי' כל"ח שלעולם חסדו והשפעתו מעולם ועד עולם עד שהוא בבחי' אלקי האלקים במקום ההעלם וההסתר והחושך ועל מסך מבדיל זה נאמר אלביש שמים קדרות וכו':
+
+## 40. lej-leja-01-40
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 16}, "end": {"page": 3, "column": "left", "line": 22}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+והנה בבחי' חול זה יש ב' בחינות א' חול גמור היכלות דנוגה דקרו לי' אלקא דאלקיא כנ"ל. הב' הוא בחי' חולין שנעשו על טהרת הקדש חולו של מועד דהיינו שנמשך הארה מקדושה בחי' בטול גם בהחול וכמו ע"י שמירת שבת יש הארה בששת ימי החול מבחי' קדושת השבת. ג' ימים הראשונים משבת שעברה וג' ימים אחרונים משבת הבא וזה נמשך לישראל בששת ימי המעשה מקדושת שבת להיות כל מעשיהם בחול ע"ד חולין שנעשו עטה"ק
+
+## 41. lej-leja-01-41
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 23}, "end": {"page": 3, "column": "left", "line": 28}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+(וזהו ענין הבדלה במו"ש ברוך המבדיל כו' הברכה היא המשכה שיהיו החולין נעשי' עטה"ק) וע"ז נאמר ששת ימים תעשה מעשיך וכו' וצריך להיות ששת ימי המעשה דוקא ע"י ההעלם ומסך (המבדיל בין קדש לחול) שאל"כ היה בטול ממש וכמו ענין תפלת שמו"ע בהשתחוואו' וכמו שא"א להרים יד לפני המלך כו' ומאן דמחוי במחוג קמי מלכא כו'.
+
+## 42. lej-leja-01-42
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 28}, "end": {"page": 3, "column": "left", "line": 34}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+ובאמת כתי' יגיע כפיך כי תאכל ע"י ל"ט מלאכות הזורע והחורש והקוצר כו' דהיינו שע"י המעשה ממשיך הוי' חדשה והתהוות דבר חדש להיות המחדש בטובו מעשה בראשית דוקא וזהו אשר ברא אלקים לעשות. תורמוסין צריכין תקון להפוך מרירו למיתקו להיות מי שטרח בע"ש יאכל בשבת שיתעלה הכל בבחי' שבת כי שבת היא מנוחה בחי' בטול כמו שמו"ע וא"א להיות כולו שבת כמו כולו שמו"ע רק תחלה להיות ימי החול כו'.
+
+## 43. lej-leja-01-43
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 35}, "end": {"page": 3, "column": "left", "line": 41}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+ותקון זה הוא ג"כ בחי' המילה כי עד שלא נימול אברהם היה שמו אברם אב הוא בחי' ראשית הגילוי יש מאין שהוא מקור ההשפעה נק' בשם אב והיה בבחי' רם על כל גוים כו' מפני שהיה ע"י מסך. וע"י המילה נק' אברהם אב המון גוים להוסיף התכללות ניצוצות כי להיות ההארה בגלוי גמור עד שיתקרב הניצוץ ליכלל תחת כנפי השכינה הוא ע"י המילה כי מילה אותיות מל י"ה הם חו"ב.
+
+## 44. lej-leja-01-44
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 41}, "end": {"page": 3, "column": "left", "line": 45}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+ומל הוא ל' התגלות כי מל מלשון ממללא שהדבור הוא המגלה את החכמה להיות החכמה יוצאת מכח אל הפועל ומההעל' אל הגילוי ולכן לע"ל דכתי' אז אהפך אל עמים שפה ברורה כתי' וראו כל בשר יחדיו כי פי ה' דבר מחמת שיהי' גילוי בחי' דבור התגלות אלקות התגלות חכמה:
+
+## 45. lej-leja-01-45
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 46}, "end": {"page": 3, "column": "left", "line": 50}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
+
+וגילוי זה למעלה הוא בבחי' חשמל עתים חשות דהיינו שלפעמים הוא בבחי' העלם סייג לחכמה שתיקה ועתים ממללות בחי' דבור וגילוי וגם מל מלשון והוא ישב ממולי שהוא פי' נגדי כלומר דבר שנראה כאילו הוא לנוכח עיניו. ולמטה באדם התחתון הנה כתיב נעשה אדם בצלמנו כדמותנו יש ג"כ מסך על אבר המשפיע שהוא
