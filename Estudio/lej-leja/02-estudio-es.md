@@ -2,7 +2,7 @@
 
 Estudiaremos la apertura de Lej Lejá en Torá Or, la colección de maamarim del Alter Rebbe, publicada por primera vez en 1837. El pasaje pregunta cómo la sabiduría oculta llega a revelarse y a refinar la existencia. Leeremos una idea en hebreo, después su traducción y explicación, y haremos una pausa para tus preguntas.
 
-45 unidades bilingües: maamar de la hoja 1 y hojas 2 y 3 completas. Incluye el cierre de «ענין לך לך», «אנכי מגן לך» completo y el comienzo de «ולא יקרא עוד שמך אברם». La unidad 45 continúa en la hoja 4, aún pendiente; el cambio de hoja no equivale a un cierre de sección. Seis hojas disponibles para consulta.
+62 unidades bilingües: maamar de la hoja 1 y hojas 2, 3 y 4 completas. Incluye «ענין לך לך», «אנכי מגן לך» y «ולא יקרא עוד שמך אברם» completos, y el comienzo de «והבדילה הפרוכת». La unidad 62 continúa en la hoja 5, aún pendiente; el cambio de hoja no equivale a un cierre de sección. Seis hojas disponibles para consulta.
 
 
 ## 1. Avram: la sabiduría todavía oculta
@@ -1058,3 +1058,394 @@ Jashmal articula los dos momentos del argumento: ocultamiento y expresión. La r
 Hebreo cotejado con la hoja 3 aportada y la edición de Torá Or publicada por Chabad/Kehot. Traducción de estudio y explicación basadas en este maamar del Alter Rebbe. Las citas de otras obras proceden del propio maamar; no se afirma una comprobación independiente de cada referencia. Se conservan las abreviaturas de la hoja.
 
 - [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 46. Lo oculto se revela en la descendencia
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 1}, "end": {"page": 4, "column": "right", "line": 5}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+בבחי' רם. הנסתרות לה' אלקינו חו"ב והנגלות לנו ולבנינו שע"י המילה נעשה נגלות לנו ולבנינו שהגילוי אינו אלא בבחי' לבנינו שהוא בחי' הולדה כי לכן כאשר נתוסף ה' באברהם מ"מ לא נעקר הרי"ש באברהם שעדיין הוא בחי' רם אלא שנתוסף בחי' ה' להיות בחי' רם זה בגילוי.
+
+
+### Traducción
+En el aspecto de ram, elevado. «Las cosas ocultas pertenecen a Hashem nuestro Dios»: Jojmá y Biná; «y las reveladas, a nosotros y a nuestros hijos». Mediante la milá se hacen reveladas a nosotros y a nuestros hijos. La revelación ocurre precisamente en «nuestros hijos», el aspecto de engendrar. Por eso, al añadirse la he a Avraham, no desapareció la resh: permanece el aspecto de ram, pero se añade la he para que ese nivel elevado se manifieste.
+
+
+### Explicación
+La frase completa lo iniciado en la hoja anterior. La he añadida permite revelar el nivel ram sin eliminar su elevación. El maamar vincula esa revelación con la holadá, la capacidad de engendrar.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 47. Milá, periá y la separación principal
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 5}, "end": {"page": 4, "column": "right", "line": 9}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+והנה המילה היא גילוי (ופריעה היא גילוי יותר כמו ופרע את ראש האשה. שחיטה מפורעת כו'). המסך המבדיל בין קדש לחול דישראל חולין שנעשו על טה"ק שהיא עיקר ההבדלה כי בשבעה הבדלות להבדיל בין הטמא כו' אין אנו אומרים לפי שא"צ כ"כ כי מאחר שמעבירים ההבדלה שבין קדש לחול כו':
+
+
+### Traducción
+La milá es revelación; la periá es una revelación mayor, como en «descubrirá la cabeza de la mujer» y en la expresión «degollación descubierta». La pantalla que separa lo santo de lo cotidiano en Israel —lo cotidiano realizado con la pureza de lo santo— constituye la separación principal. Entre las siete separaciones, no decimos «entre lo impuro…», pues no es tan necesario, una vez que se retira la separación entre lo santo y lo cotidiano.
+
+
+### Explicación
+El cierre vuelve al propósito de llevar la kedushá al ámbito de jol. Milá y periá se explican como grados de revelación, y la distinción entre kódesh y jol ocupa el lugar central en el argumento.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas. La nota al pie señala, sobre la expresión «כי בשבעה», que su formulación requiere una pequeña corrección; no propone aquí una lectura sustitutiva. Se conserva el cuerpo cotejado con Chabad.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 48. La parójet ante las puertas
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 10}, "end": {"page": 4, "column": "right", "line": 16}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+והבדילה הפרוכת לכם. הנה בע"ח (שער מ"א) מבואר שיש פרסא (וע' בע"ח שער ז' פ"ב) ובגמרא בכתובות (דק"ו ע"א) איתא י"ג פרוכת היו במקדש שני ז' כנגד ז' שערים כו' ופרש"י דלצניעותא עבידי. והיינו כי בלילה היו השערים ננעלים וכדאיתא במסכת תמיד רק ביום היו פתוחים שיהיו נכנסין ויוצאין דרך פתחי השערים והיו מוכרחים להיות פתוחים אעפ"כ הי' פרוכת לכל שער לצניעות כו'.
+
+
+### Traducción
+«La cortina separará para ustedes». En Etz Jaim, portal 41, se explica que hay una parsá; véase también el portal 7, capítulo 2. En la Guemará, Ketubot 106a, se dice que había trece cortinas en el Segundo Templo, siete frente a las siete puertas. Rashi explica que se hacían para resguardar la intimidad. De noche las puertas se cerraban, como aparece en Tamid; de día estaban abiertas para entrar y salir. Aunque necesariamente permanecían abiertas, cada puerta tenía una cortina para resguardo.
+
+
+### Explicación
+El maamar comienza con una puerta abierta que conserva una cortina. Esta disposición introduce la cuestión de cómo puede haber revelación y, al mismo tiempo, una mediación que regule su recepción.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 49. La azará corresponde a Maljut
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 16}, "end": {"page": 4, "column": "right", "line": 18}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+וענין זה הוא כי הנה העזרה והלשכות הם מכוונים נגד מלכות דאצילות כי למעלה במלכות יש כל הבחי' שבעזרה וגם הר הבית ת"ק אמה כמ"ש בזהר שלח לך (דקס"א ע"ב).
+
+
+### Traducción
+El sentido es que la azará y sus cámaras corresponden a Maljut de Atzilut, pues arriba, en Maljut, están todos los aspectos presentes en la azará. También el Monte del Templo mide quinientos codos, como se expone en el Zóhar, Shelaj Lejá, 161b.
+
+
+### Explicación
+La estructura del Mikdash sirve para explicar el orden de revelación en Maljut. Por eso el maamar pasa de las puertas y cortinas del Templo a la apertura y cierre de los niveles espirituales.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 50. La noche y el ejemplo del sueño
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 18}, "end": {"page": 4, "column": "right", "line": 25}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+והנה בלילה תרעין דג"ע אסתימו וכמו שננעלים השערים שערי העזרה הגם דכתי' ותקם בעוד לילה ותתן טרף לביתה היינו בבחי' חיצוניות דוקא וכמו באדם בשעת שינה שהוא הסתלקות וקבוץ החיות מן הדם הוא הנפש לתוך הלב ונסתם הכל בתוכו שאין מתפשט ממנו פנימית החיות רק קיסטא דחיותא וחיצוניות שאז הוא דוקא גילוי והתפשטות חיצוניות החיות כמו כח הזן וכח המעכל שבנפש שהן בחי' חיצוניות לגבי כח השכל והמדות וראיה ושמיעה.
+
+
+### Traducción
+De noche se cierran las puertas del Gan Eden, como se cierran las de la azará. Aunque está escrito «Se levanta aún de noche y da alimento a su casa», esto ocurre precisamente en el aspecto exterior. Es como durante el sueño de la persona: la vitalidad se retira y se recoge, desde «la sangre es la vida», hacia el corazón, quedando contenida allí. No se expande la vitalidad interior, sino una medida reducida de vida y su aspecto exterior. Entonces se manifiestan y expanden las facultades exteriores, como las de nutrición y digestión del alma, exteriores respecto del intelecto, las midot, la vista y el oído.
+
+
+### Explicación
+El maamar distingue pnimiut y jitzoniut de la vitalidad. El cierre de las puertas describe el retiro de la iluminación interior, mientras continúa la influencia necesaria para sostener los niveles inferiores.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 51. Las facultades incluidas en el intelecto
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 25}, "end": {"page": 4, "column": "right", "line": 30}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+והתפשטותן עיקרן בשעת שינה שבשעה שאינו ישן ומאיר השכל אז כח המעכל והזן אינן בהתפשטות כ"כ מצד התכללותן בכח השכל כנר בפני אבוקה ולכן מעכב התפשטותן אבל בשעת שינה שמסתלק ממשלת כח השכל אז הן מתפשטין ואז הקיבה מעכל ושולח אל הכבד כו'. וכח הזן והמעכל והדוחה וכה"ג הם כחות חיצוניות ותחתוניות שבנפש.
+
+
+### Traducción
+Su expansión principal ocurre durante el sueño. Cuando la persona está despierta y el intelecto ilumina, las facultades de digestión y nutrición no se expanden tanto, porque están incluidas en la facultad intelectual como una vela ante una gran llama; por eso se limita su expansión. Durante el sueño, cuando se retira el dominio del intelecto, se expanden, y el estómago digiere y envía al hígado. Las facultades de nutrición, digestión, expulsión y semejantes son fuerzas exteriores e inferiores del alma.
+
+
+### Explicación
+Vuelve la imagen de la vela ante la gran llama: una facultad inferior queda incluida en la superior. El retiro de la luz dominante permite que las fuerzas exteriores se manifiesten según su propio nivel.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 52. La iluminación de Maljut de noche y de día
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 31}, "end": {"page": 4, "column": "right", "line": 37}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+וכך למעלה במלכות דאצי' שבלילה תרעין דג"ע אסתימו שההארה שנמשך מבחי' מל' בג"ע זיו השכינה זהו עיקר הארת פנימיות המל' (דהיינו שההמשכה מבחי' ג"ר שבמל' וכמ"ש במ"א בביאור הזהר פ' אחרי) ובלילה מסתלק הארה זו אלא שהשפע' חיצוניות נמשך אז והיינו ותתן טרף בבי"ע (והמשכה זו מבחי' ז"ת שבמל') וביום נפתחים תרעי דג"ע לפי שיש התגברות החסדים חסד אל כל היום ע"כ נמשך אז המשכה הפנימית
+
+
+### Traducción
+Así ocurre arriba, en Maljut de Atzilut: de noche se cierran las puertas del Gan Eden. La iluminación de Maljut en Gan Eden, el resplandor de la Shejiná, es principalmente la iluminación interior de Maljut, procedente de sus tres primeras sefirot, como se explica en otro lugar sobre el Zóhar, Ajaréi. De noche se retira esta iluminación, mientras continúa la influencia exterior: «Y da alimento», en Beriá, Yetzirá y Asiyá; esta extensión procede de las siete inferiores de Maljut. De día se abren las puertas de Gan Eden, porque predominan los jasadim: «La bondad de Dios todo el día». Por eso entonces se extiende la influencia interior.
+
+
+### Explicación
+El ejemplo del sueño se aplica a Maljut. El texto precisa dos procedencias: las tres primeras sefirot para la iluminación interior y las siete inferiores para el sustento exterior de Beriá, Yetzirá y Asiyá.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 53. Jashmal como vestidura y calzado
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 37}, "end": {"page": 4, "column": "right", "line": 46}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+ואעפ"כ יש בחי' פרוכת פרסא ונמשך המשכה זו ע"י אמצעות הפרסא והפרסא היא מבחי' חשמל שהוא מחיצוניות הבינה שמלביש ומקיף את י"ס דז"א וי"ס דנוק' כתנות עור ומלבישם מצדיהם והוא בכדי שלא יהיה יניקת החיצונים ומתחת רגליהם הוא בחי' מנעל להיות הפסק בין אצילות לבריאה וליצירה כו' (ונעל הזה הוא בחי' המסך והפרסא המפסיק בין אצילות לבריאה כמ"ש בע"ח שמ"א פ"א ופרק ו' ובשער מ' פ"א) וכמו שפירש"י לצניעות דהיינו שלא יהיה כל גילוי האור של אצילות בבריאה כ"א בדרך מסך שהמלכות דאצילות בוקע המסך ונעשה עתיק לבריאה (ע' בע"ח שמ"א פ"א ואגה"ק איהו וחיוהי) וכן בכל עולם.
+
+
+### Traducción
+Aun así, hay una parójet, una parsá, y la influencia se extiende por su mediación. La parsá procede de jashmal, del aspecto exterior de Biná, que viste y rodea las diez sefirot de Zeer Anpín y las diez de Nukvá, como túnicas de piel. Las viste por los lados para impedir la nutrición de las fuerzas exteriores; debajo de sus pies es como un calzado que separa Atzilut de Beriá y Yetzirá. Ese calzado es la pantalla y parsá que separa Atzilut de Beriá, según Etz Jaim, portal 41, capítulos 1 y 6, y portal 40, capítulo 1. Como explica Rashi, es para resguardo: que toda la luz de Atzilut no se revele en Beriá, sino mediante una pantalla. Maljut de Atzilut atraviesa esa pantalla y se convierte en Atik de Beriá; véanse Etz Jaim, portal 41, capítulo 1, e Igueret Hakódesh, «Ihu vejayohi». Así ocurre en cada mundo.
+
+
+### Explicación
+El jashmal cumple dos funciones: como vestidura lateral protege de la yeniká; como calzado establece la separación entre mundos. La revelación hacia Beriá pasa por esta mediación, conservando el orden propio de cada mundo.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 54. La parsá entre Beriá y Yetzirá
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 47}, "end": {"page": 4, "column": "left", "line": 2}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+שבבריאה נעשה ג"כ חשמל מחיצוניות הבינה ומקיף לזו"נ עד שנעשה מנעל כו' (בע"ח שמ"א פ"א שהמסך שבין בריאה ליצירה אינו מבינה דבריאה אלא מת"ת דבריאה אלא שבת"ת יש ג"כ חשמל כמ"ש הרמ"ז ס"פ יתרו בשם א"י. ואמנם בלקוטי הש"ס מהאריז"ל דט"ז ד"ה לכי ומעטי א"ע כמ"ש כאן ע"ש ועמ"ש בביאור ע"פ כי ביום הזה יכפר).
+
+
+### Traducción
+En Beriá también se forma jashmal desde el aspecto exterior de Biná, rodeando a Zeer Anpín y Nukvá hasta convertirse en calzado. Etz Jaim, portal 41, capítulo 1, señala que la pantalla entre Beriá y Yetzirá no procede de Biná de Beriá, sino de Tiféret de Beriá; pero también en Tiféret hay jashmal, como escribe el Ramaz al final de Yitró en nombre de Adam Yashar. En Likutei Hashás del Arizal, folio 16, en «Lejí umaatí et atzmej», se expone como aquí. Véase también la explicación de «Porque en este día expiará».
+
+
+### Explicación
+El texto conserva una precisión entre fuentes acerca del nivel del que procede la pantalla. El punto que une la explicación es la presencia de jashmal y su función de mediación al pasar de un mundo a otro.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas. Las notas identifican א״י como el libro Adam Yashar y registran «כי ביום הזה יכפר» como añadido de la impresión de Zhitómir, también presente en el manuscrito citado por la edición.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 55. El intelecto que rodea las midot
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 2}, "end": {"page": 4, "column": "left", "line": 12}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+ולהבין ענין חשמל זה מה ענינו הנה מבשרי אחזה כי במדות אין שם התגלות כל השכל שאם כן היו המדות בטלים בהשכל ולא הי' מהם כלל התפשטות והמשכה אלא שאעפ"כ מקיף עליהם הארה מועטת מחיצוניות הבינה בחי' התבוננות שלמעלה מן המדות בכדי שלא יהי' יניקת החיצונים שמהמדות יכול להיות אחיזה לסט"א וכמארז"ל לא כאברהם שיצא ממנו ישמעאל כו' וכן שבה"כ היה בהמדות לפיכך צ"ל בחי' חשמל מקיף שלא יהי' להם יניקה מהמדות אלא בדרך שערות וצפרנים כפי הצורך בלבד (כי חשמל זה הוא מהבינה וחו"ב הן תרין ריעין כו' ומחכמה אין יניקה לחיצונים כנודע מענין הנגעים וכמ"ש ימותו ולא בחכמה לפי שחכמה כח מה בחי' בטול לאור א"ס כו').
+
+
+### Traducción
+Para comprender qué es este jashmal, «desde mi carne contemplaré»: en las midot no se revela todo el intelecto, pues entonces quedarían anuladas en él y no tendrían expansión ni influencia propias. Sin embargo, las rodea una pequeña iluminación del aspecto exterior de Biná, una contemplación superior a las midot, para impedir la nutrición de las fuerzas exteriores. Las midot pueden dar lugar a un asidero para la sitrá ajará, como dijeron: «No como Avraham, de quien salió Ishmael»; también la ruptura de los recipientes ocurrió en las midot. Por eso debe rodearlas jashmal, para que aquellas fuerzas reciban de las midot solo por la vía de cabellos y uñas, en la medida necesaria. Este jashmal procede de Biná, y Jojmá y Biná son dos compañeros inseparables. De Jojmá las fuerzas exteriores no reciben nutrición, como se conoce acerca de las afecciones y de «Morirán, pero no con sabiduría», pues Jojmá es kóaj ma, bitul ante la luz del Ein Sof.
+
+
+### Explicación
+Las midot necesitan espacio para desplegarse, pero permanecen rodeadas por una iluminación de Biná. Esa contemplación mantiene su vínculo con la raíz intelectual y limita la posibilidad de que la influencia se desvíe hacia la sitrá ajará.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 56. Una vestidura cuya raíz es superior
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 12}, "end": {"page": 4, "column": "left", "line": 14}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+ופי' ענין החשמל שמלביש לזו"נ והרי הוא חיצוניות אצלן ואעפ"כ שרשו גבוה מהן שהרי הוא מהבינה.
+
+
+### Traducción
+El sentido de jashmal es que viste a Zeer Anpín y Nukvá: respecto de ellos es exterior, pero su raíz está por encima de ellos, pues procede de Biná.
+
+
+### Explicación
+El maamar distingue la raíz de la vestidura de su posición al desplegarse. El ejemplo siguiente, el mashal, mostrará cómo algo exterior puede proceder de una comprensión más alta.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 57. El mashal requiere una sabiduría elevada
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 14}, "end": {"page": 4, "column": "left", "line": 22}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+הענין הוא כמו המשל שהוא לבוש להנמשל דהנה צירופי אותיות המשל הם גשמיות נגד הנמשל ולבוש לבד להנמשל אך מ"מ שרש המשל הוא גבוה מאד נעלה שאין כל אדם יכול לומר משלים אלא משלי שלמה ובגמרא אמרו על רבי מאיר תלתא שמעתא ותלתא מתלי ואמרו משמת רבי מאיר בטלו מושלי משלים כו' והיינו כי דוקא מי ששכלו שכל גבוה יכול לצמצם שכלו במשל שיהיה מכוון נגד הנמשל ממש משא"כ מי שאין לו שכל גבוה כל כך די לו במה שיבין השכל כאשר הוא אבל לא יוכל להסביר פנים במשל ואם יאמר משל לא יהי' המכוון כו'.
+
+
+### Traducción
+Es como el mashal, que es vestidura del nimshal. Las combinaciones de letras del mashal son materiales respecto de la idea que expresa y constituyen solo su vestidura. Pero la raíz del mashal es muy elevada: no cualquiera puede formular parábolas; están las de Shelomó. La Guemará dice de Rabí Meír «tres enseñanzas y tres parábolas», y que al morir Rabí Meír cesaron los maestros de parábolas. Precisamente quien posee un intelecto elevado puede concentrar su comprensión en un mashal que corresponda exactamente al nimshal. Quien no alcanza ese nivel puede comprender la idea tal como es, pero no explicarla por medio de una parábola; si la formula, no corresponderá al sentido buscado.
+
+
+### Explicación
+El mashal presenta la idea en un lenguaje accesible. Para conservar la correspondencia con el nimshal hace falta una comprensión profunda de la idea misma. Así se entiende la raíz elevada de una vestidura exterior.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas. La nota al pie comenta la lectura «המכוון» en la línea que comienza «ואם יאמר»: la registra en el manuscrito citado y señala «מכוון» en las glosas y correcciones. Se conserva «המכוון» como en el cuerpo y en Chabad.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 58. Los dos aspectos del jashmal
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 22}, "end": {"page": 4, "column": "left", "line": 30}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+ועד"ז הוא בחי' החשמל שהוא לבוש לזו"נ כהתלבשות השכל במשל והיינו לפי שנמשך מהבינה שהיא למעלה מעלה מהמדות כו' רק אח"כ נעשה לבוש לזו"נ והוא למטה מהן כמו שהמשל הוא חיצוניות לגבי הנמשל ולבוש לבד והרי א"כ מובן שיש בבחי' החשמל הזה ב' בחינות א' מצד שרשו שהוא גבוה מאד נעלה למעלה מן המדות שהוא מבחי' הבינה והב' מצד התפשטותו בבחי' חיצוניות בבחי' צירופי אותיות שהאותיות הם מדרגה האחרונה שבכל הי"ס (ומה שמלביש החשמל לזו"נ היינו כמו אותיות שמלבישי' להמדות כו')
+
+
+### Traducción
+Así es jashmal, vestidura de Zeer Anpín y Nukvá, como el intelecto vestido en una parábola. Procede de Biná, que está muy por encima de las midot; después se convierte en vestidura de Zeer Anpín y Nukvá, situándose por debajo de ellos, como el mashal es exterior respecto del nimshal y solo su vestidura. Se comprenden así dos aspectos de jashmal: por su raíz, es muy elevado, superior a las midot, pues procede de Biná; por su expansión, es exterior, en combinaciones de letras. Las letras constituyen el último nivel de las diez sefirot. Jashmal viste a Zeer Anpín y Nukvá como las letras visten a las midot.
+
+
+### Explicación
+La raíz y la función se distinguen: Biná origina la vestidura, mientras las combinaciones de letras permiten transmitir. Esta doble posición prepara la explicación de jash y mal.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 59. Jash y mal: silencio y transmisión
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 30}, "end": {"page": 4, "column": "left", "line": 35}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+וזהו פי' חשמל חש מל פי' חש לשון שתיקה היינו מצד בחי' א' שבו שהוא שרשו מהבינה כי סייג לחכמה שתיקה כי הוי"ה בחכמה ולכן החכמה היא בחי' ביטול וזהו השתיקה וע"ד שמשה רבע"ה הי' כבד פה כו'. ומל לשון דיבור והתגלות זהו מצד בחי' הב' שבו כשנעשה לבוש לזו"נ כמו האותיות שמלבישי' הנמשל ועי"ז יוכל להיות השפעה זהו פי' מל:
+
+
+### Traducción
+Este es el significado de jashmal: jash y mal. Jash significa silencio, por su primer aspecto, su raíz en Biná; «el cerco de la sabiduría es el silencio», pues Havayá está en Jojmá. Por eso Jojmá es bitul, y ese es el silencio, como Moshé Rabenu, de bendita memoria, era «pesado de boca». Mal significa habla y revelación, por su segundo aspecto, cuando se hace vestidura de Zeer Anpín y Nukvá, como las letras que visten al nimshal. Así puede haber transmisión: ese es el sentido de mal.
+
+
+### Explicación
+Jash corresponde al bitul en la raíz de la sabiduría; mal, a su expresión en una vestidura transmisible. El silencio y el habla se entienden como dos momentos del mismo orden de revelación.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 60. Jashmal en los mundos y en los ángeles
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 36}, "end": {"page": 4, "column": "left", "line": 43}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+והנה זהו בחשמל שבי"ס עצמן וכן במלאכים שיש כמה אלפים רבבות מדרגות כמ"ש היש מספר לגדודיו ויש מהם שהם מבחי' החשמל ע"י כלים דאצילות (ור"ל שזה שנת"ל הוא ענין החשמל דבינה דאצילות המקיף לזו"נ דאצילות כנ"ל וכמו כן יש ג"כ בזו"נ דבי"ע ג"כ בחי' חשמל ומזה נמשך המסך שבין בריאה ליצירה ובין יצירה לעשיה. ושם יש ג"כ מלאכים שהם מבחי' חשמל וכידוע שמט"ט נק' נעל דשכינתא והרי נתבאר שהנעל זהו בחי' חשמל כו') וע"ז ארז"ל בשעה שהדבור יוצא מפי הקב"ה חשות.
+
+
+### Traducción
+Esto se refiere a jashmal en las diez sefirot mismas. También existe entre los ángeles, que tienen miles y miríadas de niveles, como está escrito: «¿Tienen número Sus ejércitos?». Algunos proceden del aspecto de jashmal mediante los recipientes de Atzilut. Lo explicado antes es jashmal de Biná de Atzilut, que rodea a Zeer Anpín y Nukvá de Atzilut. Del mismo modo hay jashmal en Zeer Anpín y Nukvá de Beriá, Yetzirá y Asiyá; de él se extiende la pantalla entre Beriá y Yetzirá y entre Yetzirá y Asiyá. Allí también hay ángeles del aspecto de jashmal. Es sabido que Metatrón se llama «calzado de la Shejiná», y se explicó que ese calzado es jashmal. Sobre ello dijeron los sabios: «Cuando el habla sale de la boca del Santo, bendito sea, callan».
+
+
+### Explicación
+El maamar extiende la distinción a los ángeles y a los mundos inferiores. La imagen del calzado conserva su función de mediación; el silencio de los ángeles se explicará por el bitul ante una revelación superior.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 61. Kudshá Berij Hu y la Shejiná
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 43}, "end": {"page": 4, "column": "left", "line": 47}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+פי' הקב"ה הוא ז"א כמו פי' קוב"ה ושכינתיה שכינתי' היינו מה ששוכן ומתלבש בתחתונים וקדוש הוא מובדל כך בחי' מלכות אין מלך בלא עם הוא בחי' השוכן ומתלבש בעם משא"כ מדותיו ית' לך ה' הגדולה כו' אין להם ערך ויחס לעם וזהו בחי' קדוש.
+
+
+### Traducción
+Aquí, el Santo, bendito sea, es Zeer Anpín, como en la expresión «Kudshá Berij Hu y Su Shejiná». Shejiná significa lo que mora y se reviste en los inferiores; kadosh significa separado. Así, Maljut —«no hay rey sin pueblo»— es el aspecto que mora y se reviste en el pueblo. En cambio, Sus midot, «Tuya, Hashem, es la grandeza…», no guardan proporción ni relación con el pueblo: este es el aspecto de kadosh.
+
+
+### Explicación
+El texto precisa el sentido de los nombres en este pasaje. Maljut se relaciona con los receptores como reinado; Zeer Anpín expresa las midot en su elevación respecto de ese vínculo.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 62. El silencio ante el habla divina
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 47}, "end": {"page": 4, "column": "left", "line": 50}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+והדבור שיוצא מפי הקב"ה הוא בחי' התגלות היינו מל מחשמל והוא כשזו"נ בוקעי' המסך ויורדי' ומתגלי' בעולם שלמטה ואזי הם המלאכים חשות שהם נכללים בביטול שנמשך מבחי' חכמה כנ"ל בענין סייג לחכמה
+
+
+### Traducción
+El habla que sale de la boca del Santo, bendito sea, es revelación: mal de jashmal. Ocurre cuando Zeer Anpín y Nukvá atraviesan la pantalla, descienden y se revelan en el mundo inferior. Entonces los ángeles callan, incluidos en el bitul que procede de Jojmá, como se explicó acerca del cerco de la sabiduría…
+
+
+### Explicación
+El mal del nivel superior produce jash en el receptor: cuando la revelación llega, los ángeles quedan incluidos en bitul. La explicación continúa en la hoja siguiente con el contraste entre silencio y alabanza.
+
+
+### Fuentes
+Hebreo cotejado con la hoja 4 aportada y Torá Or en Chabad/Kehot. Traducción de estudio y explicación basadas en el maamar del Alter Rebbe. Las referencias internas se transcriben de la fuente; no se afirma haber cotejado por separado cada obra citada. Se conservan abreviaturas del escaneo y el resaltado cubre líneas completas.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)

@@ -2,7 +2,7 @@
 
 We will study the opening of Lech Lecha in Torah Or, the Alter Rebbe’s collection of Chassidic discourses, first published in 1837. The passage asks how concealed wisdom becomes revealed and refines existence. We will read one idea in Hebrew, then its translation and explanation, and pause for your questions.
 
-45 bilingual units: the discourse on sheet 1 and complete sheets 2 and 3. Includes the conclusion of “ענין לך לך”, all of “אנכי מגן לך”, and the beginning of “ולא יקרא עוד שמך אברם”. Unit 45 continues on sheet 4, still awaiting preparation; a page boundary is not a section ending. Six sheets available for reference.
+62 bilingual units: the discourse on sheet 1 and complete sheets 2, 3 and 4. Includes all of “ענין לך לך”, “אנכי מגן לך” and “ולא יקרא עוד שמך אברם”, and the beginning of “והבדילה הפרוכת”. Unit 62 continues on sheet 5, still awaiting preparation; a page boundary is not a section ending. Six sheets available for reference.
 
 
 ## 1. Avram: wisdom still concealed
@@ -1058,3 +1058,394 @@ Chashmal articulates the two moments of the argument: concealment and expression
 Hebrew checked against supplied sheet 3 and the Torah Or edition published by Chabad/Kehot. Study translation and explanation based on this discourse of the Alter Rebbe. Citations of other works come from the discourse itself; independent verification of each reference is not claimed. The sheet’s abbreviations are preserved.
 
 - [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 46. The concealed is revealed in offspring
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 1}, "end": {"page": 4, "column": "right", "line": 5}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+בבחי' רם. הנסתרות לה' אלקינו חו"ב והנגלות לנו ולבנינו שע"י המילה נעשה נגלות לנו ולבנינו שהגילוי אינו אלא בבחי' לבנינו שהוא בחי' הולדה כי לכן כאשר נתוסף ה' באברהם מ"מ לא נעקר הרי"ש באברהם שעדיין הוא בחי' רם אלא שנתוסף בחי' ה' להיות בחי' רם זה בגילוי.
+
+
+### Translation
+In the aspect of ram, exalted. “The hidden things belong to Hashem our God”: Chochmah and Binah; “and the revealed things to us and our children.” Through milah they become revealed to us and our children. Revelation occurs specifically in “our children,” the aspect of bringing forth offspring. Therefore, when he was added to Avraham, the resh did not disappear: the aspect of ram remains, but he is added so that this exalted level becomes manifest.
+
+
+### Explanation
+This completes the sentence begun on the preceding sheet. The added he enables the level of ram to be revealed while retaining its elevation. The discourse connects that revelation with holadah, the capacity to bring forth offspring.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 47. Milah, periah, and the principal separation
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 5}, "end": {"page": 4, "column": "right", "line": 9}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+והנה המילה היא גילוי (ופריעה היא גילוי יותר כמו ופרע את ראש האשה. שחיטה מפורעת כו'). המסך המבדיל בין קדש לחול דישראל חולין שנעשו על טה"ק שהיא עיקר ההבדלה כי בשבעה הבדלות להבדיל בין הטמא כו' אין אנו אומרים לפי שא"צ כ"כ כי מאחר שמעבירים ההבדלה שבין קדש לחול כו':
+
+
+### Translation
+Milah is revelation; periah is a greater revelation, as in “he shall uncover the woman’s head” and the expression “uncovered slaughter.” The screen separating holy from ordinary in Israel—ordinary activity performed with the purity of the holy—is the principal separation. Among the seven distinctions, we do not say “between the impure…”, because it is not as necessary once the separation between holy and ordinary is removed.
+
+
+### Explanation
+The conclusion returns to the purpose of bringing kedushah into the realm of chol. Milah and periah are explained as degrees of revelation, and the distinction between kodesh and chol occupies the central place in the argument.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines. The footnote observes that the wording at “כי בשבעה” requires a small correction; it gives no replacement reading here. The body text checked against Chabad is retained.
+
+- [Torá Or · ולא יקרא עוד שמך אברם · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899141)
+
+
+## 48. The curtain before the gates
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 10}, "end": {"page": 4, "column": "right", "line": 16}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+והבדילה הפרוכת לכם. הנה בע"ח (שער מ"א) מבואר שיש פרסא (וע' בע"ח שער ז' פ"ב) ובגמרא בכתובות (דק"ו ע"א) איתא י"ג פרוכת היו במקדש שני ז' כנגד ז' שערים כו' ופרש"י דלצניעותא עבידי. והיינו כי בלילה היו השערים ננעלים וכדאיתא במסכת תמיד רק ביום היו פתוחים שיהיו נכנסין ויוצאין דרך פתחי השערים והיו מוכרחים להיות פתוחים אעפ"כ הי' פרוכת לכל שער לצניעות כו'.
+
+
+### Translation
+“The curtain shall divide for you.” Etz Chaim, Gate 41, explains that there is a parsa; see also Gate 7, chapter 2. The Gemara, Ketubot 106a, states that there were thirteen curtains in the Second Temple, seven opposite the seven gates. Rashi explains that they were made for privacy. At night the gates were closed, as related in Tamid; by day they were open for entering and leaving. Although they necessarily remained open, each gate had a curtain for concealment.
+
+
+### Explanation
+The discourse begins with an open gate that still has a curtain. This introduces the question of how revelation can occur while a mediating covering regulates its reception.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 49. The courtyard corresponds to Malchut
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 16}, "end": {"page": 4, "column": "right", "line": 18}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+וענין זה הוא כי הנה העזרה והלשכות הם מכוונים נגד מלכות דאצילות כי למעלה במלכות יש כל הבחי' שבעזרה וגם הר הבית ת"ק אמה כמ"ש בזהר שלח לך (דקס"א ע"ב).
+
+
+### Translation
+The meaning is that the courtyard and its chambers correspond to Malchut of Atzilut, for above, in Malchut, are all the aspects present in the courtyard. The Temple Mount also measures five hundred cubits, as explained in the Zohar, Shelach Lecha, 161b.
+
+
+### Explanation
+The structure of the Mikdash serves to explain the order of revelation in Malchut. The discourse therefore moves from the Temple’s gates and curtains to the opening and closing of spiritual levels.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 50. Night and the example of sleep
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 18}, "end": {"page": 4, "column": "right", "line": 25}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+והנה בלילה תרעין דג"ע אסתימו וכמו שננעלים השערים שערי העזרה הגם דכתי' ותקם בעוד לילה ותתן טרף לביתה היינו בבחי' חיצוניות דוקא וכמו באדם בשעת שינה שהוא הסתלקות וקבוץ החיות מן הדם הוא הנפש לתוך הלב ונסתם הכל בתוכו שאין מתפשט ממנו פנימית החיות רק קיסטא דחיותא וחיצוניות שאז הוא דוקא גילוי והתפשטות חיצוניות החיות כמו כח הזן וכח המעכל שבנפש שהן בחי' חיצוניות לגבי כח השכל והמדות וראיה ושמיעה.
+
+
+### Translation
+At night the gates of Gan Eden close, just as the courtyard gates close. Although it is written, “She rises while it is still night and gives food to her household,” this occurs specifically in the outward aspect. It is like a person’s sleep: vitality withdraws and gathers, from “the blood is the life,” into the heart, remaining enclosed there. The inward vitality does not spread, but only a reduced measure of life and its outward aspect. The outward faculties then manifest and expand, such as the soul’s powers of nourishment and digestion, outward relative to intellect, the emotional attributes, sight, and hearing.
+
+
+### Explanation
+The discourse distinguishes the inward and outward dimensions of vitality. The closing of the gates describes withdrawal of inward illumination while the influence needed to sustain the lower levels continues.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 51. Faculties included within intellect
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 25}, "end": {"page": 4, "column": "right", "line": 30}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+והתפשטותן עיקרן בשעת שינה שבשעה שאינו ישן ומאיר השכל אז כח המעכל והזן אינן בהתפשטות כ"כ מצד התכללותן בכח השכל כנר בפני אבוקה ולכן מעכב התפשטותן אבל בשעת שינה שמסתלק ממשלת כח השכל אז הן מתפשטין ואז הקיבה מעכל ושולח אל הכבד כו'. וכח הזן והמעכל והדוחה וכה"ג הם כחות חיצוניות ותחתוניות שבנפש.
+
+
+### Translation
+Their principal expansion occurs during sleep. When a person is awake and intellect shines, the faculties of digestion and nourishment do not expand as much, because they are included in the intellectual faculty like a candle before a great flame; this restrains their expansion. During sleep, when intellect’s governance withdraws, they expand, and the stomach digests and sends to the liver. Nourishment, digestion, expulsion, and similar faculties are outward and lower powers of the soul.
+
+
+### Explanation
+The image of a candle before a great flame returns: a lower faculty is included within the higher one. Withdrawal of the dominant light allows the outward powers to manifest according to their own level.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 52. Malchut’s illumination by night and day
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 31}, "end": {"page": 4, "column": "right", "line": 37}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+וכך למעלה במלכות דאצי' שבלילה תרעין דג"ע אסתימו שההארה שנמשך מבחי' מל' בג"ע זיו השכינה זהו עיקר הארת פנימיות המל' (דהיינו שההמשכה מבחי' ג"ר שבמל' וכמ"ש במ"א בביאור הזהר פ' אחרי) ובלילה מסתלק הארה זו אלא שהשפע' חיצוניות נמשך אז והיינו ותתן טרף בבי"ע (והמשכה זו מבחי' ז"ת שבמל') וביום נפתחים תרעי דג"ע לפי שיש התגברות החסדים חסד אל כל היום ע"כ נמשך אז המשכה הפנימית
+
+
+### Translation
+So it is above, in Malchut of Atzilut: at night the gates of Gan Eden close. Malchut’s illumination in Gan Eden, the radiance of the Shechinah, is primarily Malchut’s inward illumination, proceeding from its first three sefirot, as explained elsewhere on the Zohar, Acharei. At night this illumination withdraws, while outward influence continues: “She gives food,” in Beriah, Yetzirah, and Asiyah; this extension comes from Malchut’s seven lower sefirot. By day the gates of Gan Eden open because the chasadim prevail: “God’s kindness all day.” Thus the inward influence is then extended.
+
+
+### Explanation
+The sleep example is applied to Malchut. The text specifies two origins: the first three sefirot for inward illumination and the seven lower ones for the outward sustenance of Beriah, Yetzirah, and Asiyah.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 53. Chashmal as garment and shoe
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 37}, "end": {"page": 4, "column": "right", "line": 46}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+ואעפ"כ יש בחי' פרוכת פרסא ונמשך המשכה זו ע"י אמצעות הפרסא והפרסא היא מבחי' חשמל שהוא מחיצוניות הבינה שמלביש ומקיף את י"ס דז"א וי"ס דנוק' כתנות עור ומלבישם מצדיהם והוא בכדי שלא יהיה יניקת החיצונים ומתחת רגליהם הוא בחי' מנעל להיות הפסק בין אצילות לבריאה וליצירה כו' (ונעל הזה הוא בחי' המסך והפרסא המפסיק בין אצילות לבריאה כמ"ש בע"ח שמ"א פ"א ופרק ו' ובשער מ' פ"א) וכמו שפירש"י לצניעות דהיינו שלא יהיה כל גילוי האור של אצילות בבריאה כ"א בדרך מסך שהמלכות דאצילות בוקע המסך ונעשה עתיק לבריאה (ע' בע"ח שמ"א פ"א ואגה"ק איהו וחיוהי) וכן בכל עולם.
+
+
+### Translation
+Nevertheless there is a parochet, a parsa, and the influence extends through its mediation. The parsa comes from chashmal, the outward aspect of Binah, which clothes and surrounds the ten sefirot of Zeir Anpin and the ten of Nukva, like garments of skin. It clothes their sides to prevent the external forces from drawing nourishment; beneath their feet it is like a shoe separating Atzilut from Beriah and Yetzirah. That shoe is the screen and parsa separating Atzilut from Beriah, as explained in Etz Chaim, Gate 41, chapters 1 and 6, and Gate 40, chapter 1. As Rashi explains, it is for concealment: so that all of Atzilut’s light is not revealed in Beriah, but passes through a screen. Malchut of Atzilut penetrates that screen and becomes Atik of Beriah; see Etz Chaim, Gate 41, chapter 1, and Iggeret HaKodesh, “Ihu vechayohi.” So it is in each world.
+
+
+### Explanation
+Chashmal has two functions: as a garment around the sides it protects against yenikah; as a shoe it establishes separation between worlds. Revelation into Beriah passes through this mediation, preserving each world’s own order.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 54. The parsa between Beriah and Yetzirah
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 47}, "end": {"page": 4, "column": "left", "line": 2}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+שבבריאה נעשה ג"כ חשמל מחיצוניות הבינה ומקיף לזו"נ עד שנעשה מנעל כו' (בע"ח שמ"א פ"א שהמסך שבין בריאה ליצירה אינו מבינה דבריאה אלא מת"ת דבריאה אלא שבת"ת יש ג"כ חשמל כמ"ש הרמ"ז ס"פ יתרו בשם א"י. ואמנם בלקוטי הש"ס מהאריז"ל דט"ז ד"ה לכי ומעטי א"ע כמ"ש כאן ע"ש ועמ"ש בביאור ע"פ כי ביום הזה יכפר).
+
+
+### Translation
+In Beriah too, chashmal forms from the outward aspect of Binah, surrounding Zeir Anpin and Nukva until becoming a shoe. Etz Chaim, Gate 41, chapter 1, states that the screen between Beriah and Yetzirah comes not from Binah of Beriah but from Tiferet of Beriah; yet Tiferet also contains chashmal, as the Ramaz writes at the end of Yitro in the name of Adam Yashar. In the Arizal’s Likkutei HaShas, folio 16, under “Lechi umaati et atzmech,” it is explained as here. See also the explanation of “For on this day He shall atone.”
+
+
+### Explanation
+The text preserves a distinction among sources concerning the level from which the screen proceeds. What unites the explanation is the presence of chashmal and its mediating function in passing from one world to another.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines. The notes identify א״י as the book Adam Yashar and record “כי ביום הזה יכפר” as an addition in the Zhitomir printing, also present in the manuscript cited by the edition.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 55. Intellect surrounding the attributes
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 2}, "end": {"page": 4, "column": "left", "line": 12}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+ולהבין ענין חשמל זה מה ענינו הנה מבשרי אחזה כי במדות אין שם התגלות כל השכל שאם כן היו המדות בטלים בהשכל ולא הי' מהם כלל התפשטות והמשכה אלא שאעפ"כ מקיף עליהם הארה מועטת מחיצוניות הבינה בחי' התבוננות שלמעלה מן המדות בכדי שלא יהי' יניקת החיצונים שמהמדות יכול להיות אחיזה לסט"א וכמארז"ל לא כאברהם שיצא ממנו ישמעאל כו' וכן שבה"כ היה בהמדות לפיכך צ"ל בחי' חשמל מקיף שלא יהי' להם יניקה מהמדות אלא בדרך שערות וצפרנים כפי הצורך בלבד (כי חשמל זה הוא מהבינה וחו"ב הן תרין ריעין כו' ומחכמה אין יניקה לחיצונים כנודע מענין הנגעים וכמ"ש ימותו ולא בחכמה לפי שחכמה כח מה בחי' בטול לאור א"ס כו').
+
+
+### Translation
+To understand this chashmal, “from my flesh I shall behold”: the full intellect is not revealed within the emotional attributes, for then they would be nullified within it and would have no expansion or influence of their own. Nevertheless, a small illumination from the outward aspect of Binah surrounds them, a contemplation above the attributes, to prevent nourishment of the external forces. The attributes can provide a foothold for the sitra achra, as the sages said, “Not like Avraham, from whom Ishmael emerged”; the breaking of the vessels also occurred in the attributes. Chashmal must therefore surround them, so those forces receive nourishment from the attributes only through the channels of hairs and nails, in the necessary measure. This chashmal comes from Binah, and Chochmah and Binah are two inseparable companions. The external forces do not draw nourishment from Chochmah, as known concerning afflictions and “They will die, but not with wisdom,” for Chochmah is koach mah, bittul before the light of Ein Sof.
+
+
+### Explanation
+The attributes need room to unfold, yet remain surrounded by an illumination of Binah. That contemplation maintains their bond with the intellectual root and limits the possibility of influence passing to the sitra achra.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 56. A garment with a higher root
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 12}, "end": {"page": 4, "column": "left", "line": 14}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+ופי' ענין החשמל שמלביש לזו"נ והרי הוא חיצוניות אצלן ואעפ"כ שרשו גבוה מהן שהרי הוא מהבינה.
+
+
+### Translation
+The meaning of chashmal is that it clothes Zeir Anpin and Nukva: in relation to them it is outward, yet its root is higher than they are, since it comes from Binah.
+
+
+### Explanation
+The discourse distinguishes the garment’s root from its position when it unfolds. The next example, the mashal, will show how something outward can proceed from higher understanding.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 57. A mashal requires elevated wisdom
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 14}, "end": {"page": 4, "column": "left", "line": 22}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+הענין הוא כמו המשל שהוא לבוש להנמשל דהנה צירופי אותיות המשל הם גשמיות נגד הנמשל ולבוש לבד להנמשל אך מ"מ שרש המשל הוא גבוה מאד נעלה שאין כל אדם יכול לומר משלים אלא משלי שלמה ובגמרא אמרו על רבי מאיר תלתא שמעתא ותלתא מתלי ואמרו משמת רבי מאיר בטלו מושלי משלים כו' והיינו כי דוקא מי ששכלו שכל גבוה יכול לצמצם שכלו במשל שיהיה מכוון נגד הנמשל ממש משא"כ מי שאין לו שכל גבוה כל כך די לו במה שיבין השכל כאשר הוא אבל לא יוכל להסביר פנים במשל ואם יאמר משל לא יהי' המכוון כו'.
+
+
+### Translation
+It is like a mashal, which is the garment of the nimshal. The combinations of letters in the mashal are material relative to the idea it expresses and serve only as its garment. Yet the mashal’s root is very elevated: not everyone can formulate parables; there are Solomon’s parables. The Gemara says of Rabbi Meir, “three teachings and three parables,” and that when Rabbi Meir died, masters of parables ceased. Specifically one with an elevated intellect can concentrate his understanding into a mashal that corresponds precisely to the nimshal. Someone without that level may understand the idea as it is, yet be unable to explain it through a parable; if he formulates one, it will not correspond to the intended meaning.
+
+
+### Explanation
+The mashal presents the idea in accessible language. Preserving its correspondence with the nimshal requires a deep grasp of the idea itself. This explains the higher root of an outward garment.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines. The footnote discusses “המכוון” on the line beginning “ואם יאמר”: it records that reading in the cited manuscript and “מכוון” in the glosses and corrections. “המכוון” is retained as in the body and Chabad.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 58. The two aspects of chashmal
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 22}, "end": {"page": 4, "column": "left", "line": 30}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+ועד"ז הוא בחי' החשמל שהוא לבוש לזו"נ כהתלבשות השכל במשל והיינו לפי שנמשך מהבינה שהיא למעלה מעלה מהמדות כו' רק אח"כ נעשה לבוש לזו"נ והוא למטה מהן כמו שהמשל הוא חיצוניות לגבי הנמשל ולבוש לבד והרי א"כ מובן שיש בבחי' החשמל הזה ב' בחינות א' מצד שרשו שהוא גבוה מאד נעלה למעלה מן המדות שהוא מבחי' הבינה והב' מצד התפשטותו בבחי' חיצוניות בבחי' צירופי אותיות שהאותיות הם מדרגה האחרונה שבכל הי"ס (ומה שמלביש החשמל לזו"נ היינו כמו אותיות שמלבישי' להמדות כו')
+
+
+### Translation
+So it is with chashmal, the garment of Zeir Anpin and Nukva, like intellect clothed in a parable. It comes from Binah, far above the emotional attributes; afterward it becomes a garment for Zeir Anpin and Nukva, below them, just as the mashal is outward relative to the nimshal and serves only as its garment. Thus chashmal has two aspects: in its root it is highly elevated, above the attributes, coming from Binah; in its expansion it is outward, in combinations of letters. Letters constitute the last level of the ten sefirot. Chashmal clothes Zeir Anpin and Nukva as letters clothe the attributes.
+
+
+### Explanation
+Root and function are distinguished: Binah gives rise to the garment, while combinations of letters enable transmission. This twofold position prepares the explanation of chash and mal.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 59. Chash and mal: silence and transmission
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 30}, "end": {"page": 4, "column": "left", "line": 35}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+וזהו פי' חשמל חש מל פי' חש לשון שתיקה היינו מצד בחי' א' שבו שהוא שרשו מהבינה כי סייג לחכמה שתיקה כי הוי"ה בחכמה ולכן החכמה היא בחי' ביטול וזהו השתיקה וע"ד שמשה רבע"ה הי' כבד פה כו'. ומל לשון דיבור והתגלות זהו מצד בחי' הב' שבו כשנעשה לבוש לזו"נ כמו האותיות שמלבישי' הנמשל ועי"ז יוכל להיות השפעה זהו פי' מל:
+
+
+### Translation
+This is the meaning of chashmal: chash and mal. Chash means silence, from its first aspect, its root in Binah; “the fence of wisdom is silence,” for Havayah is in Chochmah. Chochmah is therefore bittul, and this is silence, like Moshe Rabbeinu, of blessed memory, who was “heavy of mouth.” Mal means speech and revelation, from its second aspect, when it becomes a garment for Zeir Anpin and Nukva, like letters clothing the nimshal. This makes transmission possible: that is the meaning of mal.
+
+
+### Explanation
+Chash corresponds to bittul at the root of wisdom; mal to its expression in a transmissible garment. Silence and speech are understood as two moments in the same order of revelation.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 60. Chashmal in the worlds and the angels
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 36}, "end": {"page": 4, "column": "left", "line": 43}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+והנה זהו בחשמל שבי"ס עצמן וכן במלאכים שיש כמה אלפים רבבות מדרגות כמ"ש היש מספר לגדודיו ויש מהם שהם מבחי' החשמל ע"י כלים דאצילות (ור"ל שזה שנת"ל הוא ענין החשמל דבינה דאצילות המקיף לזו"נ דאצילות כנ"ל וכמו כן יש ג"כ בזו"נ דבי"ע ג"כ בחי' חשמל ומזה נמשך המסך שבין בריאה ליצירה ובין יצירה לעשיה. ושם יש ג"כ מלאכים שהם מבחי' חשמל וכידוע שמט"ט נק' נעל דשכינתא והרי נתבאר שהנעל זהו בחי' חשמל כו') וע"ז ארז"ל בשעה שהדבור יוצא מפי הקב"ה חשות.
+
+
+### Translation
+This concerns chashmal within the ten sefirot themselves. It also exists among the angels, which have thousands and myriads of levels, as it is written, “Is there a number to His hosts?” Some come from the aspect of chashmal through the vessels of Atzilut. What was explained above is the chashmal of Binah of Atzilut surrounding Zeir Anpin and Nukva of Atzilut. Likewise there is chashmal in Zeir Anpin and Nukva of Beriah, Yetzirah, and Asiyah; from it extends the screen between Beriah and Yetzirah and between Yetzirah and Asiyah. There too are angels from the aspect of chashmal. Metatron is known as “the shoe of the Shechinah,” and that shoe has been explained as chashmal. Of this the sages said, “When speech goes forth from the mouth of the Holy One, blessed be He, they are silent.”
+
+
+### Explanation
+The discourse extends the distinction to the angels and the lower worlds. The shoe image retains its mediating function; the angels’ silence will be explained through bittul before a higher revelation.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 61. Kudsha Berich Hu and the Shechinah
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 43}, "end": {"page": 4, "column": "left", "line": 47}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+פי' הקב"ה הוא ז"א כמו פי' קוב"ה ושכינתיה שכינתי' היינו מה ששוכן ומתלבש בתחתונים וקדוש הוא מובדל כך בחי' מלכות אין מלך בלא עם הוא בחי' השוכן ומתלבש בעם משא"כ מדותיו ית' לך ה' הגדולה כו' אין להם ערך ויחס לעם וזהו בחי' קדוש.
+
+
+### Translation
+Here the Holy One, blessed be He, is Zeir Anpin, as in the expression “Kudsha Berich Hu and His Shechinah.” Shechinah means that which dwells and is clothed in those below; kadosh means set apart. Thus Malchut—“there is no king without a people”—is the aspect that dwells and is clothed in the people. His attributes, however, “Yours, Hashem, is the greatness…”, have no proportion or relation to the people: this is the aspect of kadosh.
+
+
+### Explanation
+The text specifies the meaning of these names in this passage. Malchut relates to recipients as kingship; Zeir Anpin expresses the attributes in their elevation above that relationship.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)
+
+
+## 62. Silence before divine speech
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 47}, "end": {"page": 4, "column": "left", "line": 50}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+
+### עברית
+והדבור שיוצא מפי הקב"ה הוא בחי' התגלות היינו מל מחשמל והוא כשזו"נ בוקעי' המסך ויורדי' ומתגלי' בעולם שלמטה ואזי הם המלאכים חשות שהם נכללים בביטול שנמשך מבחי' חכמה כנ"ל בענין סייג לחכמה
+
+
+### Translation
+The speech going forth from the mouth of the Holy One, blessed be He, is revelation: mal of chashmal. It occurs when Zeir Anpin and Nukva penetrate the screen, descend, and become revealed in the lower world. The angels then fall silent, included in the bittul proceeding from Chochmah, as explained concerning the fence of wisdom…
+
+
+### Explanation
+The mal of the higher level produces chash in the recipient: when revelation arrives, the angels become included in bittul. The explanation continues on the next sheet with the contrast between silence and praise.
+
+
+### Sources
+Hebrew checked against supplied sheet 4 and Torah Or on Chabad/Kehot. Study translation and explanation based on the Alter Rebbe’s discourse. Internal references are transcribed from the source; separate verification of each cited work is not claimed. Scan abbreviations are preserved; highlights cover whole lines.
+
+- [Torá Or · והבדילה הפרוכת · Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899142)

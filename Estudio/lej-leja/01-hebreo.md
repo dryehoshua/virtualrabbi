@@ -1,6 +1,6 @@
 # Lej Lejá · Torá Or · עברית
 
-45 unidades bilingües: maamar de la hoja 1 y hojas 2 y 3 completas. Incluye el cierre de «ענין לך לך», «אנכי מגן לך» completo y el comienzo de «ולא יקרא עוד שמך אברם». La unidad 45 continúa en la hoja 4, aún pendiente; el cambio de hoja no equivale a un cierre de sección. Seis hojas disponibles para consulta.
+62 unidades bilingües: maamar de la hoja 1 y hojas 2, 3 y 4 completas. Incluye «ענין לך לך», «אנכי מגן לך» y «ולא יקרא עוד שמך אברם» completos, y el comienzo de «והבדילה הפרוכת». La unidad 62 continúa en la hoja 5, aún pendiente; el cambio de hoja no equivale a un cierre de sección. Seis hojas disponibles para consulta.
 
 El hebreo de cada unidad es la fuente de lectura; las traducciones y explicaciones se guardan aparte. / Each unit’s Hebrew is the reading source; translations and explanations are stored separately.
 
@@ -273,3 +273,105 @@ Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 41}, "end
 Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 46}, "end": {"page": 3, "column": "left", "line": 50}, "basis": "Líneas de cada columna de la hoja 3, sin encabezados, ornamentos ni notas al pie. Bandas de líneas completas, compartidas cuando cambia la unidad a mitad de línea. / Lines of each column on sheet 3, excluding headings, ornaments and footnotes; whole-line bands may be shared.", "printed_page": "יב"}
 
 וגילוי זה למעלה הוא בבחי' חשמל עתים חשות דהיינו שלפעמים הוא בבחי' העלם סייג לחכמה שתיקה ועתים ממללות בחי' דבור וגילוי וגם מל מלשון והוא ישב ממולי שהוא פי' נגדי כלומר דבר שנראה כאילו הוא לנוכח עיניו. ולמטה באדם התחתון הנה כתיב נעשה אדם בצלמנו כדמותנו יש ג"כ מסך על אבר המשפיע שהוא
+
+## 46. lej-leja-01-46
+
+Ubicación / Location: {"start": {"page": 4, "column": "right", "line": 1}, "end": {"page": 4, "column": "right", "line": 5}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+בבחי' רם. הנסתרות לה' אלקינו חו"ב והנגלות לנו ולבנינו שע"י המילה נעשה נגלות לנו ולבנינו שהגילוי אינו אלא בבחי' לבנינו שהוא בחי' הולדה כי לכן כאשר נתוסף ה' באברהם מ"מ לא נעקר הרי"ש באברהם שעדיין הוא בחי' רם אלא שנתוסף בחי' ה' להיות בחי' רם זה בגילוי.
+
+## 47. lej-leja-01-47
+
+Ubicación / Location: {"start": {"page": 4, "column": "right", "line": 5}, "end": {"page": 4, "column": "right", "line": 9}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+והנה המילה היא גילוי (ופריעה היא גילוי יותר כמו ופרע את ראש האשה. שחיטה מפורעת כו'). המסך המבדיל בין קדש לחול דישראל חולין שנעשו על טה"ק שהיא עיקר ההבדלה כי בשבעה הבדלות להבדיל בין הטמא כו' אין אנו אומרים לפי שא"צ כ"כ כי מאחר שמעבירים ההבדלה שבין קדש לחול כו':
+
+## 48. lej-leja-01-48
+
+Ubicación / Location: {"start": {"page": 4, "column": "right", "line": 10}, "end": {"page": 4, "column": "right", "line": 16}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+והבדילה הפרוכת לכם. הנה בע"ח (שער מ"א) מבואר שיש פרסא (וע' בע"ח שער ז' פ"ב) ובגמרא בכתובות (דק"ו ע"א) איתא י"ג פרוכת היו במקדש שני ז' כנגד ז' שערים כו' ופרש"י דלצניעותא עבידי. והיינו כי בלילה היו השערים ננעלים וכדאיתא במסכת תמיד רק ביום היו פתוחים שיהיו נכנסין ויוצאין דרך פתחי השערים והיו מוכרחים להיות פתוחים אעפ"כ הי' פרוכת לכל שער לצניעות כו'.
+
+## 49. lej-leja-01-49
+
+Ubicación / Location: {"start": {"page": 4, "column": "right", "line": 16}, "end": {"page": 4, "column": "right", "line": 18}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+וענין זה הוא כי הנה העזרה והלשכות הם מכוונים נגד מלכות דאצילות כי למעלה במלכות יש כל הבחי' שבעזרה וגם הר הבית ת"ק אמה כמ"ש בזהר שלח לך (דקס"א ע"ב).
+
+## 50. lej-leja-01-50
+
+Ubicación / Location: {"start": {"page": 4, "column": "right", "line": 18}, "end": {"page": 4, "column": "right", "line": 25}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+והנה בלילה תרעין דג"ע אסתימו וכמו שננעלים השערים שערי העזרה הגם דכתי' ותקם בעוד לילה ותתן טרף לביתה היינו בבחי' חיצוניות דוקא וכמו באדם בשעת שינה שהוא הסתלקות וקבוץ החיות מן הדם הוא הנפש לתוך הלב ונסתם הכל בתוכו שאין מתפשט ממנו פנימית החיות רק קיסטא דחיותא וחיצוניות שאז הוא דוקא גילוי והתפשטות חיצוניות החיות כמו כח הזן וכח המעכל שבנפש שהן בחי' חיצוניות לגבי כח השכל והמדות וראיה ושמיעה.
+
+## 51. lej-leja-01-51
+
+Ubicación / Location: {"start": {"page": 4, "column": "right", "line": 25}, "end": {"page": 4, "column": "right", "line": 30}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+והתפשטותן עיקרן בשעת שינה שבשעה שאינו ישן ומאיר השכל אז כח המעכל והזן אינן בהתפשטות כ"כ מצד התכללותן בכח השכל כנר בפני אבוקה ולכן מעכב התפשטותן אבל בשעת שינה שמסתלק ממשלת כח השכל אז הן מתפשטין ואז הקיבה מעכל ושולח אל הכבד כו'. וכח הזן והמעכל והדוחה וכה"ג הם כחות חיצוניות ותחתוניות שבנפש.
+
+## 52. lej-leja-01-52
+
+Ubicación / Location: {"start": {"page": 4, "column": "right", "line": 31}, "end": {"page": 4, "column": "right", "line": 37}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+וכך למעלה במלכות דאצי' שבלילה תרעין דג"ע אסתימו שההארה שנמשך מבחי' מל' בג"ע זיו השכינה זהו עיקר הארת פנימיות המל' (דהיינו שההמשכה מבחי' ג"ר שבמל' וכמ"ש במ"א בביאור הזהר פ' אחרי) ובלילה מסתלק הארה זו אלא שהשפע' חיצוניות נמשך אז והיינו ותתן טרף בבי"ע (והמשכה זו מבחי' ז"ת שבמל') וביום נפתחים תרעי דג"ע לפי שיש התגברות החסדים חסד אל כל היום ע"כ נמשך אז המשכה הפנימית
+
+## 53. lej-leja-01-53
+
+Ubicación / Location: {"start": {"page": 4, "column": "right", "line": 37}, "end": {"page": 4, "column": "right", "line": 46}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+ואעפ"כ יש בחי' פרוכת פרסא ונמשך המשכה זו ע"י אמצעות הפרסא והפרסא היא מבחי' חשמל שהוא מחיצוניות הבינה שמלביש ומקיף את י"ס דז"א וי"ס דנוק' כתנות עור ומלבישם מצדיהם והוא בכדי שלא יהיה יניקת החיצונים ומתחת רגליהם הוא בחי' מנעל להיות הפסק בין אצילות לבריאה וליצירה כו' (ונעל הזה הוא בחי' המסך והפרסא המפסיק בין אצילות לבריאה כמ"ש בע"ח שמ"א פ"א ופרק ו' ובשער מ' פ"א) וכמו שפירש"י לצניעות דהיינו שלא יהיה כל גילוי האור של אצילות בבריאה כ"א בדרך מסך שהמלכות דאצילות בוקע המסך ונעשה עתיק לבריאה (ע' בע"ח שמ"א פ"א ואגה"ק איהו וחיוהי) וכן בכל עולם.
+
+## 54. lej-leja-01-54
+
+Ubicación / Location: {"start": {"page": 4, "column": "right", "line": 47}, "end": {"page": 4, "column": "left", "line": 2}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+שבבריאה נעשה ג"כ חשמל מחיצוניות הבינה ומקיף לזו"נ עד שנעשה מנעל כו' (בע"ח שמ"א פ"א שהמסך שבין בריאה ליצירה אינו מבינה דבריאה אלא מת"ת דבריאה אלא שבת"ת יש ג"כ חשמל כמ"ש הרמ"ז ס"פ יתרו בשם א"י. ואמנם בלקוטי הש"ס מהאריז"ל דט"ז ד"ה לכי ומעטי א"ע כמ"ש כאן ע"ש ועמ"ש בביאור ע"פ כי ביום הזה יכפר).
+
+## 55. lej-leja-01-55
+
+Ubicación / Location: {"start": {"page": 4, "column": "left", "line": 2}, "end": {"page": 4, "column": "left", "line": 12}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+ולהבין ענין חשמל זה מה ענינו הנה מבשרי אחזה כי במדות אין שם התגלות כל השכל שאם כן היו המדות בטלים בהשכל ולא הי' מהם כלל התפשטות והמשכה אלא שאעפ"כ מקיף עליהם הארה מועטת מחיצוניות הבינה בחי' התבוננות שלמעלה מן המדות בכדי שלא יהי' יניקת החיצונים שמהמדות יכול להיות אחיזה לסט"א וכמארז"ל לא כאברהם שיצא ממנו ישמעאל כו' וכן שבה"כ היה בהמדות לפיכך צ"ל בחי' חשמל מקיף שלא יהי' להם יניקה מהמדות אלא בדרך שערות וצפרנים כפי הצורך בלבד (כי חשמל זה הוא מהבינה וחו"ב הן תרין ריעין כו' ומחכמה אין יניקה לחיצונים כנודע מענין הנגעים וכמ"ש ימותו ולא בחכמה לפי שחכמה כח מה בחי' בטול לאור א"ס כו').
+
+## 56. lej-leja-01-56
+
+Ubicación / Location: {"start": {"page": 4, "column": "left", "line": 12}, "end": {"page": 4, "column": "left", "line": 14}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+ופי' ענין החשמל שמלביש לזו"נ והרי הוא חיצוניות אצלן ואעפ"כ שרשו גבוה מהן שהרי הוא מהבינה.
+
+## 57. lej-leja-01-57
+
+Ubicación / Location: {"start": {"page": 4, "column": "left", "line": 14}, "end": {"page": 4, "column": "left", "line": 22}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+הענין הוא כמו המשל שהוא לבוש להנמשל דהנה צירופי אותיות המשל הם גשמיות נגד הנמשל ולבוש לבד להנמשל אך מ"מ שרש המשל הוא גבוה מאד נעלה שאין כל אדם יכול לומר משלים אלא משלי שלמה ובגמרא אמרו על רבי מאיר תלתא שמעתא ותלתא מתלי ואמרו משמת רבי מאיר בטלו מושלי משלים כו' והיינו כי דוקא מי ששכלו שכל גבוה יכול לצמצם שכלו במשל שיהיה מכוון נגד הנמשל ממש משא"כ מי שאין לו שכל גבוה כל כך די לו במה שיבין השכל כאשר הוא אבל לא יוכל להסביר פנים במשל ואם יאמר משל לא יהי' המכוון כו'.
+
+## 58. lej-leja-01-58
+
+Ubicación / Location: {"start": {"page": 4, "column": "left", "line": 22}, "end": {"page": 4, "column": "left", "line": 30}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+ועד"ז הוא בחי' החשמל שהוא לבוש לזו"נ כהתלבשות השכל במשל והיינו לפי שנמשך מהבינה שהיא למעלה מעלה מהמדות כו' רק אח"כ נעשה לבוש לזו"נ והוא למטה מהן כמו שהמשל הוא חיצוניות לגבי הנמשל ולבוש לבד והרי א"כ מובן שיש בבחי' החשמל הזה ב' בחינות א' מצד שרשו שהוא גבוה מאד נעלה למעלה מן המדות שהוא מבחי' הבינה והב' מצד התפשטותו בבחי' חיצוניות בבחי' צירופי אותיות שהאותיות הם מדרגה האחרונה שבכל הי"ס (ומה שמלביש החשמל לזו"נ היינו כמו אותיות שמלבישי' להמדות כו')
+
+## 59. lej-leja-01-59
+
+Ubicación / Location: {"start": {"page": 4, "column": "left", "line": 30}, "end": {"page": 4, "column": "left", "line": 35}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+וזהו פי' חשמל חש מל פי' חש לשון שתיקה היינו מצד בחי' א' שבו שהוא שרשו מהבינה כי סייג לחכמה שתיקה כי הוי"ה בחכמה ולכן החכמה היא בחי' ביטול וזהו השתיקה וע"ד שמשה רבע"ה הי' כבד פה כו'. ומל לשון דיבור והתגלות זהו מצד בחי' הב' שבו כשנעשה לבוש לזו"נ כמו האותיות שמלבישי' הנמשל ועי"ז יוכל להיות השפעה זהו פי' מל:
+
+## 60. lej-leja-01-60
+
+Ubicación / Location: {"start": {"page": 4, "column": "left", "line": 36}, "end": {"page": 4, "column": "left", "line": 43}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+והנה זהו בחשמל שבי"ס עצמן וכן במלאכים שיש כמה אלפים רבבות מדרגות כמ"ש היש מספר לגדודיו ויש מהם שהם מבחי' החשמל ע"י כלים דאצילות (ור"ל שזה שנת"ל הוא ענין החשמל דבינה דאצילות המקיף לזו"נ דאצילות כנ"ל וכמו כן יש ג"כ בזו"נ דבי"ע ג"כ בחי' חשמל ומזה נמשך המסך שבין בריאה ליצירה ובין יצירה לעשיה. ושם יש ג"כ מלאכים שהם מבחי' חשמל וכידוע שמט"ט נק' נעל דשכינתא והרי נתבאר שהנעל זהו בחי' חשמל כו') וע"ז ארז"ל בשעה שהדבור יוצא מפי הקב"ה חשות.
+
+## 61. lej-leja-01-61
+
+Ubicación / Location: {"start": {"page": 4, "column": "left", "line": 43}, "end": {"page": 4, "column": "left", "line": 47}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+פי' הקב"ה הוא ז"א כמו פי' קוב"ה ושכינתיה שכינתי' היינו מה ששוכן ומתלבש בתחתונים וקדוש הוא מובדל כך בחי' מלכות אין מלך בלא עם הוא בחי' השוכן ומתלבש בעם משא"כ מדותיו ית' לך ה' הגדולה כו' אין להם ערך ויחס לעם וזהו בחי' קדוש.
+
+## 62. lej-leja-01-62
+
+Ubicación / Location: {"start": {"page": 4, "column": "left", "line": 47}, "end": {"page": 4, "column": "left", "line": 50}, "basis": "Líneas de cada columna de la hoja 4, sin encabezado, ornamentos ni notas al pie. Bandas de líneas completas; las unidades pueden compartir una línea. / Lines of each column on sheet 4, excluding heading, ornaments and footnotes. Whole-line bands may be shared.", "printed_page": "24"}
+
+והדבור שיוצא מפי הקב"ה הוא בחי' התגלות היינו מל מחשמל והוא כשזו"נ בוקעי' המסך ויורדי' ומתגלי' בעולם שלמטה ואזי הם המלאכים חשות שהם נכללים בביטול שנמשך מבחי' חכמה כנ"ל בענין סייג לחכמה

@@ -15,8 +15,8 @@ class Continuation(unittest.TestCase):
         with patch.object(extension.server,'update',side_effect=lambda _id,fn:fn(doc)):
             extension.extend()
             extension.extend()
-        self.assertEqual(len(doc['units']),36)
-        self.assertEqual(len({u['id'] for u in doc['units']}),36)
+        self.assertEqual(len(doc['units']),53)
+        self.assertEqual(len({u['id'] for u in doc['units']}),53)
         self.assertEqual(doc['units'][0],before['units'][0])
         for key in ('cursor','current_unit','completed','location'):
             self.assertEqual(doc[key],before[key])
@@ -40,7 +40,7 @@ class Continuation(unittest.TestCase):
         self.assertFalse(any(u.get('section_end') for u in units))
 
     def test_third_sheet_discourses_and_continuity(self):
-        units=extension.additions()[18:]
+        units=extension.additions()[18:35]
         self.assertEqual([u['id'] for u in units],[f'lej-leja-01-{n}' for n in range(29,46)])
         for column in ('right','left'):
             lines={r['line'] for u in units for r in u['regions'] if r['page']==3 and r['column']==column}
@@ -52,6 +52,21 @@ class Continuation(unittest.TestCase):
         self.assertTrue(units[6]['discourse_start'])
         self.assertEqual(units[-1]['continues_on_page'],4)
         self.assertTrue(units[-1]['hebrew'].endswith('שהוא'))
+        self.assertFalse(any(u['section_end'] for u in units))
+
+    def test_fourth_sheet_complete_and_continues_on_fifth(self):
+        units=extension.additions()[35:]
+        self.assertEqual([u['id'] for u in units],[f'lej-leja-01-{n}' for n in range(46,63)])
+        for column in ('right','left'):
+            lines={r['line'] for u in units for r in u['regions'] if r['page']==4 and r['column']==column}
+            self.assertEqual(lines,set(range(1,51)))
+        self.assertEqual(units[0]['continues_from_unit'],'lej-leja-01-45')
+        self.assertTrue(units[0]['hebrew'].startswith("בבחי' רם."))
+        self.assertTrue(units[1]['discourse_end'])
+        self.assertTrue(units[2]['discourse_start'])
+        self.assertEqual(units[-1]['continues_on_page'],5)
+        self.assertFalse(units[-1]['paragraph_complete'])
+        self.assertTrue(units[-1]['hebrew'].endswith('סייג לחכמה'))
         self.assertFalse(any(u['section_end'] for u in units))
 
     def test_commentary_revision_preserves_source_and_cursor(self):
