@@ -60,6 +60,20 @@ class PublicReaderTests(unittest.TestCase):
         self.assertEqual(self.request('/api/history?id=' + self.doc_id, cookie=a)[1][0]['text'], 'private A')
         self.assertEqual(json.loads((public.CATALOG / self.doc_id / 'documento.json').read_text())['current_unit'], 0)
 
+    def test_account_login_keeps_progress_across_sessions(self):
+        public.auth.create_user(public.STATE, 'reader@example.com', 'test-password-only')
+        credentials = {'email': 'reader@example.com', 'password': 'test-password-only'}
+        status, _, first = self.request('/api/login', credentials)
+        self.assertEqual(status, 200)
+        self.assertEqual(self.request('/api/progress', {'id': self.doc_id, 'current_unit': 1}, first)[0], 200)
+        second = self.request('/api/login', credentials)[2]
+        self.assertNotEqual(first, second)
+        self.assertEqual(self.request('/api/document?id=' + self.doc_id, cookie=second)[1]['current_unit'], 1)
+        self.assertEqual(self.request('/api/me', cookie=second)[1]['email'], 'reader@example.com')
+        self.assertEqual(self.request('/api/logout', {}, first)[0], 200)
+        self.assertIsNone(self.request('/api/me', cookie=first)[1]['email'])
+        self.assertEqual(self.request('/api/document?id=' + self.doc_id)[1]['current_unit'], 0)
+
     def test_forged_identity_and_cross_site_are_rejected(self):
         a = self.request('/api/status')[2]
         forged = a[:-1] + ('0' if a[-1] != '0' else '1')

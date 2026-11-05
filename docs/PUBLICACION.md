@@ -52,3 +52,26 @@ Optional `.runtime/public/support-links.json` maps the seven approved amounts
 and `other` to public Stripe Payment Links on `https://buy.stripe.com/`.
 The custom amount link must enforce a US$5.01 minimum in Stripe. Contributions do not purchase voice access. Public voice
 requires server-enforced usage budgets and session termination before activation.
+
+## Portada y cuentas / Landing and accounts
+
+La portada bilingüe está en `/`; el lector se encuentra en `/study`.
+Las cuentas existentes pueden iniciar sesión desde la portada. Contraseñas con
+scrypt y sal única; sesiones opacas revocables con duración de siete días. La base
+privada `.runtime/public/accounts.sqlite3` y el directorio de lectores deben
+respaldarse juntos. No hay todavía registro público ni recuperación por correo.
+El progreso invitado no se combina automáticamente con una cuenta. La cuenta
+creada para el propietario empieza con progreso separado del servicio local.
+
+The bilingual landing is at `/`, the reader at `/study`. Existing accounts use
+salted scrypt password hashes and revocable seven-day sessions. Back up the private
+account database and readers directory together. Public signup and email password
+recovery are not implemented. Guest and local-owner progress are not automatically
+merged into authenticated accounts.
+
+Referencias de estructura / Structural references:
+- https://www.chabad.org/torah-texts/
+- https://www.sefaria.org/ways-to-give
+
+Diseño original: libro tipográfico, fondo azul profundo, papel cálido y acentos
+hebreos; no se copiaron imágenes ni marcas de otras instituciones.

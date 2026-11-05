@@ -74,6 +74,7 @@ async function refreshStatus() {
     notice.textContent='Biblioteca abierta · El estudio por voz estará disponible próximamente. Tu progreso se guarda por separado en este navegador. / Open library · Voice study coming soon. Your progress is saved separately in this browser.';
     document.querySelector('header').after(notice);
     renderSupport();
+    request('/api/me').then(me=>{if(me.email)notice.textContent=english()?'Signed in · Your progress is saved to your account. Voice study is coming soon.':'Sesión iniciada · Tu progreso se guarda en tu cuenta. Estudio por voz, próximamente.';}).catch(()=>{});
   }
 }
 function renderSupport(){
