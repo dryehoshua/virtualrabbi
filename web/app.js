@@ -66,8 +66,34 @@ function show(next) {
 
   window.scrollTo({top:0,behavior:'smooth'});
 }
-async function refreshStatus() { status = await request('/api/status');$('researchBtn').classList.toggle('hidden',!!status.voice_only); }
-function needKey() {if(status.configured)return true;callState(english()?'Calls will be available soon':'Las llamadas estarán disponibles pronto');toast(english()?'Calls are not available yet. Please try again later.':'Las llamadas aún no están disponibles. Inténtalo más tarde.',true);return false;}
+async function refreshStatus() {
+  status = await request('/api/status');$('researchBtn').classList.toggle('hidden',!!status.voice_only);
+  if(status.public){
+    document.body.classList.add('public-reader');
+    const notice=element('p','public-study-notice');notice.id='publicStudyNotice';
+    notice.textContent='Biblioteca abierta · El estudio por voz estará disponible próximamente. Tu progreso se guarda por separado en este navegador. / Open library · Voice study coming soon. Your progress is saved separately in this browser.';
+    document.querySelector('header').after(notice);
+    renderSupport();
+  }
+}
+function renderSupport(){
+  if(!status.public)return;
+  let card=$('supportTorah');
+  if(!card){card=element('section','support-torah');card.id='supportTorah';document.querySelector('footer').before(card);}
+  card.replaceChildren();
+  card.append(element('span','eyebrow','להגדיל תורה ולהאדירה'),element('h2','',english()?'Help us keep sharing Torah':'Ayúdanos a seguir difundiendo la Torá'),element('p','',english()?'If this study helped you, your voluntary support helps more people discover Torah Or.':'Si este estudio te ayudó, tu aportación voluntaria nos ayuda a acercar Torá Or a más personas.'));
+  const amounts=element('div','support-amounts');
+  for(const amount of ['5','18','52','100','260','450','1800','other']){
+    const url=status.support_links?.[amount];
+    const label=amount==='other'?(english()?'Other amount':'Otro importe'):`US$${Number(amount).toLocaleString('en-US')}`;
+    const item=element(url?'a':'span','support-amount',label);
+    if(url){item.href=url;item.target='_blank';item.rel='noopener noreferrer';}
+    amounts.append(item);
+  }
+  card.append(amounts,element('small','',english()?'One-time support · Other amount: minimum US$5.01.':'Aportación única · Otro importe: mínimo US$5.01.'));
+  if(!Object.keys(status.support_links||{}).length)card.append(element('p','helper',english()?'Online contributions will be available soon.':'Las aportaciones en línea estarán disponibles próximamente.'));
+}
+function needKey() {if(status.configured)return true;callState(english()?'Calls will be available soon':'Las llamadas estarán disponibles pronto');toast(status.public?(english()?'Voice study is coming soon. You can read and save your place now.':'El estudio por voz estará disponible próximamente. Ya puedes leer y guardar tu lugar.'):(english()?'Calls are not available yet. Please try again later.':'Las llamadas aún no están disponibles. Inténtalo más tarde.'),true);return false;}
 async function refreshLibrary() {
   docs = (await request('/api/library')).documents; renderLibrary();
 }
@@ -147,6 +173,7 @@ async function enterStudy() {
   messages=await request('/api/history?id='+doc.id);renderHistory();
 }
 function renderStudy() {
+  renderSupport();
   renderVoiceOptions();
   $('studyTitle').textContent=english()?(doc.title_en||doc.title):doc.title;
   $('studyLanguage').value=doc.study_language||'es';renderVoiceOptions();

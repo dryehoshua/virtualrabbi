@@ -34,3 +34,7 @@ main{max-width:1550px;padding:0 24px}header{height:54px}.brand{font-size:26px}.b
 .voice-options select{width:auto;min-width:92px;padding:6px 26px 6px 10px;border:1px solid #c8c2b6;border-radius:8px;background:white;color:#243446;font:inherit}
 .voice-options small{font-size:11px;color:#58616b}
 @media(max-width:600px){.voice-options{gap:8px 14px}.voice-options small{width:100%}}
+/* Public reading mode shares the lesson, never the operator's personal history. */
+.public-study-notice{max-width:1100px;margin:0 auto 12px;padding:12px 18px;border:1px solid #d8e2eb;border-radius:12px;background:#f4f8fb;color:#44556b;font-size:12px;line-height:1.6}
+.public-reader #uploadMain,.public-reader #studyDocument,.public-reader #ocrBtn,.public-reader #prepareBtn{display:none!important}
+.support-torah{max-width:900px;margin:40px auto 12px;padding:28px;border:1px solid #d8cdb9;border-radius:18px;background:#faf7f0;text-align:center}.support-torah h2{font-size:24px;margin:12px 0}.support-torah p{line-height:1.6;color:#536070}.support-amounts{display:flex;flex-wrap:wrap;justify-content:center;gap:9px;margin:20px 0}.support-amount{padding:11px 15px;border:1px solid #c8b998;border-radius:9px;color:#26384b;text-decoration:none;background:#fff}.support-amounts a:hover{background:#eee6d6}.support-torah small{color:#536070}
