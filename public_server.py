@@ -30,7 +30,7 @@ READER = ContextVar('reader')
 SECRET = b''
 COOKIE = '__Host-rabbi_reader'
 PERSONAL = ('current_unit', 'completed', 'cursor', 'location', 'location_unmapped', 'study_language', 'updated_at')
-GET_PATHS = {'/', '/study', '/landing.css', '/landing.js', '/api/me', '/app.js', '/style.css', '/icon.svg', '/rabbi-portrait.png', '/api/status', '/api/library', '/api/document', '/api/history', '/api/page', '/api/download'}
+GET_PATHS = {'/', '/study', '/landing.css', '/landing.js', '/alter-rebbe.jpg', '/api/me', '/app.js', '/style.css', '/icon.svg', '/rabbi-portrait.png', '/api/status', '/api/library', '/api/document', '/api/history', '/api/page', '/api/download'}
 POST_PATHS = {'/api/login', '/api/logout', '/api/progress', '/api/cursor', '/api/location', '/api/language', '/api/note', '/api/transcript'}
 LIMIT_LOCK = threading.Lock()
 LIMITS = {}
@@ -40,6 +40,8 @@ SUPPORT_AMOUNTS = ('5', '18', '52', '100', '260', '450', '1800', 'other')
 def support_links():
     """Only public Stripe payment links; never keys or arbitrary redirects."""
     path = STATE / 'support-links.json'
+    if not path.is_file():
+        path = ROOT / 'config/support-links.json'
     if not path.is_file():
         return {}
     data = json.loads(path.read_text())
@@ -220,6 +222,8 @@ class PublicHandler(server.Handler):
                     self.reply({'error': 'Límite diario de mensajes alcanzado.'}, 429)
                     return
                 return super().do_POST()
+            if parsed.path == '/alter-rebbe.jpg':
+                return self.reply((ROOT / 'web/alter-rebbe.jpg').read_bytes(), mime='image/jpeg')
             if parsed.path == '/api/me':
                 return self.reply({'email': self.account['email'] if self.account else None})
             if parsed.path in ('/', '/study', '/landing.css', '/landing.js'):

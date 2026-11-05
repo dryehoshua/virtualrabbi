@@ -4,7 +4,7 @@ Consulta de precios: 2026-11-05. Modelo instalado: `gpt-realtime` (sin cambiarlo
 
 ## Español
 
-Propuesta: US$5, US$18, US$52, US$100, US$260, US$450 y US$1,800; otro importe debe ser mayor a US$5 (mínimo US$5.01), pago único y voluntario. Mensaje:
+Importes habilitados: US$5, US$18, US$52, US$100, US$260, US$450 y US$1,800; otro importe debe ser mayor a US$5 (mínimo US$5.01), pago único y voluntario. Mensaje:
 «Si este estudio te ayudó, ayúdanos a seguir difundiendo la Torá».
 No vincular el aporte con minutos garantizados ni llamarlo un plan. No anunciar
 recibos deducibles sin una entidad fiscal que los respalde.
@@ -54,3 +54,20 @@ reliable per-session payment. A 52% markup is not a 52% profit margin.
 - https://developers.openai.com/api/docs/guides/voice-latency-cost?voice-api=realtime
 - https://www.chabad.org/tools/donate/donate_cdo/aid/161548/jewish/Donate.htm
 - https://www.sefaria.org/ways-to-give
+
+## Publicación / Publication — 2026-11-05
+
+Los ocho enlaces de pago están en `config/support-links.json`. Son enlaces públicos,
+no credenciales. `.runtime/public/support-links.json` permite sustituirlos por
+instalación. Cobros a través de AI PEOPLE LEGACY Inc, con categoría AIaaS y cálculo
+fiscal automático, según autorización del titular. Los impuestos no están incluidos
+en el importe base. El importe libre tiene mínimo US$5.01 y sugerido US$18.
+No se realizó ningún cargo de prueba. Las llamadas públicas siguen desactivadas;
+las aportaciones no habilitan minutos ni suscripciones.
+
+All eight public payment links are tracked in `config/support-links.json`; an
+installation may override them in `.runtime/public/support-links.json`. One-time
+payments use the owner-approved AI PEOPLE LEGACY Inc account and existing AIaaS
+tax configuration. Applicable taxes are added by Stripe. Custom support starts at
+US$5.01, with US$18 suggested. No test charge was made. Public voice remains
+disabled, and contributions do not purchase minutes or subscriptions.

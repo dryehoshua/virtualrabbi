@@ -91,7 +91,7 @@ function renderSupport(){
     if(url){item.href=url;item.target='_blank';item.rel='noopener noreferrer';}
     amounts.append(item);
   }
-  card.append(amounts,element('small','',english()?'One-time support · Other amount: minimum US$5.01.':'Aportación única · Otro importe: mínimo US$5.01.'));
+  card.append(amounts,element('small','',english()?'One-time support · Other amount: minimum US$5.01. Applicable taxes calculated by Stripe.':'Aportación única · Otro importe: mínimo US$5.01. Impuestos aplicables calculados por Stripe.'));
   if(!Object.keys(status.support_links||{}).length)card.append(element('p','helper',english()?'Online contributions will be available soon.':'Las aportaciones en línea estarán disponibles próximamente.'));
 }
 function needKey() {if(status.configured)return true;callState(english()?'Calls will be available soon':'Las llamadas estarán disponibles pronto');toast(status.public?(english()?'Voice study is coming soon. You can read and save your place now.':'El estudio por voz estará disponible próximamente. Ya puedes leer y guardar tu lugar.'):(english()?'Calls are not available yet. Please try again later.':'Las llamadas aún no están disponibles. Inténtalo más tarde.'),true);return false;}
