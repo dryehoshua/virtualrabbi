@@ -1,0 +1,25 @@
+'use strict';
+window.RabbiAccess={
+ me:null, credit:null, dialog:null, timer:null,
+ async api(path,body){const r=await fetch(path,body===undefined?{}:{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});const data=await r.json();if(!r.ok)throw new Error(data.error||'Please try again.');return data},
+ async load(){this.me=await this.api('/api/me');this.credit=this.me.email?await this.api('/api/access'):null;return this.credit},
+ text(key){return RabbiLocale.t(key)},
+ el(tag,text){const e=document.createElement(tag);if(text)e.textContent=text;return e},
+ async open(){await this.load();if(!this.dialog){this.dialog=this.el('dialog');this.dialog.className='access-dialog';document.body.append(this.dialog);this.dialog.addEventListener('close',()=>clearInterval(this.timer))}this.draw();if(!this.dialog.open)this.dialog.showModal();clearInterval(this.timer);this.timer=setInterval(async()=>{if(!this.dialog.open)return;const before=this.credit?.seconds||0;try{await this.load();if((this.credit?.seconds||0)>before)this.draw()}catch(_){}},5000)},
+ draw(signup=false){const d=this.dialog;d.replaceChildren();d.dir=RabbiLocale.get()==='he'?'rtl':'ltr';const close=this.el('button','×');close.className='access-close';close.ariaLabel=this.text('cancel');close.onclick=()=>d.close();d.append(close);
+ const select=this.el('select');select.ariaLabel=this.text('language');for(const [value,name]of Object.entries(RabbiLocale.names)){const o=this.el('option',name);o.value=value;select.append(o)}select.value=RabbiLocale.get();select.onchange=()=>{RabbiLocale.set(select.value);this.draw(signup)};d.append(select);
+ const error=this.el('p');error.role='alert';error.className='access-error';
+ if(!this.me?.email){d.append(this.el('h2',this.text(signup?'signup':'signin')),this.el('p',this.text('need')));const form=this.el('form');
+ for(const key of signup?['name','email','password']:['email','password']){const label=this.el('label',this.text(key));const input=this.el('input');input.name=key;input.type=key==='password'?'password':key==='email'?'email':'text';input.autocomplete=key==='password'?(signup?'new-password':'current-password'):key;input.required=true;input.maxLength=key==='name'?60:256;if(key==='password')input.minLength=10;label.append(input);form.append(label)}
+ const submit=this.el('button',this.text(signup?'signup':'signin'));submit.type='submit';submit.className='access-primary';form.append(submit,error);form.onsubmit=async e=>{e.preventDefault();submit.disabled=true;try{await this.api(signup?'/api/register':'/api/login',{...Object.fromEntries(new FormData(form)),language:RabbiLocale.get()});form.reset();await this.load();this.draw()}catch(err){error.textContent=err.message}finally{submit.disabled=false}};d.append(form);const toggle=this.el('button',this.text(signup?'signin':'signup'));toggle.onclick=()=>this.draw(!signup);d.append(toggle);return}
+ if(!this.me.name){d.append(this.el('h2',this.text('name')));const form=this.el('form'),input=this.el('input'),save=this.el('button',this.text('profile'));input.name='name';input.required=true;input.maxLength=60;input.autocomplete='given-name';save.className='access-primary';form.append(input,save,error);form.onsubmit=async e=>{e.preventDefault();try{await this.api('/api/profile',{name:input.value,language:RabbiLocale.get()});await this.load();this.draw()}catch(err){error.textContent=err.message}};d.append(form);return}
+ d.append(this.el('h2',this.text('welcome')+', '+this.me.name),this.el('p',this.text('safe')));
+ if(this.credit?.seconds>0){d.append(this.el('p',this.text('thanks')),this.el('blockquote',this.text('quote')),this.el('p',this.text('balance')+': '+Math.ceil(this.credit.seconds/60)));const start=this.el('button',this.text('start'));start.className='access-primary';start.disabled=!this.credit?.enabled;start.onclick=()=>{d.close();if(location.pathname==='/study')window.dispatchEvent(new Event('rabbi-ready'));else location.href='/study?start=1'};d.append(start)}
+ if(this.credit?.active_call){const stop=this.el('button',this.text('stop'));stop.onclick=async()=>{try{await this.api('/api/call/end',{call_id:this.credit.active_call.id});await this.load();this.draw()}catch(err){error.textContent=err.message}};d.append(stop)}
+ d.append(this.el('p',this.text('terms')));
+ const pay=this.el('button',this.text('pay'));pay.className='access-primary';pay.disabled=!this.credit?.enabled;pay.onclick=async()=>{pay.disabled=true;try{const result=await this.api('/api/checkout',{language:RabbiLocale.get()});location.href=result.url}catch(err){error.textContent=err.message;pay.disabled=false}};d.append(pay);
+ if(!this.credit?.enabled)d.append(this.el('p',this.text('pending')));
+ const refresh=this.el('button',this.text('refresh'));refresh.onclick=async()=>{try{await this.load();this.draw()}catch(err){error.textContent=err.message}};d.append(refresh,error)
+ },
+ async ensure(){await this.load();if(!this.me?.email||!this.me.name||!this.credit?.enabled||this.credit.seconds<=0){await this.open();return false}return true}
+};

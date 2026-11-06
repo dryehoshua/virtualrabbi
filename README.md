@@ -2,6 +2,10 @@
 
 Jabrutá virtual local para Torá Or del Alter Rebbe, con enfoque Jabad ortodoxo. Local virtual chavruta for the Alter Rebbe’s Torah Or within Orthodox Chabad tradition.
 
+Estado público: registro y clases de pago único preparados; voz y cobros de clases pausados hasta recargar OpenAI y verificar una llamada. [Operación / Operations](docs/PUBLICACION.md).
+
+Public status: signup and one-time classes are prepared; voice and class checkout remain paused pending OpenAI credits and a successful call test.
+
 ## Abrir / Open
 
 Doble clic en **Virtual Rabbi.app**, en el escritorio, o visita http://127.0.0.1:8790. / Double-click **Virtual Rabbi.app** on the desktop, or visit http://127.0.0.1:8790.
@@ -20,7 +24,7 @@ Una lección precargada: Lej Lejá, entrega 01. Las seis hojas escaneadas sirven
 
 `Estudio/` contiene los Markdown de cada parashá; `Instrucciones/` conserva el comportamiento del agente en español e inglés. `Biblioteca/` contiene el índice operativo, las conversaciones, las notas, el progreso y los facsímiles opcionales. / `Estudio/` contains each parashah’s Markdown; `Instrucciones/` stores the Spanish and English agent protocol. `Biblioteca/` contains the runtime index, conversations, notes, checkpoints and optional facsimiles.
 
-Los cambios de contenido conservan versiones en `.historial/`. Las preguntas no mueven el cursor. No hay almacenamiento ni publicación en internet. Las funciones de IA envían el material necesario a OpenAI. / Content changes retain versions under `.historial/`. Questions do not move the cursor. The app is not publicly hosted. AI functions send the required material to OpenAI.
+Los cambios de contenido conservan versiones en `.historial/`. Las preguntas no mueven el cursor. El catálogo seleccionado se publica en virtualrabbi.net; las cuentas públicas tienen progreso separado. Las funciones de IA envían el material necesario a OpenAI. / Content changes retain versions under `.historial/`. Questions do not move the cursor. The curated catalog is published at virtualrabbi.net with separate public account progress. AI functions send the required material to OpenAI.
 
 ## Configurar IA / Configure AI
 

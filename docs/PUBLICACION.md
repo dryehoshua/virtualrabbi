@@ -1,79 +1,127 @@
 # Virtual Rabbi · Publicación / Deployment
 
-## Español
+## Estado / Status — 2026-11-05
 
-La aplicación privada sigue en 127.0.0.1:8790. La biblioteca pública usa otro proceso,
-127.0.0.1:8791, y recibe tráfico exclusivamente desde el túnel Cloudflare
-`virtualrabbi-mac`. No se abre un puerto entrante en el router.
+Registro público, acceso por cuenta, Stripe y control de clases implementados.
+Las llamadas y la compra de clases están **pausadas**: la prueba real de OpenAI
+respondió `429 credit_balance_exhausted`. El titular decidió recargar después.
+No se ha verificado todavía una llamada pública completa ni un cobro real.
 
-El catálogo público es una copia seleccionada de las lecciones revisadas. No incluye
-el progreso, notas o conversaciones del propietario. Cada navegador recibe una
-identidad aleatoria firmada en una cookie Secure/HttpOnly. No es todavía una cuenta:
-al borrar cookies o cambiar de dispositivo no se recupera el progreso anterior.
-Los endpoints de llamadas, chat IA y cobros están cerrados en el servidor público.
+Public signup, account access, Stripe fulfillment and class controls are implemented.
+Voice and class checkout are **paused** because the actual OpenAI call attempt
+returned `429 credit_balance_exhausted`. The owner will fund the API later.
+A complete public voice call and a real payment have not yet been verified.
 
-- Actualizar catálogo: `python3 scripts/publish_catalog.py`.
-- Instalar servicio público: `python3 scripts/install_public.py`.
-- Instalar también el conector autorizado: `python3 scripts/install_public.py --tunnel`.
-- Credencial: `.runtime/deploy/tunnel-token`, permisos 0600, nunca en GitHub.
-- Estado privado de visitantes: `.runtime/public/readers/`, nunca en GitHub.
-- Secreto de firmas: `.runtime/public/cookie-secret`; conservar al respaldar los avances.
-- Agentes: `net.virtualrabbi.public` y `net.virtualrabbi.tunnel`, al iniciar sesión en macOS.
-- La Mac necesita permanecer encendida, despierta y conectada a Internet.
+## Infraestructura / Infrastructure
 
-DNS: Cloudflare administra el dominio con virginia.ns.cloudflare.com y
-zeus.ns.cloudflare.com. Conservar MX, SPF, DKIM, DMARC y autodiscover de IONOS.
-El túnel tiene ID `0121a8d0-1bbf-49ba-bef8-639f2889f13e`.
+- Local privado / Private local: `127.0.0.1:8790`.
+- Público / Public: `127.0.0.1:8791`, Cloudflare Tunnel `virtualrabbi-mac`.
+- Inicio / Landing: https://virtualrabbi.net/ ; lector / reader: `/study`.
+- Servicios / Services: `net.virtualrabbi.public`, `net.virtualrabbi.tunnel`.
+- Instalar dependencias públicas / Install public dependencies:
+  `python3 -m pip install -r requirements-public.txt`.
+- Publicar catálogo / Publish curated content: `python3 scripts/publish_catalog.py`.
+- Instalar servicios / Install services: `python3 scripts/install_public.py --tunnel`.
+- La Mac debe estar encendida, despierta, conectada y con sesión iniciada.
+  The Mac must remain awake, online and logged in.
+- DNS Cloudflare: `virginia.ns.cloudflare.com`, `zeus.ns.cloudflare.com`.
+  Conservar correo IONOS / Preserve IONOS mail records.
+- Tunnel ID: `0121a8d0-1bbf-49ba-bef8-639f2889f13e`.
 
-Las aportaciones están activas mediante `config/support-links.json`. Para sustituirlas
-en una instalación, guardar `.runtime/public/support-links.json` con enlaces públicos
-`https://buy.stripe.com/...` para las claves `5`, `18`, `52`, `100`, `260`,
-`450`, `1800` y `other`. El enlace `other` debe exigir mínimo US$5.01 en Stripe. No contiene claves. Sin ese enlace no aparece un botón
-de pago. Las aportaciones son voluntarias y no compran minutos ni habilitan voz.
-Antes de habilitar voz pública: identidad de usuario persistente, límites globales
-aplicados por el servidor, registro fiable de consumo y cierre de sesiones desde el
-servidor. Un contador modificable desde el navegador no sirve para limitar gastos.
+## Cuentas y privacidad / Accounts and privacy
 
-## English
+Registro con nombre, correo y contraseña; scrypt con sal única, sesiones opacas
+revocables de siete días, cookies Secure/HttpOnly. El avance y la conversación se
+separan por cuenta. El modo invitado conserva una identidad por navegador.
+No hay recuperación de contraseña ni verificación de correo todavía. El avance
+anónimo no se combina automáticamente al registrarse. Las transcripciones de voz
+se guardan; no se guardan grabaciones de audio.
 
-The owner's local application remains on port 8790. A separate public reader runs
-on loopback port 8791 behind the `virtualrabbi-mac` Cloudflare Tunnel. Only reviewed
-teaching content is published. Owner progress, notes, transcripts and credentials
-are excluded. Signed Secure/HttpOnly cookies isolate visitor data by browser; these
-are not cross-device accounts. Clearing cookies loses access to that browser's
-previous progress. Public AI calls remain disabled; voluntary support uses hosted Stripe checkout.
+Signup captures a display name, email and password. Passwords use salted scrypt;
+revocable seven-day sessions use Secure/HttpOnly cookies. Progress and transcripts
+are account-specific. Guest identities remain browser-specific. Email verification,
+password recovery and automatic guest-progress migration are not implemented.
+Audio recordings are not stored; voice transcripts are saved.
 
-Run `scripts/publish_catalog.py` to refresh the curated catalog, then
-`scripts/install_public.py --tunnel` using the project's Python environment to install
-both user LaunchAgents. Keep tunnel credentials, the signing secret and visitor
-state out of Git. The Mac must stay awake, online and logged in. Preserve IONOS mail
-records when updating web DNS.
+Cuenta y agradecimiento disponibles en inglés, español, ruso, francés, hebreo y
+portugués, con detección del idioma del navegador y selector manual. El resto de
+la interfaz y las hojas preparadas son español/inglés; la voz recibe instrucciones
+para explicar en el idioma seleccionado, conservando el original hebreo.
 
-Tracked `config/support-links.json` maps the seven approved amounts
-and `other` to public Stripe Payment Links on `https://buy.stripe.com/`.
-Optional `.runtime/public/support-links.json` overrides that mapping per installation.
-The custom amount link must enforce a US$5.01 minimum in Stripe. Contributions do not purchase voice access. Public voice
-requires server-enforced usage budgets and session termination before activation.
+Account and thank-you flows support EN/ES/RU/FR/HE/PT using browser language and a
+manual selector. Remaining UI and prepared study sheets are Spanish/English;
+voice is instructed to explain in the selected language and preserve Hebrew.
 
-## Portada y cuentas / Landing and accounts
+## Pago por clase / One-time class payment
 
-La portada bilingüe está en `/`; el lector se encuentra en `/study`.
-Las cuentas existentes pueden iniciar sesión desde la portada. Contraseñas con
-scrypt y sal única; sesiones opacas revocables con duración de siete días. La base
-privada `.runtime/public/accounts.sqlite3` y el directorio de lectores deben
-respaldarse juntos. No hay todavía registro público ni recuperación por correo.
-El progreso invitado no se combina automáticamente con una cuenta. La cuenta
-creada para el propietario empieza con progreso separado del servicio local.
+US$5 más impuestos aplicables por hasta 30 minutos, sin suscripción. El tiempo no
+utilizado permanece en la cuenta. La clase también tiene un límite de consumo
+estimado de IA de US$4; puede terminar antes, como se informa antes del pago.
+No garantiza un margen del 52%. El consumo se calcula con eventos del proveedor;
+puede haber sobrepaso durante una respuesta o retraso al cerrar. Validar costos
+reales antes de ampliar el lanzamiento.
 
-The bilingual landing is at `/`, the reader at `/study`. Existing accounts use
-salted scrypt password hashes and revocable seven-day sessions. Back up the private
-account database and readers directory together. Public signup and email password
-recovery are not implemented. Guest and local-owner progress are not automatically
-merged into authenticated accounts.
+US$5 plus applicable tax for up to 30 minutes, no subscription. Unused time stays
+in the account. A US$4 estimated AI allowance can end a class earlier, disclosed
+before checkout. This does not guarantee a 52% markup or profit. Provider usage
+events drive estimates; an in-flight response or delayed hangup may overshoot.
+Measure actual usage before expanding the launch.
 
-Referencias de estructura / Structural references:
-- https://www.chabad.org/torah-texts/
-- https://www.sefaria.org/ways-to-give
+- Stripe: AI PEOPLE LEGACY Inc, configuración fiscal AIaaS autorizada.
+- Producto / Product: `Virtual Rabbi · Torah Or · 30 min`.
+- Payment Link: `plink_1UYZ5C1fJ8c9bLD8jeDbdnDv`, **desactivado / deactivated**.
+- Return: `https://virtualrabbi.net/study?payment=return`.
+- Webhook: `https://virtualrabbi.net/api/stripe/webhook`.
+- Destination: `we_1UYZmV1fJ8c9bLD8hcV60vqr`, enabled.
+- Events: `checkout.session.completed`, `checkout.session.async_payment_succeeded`,
+  `charge.refunded`, `charge.dispute.created`.
+- Firma Stripe obligatoria; reintentos idempotentes; cuenta enlazada por una
+  referencia aleatoria generada en el servidor. La URL de retorno no otorga saldo.
+  Signed events only; idempotent retries; server-generated order references bind
+  payments to accounts. Returning from checkout does not itself grant access.
+- Reembolsos y disputas revocan acceso. Una llamada simultánea por cuenta, cuatro
+  globales; cierre en el servidor por tiempo, consumo o pérdida de conexión.
+  Refunds/disputes revoke grants. One concurrent call per account, four globally;
+  server-enforced time, estimated spend and connection-loss termination.
+- Los otros importes son apoyo voluntario y no añaden minutos.
+  Other amounts are voluntary support and do not add class minutes.
 
-Diseño original: libro tipográfico, fondo azul profundo, papel cálido y acentos
-hebreos; no se copiaron imágenes ni marcas de otras instituciones.
+## Activación posterior a la recarga / Activation after funding
+
+1. Recargar la organización de OpenAI asociada a la clave del proyecto.
+   Fund the OpenAI organization associated with this project's key.
+2. Probar conexión real, recepción de audio, monitor del servidor y cierre remoto
+   usando un estado aislado; no emitir créditos ficticios en producción.
+   Verify actual audio, server monitoring and provider hangup with isolated state.
+3. Verificar pago y entrega Stripe en un entorno de prueba aislado antes de abrir
+   ventas; comprobar que el usuario correcto recibe 1,800 segundos una sola vez.
+   Verify sandbox payment fulfillment to the correct account exactly once.
+4. Reactivar el Payment Link anterior y crear `.runtime/public/voice-enabled`
+   únicamente después de estas verificaciones. Reiniciar el servicio público.
+   Reactivate the link and create the local activation flag only after verification.
+5. Comprobar `/api/status`, llamada autenticada, interrupción, reanudación y tiempo.
+   Check status, authenticated calls, interruption, resume and elapsed time.
+
+Para cerrar admisiones, eliminar el archivo `voice-enabled` y desactivar el enlace
+Stripe. Un error de saldo OpenAI elimina automáticamente el archivo local.
+To stop admissions, remove the activation flag and deactivate the Stripe link.
+An OpenAI insufficient-credit response automatically removes the local flag.
+
+## Respaldo / Backups
+
+Guardar juntos, fuera de GitHub / Back up together outside GitHub:
+`.runtime/public/accounts.sqlite3`, `classes.sqlite3`, `readers/`, `cookie-secret`,
+`stripe-webhook-secret` y `.runtime/deploy/tunnel-token`.
+Secretos con permisos 0600. Nunca poner claves, contraseñas, conversaciones o
+bases privadas en Git. / Secrets use mode 0600; never commit secrets or user data.
+
+## Validación / Validation
+
+`python3 -m unittest discover -s tests -q` y `node tests/voice-flow.mjs` prueban
+identidad, aislamiento, firmas falsas, duplicados, reembolsos, bloqueo sin pago,
+contabilidad, límites, interrupciones y reanudación. No sustituyen una prueba
+real de voz ni un pago de extremo a extremo.
+
+These automated tests cover identity, isolation, forged signatures, retries,
+refunds, unpaid access, accounting, limits, interruption and resume. They do not
+replace real voice and end-to-end payment verification.

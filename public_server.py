@@ -20,6 +20,9 @@ from urllib.parse import urlparse, parse_qs
 
 import server
 import auth
+import payments
+import voice_access
+import sqlite3
 
 ROOT = server.ROOT
 STATE = Path(os.environ.get('RABBI_PUBLIC_STATE', ROOT / '.runtime/public'))
@@ -30,8 +33,8 @@ READER = ContextVar('reader')
 SECRET = b''
 COOKIE = '__Host-rabbi_reader'
 PERSONAL = ('current_unit', 'completed', 'cursor', 'location', 'location_unmapped', 'study_language', 'updated_at')
-GET_PATHS = {'/', '/study', '/landing.css', '/landing.js', '/alter-rebbe.jpg', '/api/me', '/app.js', '/style.css', '/icon.svg', '/rabbi-portrait.png', '/api/status', '/api/library', '/api/document', '/api/history', '/api/page', '/api/download'}
-POST_PATHS = {'/api/login', '/api/logout', '/api/progress', '/api/cursor', '/api/location', '/api/language', '/api/note', '/api/transcript'}
+GET_PATHS = {'/', '/study', '/landing.css', '/landing.js', '/alter-rebbe.jpg', '/api/me', '/api/access', '/locale.js', '/access.js', '/access.css', '/app.js', '/style.css', '/icon.svg', '/rabbi-portrait.png', '/api/status', '/api/library', '/api/document', '/api/history', '/api/page', '/api/download'}
+POST_PATHS = {'/api/register', '/api/profile', '/api/checkout', '/api/call', '/api/call-context', '/api/call/heartbeat', '/api/call/end', '/api/login', '/api/logout', '/api/progress', '/api/cursor', '/api/location', '/api/language', '/api/note', '/api/transcript'}
 LIMIT_LOCK = threading.Lock()
 LIMITS = {}
 SUPPORT_AMOUNTS = ('5', '18', '52', '100', '260', '450', '1800', 'other')
@@ -162,6 +165,8 @@ class PublicHandler(server.Handler):
 
     def dispatch(self):
         self.new_cookie = None
+        if self.path == '/api/stripe/webhook' and self.command == 'POST':
+            return self.receive_payment()
         if not self.allowed():
             return
         if self.command == 'GET' and (self.headers.get('Host') == 'www.virtualrabbi.net'
@@ -172,7 +177,7 @@ class PublicHandler(server.Handler):
             self.end_headers()
             return
         parsed = urlparse(self.path)
-        if parsed.path in ('/api/call', '/api/chat', '/api/checkout'):
+        if parsed.path == '/api/chat' or (parsed.path in ('/api/call', '/api/checkout') and not voice_access.enabled(STATE)):
             self.reply({'error': 'Las llamadas estarán disponibles próximamente. / Voice study is coming soon.', 'code': 'voice_not_available'}, 503)
             return
         permitted = GET_PATHS if self.command == 'GET' else POST_PATHS
@@ -187,7 +192,7 @@ class PublicHandler(server.Handler):
             if not 0 < length <= 65536:
                 self.reply({'error': 'Solicitud demasiado grande.'}, 413)
                 return
-        if parsed.path in ('/api/login', '/api/logout'):
+        if parsed.path in ('/api/login', '/api/logout', '/api/register'):
             if self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
                 return self.reply({'error': 'JSON required'}, 400)
             ip = self.headers.get('CF-Connecting-IP', self.client_address[0])
@@ -202,12 +207,17 @@ class PublicHandler(server.Handler):
                 email, password = body.get('email', ''), body.get('password', '')
                 if not isinstance(email, str) or not isinstance(password, str) or len(email)>254 or len(password)>256:
                     raise ValueError()
+                if parsed.path == '/api/register':
+                    name = body.get('name','')
+                    if not isinstance(name,str) or not 1 <= len(name.strip()) <= 60:
+                        raise ValueError()
+                    auth.create_user(STATE,email,password,name,body.get('language','en'))
                 session = auth.login(STATE, email, password)
                 if not session:
                     return self.reply({'error': 'Correo o contraseña incorrectos. / Invalid email or password.'}, 401)
                 self.new_cookie = f'__Host-rabbi_session={session}; Path=/; Max-Age=604800; Secure; HttpOnly; SameSite=Lax'
                 return self.reply({'ok': True})
-            except (ValueError, TypeError, AttributeError):
+            except (ValueError, TypeError, AttributeError, sqlite3.IntegrityError):
                 return self.reply({'error': 'Solicitud no válida.'}, 400)
         identity = self.identity()
         if not identity:
@@ -217,6 +227,8 @@ class PublicHandler(server.Handler):
             if limited(('requests', identity), 180):
                 self.reply({'error': 'Espera un momento antes de continuar.'}, 429)
                 return
+            if parsed.path in ('/api/access', '/api/checkout', '/api/profile', '/api/call', '/api/call-context', '/api/call/heartbeat', '/api/call/end'):
+                return self.class_access(parsed.path)
             if self.command == 'POST':
                 if parsed.path in ('/api/note', '/api/transcript') and limited(('notes', identity), 1000, 86400):
                     self.reply({'error': 'Límite diario de mensajes alcanzado.'}, 429)
@@ -225,13 +237,13 @@ class PublicHandler(server.Handler):
             if parsed.path == '/alter-rebbe.jpg':
                 return self.reply((ROOT / 'web/alter-rebbe.jpg').read_bytes(), mime='image/jpeg')
             if parsed.path == '/api/me':
-                return self.reply({'email': self.account['email'] if self.account else None})
-            if parsed.path in ('/', '/study', '/landing.css', '/landing.js'):
+                return self.reply({k:self.account.get(k,'') for k in ('email','name','language')} if self.account else {'email':None})
+            if parsed.path in ('/', '/study', '/landing.css', '/landing.js', '/locale.js', '/access.js', '/access.css'):
                 filename = {'/': 'landing.html', '/study': 'index.html'}.get(parsed.path, parsed.path[1:])
                 mime = 'text/html; charset=utf-8' if filename.endswith('.html') else ('text/css' if filename.endswith('.css') else 'text/javascript')
                 return self.reply((ROOT / 'web' / filename).read_bytes(), mime=mime)
             if parsed.path == '/api/status':
-                return self.reply({'configured': False, 'voice_only': True, 'public': True, 'billing_status': 'coming_soon', 'identity_mode': 'browser', 'voice_model': server.CONFIG['voice_model'], 'support_links': support_links()})
+                return self.reply({'configured': voice_access.enabled(STATE), 'voice_only': True, 'public': True, 'billing_status': 'per_class' if voice_access.enabled(STATE) else 'coming_soon', 'identity_mode': 'browser', 'voice_model': server.CONFIG['voice_model'], 'support_links': support_links()})
             params = parse_qs(parsed.query)
             if parsed.path == '/api/page':
                 path = catalog_folder(params.get('id', [''])[0])
@@ -254,6 +266,61 @@ class PublicHandler(server.Handler):
         finally:
             READER.reset(token)
 
+    def receive_payment(self):
+        if self.headers.get('Host') != 'virtualrabbi.net':
+            return self.reply({'error':'Host'},403)
+        try:
+            length=int(self.headers.get('Content-Length','0'))
+            if not 0 < length <= 1048576: return self.reply({'error':'Size'},413)
+            payments.webhook(STATE,self.rfile.read(length),self.headers.get('Stripe-Signature',''))
+            return self.reply({'received':True})
+        except FileNotFoundError:
+            return self.reply({'error':'Payment setup pending'},503)
+        except (ValueError, payments.stripe.SignatureVerificationError):
+            return self.reply({'error':'Invalid payment signature or event'},400)
+        except Exception:
+            return self.reply({'error':'Payment delivery could not be recorded'},500)
+
+    def class_access(self,path):
+        if not self.account:
+            return self.reply({'error':'Please sign in first. / Inicia sesión primero.', 'code':'login_required'},401)
+        reader=self.account['reader']
+        if path == '/api/access':
+            return self.reply(payments.balance(STATE,reader) | {'name':self.account['name'],'language':self.account['language'],'enabled':voice_access.enabled(STATE)})
+        try:
+            body=json.loads(self.rfile.read(int(self.headers['Content-Length'])))
+            if not isinstance(body,dict): raise ValueError('Invalid request')
+            if path == '/api/profile':
+                name=body.get('name','').strip(); language=body.get('language','en')
+                if not 1 <= len(name) <= 60 or language not in ('en','es','ru','fr','he','pt'): raise ValueError('Invalid profile')
+                with auth.connect(STATE) as db:
+                    db.execute('UPDATE users SET name=?,language=? WHERE reader=?',(name,language,reader))
+                return self.reply({'ok':True})
+            if path == '/api/checkout':
+                if limited(('checkout',reader),5,60): return self.reply({'error':'Please wait a minute.'},429)
+                return self.reply({'url':payments.checkout(STATE,reader,body.get('language',self.account['language']))})
+            if path in ('/api/call/heartbeat','/api/call/end'):
+                call=payments.get_call(STATE,body.get('call_id'),reader)
+                if path.endswith('/end'):
+                    voice_access.close(STATE,call['id'])
+                else:
+                    with payments.connect(STATE) as db:
+                        db.execute('UPDATE calls SET heartbeat=? WHERE id=? AND reader=?',(time.time(),call['id'],reader))
+                return self.reply({'status':payments.get_call(STATE,call['id'])['status'],'seconds':max(0,int((call['deadline'] or time.time())-time.time()))})
+            doc=read_document(body['id']); unit=server.get_unit(doc,body['unit_id'])
+            if path == '/api/call-context':
+                return self.reply({'instructions':server.PERSONA+'\n'+server.context(doc,unit)})
+            if not self.account.get('name'):
+                return self.reply({'error':'Add your name before starting. / Añade tu nombre antes de comenzar.'},400)
+            if limited(('start-call',reader),6,60): return self.reply({'error':'Please wait a minute.'},429)
+            return self.reply(voice_access.start(STATE,self.account,body,doc,unit))
+        except PermissionError as exc:
+            return self.reply({'error':str(exc),'code':'payment_required'},402)
+        except (ValueError, KeyError, TypeError, AttributeError) as exc:
+            return self.reply({'error':str(exc)[:200]},400)
+        except RuntimeError as exc:
+            return self.reply({'error':str(exc)[:200]},503)
+
     do_GET = dispatch
     do_POST = dispatch
 
@@ -267,6 +334,8 @@ def configure():
         with os.fdopen(fd, 'wb') as f:
             f.write(secrets.token_bytes(32))
     SECRET = secret_path.read_bytes()
+    auth.connect(STATE).close()
+    payments.connect(STATE).close()
     # These hooks exist only in this public process; the local operator service
     # continues to use its original library and Markdown writer on port 8790.
     server.load = read_document
@@ -278,5 +347,6 @@ def configure():
 
 if __name__ == '__main__':
     configure()
+    threading.Thread(target=voice_access.watchdog,args=(STATE,),daemon=True).start()
     print(f'Virtual Rabbi public reader · 127.0.0.1:{PORT}', flush=True)
     server.ThreadingHTTPServer(('127.0.0.1', PORT), PublicHandler).serve_forever()

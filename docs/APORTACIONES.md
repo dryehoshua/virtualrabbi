@@ -1,5 +1,7 @@
 # Aportaciones voluntarias / Voluntary support
 
+**Actualización posterior / Later update:** el titular eligió US$5 por clase de hasta 30 minutos, sin suscripción. Ese enlace está preparado y pausado hasta recargar OpenAI. Los otros importes siguen siendo apoyo voluntario sin minutos. / The owner subsequently chose US$5 per class up to 30 minutes, no subscription. That link is prepared and paused pending OpenAI funding; other amounts remain voluntary support without minutes. Ver / See [PUBLICACION.md](PUBLICACION.md). Las decisiones iniciales y estimaciones siguientes se conservan como referencia histórica. / Earlier decisions and estimates below are historical context.
+
 Consulta de precios: 2026-11-05. Modelo instalado: `gpt-realtime` (sin cambiarlo).
 
 ## Español

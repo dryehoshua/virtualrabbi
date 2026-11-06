@@ -87,9 +87,35 @@ class PublicReaderTests(unittest.TestCase):
             self.assertFalse(self.request('/api/status')[1]['configured'])
             self.assertEqual(self.request('/api/call', {})[0], 503)
             self.assertEqual(self.request('/api/chat', {})[0], 503)
-        for route in ('/api/upload', '/api/review', '/api/call-context'):
+        for route in ('/api/upload', '/api/review'):
             self.assertEqual(self.request(route, {})[0], 404)
+        self.assertEqual(self.request('/api/call-context', {})[0],401)
         self.assertEqual(self.request('/api/download?id=' + self.doc_id + '&file=conversaciones.json')[0], 404)
         self.assertEqual(self.request('/api/history?id=../../Biblioteca')[0], 404)
+
+    def test_signup_profile_and_unfunded_voice_gate(self):
+        status, _, cookie = self.request('/api/register', {
+            'email': 'student@example.com', 'password': 'test-password-only',
+            'name': 'Yosef', 'language': 'ru'})
+        self.assertEqual(status, 200)
+        me = self.request('/api/me', cookie=cookie)[1]
+        self.assertEqual((me['name'], me['language']), ('Yosef', 'ru'))
+        self.assertEqual(self.request('/api/access', cookie=cookie)[1]['seconds'], 0)
+        self.assertEqual(self.request('/api/checkout', {}, cookie)[0], 503)
+        with patch.object(public.voice_access, 'enabled', return_value=True), \
+             patch.object(server, 'realtime_session', return_value={'instructions': ''}), \
+             patch.object(public.voice_access, 'provider_request', side_effect=AssertionError('Unpaid call reached OpenAI')):
+            self.assertEqual(self.request('/api/checkout', {})[0], 401)
+            result = self.request('/api/call', {'id': self.doc_id, 'unit_id': 'u1', 'sdp': 'v=0'}, cookie)
+            self.assertEqual(result[0], 402)
+            self.assertEqual(result[1]['code'], 'payment_required')
+            url = self.request('/api/checkout', {'language': 'ru'}, cookie)[1]['url']
+            self.assertIn('client_reference_id=', url)
+            self.assertIn('locale=ru', url)
+
+    def test_unsigned_webhook_never_grants_credit(self):
+        (public.STATE / 'stripe-webhook-secret').write_text('whsec_test_only')
+        self.assertEqual(self.request('/api/stripe/webhook', {}, origin='')[0], 400)
+        self.assertEqual(self.request('/api/stripe/webhook', {}, host='evil.example', origin='')[0], 403)
 
 if __name__ == '__main__': unittest.main()

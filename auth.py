@@ -13,6 +13,10 @@ def connect(state):
     path.chmod(0o600)
     db.execute('CREATE TABLE IF NOT EXISTS users (email TEXT PRIMARY KEY, salt TEXT, hash TEXT, reader TEXT UNIQUE)')
     db.execute('CREATE TABLE IF NOT EXISTS sessions (token TEXT PRIMARY KEY, email TEXT, expires INTEGER)')
+    columns = {r[1] for r in db.execute('PRAGMA table_info(users)')}
+    for column, default in [('name', ''), ('language', 'en')]:
+        if column not in columns:
+            db.execute(f"ALTER TABLE users ADD COLUMN {column} TEXT DEFAULT '{default}'")
     return db
 
 
@@ -20,13 +24,13 @@ def password_hash(password, salt):
     return hashlib.scrypt(password.encode(), salt=bytes.fromhex(salt), n=16384, r=8, p=1).hex()
 
 
-def create_user(state, email, password):
+def create_user(state, email, password, name='', language='en'):
     email = email.strip().lower()
-    if '@' not in email or len(password) < 10:
+    if not isinstance(email, str) or '@' not in email or len(email)>254 or not 10 <= len(password) <= 256:
         raise ValueError('Valid email and password of at least 10 characters required.')
     salt = secrets.token_hex(16)
     with connect(state) as db:
-        db.execute('INSERT INTO users VALUES (?, ?, ?, ?)', (email, salt, password_hash(password, salt), secrets.token_hex(32)))
+        db.execute('INSERT INTO users (email,salt,hash,reader,name,language) VALUES (?, ?, ?, ?, ?, ?)', (email, salt, password_hash(password, salt), secrets.token_hex(32), name.strip()[:60], language if language in ('es','en','ru','fr','he','pt') else 'en'))
 
 
 def login(state, email, password):
@@ -44,8 +48,8 @@ def login(state, email, password):
 def account(state, token):
     if not token or len(token) != 64: return None
     with connect(state) as db:
-        row = db.execute('SELECT users.email, users.reader FROM sessions JOIN users USING(email) WHERE token=? AND expires>?', (hashlib.sha256(token.encode()).hexdigest(), int(time.time()))).fetchone()
-        return {'email': row[0], 'reader': row[1]} if row else None
+        row = db.execute('SELECT users.email, users.reader, users.name, users.language FROM sessions JOIN users USING(email) WHERE token=? AND expires>?', (hashlib.sha256(token.encode()).hexdigest(), int(time.time()))).fetchone()
+        return {'email': row[0], 'reader': row[1], 'name': row[2], 'language': row[3]} if row else None
 
 
 def logout(state, token):
