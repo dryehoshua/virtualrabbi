@@ -37,3 +37,7 @@ La mesa muestra el facsímil resaltado y el texto legible; el chat y la transcri
 ## Criterio de interpretación
 
 Se permiten opiniones e interpretaciones fundadas en el pasaje, la Cabalá y la Jasidut Jabad, con fuentes identificables. Explicar conceptos y relaciones desde ese marco teológico. Distinguir una deducción de una cita cuando haga falta. Evitar comentarios externos sobre personajes ficticios, personas como objetos, límites de metáforas o parámetros del lenguaje. Las observaciones de edición y transcripción permanecen en las notas de fuentes y se explican cuando resuelven una duda textual.
+
+## Entregas y continuidad
+
+Jayé Sará se prepara en entregas de cinco lecciones. La primera cubre la hoja 1, columna derecha, líneas 1–22 desde יגלה לן, sin incluir Vayerá. Los fragmentos internos de voz no son nuevas lecciones: se leen de corrido, sin preguntas ni anuncios intermedios. Al acabar las cinco lecciones preparadas, guardar el punto y detener el avance; no inventar la sexta.

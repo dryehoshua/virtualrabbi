@@ -2,12 +2,13 @@
 
 El proyecto incorpora las hojas que el propietario comparte en este chat, parashá a parashá. Markdown es el formato principal de conservación. / The owner supplies source sheets in this chat, parashah by parashah. Markdown is the primary preservation format.
 
-## Entrega actual / Current installment
+## Entregas actuales / Current installments
 
-- **Lej Lejá / Lech Lecha** — Shabat 24 de octubre de 2026 / October 24, 2026 — י״ג חשוון תשפ״ז.
-- Primera entrega: apertura de הנה אברם; diez unidades conceptuales. No cubre las seis hojas completas. / First installment: opening of Hinei Avram; ten conceptual units. It does not cover all six scanned sheets.
-- Texto hebreo contrastado con [Torá Or, edición Kehot en Chabad.org](https://www.chabad.org/torah-texts/7440873).
-- Calendario verificado en [Chabad.org](https://www.chabad.org/parshah/torahreading_cdo/aid/2474599/p/complete/jewish/Lech-Lecha-Torah-Reading.htm).
+- **Lej Lejá / Lech Lecha**: 62 lecciones preparadas hasta la hoja 4; seis hojas de consulta. / 62 prepared units through sheet 4; six reference sheets.
+- **Jayé Sará / Chayei Sarah**: primeras cinco lecciones de «ענין שדה המכפלה»; hoja 1, columna derecha, líneas 1–22 desde יגלה לן. Cuatro hojas de consulta. / First five units of “Inyan sedeh haMachpelah”; sheet 1, right column, lines 1–22 counted from יגלה לן. Four reference sheets.
+- La entrega de Jayé Sará se detiene en חיות הנפש הבאה מלמעלה. Próxima entrega desde ובטן רשעים כו׳. Se continuará de cinco en cinco por petición del titular; no presentar la parashá como completa. / Chayei Sarah stops at חיות הנפש הבאה מלמעלה; the next installment starts at ובטן רשעים כו׳. Continue in batches of five at the owner's request; do not present the parashah as complete.
+- [Fuente primaria de Jayé Sará / Chayei Sarah primary source: Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899147).
+- Markdown conserva el material de estudio; las ubicaciones y el hebreo revisado también están en el índice JSON. / Markdown preserves the study material; locations and reviewed Hebrew are also stored in the JSON index.
 
 ## Archivos por parashá / Files per parashah
 

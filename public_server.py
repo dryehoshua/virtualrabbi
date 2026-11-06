@@ -83,7 +83,7 @@ def public_library():
     documents = []
     for path in sorted(CATALOG.glob('*/documento.json')):
         d = read_document(path.parent.name)
-        documents.append({k: d.get(k) for k in ('id', 'title', 'author', 'status', 'created_at', 'updated_at', 'current_unit', 'completed')} | {'page_count': len(d['pages']), 'unit_count': len(d['units'])})
+        documents.append({k: d.get(k) for k in ('id', 'title', 'title_en', 'author', 'status', 'created_at', 'updated_at', 'current_unit', 'completed')} | {'page_count': len(d['pages']), 'unit_count': len(d['units'])})
     return documents
 
 

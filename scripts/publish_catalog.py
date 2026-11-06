@@ -12,15 +12,15 @@ DOC_ID = '1e7e1e7a202610240000000000000001'
 CONTENT_FIELDS = ('id', 'slug', 'title', 'title_en', 'author', 'created_at', 'units', 'pages', 'introduction', 'introduction_en', 'coverage', 'coverage_en', 'preparation')
 
 
-def publish():
-    source = server.DATA / DOC_ID
+def publish(doc_id=DOC_ID):
+    source = server.folder(doc_id)
     original = json.loads((source / 'documento.json').read_text())
     if original.get('preparation') != 'curated_primary' or not original.get('units'):
         raise ValueError('Only reviewed primary-source lessons can be published.')
     doc = {k: original[k] for k in CONTENT_FIELDS if k in original}
     first = doc['units'][0]
     doc.update(status='ready', updated_at=server.now(), current_unit=0, completed=[], study_language='es', location=first['location']['start'], location_unmapped=False, cursor={'unit_id': first['id'], 'phase': 'hebrew', 'interrupted': False}, error='')
-    destination = CATALOG / DOC_ID
+    destination = CATALOG / doc_id
     destination.mkdir(parents=True, exist_ok=True)
     server.dump(destination / 'documento.json', doc)
     for name in ('original.pdf', 'guia-estudio-es.md', 'guia-estudio-en.md', 'hebreo-revisado.txt', 'exegesis.md'):
@@ -36,4 +36,7 @@ def publish():
 
 
 if __name__ == '__main__':
-    publish()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--id', default=DOC_ID, help='Curated document ID to publish; preserves all other parashot.')
+    publish(parser.parse_args().id)

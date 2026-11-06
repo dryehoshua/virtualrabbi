@@ -152,3 +152,47 @@ real de voz ni un pago de extremo a extremo.
 These automated tests cover identity, isolation, forged signatures, retries,
 refunds, unpaid access, accounting, limits, interruption and resume. They do not
 replace real voice and end-to-end payment verification.
+
+## Jayé Sará y continuidad — 2026-11-06
+
+Dos parashot publicadas: Lej Lejá (62 unidades) y Jayé Sará (cinco unidades,
+cuatro facsímiles). No se modificó el progreso de Lej Lejá. Selector de parashá
+visible y enlaces directos por `?lesson=ID`.
+
+Two published portions: Lech Lecha (62 units) and Chayei Sarah (five units,
+four facsimiles). Existing Lech Lecha progress is preserved. A visible portion
+selector and `?lesson=ID` links open either collection.
+
+Las lecturas largas se envían en fragmentos internos conservando todas las
+palabras: primero todo el hebreo, después la traducción y la explicación. No se
+avanza con una respuesta incompleta; se reintenta una vez, después de terminar
+el audio, y se conserva el marcador si persiste el error. Una pausa o pregunta
+invalida las lecturas pendientes. La entrega termina después de la lección 5.
+
+Long readings use internal fragments preserving every word: all Hebrew first,
+then translation and explanation. An incomplete response cannot advance the
+cursor; one retry follows playback, and persistent errors retain the bookmark.
+A pause or question invalidates pending readings. This installment stops after
+lesson five.
+
+Validación: 32 pruebas Python, simulación previa de preguntas/pausas y simulación
+de las cinco lecciones reales en ES y EN. La prueba de audio real completó dos
+fragmentos hebreos y el siguiente fragmento español: 949 cuadros de audio,
+sin errores, cierre remoto confirmado, costo estimado US$0.035316. Esto no
+sustituye una sesión completa con preguntas habladas desde un navegador.
+
+Validation: 32 Python tests, existing question/pause simulations and all five
+actual lessons simulated in ES and EN. A real voice test completed two Hebrew
+fragments followed by a Spanish fragment: 949 audio frames, no errors, confirmed
+remote hangup, estimated US$0.035316. This does not replace a complete browser
+session with spoken student questions.
+
+Reinstalar desde el PDF aportado / Reinstall from the supplied PDF (requires
+`pymupdf` for facsimile rendering):
+
+```sh
+python3 scripts/seed_jaye_sara.py /path/to/original.pdf
+python3 scripts/publish_catalog.py --id 1e7e1e7a202611070000000000000002
+node tests/voice-five-lessons.mjs
+STUDY_LANGUAGE=en node tests/voice-five-lessons.mjs
+```

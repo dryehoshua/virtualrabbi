@@ -1,0 +1,469 @@
+[
+  {
+    "id": "jaye-sara-01-01",
+    "title": "El doble de la letra he",
+    "title_en": "The doubling of the letter he",
+    "hebrew": "יגלה לן טעמיה כו'. הנה מילוי ה' היא בה' אחרת והיא בחי' כפילא כנודע מענין מערת המכפלה שהיא ה' אחרונה דשם ב\"ן כו'. והענין יובן בהקדים להבין ענין האכילה",
+    "translation": "«Que nos revele su sentido…». La letra he se escribe en su forma plena con otra he. Este es el aspecto de duplicación, conocido por el sentido de la cueva de Majpelá, que es la última he del Nombre Ban. Esto se comprenderá comenzando por el significado de la alimentación.",
+    "translation_en": "“May He reveal its meaning to us…” The letter he is spelled in full with another he. This is the aspect of doubling, known from the meaning of the Cave of Machpelah, which is the final he of the Name Ban. This will be understood by first considering the meaning of eating.",
+    "explanation": "El Alter Rebbe abre con el milui: escribir el nombre de una letra con las letras que lo componen. Aquí, he se escribe con otra he; la duplicación introduce el sentido interior de Majpelá. El maamar desarrolla esta cuestión mediante la alimentación y Shabat; todavía no presenta su conclusión.",
+    "explanation_en": "The Alter Rebbe opens with milui: spelling out a letter’s name with its component letters. Here he is written with another he; this doubling introduces the inner meaning of Machpelah. The discourse develops this through eating and Shabbat; its conclusion has not yet been reached.",
+    "questions": [],
+    "questions_en": [],
+    "pages": [
+      1
+    ],
+    "discourse": "inyan-sede-hamachpela",
+    "section_end": false,
+    "review_state": "curated",
+    "source_status": "primary_text",
+    "research": "",
+    "location": {
+      "start": {
+        "page": 1,
+        "column": "right",
+        "line": 1
+      },
+      "end": {
+        "page": 1,
+        "column": "right",
+        "line": 3
+      },
+      "printed_page": "30",
+      "basis": "Líneas contadas desde יגלה לן, debajo del encabezado פרשת חיי שרה; se excluye el cierre de Vayerá. Las franjas cubren líneas completas y pueden compartirse entre lecciones. / Lines counted from יגלה לן below the Chayei Sarah heading; the preceding Vayera text is excluded. Whole-line highlight bands can be shared."
+    },
+    "regions": [
+      {
+        "page": 1,
+        "column": "right",
+        "line": 1,
+        "left": 0.505,
+        "top": 0.32821229050279327,
+        "width": 0.445,
+        "height": 0.0111731843575419
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 2,
+        "left": 0.505,
+        "top": 0.34497206703910616,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 3,
+        "left": 0.505,
+        "top": 0.3610335195530726,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      }
+    ],
+    "sources": [
+      {
+        "title": "Torá Or · ענין שדה המכפלה · Chabad / Kehot",
+        "url": "https://he.chabad.org/library/article_cdo/aid/5899147",
+        "kind": "primary_text",
+        "checked_at": "2026-11-06"
+      }
+    ],
+    "source_notes": "Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.",
+    "source_notes_en": "Text visually checked against the supplied scan and Chabad/Kehot. Scan abbreviations are preserved. Editorial study translation and explanation based on this discourse, not quotations from another commentary. Internal biblical references are retained as part of the source; independent verification is not claimed.",
+    "discourse_start": true
+  },
+  {
+    "id": "jaye-sara-01-02",
+    "title": "El alimento se eleva en la avodá",
+    "title_en": "Food is elevated through avodah",
+    "hebrew": "כי הנה עיקר האכילה להיות כי מן המאכל נעשה חלב ודם והדם הוא הנפש וחיות האדם שמקבל הכבד הדם מן המאכל ושולח ללב ולמוח דתלת שליטין אינון בעלמא כבדא ולבא ומוחא כו'. ועי\"ז מתעלה המאכל שנעשה ממנו לב ומוח האדם ועי\"ז מתחזק לבו ומוחו בעבודת ה' שבלבו בהתלהבו' כרשפי אש שנעשה בכח האכילה שבלא אכילה הי' מתחלש כו'.",
+    "translation": "La función principal de la alimentación consiste en que del alimento se forman grasa y sangre; la sangre es la vida y la vitalidad de la persona. El hígado recibe la sangre del alimento y la envía al corazón y al cerebro, pues «tres gobiernan en el mundo: el hígado, el corazón y el cerebro». Así se eleva el alimento, del que se forman el corazón y el cerebro humanos, y se fortalecen para servir a Hashem: el corazón se enciende como llamas de fuego gracias a la fuerza recibida al comer; sin alimento se debilitaría.",
+    "translation_en": "The principal function of eating is that food becomes fat and blood; blood is the person’s life and vitality. The liver receives the blood from food and sends it to the heart and brain, for “three rule in the world: the liver, the heart and the brain.” Food is thereby elevated, becoming the human heart and brain and strengthening them for the service of Hashem: the heart burns like flames of fire through the strength received from eating; without food it would weaken.",
+    "explanation": "El maamar sigue el paso del alimento hacia las facultades con las que se sirve a Hashem. Cuando su fuerza sostiene el amor ardiente del corazón, la vitalidad del alimento participa en la avodá y se eleva. Esa elevación prepara la explicación del birur en la siguiente lección.",
+    "explanation_en": "The discourse follows food into the faculties through which a person serves Hashem. When its strength sustains the heart’s burning love, the food’s vitality participates in avodah and is elevated. This elevation prepares the explanation of birur in the next lesson.",
+    "questions": [],
+    "questions_en": [],
+    "pages": [
+      1
+    ],
+    "discourse": "inyan-sede-hamachpela",
+    "section_end": false,
+    "review_state": "curated",
+    "source_status": "primary_text",
+    "research": "",
+    "location": {
+      "start": {
+        "page": 1,
+        "column": "right",
+        "line": 3
+      },
+      "end": {
+        "page": 1,
+        "column": "right",
+        "line": 8
+      },
+      "printed_page": "30",
+      "basis": "Líneas contadas desde יגלה לן, debajo del encabezado פרשת חיי שרה; se excluye el cierre de Vayerá. Las franjas cubren líneas completas y pueden compartirse entre lecciones. / Lines counted from יגלה לן below the Chayei Sarah heading; the preceding Vayera text is excluded. Whole-line highlight bands can be shared."
+    },
+    "regions": [
+      {
+        "page": 1,
+        "column": "right",
+        "line": 3,
+        "left": 0.505,
+        "top": 0.3610335195530726,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 4,
+        "left": 0.505,
+        "top": 0.3770949720670391,
+        "width": 0.445,
+        "height": 0.009776536312849162
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 5,
+        "left": 0.505,
+        "top": 0.39106145251396646,
+        "width": 0.445,
+        "height": 0.011871508379888268
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 6,
+        "left": 0.505,
+        "top": 0.4085195530726257,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 7,
+        "left": 0.505,
+        "top": 0.4245810055865922,
+        "width": 0.445,
+        "height": 0.009776536312849162
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 8,
+        "left": 0.505,
+        "top": 0.4399441340782123,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      }
+    ],
+    "sources": [
+      {
+        "title": "Torá Or · ענין שדה המכפלה · Chabad / Kehot",
+        "url": "https://he.chabad.org/library/article_cdo/aid/5899147",
+        "kind": "primary_text",
+        "checked_at": "2026-11-06"
+      }
+    ],
+    "source_notes": "Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.",
+    "source_notes_en": "Text visually checked against the supplied scan and Chabad/Kehot. Scan abbreviations are preserved. Editorial study translation and explanation based on this discourse, not quotations from another commentary. Internal biblical references are retained as part of the source; independent verification is not claimed."
+  },
+  {
+    "id": "jaye-sara-01-03",
+    "title": "Del birur cotidiano al deleite de Shabat",
+    "title_en": "From weekday birur to Shabbat delight",
+    "hebrew": "וגם מוחו נעשה חזק להתבונן בגדולת ה' כו' וזהו ענין בירור שמן המאכל נעשה אדם. אך כ\"ז הוא בימות החול אבל בשבת בורר אסור אלא האכילה היא יותר עליונה בבחי' המשכה מלמעלה וקראת לשבת ענג. אז תתענג על הוי\"ה.",
+    "translation": "También su mente se fortalece para contemplar la grandeza de Hashem. Este es el significado de birur: del alimento se hace persona. Todo esto corresponde a los días de la semana; en Shabat, sin embargo, seleccionar está prohibido, y la alimentación pertenece a un nivel más elevado: una atracción desde arriba. «Llamarás al Shabat deleite»; «entonces te deleitarás sobre Hashem».",
+    "translation_en": "The mind is also strengthened to contemplate the greatness of Hashem. This is the meaning of birur: food becomes a person. All this applies to weekdays; on Shabbat, however, selecting is forbidden, and eating belongs to a higher level: a drawing down from above. “You shall call Shabbat a delight”; “then you shall delight above Hashem.”",
+    "explanation": "Birur significa aquí el refinamiento por el que la fuerza del alimento se incorpora al servicio divino. El Alter Rebbe distingue ese ascenso cotidiano de la hamshajá de Shabat, una influencia que desciende desde arriba. La expresión «sobre Hashem» abre la explicación cabalística del deleite superior que sigue.",
+    "explanation_en": "Birur here means the refinement through which food’s strength enters divine service. The Alter Rebbe distinguishes that weekday ascent from Shabbat’s hamshachah, an influence drawn down from above. The phrase “above Hashem” introduces the ensuing Kabbalistic explanation of higher delight.",
+    "questions": [],
+    "questions_en": [],
+    "pages": [
+      1
+    ],
+    "discourse": "inyan-sede-hamachpela",
+    "section_end": false,
+    "review_state": "curated",
+    "source_status": "primary_text",
+    "research": "",
+    "location": {
+      "start": {
+        "page": 1,
+        "column": "right",
+        "line": 8
+      },
+      "end": {
+        "page": 1,
+        "column": "right",
+        "line": 12
+      },
+      "printed_page": "30",
+      "basis": "Líneas contadas desde יגלה לן, debajo del encabezado פרשת חיי שרה; se excluye el cierre de Vayerá. Las franjas cubren líneas completas y pueden compartirse entre lecciones. / Lines counted from יגלה לן below the Chayei Sarah heading; the preceding Vayera text is excluded. Whole-line highlight bands can be shared."
+    },
+    "regions": [
+      {
+        "page": 1,
+        "column": "right",
+        "line": 8,
+        "left": 0.505,
+        "top": 0.4399441340782123,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 9,
+        "left": 0.505,
+        "top": 0.45600558659217877,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 10,
+        "left": 0.505,
+        "top": 0.4720670391061452,
+        "width": 0.445,
+        "height": 0.009776536312849162
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 11,
+        "left": 0.505,
+        "top": 0.48743016759776536,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 12,
+        "left": 0.505,
+        "top": 0.5034916201117319,
+        "width": 0.445,
+        "height": 0.009776536312849162
+      }
+    ],
+    "sources": [
+      {
+        "title": "Torá Or · ענין שדה המכפלה · Chabad / Kehot",
+        "url": "https://he.chabad.org/library/article_cdo/aid/5899147",
+        "kind": "primary_text",
+        "checked_at": "2026-11-06"
+      }
+    ],
+    "source_notes": "Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.",
+    "source_notes_en": "Text visually checked against the supplied scan and Chabad/Kehot. Scan abbreviations are preserved. Editorial study translation and explanation based on this discourse, not quotations from another commentary. Internal biblical references are retained as part of the source; independent verification is not claimed."
+  },
+  {
+    "id": "jaye-sara-01-04",
+    "title": "La raíz del alimento en Tohu",
+    "title_en": "The root of food in Tohu",
+    "hebrew": "כי הנה כתיב אחור וקדם צרתני אחור למע\"ב כו' שהמאכל כמו שהוא למטה בירידתו בשבה\"כ הנה האדם הוא בבחי' קדם שהמאכל הוא מתברר ע\"י האדם. אבל בשרשו למעלה הוא מעולם התהו לפני מלך מלך לבנ\"י אלא שאח\"כ וימלך וימת. וימת וימלך כו'. אך מ\"מ נראה ששרשו יותר גבוה מהאדם שהרי המאכל הוא המחי' את האדם.",
+    "translation": "Está escrito: «Por detrás y por delante me formaste»: por detrás en la obra de la Creación. Respecto del alimento tal como está abajo, tras su descenso en la ruptura de los recipientes, la persona está «por delante», pues ella refina el alimento. Pero en su raíz superior, el alimento procede del mundo de Tohu, «antes de que reinara un rey sobre los hijos de Israel». Después vino «reinó y murió», «murió y reinó». Aun así, se ve que su raíz es más elevada que la de la persona, pues el alimento es el que le da vida.",
+    "translation_en": "It is written, “Behind and before You formed me”: behind in the work of Creation. In relation to food as it exists below, following its descent in the shattering of the vessels, the person is “before,” since the person refines the food. Yet in its higher root, food comes from the world of Tohu, “before a king reigned over the children of Israel.” Afterwards came “he reigned and died,” “he died and reigned.” Nevertheless, its root is seen to be higher than the person’s, for food is what gives the person life.",
+    "explanation": "El maamar distingue la posición del alimento después de la shevirá de su raíz anterior en Tohu. Abajo, la persona puede refinarlo; en su raíz, el alimento contiene una vitalidad de un nivel superior, por lo que puede sostener a la persona. «Por delante» y «por detrás» expresan esas dos relaciones.",
+    "explanation_en": "The discourse distinguishes food’s position after the shevirah from its earlier root in Tohu. Below, a person can refine it; at its root, food contains vitality from a higher level and can therefore sustain the person. “Before” and “behind” express these two relationships.",
+    "questions": [],
+    "questions_en": [],
+    "pages": [
+      1
+    ],
+    "discourse": "inyan-sede-hamachpela",
+    "section_end": false,
+    "review_state": "curated",
+    "source_status": "primary_text",
+    "research": "",
+    "location": {
+      "start": {
+        "page": 1,
+        "column": "right",
+        "line": 12
+      },
+      "end": {
+        "page": 1,
+        "column": "right",
+        "line": 17
+      },
+      "printed_page": "30",
+      "basis": "Líneas contadas desde יגלה לן, debajo del encabezado פרשת חיי שרה; se excluye el cierre de Vayerá. Las franjas cubren líneas completas y pueden compartirse entre lecciones. / Lines counted from יגלה לן below the Chayei Sarah heading; the preceding Vayera text is excluded. Whole-line highlight bands can be shared."
+    },
+    "regions": [
+      {
+        "page": 1,
+        "column": "right",
+        "line": 12,
+        "left": 0.505,
+        "top": 0.5034916201117319,
+        "width": 0.445,
+        "height": 0.009776536312849162
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 13,
+        "left": 0.505,
+        "top": 0.5188547486033519,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 14,
+        "left": 0.505,
+        "top": 0.5349162011173184,
+        "width": 0.445,
+        "height": 0.009776536312849162
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 15,
+        "left": 0.505,
+        "top": 0.5502793296089385,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 16,
+        "left": 0.505,
+        "top": 0.5663407821229051,
+        "width": 0.445,
+        "height": 0.009776536312849162
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 17,
+        "left": 0.505,
+        "top": 0.5817039106145251,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      }
+    ],
+    "sources": [
+      {
+        "title": "Torá Or · ענין שדה המכפלה · Chabad / Kehot",
+        "url": "https://he.chabad.org/library/article_cdo/aid/5899147",
+        "kind": "primary_text",
+        "checked_at": "2026-11-06"
+      }
+    ],
+    "source_notes": "Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.",
+    "source_notes_en": "Text visually checked against the supplied scan and Chabad/Kehot. Scan abbreviations are preserved. Editorial study translation and explanation based on this discourse, not quotations from another commentary. Internal biblical references are retained as part of the source; independent verification is not claimed."
+  },
+  {
+    "id": "jaye-sara-01-05",
+    "title": "Shabat: recibir vitalidad desde la raíz",
+    "title_en": "Shabbat: receiving vitality from the root",
+    "hebrew": "והאדם הוא מקבל החיות מן המאכל לפי שהוא בבחי' אחור למע\"ב כו' ובשבת שהוא זמן עליית העולמות מתעלה המאכל כמו שהוא בשרשו ונמשך ממנו חיות להנפש מלמעלה למטה ע\"י י\"ב לחמים כו' וזהו ענין צדיק אוכל לשובע נפשו כי יש ב' אכילות הא' הוא לשובע נפשו. והב' הוא ובטן רשעים תחסר. לשובע נפשו הוא חיות הנפש הבאה מלמעלה.",
+    "translation": "La persona recibe la vitalidad del alimento porque, en este sentido, está «por detrás» en la obra de la Creación. En Shabat, tiempo de elevación de los mundos, el alimento asciende tal como es en su raíz, y de él se atrae vitalidad al alma de arriba abajo mediante los doce panes. Este es el sentido de «el justo come para saciar su alma». Hay dos formas de comer: una es «para saciar su alma» y la otra es «el vientre de los malvados quedará falto». «Para saciar su alma» es la vitalidad del alma que viene desde arriba.",
+    "translation_en": "The person receives vitality from food because, in this respect, the person is “behind” in the work of Creation. On Shabbat, the time of the worlds’ ascent, food rises as it exists in its root, and vitality is drawn from it into the soul from above to below through the twelve loaves. This is the meaning of “the righteous person eats to satisfy his soul.” There are two forms of eating: one is “to satisfy his soul,” and the other is “the belly of the wicked shall lack.” “To satisfy his soul” is the soul’s vitality that comes from above.",
+    "explanation": "La elevación de los mundos en Shabat permite recibir la vitalidad del alimento desde su raíz superior. El maamar vincula esta hamshajá con los doce panes y con «saciar su alma». Aquí introduce el contraste con la otra forma de comer; su desarrollo queda para la siguiente entrega, sin dar por terminado el maamar.",
+    "explanation_en": "The ascent of the worlds on Shabbat enables the vitality of food to be received from its higher root. The discourse connects this hamshachah with the twelve loaves and “satisfying his soul.” It introduces a contrast with the other form of eating; that development is reserved for the next installment, without treating the discourse as finished.",
+    "questions": [],
+    "questions_en": [],
+    "pages": [
+      1
+    ],
+    "discourse": "inyan-sede-hamachpela",
+    "section_end": false,
+    "review_state": "curated",
+    "source_status": "primary_text",
+    "research": "",
+    "location": {
+      "start": {
+        "page": 1,
+        "column": "right",
+        "line": 17
+      },
+      "end": {
+        "page": 1,
+        "column": "right",
+        "line": 22
+      },
+      "printed_page": "30",
+      "basis": "Líneas contadas desde יגלה לן, debajo del encabezado פרשת חיי שרה; se excluye el cierre de Vayerá. Las franjas cubren líneas completas y pueden compartirse entre lecciones. / Lines counted from יגלה לן below the Chayei Sarah heading; the preceding Vayera text is excluded. Whole-line highlight bands can be shared."
+    },
+    "regions": [
+      {
+        "page": 1,
+        "column": "right",
+        "line": 17,
+        "left": 0.505,
+        "top": 0.5817039106145251,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 18,
+        "left": 0.505,
+        "top": 0.5977653631284916,
+        "width": 0.445,
+        "height": 0.009776536312849162
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 19,
+        "left": 0.505,
+        "top": 0.6138268156424581,
+        "width": 0.445,
+        "height": 0.009776536312849162
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 20,
+        "left": 0.505,
+        "top": 0.6291899441340782,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 21,
+        "left": 0.505,
+        "top": 0.6452513966480447,
+        "width": 0.445,
+        "height": 0.009776536312849162
+      },
+      {
+        "page": 1,
+        "column": "right",
+        "line": 22,
+        "left": 0.505,
+        "top": 0.6606145251396648,
+        "width": 0.445,
+        "height": 0.01047486033519553
+      }
+    ],
+    "sources": [
+      {
+        "title": "Torá Or · ענין שדה המכפלה · Chabad / Kehot",
+        "url": "https://he.chabad.org/library/article_cdo/aid/5899147",
+        "kind": "primary_text",
+        "checked_at": "2026-11-06"
+      }
+    ],
+    "source_notes": "Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.",
+    "source_notes_en": "Text visually checked against the supplied scan and Chabad/Kehot. Scan abbreviations are preserved. Editorial study translation and explanation based on this discourse, not quotations from another commentary. Internal biblical references are retained as part of the source; independent verification is not claimed.",
+    "installment_end": true,
+    "next_source_text": "ובטן רשעים כו' היינו כי רשעים הם החיצונים"
+  }
+]

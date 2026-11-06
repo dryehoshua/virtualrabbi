@@ -37,3 +37,7 @@ The desk displays the highlighted facsimile and readable text; chat and student 
 ## Interpretation
 
 Interpretive judgments are welcome when grounded in the passage, Kabbalah, and Chabad Chassidut with identifiable sources. Explain concepts and relationships within that theological framework. Distinguish an inference from a quotation when needed. Avoid unrelated commentary about fictional characters, people as objects, metaphor limitations, or language-model framing. Editorial and transcription observations stay in source notes and are explained when they resolve a textual question.
+
+## Installments and continuity
+
+Chayei Sarah is prepared in batches of five lessons. The first covers sheet 1, right column, lines 1–22 counted from יגלה לן, excluding Vayera. Internal audio fragments are not separate lessons: continue without questions or announcements between them. After the five prepared lessons, save the checkpoint and stop advancing; never invent a sixth.
