@@ -2,9 +2,9 @@
 
 Jabrutá virtual local para Torá Or del Alter Rebbe, con enfoque Jabad ortodoxo. Local virtual chavruta for the Alter Rebbe’s Torah Or within Orthodox Chabad tradition.
 
-Estado público: registro y clases de pago único preparados; voz y cobros de clases pausados hasta recargar OpenAI y verificar una llamada. [Operación / Operations](docs/PUBLICACION.md).
+Estado público: registro, voz y pago único de US$5 por hasta 30 minutos activos. Clave exclusiva en el proyecto OpenAI Virtual Rabbi; conexión real con audio verificada. Pendiente una compra real seguida de una clase completa. [Operación / Operations](docs/PUBLICACION.md).
 
-Public status: signup and one-time classes are prepared; voice and class checkout remain paused pending OpenAI credits and a successful call test.
+Public status: signup, voice and US$5 one-time checkout for up to 30 minutes are enabled. Dedicated Virtual Rabbi OpenAI project key; actual audio connection verified. A real purchase followed by a complete class remains to be verified.
 
 ## Abrir / Open
 

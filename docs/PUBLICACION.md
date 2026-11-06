@@ -1,16 +1,42 @@
 # Virtual Rabbi · Publicación / Deployment
 
-## Estado / Status — 2026-11-05
+## Estado / Status — 2026-11-06
 
-Registro público, acceso por cuenta, Stripe y control de clases implementados.
-Las llamadas y la compra de clases están **pausadas**: la prueba real de OpenAI
-respondió `429 credit_balance_exhausted`. El titular decidió recargar después.
-No se ha verificado todavía una llamada pública completa ni un cobro real.
+Voz pública y enlace Stripe de la clase **activados** tras la recarga. Se creó el
+proyecto OpenAI **Virtual Rabbi** y su cuenta de servicio `virtualrabbi-voice`.
+La prueba real con la nueva clave conectó, recibió 46 cuadros de audio, completó
+la respuesta y cerró la llamada remotamente, sin errores (costo estimado US$0.001972).
+Se verificó la apertura del formulario Stripe de US$5. No se realizó un cobro real;
+la entrega de minutos y sus protecciones se comprobaron mediante pruebas aisladas.
+Una compra real seguida de una clase completa por el navegador sigue pendiente.
 
-Public signup, account access, Stripe fulfillment and class controls are implemented.
-Voice and class checkout are **paused** because the actual OpenAI call attempt
-returned `429 credit_balance_exhausted`. The owner will fund the API later.
-A complete public voice call and a real payment have not yet been verified.
+Public voice and the class Stripe link are **enabled** after funding. The dedicated
+OpenAI **Virtual Rabbi** project and `virtualrabbi-voice` service account are active.
+An actual call with the new key connected, received 46 audio frames, completed its
+response and was remotely closed without errors (estimated cost US$0.001972).
+The US$5 Stripe checkout opens. No real payment was made; fulfillment and its
+protections were checked with isolated tests. A real purchase followed by a full
+browser study session remains to be verified.
+
+## OpenAI: proyecto y saldo / Project and balance
+
+- Proyecto / Project: `Virtual Rabbi`, `proj_HktAxy5owCe8AoAGGxavlap7`.
+- Organización / Organization: `Personal`. Es el nombre de la organización,
+  no una indicación de que la aplicación use una clave personal.
+- Cuenta de servicio / Service account: `virtualrabbi-voice`.
+- Clave sólo en el llavero macOS / Key only in macOS Keychain:
+  servicio `virtualrabbi.net.openai`, cuenta `virtualrabbi.net`.
+- La clave anterior se conserva en el llavero como `virtualrabbi.net.previous`;
+  no fue revocada, porque podría tener otros usos. The previous key was retained
+  locally and not revoked, since other applications may still use it.
+- Sin límite mensual de proyecto, por decisión del titular. Los límites de clase
+  y los de la organización siguen vigentes. No project monthly spend limit,
+  as requested; per-class and organization limits still apply.
+- El saldo se recarga por organización; cada proyecto separa claves y consumo.
+  Prepaid credit belongs to the organization; projects separate keys and usage.
+  [OpenAI: spend limits](https://developers.openai.com/api/docs/guides/spend-limits).
+- La aplicación mantiene `voice_only`: esta clave se usa para llamadas de voz,
+  no para preparar documentos. The application retains its voice-only API mode.
 
 ## Infraestructura / Infrastructure
 
@@ -69,7 +95,7 @@ Measure actual usage before expanding the launch.
 
 - Stripe: AI PEOPLE LEGACY Inc, configuración fiscal AIaaS autorizada.
 - Producto / Product: `Virtual Rabbi · Torah Or · 30 min`.
-- Payment Link: `plink_1UYZ5C1fJ8c9bLD8jeDbdnDv`, **desactivado / deactivated**.
+- Payment Link: `plink_1UYZ5C1fJ8c9bLD8jeDbdnDv`, **activo / active**.
 - Return: `https://virtualrabbi.net/study?payment=return`.
 - Webhook: `https://virtualrabbi.net/api/stripe/webhook`.
 - Destination: `we_1UYZmV1fJ8c9bLD8hcV60vqr`, enabled.
@@ -93,9 +119,10 @@ Measure actual usage before expanding the launch.
 2. Probar conexión real, recepción de audio, monitor del servidor y cierre remoto
    usando un estado aislado; no emitir créditos ficticios en producción.
    Verify actual audio, server monitoring and provider hangup with isolated state.
-3. Verificar pago y entrega Stripe en un entorno de prueba aislado antes de abrir
-   ventas; comprobar que el usuario correcto recibe 1,800 segundos una sola vez.
-   Verify sandbox payment fulfillment to the correct account exactly once.
+3. Verificar la entrega con eventos firmados en pruebas aisladas; comprobar que
+   el usuario correcto recibe 1,800 segundos una sola vez. Esta prueba no equivale
+   a un pago real de extremo a extremo. Verify signed-event fulfillment in isolated
+   tests; this does not replace an actual end-to-end payment.
 4. Reactivar el Payment Link anterior y crear `.runtime/public/voice-enabled`
    únicamente después de estas verificaciones. Reiniciar el servicio público.
    Reactivate the link and create the local activation flag only after verification.
