@@ -30,10 +30,12 @@ Returned conversation summaries/messages and the available original PDF are kept
 privately in `.runtime/project-archive/`. This is not claimed to be a complete
 ChatGPT history export. Personal conversations are excluded from GitHub.
 
-La fusión y el cambio de nombre de la carpeta visible de ChatGPT siguen pendientes
-de acceso a su sesión web; la aplicación nativa no permite control automatizado
-para esa operación. No se borró el proyecto de ChatGPT.
+El proyecto de ChatGPT fue renombrado a **Virtual Rabbi** y este chat de desarrollo
+fue trasladado a ese mismo proyecto, junto con las tres conversaciones de estudio.
+La operación de la aplicación confirmó el destino; no se borró ninguna conversación.
+El repositorio y la web siguen siendo la implementación principal.
 
-Merging/renaming the visible ChatGPT project still requires access to its web
-session; automated native-app control is unavailable. The ChatGPT project has
-not been deleted.
+The ChatGPT project was renamed **Virtual Rabbi** and this development chat was
+moved into it alongside the three study conversations. The application confirmed
+the destination. No conversations were deleted. The repository and website remain
+the canonical implementation.
