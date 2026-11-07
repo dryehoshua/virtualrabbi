@@ -196,3 +196,26 @@ python3 scripts/publish_catalog.py --id 1e7e1e7a202611070000000000000002
 node tests/voice-five-lessons.mjs
 STUDY_LANGUAGE=en node tests/voice-five-lessons.mjs
 ```
+
+## Segunda entrega de Jayé Sará / Second Chayei Sarah installment — 2026-11-06
+
+Se añadieron las lecciones 6–10, desde la línea 22 derecha hasta la 19 izquierda
+de la primera hoja. El catálogo contiene 62 lecciones de Lej Lejá y 10 de Jayé
+Sará. Se conservan los identificadores y marcadores anteriores. La voz continúa
+de la 5 a la 6 y se detiene tras la 10. Simulación de las diez lecciones superada
+en español e inglés; 34 pruebas Python superadas. No se modificó el motor de voz
+ni se realizó una nueva llamada de pago para esta ampliación de contenido.
+
+Lessons 6–10 were added, from right-column line 22 through left-column line 19
+on the first sheet. The catalog now has 62 Lech Lecha lessons and 10 Chayei Sarah
+lessons. Existing IDs and checkpoints are preserved. Voice proceeds from lesson
+5 to 6 and stops after 10. Ten-lesson simulations passed in Spanish and English;
+34 Python tests passed. The voice engine was unchanged; no new paid voice call
+was made for this content extension.
+
+```sh
+python3 scripts/extend_jaye_sara.py
+python3 scripts/publish_catalog.py --id 1e7e1e7a202611070000000000000002
+STUDY_BATCH=all node tests/voice-five-lessons.mjs
+STUDY_BATCH=all STUDY_LANGUAGE=en node tests/voice-five-lessons.mjs
+```

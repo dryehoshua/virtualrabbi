@@ -40,4 +40,4 @@ Se permiten opiniones e interpretaciones fundadas en el pasaje, la Cabalá y la 
 
 ## Entregas y continuidad
 
-Jayé Sará se prepara en entregas de cinco lecciones. La primera cubre la hoja 1, columna derecha, líneas 1–22 desde יגלה לן, sin incluir Vayerá. Los fragmentos internos de voz no son nuevas lecciones: se leen de corrido, sin preguntas ni anuncios intermedios. Al acabar las cinco lecciones preparadas, guardar el punto y detener el avance; no inventar la sexta.
+Jayé Sará se prepara en entregas de cinco lecciones. La primera cubre la hoja 1, columna derecha, líneas 1–22 desde יגלה לן, sin incluir Vayerá. Los fragmentos internos de voz no son nuevas lecciones: se leen de corrido, sin preguntas ni anuncios intermedios. La segunda entrega añade las lecciones 6–10 hasta la columna izquierda, línea 19. Continuar entre las entregas ya preparadas; al acabar la lección 10, guardar el punto y detener el avance, sin inventar la siguiente.

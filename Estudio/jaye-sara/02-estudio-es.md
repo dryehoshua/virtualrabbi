@@ -2,7 +2,7 @@
 
 Estudiamos el comienzo de «Inyán sedé haMajpelá», de Torá Or. El Alter Rebbe relaciona la duplicación de la letra he con la alimentación, el birur cotidiano y la vitalidad que desciende en Shabat.
 
-Entrega 01: cinco lecciones; hoja PDF 1, página impresa 30, columna derecha, líneas 1–22 desde יגלה לן. Termina en חיות הנפש הבאה מלמעלה. Las cuatro hojas se conservan para consulta; no se presentan como completamente preparadas. El texto superior de la primera hoja pertenece a Vayerá. El maamar continúa; la siguiente entrega empieza en ובטן רשעים כו׳.
+Dos entregas, diez lecciones: hoja PDF 1, página impresa 30, desde la columna derecha, línea 1 (יגלה לן), hasta la columna izquierda, línea 19 (המשכה שמלמעלה דלא יגורך רע כלל). La columna izquierda se cuenta desde ובני מעיים. Cuatro hojas disponibles como facsímil; la parashá y el maamar siguen incompletos. Próxima entrega desde והנה המשכה זו היא בב׳ בחי׳ כפילא וקלישא.
 
 
 ## 1. El doble de la letra he
@@ -111,7 +111,122 @@ La persona recibe la vitalidad del alimento porque, en este sentido, está «por
 
 
 ### Explicación
-La elevación de los mundos en Shabat permite recibir la vitalidad del alimento desde su raíz superior. El maamar vincula esta hamshajá con los doce panes y con «saciar su alma». Aquí introduce el contraste con la otra forma de comer; su desarrollo queda para la siguiente entrega, sin dar por terminado el maamar.
+La elevación de los mundos en Shabat permite recibir la vitalidad del alimento desde su raíz superior. El maamar vincula esta hamshajá con los doce panes y con «saciar su alma». La siguiente lección desarrolla el contraste con la otra forma de comer.
+
+
+### Fuentes
+Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.
+
+- [Torá Or · ענין שדה המכפלה · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899147)
+
+
+## 6. Recuperar la vitalidad para la kedushá
+
+Location / Ubicación: {"start": {"page": 1, "column": "right", "line": 22}, "end": {"page": 1, "column": "right", "line": 28}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+
+### עברית
+ובטן רשעים כו' היינו כי רשעים הם החיצונים וע"י האכילה מבררים מהם חיל בלע ויקיאנו כי בכל מאכל יש תאוה שהוא שרש הקליפה וע"י שנכלל בגוף האדם ונעשה ממנו דם הנשלח ללב ומוח מתהפך לטוב בקדושה ע"י חיזוק הלב ומוח בעבודת ה' ועי"ז לוקח ממנו החיות שבזלע"ז. וזהו ובטן רשעים תחסר שנחסר החיות שבלעו. ומבטנו יורישנו אל.
+
+
+### Traducción
+«Y el vientre de los malvados…»: aquí los malvados son las fuerzas externas, y mediante la alimentación se refina lo que está en ellas: «La riqueza que tragó la vomitará». En todo alimento hay un deseo que es raíz de la kelipá. Cuando el alimento se incorpora al cuerpo y se convierte en sangre enviada al corazón y al cerebro, se transforma en bien dentro de la santidad, al fortalecer el corazón y la mente para servir a Hashem. Así se le quita la vitalidad que estaba en el lado opuesto. Este es el sentido de «el vientre de los malvados quedará falto»: se reduce la vitalidad que habían absorbido. «De su vientre la hará salir Dios».
+
+
+### Explicación
+El maamar desarrolla la segunda forma de comer presentada antes. Al emplear la fuerza del alimento en la avodá, se rescata su vitalidad del dominio de los jitzonim y se incorpora a la kedushá. Por eso, el fortalecimiento del corazón y la mente en el servicio divino es el punto decisivo del birur.
+
+
+### Fuentes
+Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.
+
+- [Torá Or · ענין שדה המכפלה · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899147)
+
+
+## 7. Shabat y la raíz anterior a la mezcla
+
+Location / Ubicación: {"start": {"page": 1, "column": "right", "line": 28}, "end": {"page": 1, "column": "left", "line": 6}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+
+### עברית
+והנה האכילה שבחול שהיא בבחי' בירור הוא להיות ובטן רשעים תחסר. אבל האכילה שבשבת היא המשכה מלמעלה לשובע נפשו מחמת המאכל כמו שהוא בשרשו למעלה קודם שנפל בשבה"כ שאין בו בירור. וכמ"ש בזוהר פרש שבתכם לא קאמר שמה שנעשה מלמטה למעלה ע"י בירור כמו בימות החול יש בו פרש שהוא פסולת שהמובחר שולח ללב ולמוח והפסולת יורד למטה בקרביים ובני מעיים כו' וזהו הבירור אבל בשבת שהוא נעשה מלמעלה למטה אין בו פסולת כלל כי הפסולת הוא מעה"ד טו"ר ולמטה נעשה טו"ר בכל הבחי' ע"י אכילת אדה"ר מעה"ד טו"ר. וגם בכל אדם יש תערובת טו"ר כו' רק שאינו שוה בכל נפש, יש שטוב שלו מרובה כו' וכן יש שטוב שלו הוא בבחי' זו כו', אבל בשבת אז תתענג על ה' למעלה מעה"ד ולא יגורך רע כלל.
+
+
+### Traducción
+La alimentación de los días de semana, que corresponde al birur, produce que «el vientre de los malvados quede falto». En cambio, la alimentación de Shabat es una influencia desde arriba «para saciar su alma», procedente del alimento tal como está en su raíz superior, antes de caer en la ruptura de los recipientes, donde no hay birur. Como dice el Zóhar, no se dijo «el residuo de vuestros Shabatot»: en el ascenso de abajo arriba mediante el birur de la semana hay residuo; lo seleccionado se envía al corazón y al cerebro, y el desecho desciende a las entrañas e intestinos. Eso es el birur. Pero en Shabat, cuando el movimiento es de arriba abajo, no hay desecho en absoluto. El desecho procede del Árbol del Conocimiento del bien y del mal; abajo, el bien y el mal se mezclaron en todos los aspectos por la comida de Adam del Árbol del Conocimiento. También en cada persona hay una mezcla de bien y mal, aunque no es igual en todas las almas: en una predomina el bien, y en otra su bien se encuentra en cierto aspecto. Pero en Shabat, «entonces te deleitarás sobre Hashem», por encima del Árbol del Conocimiento, y «el mal no habitará contigo» en absoluto.
+
+
+### Explicación
+El Alter Rebbe contrapone el ascenso de la vitalidad desde una mezcla de bien y mal con la influencia de Shabat desde una raíz anterior a esa mezcla. El ejemplo de la selección y el residuo explica el birur de abajo arriba. La hamshajá de Shabat procede de un nivel en el que el mal no tiene lugar, y de ahí deriva su diferencia espiritual.
+
+
+### Fuentes
+Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.
+
+- [Torá Or · ענין שדה המכפלה · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899147)
+
+
+## 8. Yom Tov: refinamiento y ayuda al necesitado
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 6}, "end": {"page": 1, "column": "left", "line": 10}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+
+### עברית
+רק ביו"ט כתיב פרש חגיכם לפי שביו"ט יש בו קצת בירור שהרי הותרה בו מלאכת אוכל נפש כאפיה ובישול כו' ואינו אסור רק קצירה וזריעה וחרישה כו' ולפי שהותרו קצת מלאכות באוכל נפש יש בו בירור ושייך פסולת והתקון הוא למחדי למסכני.
+
+
+### Traducción
+Sólo respecto de Yom Tov está escrito «el residuo de vuestras festividades», pues en Yom Tov todavía hay cierto birur: se permitió el trabajo destinado a preparar alimento, como hornear y cocinar, mientras permanecen prohibidos segar, sembrar y arar. Como se permitieron ciertos trabajos para preparar alimento, hay birur y corresponde hablar de residuo. Su rectificación consiste en alegrar a los necesitados.
+
+
+### Explicación
+El maamar sitúa Yom Tov entre el birur cotidiano y la hamshajá de Shabat. Relaciona la preparación de alimentos permitida en la festividad con un refinamiento que todavía debe completarse. Introduce entonces el tikún de compartir la alegría con los necesitados, que explica a continuación.
+
+
+### Fuentes
+Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.
+
+- [Torá Or · ענין שדה המכפלה · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899147)
+
+
+## 9. La alegría compartida endulza los juicios
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 10}, "end": {"page": 1, "column": "left", "line": 14}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+
+### עברית
+כי שעת שמחה היא לשמח את הכל וכמ"ש ושמחת בחגך אתה והלוי והגר כו' לפי שהשמחה היא בחי' המתקת הדינין וצריך לשמח את כולם שיהיו כולם נכללים בבחי' שמחה. וכנודע ממי שהוא בשעת שמחה שאז רוצה שיהיו כולם שמחים שבזה נמתק הדין מאחר שמשוה את כולם.
+
+
+### Traducción
+Porque un momento de alegría es para alegrar a todos, como está escrito: «Te alegrarás en tu festividad, tú, el levita y el extranjero». La alegría corresponde al endulzamiento de los juicios, y hay que alegrar a todos para que todos queden incluidos en ella. Es conocido que quien se encuentra alegre desea que todos estén alegres; así se endulza el juicio, puesto que pone a todos en un mismo plano.
+
+
+### Explicación
+Hamtakat hadinim es el endulzamiento de los juicios. El texto lo explica mediante la alegría que incluye a los demás y supera las distinciones que los separaban. Alegrar a quien necesita ayuda integra a todos en la misma simjá y realiza el tikún mencionado en la lección anterior.
+
+
+### Fuentes
+Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.
+
+- [Torá Or · ענין שדה המכפלה · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899147)
+
+
+## 10. El juicio que permanece y la influencia de Shabat
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 14}, "end": {"page": 1, "column": "left", "line": 19}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+
+### עברית
+אבל מאן דלא יהיב למסכני כו' אין הדין נמתק ונשאר הפרש ולכן העונש הוא מדה כנגד מדה שנותנין לו הפרש כי הוא גרם שישאר פסולת הפרש בעבור שלא המתיק הדין. וזהו ביו"ט אבל בשבת אע"ג דלא יהיב למסכני אין עונשו רב כי בשבת אין פרש כלל לפי שהוא רק בחי' המשכה שמלמעלה דלא יגורך רע כלל.
+
+
+### Traducción
+Pero quien no da a los necesitados no endulza el juicio, y el residuo permanece. Por eso el castigo es medida por medida: se le da el residuo, pues él causó que permaneciera al no endulzar el juicio. Esto corresponde a Yom Tov. En Shabat, en cambio, aunque no haya dado a los necesitados, su castigo no es tan grande: en Shabat no hay residuo en absoluto, pues se trata únicamente de una influencia desde arriba, donde «el mal no habitará contigo» en absoluto.
+
+
+### Explicación
+El texto completa el contraste: en Yom Tov, no incluir al necesitado deja sin realizar el endulzamiento del juicio. Después vuelve a la raíz superior de la influencia de Shabat, donde no hay ese residuo que depurar. El siguiente pasaje desarrollará las dos formas de esa hamshajá: kefilá y kelishá.
 
 
 ### Fuentes

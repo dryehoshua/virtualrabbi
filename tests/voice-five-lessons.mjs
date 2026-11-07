@@ -3,7 +3,8 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
 const language=process.env.STUDY_LANGUAGE||'es';
-const units=JSON.parse(fs.readFileSync('Estudio/jaye-sara/08-lecciones-01.json','utf8'));
+const batches=process.env.STUDY_BATCH==='all'?['01','02']:[process.env.STUDY_BATCH||'01'];
+const units=batches.flatMap(batch=>JSON.parse(fs.readFileSync('Estudio/jaye-sara/08-lecciones-'+batch+'.json','utf8')));
 const nodes=new Map();
 const node=()=>({style:{},classList:{add(){},remove(){},toggle(){}},append(){},replaceChildren(){},querySelector(){return node();}});
 const document={getElementById(id){if(!nodes.has(id))nodes.set(id,node());return nodes.get(id);},querySelector(){return node();},querySelectorAll(){return[];},createElement:node};
@@ -32,7 +33,7 @@ await flush();
 let counter=0,injected=false;
 const readings=new Map();
 const event=async e=>{context.event=e;await vm.runInContext('handleCallEvent(event,1)',context);await flush();};
-while(vm.runInContext('autoStudy',context)&&counter<100){
+while(vm.runInContext('autoStudy',context)&&counter<300){
  const before=sent.filter(e=>e.type==='response.create').length;
  const phase=vm.runInContext('doc.cursor.phase',context);
  const unitId=vm.runInContext('unit().id',context);
@@ -62,9 +63,9 @@ while(vm.runInContext('autoStudy',context)&&counter<100){
  await event({type:'output_audio_buffer.stopped',response_id:id});
  assert.equal(sent.filter(e=>e.type==='response.create').length,after,'duplicate playback event must not skip content');
 }
-assert(counter<100,'five lessons must complete without an unbounded loop');
-assert.equal(vm.runInContext('unitIndex',context),4);
-assert.equal(vm.runInContext('doc.completed.length',context),5);
+assert(counter<300,'five lessons must complete without an unbounded loop');
+assert.equal(vm.runInContext('unitIndex',context),units.length-1);
+assert.equal(vm.runInContext('doc.completed.length',context),units.length);
 assert.equal(vm.runInContext('lessonFlow',context),false);
 const normalized=s=>s.replace(/\s+/g,'');
 for(const u of units)for(const [phase,field] of [['hebrew','hebrew'],['translation',language==='en'?'translation_en':'translation']]){
@@ -89,4 +90,4 @@ resolveCheckpoint();await preparing;
 })()`,context);
 assert.equal(vm.runInContext('pendingPhase',context),false);
 clearTimeout(vm.runInContext('toastTimer',context));
-console.log('Five Chayei Sarah lessons ('+language+'): complete ordered readings, automatic transitions, bounded retry, no-audio recovery, pause race and stop after lesson 5 passed.');
+console.log(units.length+' Chayei Sarah lessons ('+language+'): complete readings, transitions, recovery, pause and end-of-installment checks passed.');

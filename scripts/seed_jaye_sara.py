@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Install the first five Chayei Sarah units without resetting reader progress."""
+"""Install all approved Chayei Sarah batches without resetting reader progress."""
 import argparse
 import json
 import shutil
@@ -8,15 +8,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import server
+from extend_jaye_sara import reviewed_units, refresh_content
 
 DOC_ID = '1e7e1e7a202611070000000000000002'
 
 
 def seed(source):
     import pymupdf
-    units = json.loads((server.ROOT / 'Estudio/jaye-sara/08-lecciones-01.json').read_text())
-    if len(units) != 5:
-        raise ValueError('This installment must contain exactly five units.')
+    units = reviewed_units()
     target = server.folder(DOC_ID)
     target.mkdir(parents=True, exist_ok=True)
     pdf = pymupdf.open(source)
@@ -42,8 +41,9 @@ def seed(source):
     for field in ('current_unit', 'completed', 'study_language', 'location', 'cursor', 'location_unmapped'):
         if field in old:
             doc[field] = old[field]
+    refresh_content(doc)
     server.save(doc)
-    print('Jayé Sará: five bilingual units installed, four facsimile sheets; existing progress preserved.')
+    print(f'Jayé Sará: {len(doc["units"])} bilingual units installed; existing progress preserved.')
 
 
 if __name__ == '__main__':
