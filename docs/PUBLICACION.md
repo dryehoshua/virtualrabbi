@@ -219,3 +219,20 @@ python3 scripts/publish_catalog.py --id 1e7e1e7a202611070000000000000002
 STUDY_BATCH=all node tests/voice-five-lessons.mjs
 STUDY_BATCH=all STUDY_LANGUAGE=en node tests/voice-five-lessons.mjs
 ```
+
+## Cierre del primer maamar de Jayé Sará / First discourse completed — 2026-11-06
+
+Lecciones 11–14: hoja 1, columna izquierda, líneas 19–33. Completan
+«ענין שדה המכפלה», cotejado con el facsímil y Chabad/Kehot (aid/5899147).
+El catálogo público devuelve 14 lecciones y `discourse_end: true` en la última.
+Se preservan los puntos de estudio y se enlaza la 10 con la 11. Las hojas 2–4
+contienen otros discursos pendientes; no se declara completa la parashá.
+35 pruebas Python y simulaciones de las 14 lecciones en español e inglés
+superadas, sin nuevas llamadas de voz de pago ni cambios al motor de voz.
+
+Lessons 11–14 cover sheet 1, left-column lines 19–33, completing the first
+discourse. Text was checked against the supplied scan and Chabad/Kehot.
+The public catalog returns 14 lessons and marks the final discourse boundary.
+Checkpoints are preserved; lesson 10 continues to 11. Other discourses on
+sheets 2–4 remain unprepared. All 35 Python tests and fourteen-lesson voice
+simulations in Spanish and English passed; no new paid voice call was made.

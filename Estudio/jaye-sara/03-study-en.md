@@ -2,7 +2,7 @@
 
 We study the opening of “Inyan sedeh haMachpelah” in Torah Or. The Alter Rebbe connects the doubling of the letter he with eating, weekday birur and the vitality drawn down on Shabbat.
 
-Two installments, ten lessons: PDF sheet 1, printed page 30, from right-column line 1 (יגלה לן) through left-column line 19 (המשכה שמלמעלה דלא יגורך רע כלל). Left-column lines are counted from ובני מעיים. Four facsimile sheets are available; the portion and discourse are not yet complete. The next installment starts at והנה המשכה זו היא בב׳ בחי׳ כפילא וקלישא.
+The complete discourse “Inyan sedeh haMachpelah” in 14 lessons: PDF sheet 1, printed page 30, from right-column line 1 (יגלה לן) through left-column line 33 (ההוא יהיה כו׳). Left-column lines are counted from ובני מעיים. Vayera, printed above, is excluded. Sheets 2–4 are for reference and contain other discourses not yet prepared; the entire Torah portion is not complete.
 
 
 ## 1. The doubling of the letter he
@@ -227,6 +227,98 @@ But one who does not give to the needy does not sweeten judgment, and the refuse
 
 ### Explanation
 The text completes the contrast: on Yom Tov, failing to include the needy leaves the sweetening of judgment unfulfilled. It then returns to the higher root of Shabbat’s influence, where there is no such refuse to refine. The next passage will develop the two forms of that hamshachah: kefila and kelisha.
+
+
+### Sources
+Text visually checked against the supplied scan and Chabad/Kehot. Scan abbreviations are preserved. Editorial study translation and explanation based on this discourse, not quotations from another commentary. Internal biblical references are retained as part of the source; independent verification is not claimed.
+
+- [Torá Or · ענין שדה המכפלה · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899147)
+
+
+## 11. Kelisha: from yud to vav
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 19}, "end": {"page": 1, "column": "left", "line": 23}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+
+### עברית
+והנה המשכה זו היא בב' בחי' כפילא וקלישא. פי' קלישא היא המשכת יודי"ן ווי"ן שמיו"ד נעשה וי"ו שהיו"ד עצמה נמשכה ונעשית וי"ו. כי לפי שהיו"ד הוא בחי' צמצום לכן יכול להיות ממנה המשכה בבחי' וי"ו מן היו"ד עצמה,
+
+
+### Translation
+This influence has two forms: kefila and kelisha. Kelisha means the drawing forth of the letters yud and vav: a yud becomes a vav, for the yud itself extends and becomes a vav. Since the yud expresses contraction, an influence in the form of vav can emerge from the yud itself.
+
+
+### Explanation
+The Alter Rebbe returns to the letters to explain Shabbat’s hamshachah. The yud represents a contracted point that can extend as a vav: the extension proceeds from the yud itself. This prepares the contrast with the expansion of hei.
+
+
+### Sources
+Text visually checked against the supplied scan and Chabad/Kehot. Scan abbreviations are preserved. Editorial study translation and explanation based on this discourse, not quotations from another commentary. Internal biblical references are retained as part of the source; independent verification is not claimed.
+
+- [Torá Or · ענין שדה המכפלה · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899147)
+
+
+## 12. The higher hei and its manifestation below
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 23}, "end": {"page": 1, "column": "left", "line": 25}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+
+### עברית
+אבל הה' שהיא התפשטות אורך ורוחב. ואין התפשטו' אורך ורוחב שלמעלה יכולה להתגלות למטה כמו שהוא למעלה בבחי' אורך ורוחב עד אין קץ כו' אלא ההמשכה היא בבחי' ה' אחרת למטה
+
+
+### Translation
+But hei is expansion in length and breadth. That higher expansion in length and breadth cannot be revealed below as it exists above, in limitless length and breadth. The influence therefore takes the form of another hei below.
+
+
+### Explanation
+The distinction concerns how revelation reaches the lower level. The limitless expansion symbolized by the higher hei does not appear below just as it is; it is conveyed through another hei. This introduces the meaning of kefila, the doubling mentioned at the discourse’s opening.
+
+
+### Sources
+Text visually checked against the supplied scan and Chabad/Kehot. Scan abbreviations are preserved. Editorial study translation and explanation based on this discourse, not quotations from another commentary. Internal biblical references are retained as part of the source; independent verification is not claimed.
+
+- [Torá Or · ענין שדה המכפלה · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899147)
+
+
+## 13. Kefila: revealing what was hidden
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 26}, "end": {"page": 1, "column": "left", "line": 29}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+
+### עברית
+והיא בחי' המילוי של ה' דהיינו כח הה' שהי' בהעלם למעלה. כי לעולם המילוי הוא מה שבהעלם ומה שבהעלם למעלה יצא מההעלם אל הגילוי למטה. והיינו בחי' כפיל' שהיא בחי' מילוי ההי"ן כנודע מענין המכפלה.
+
+
+### Translation
+This is the dimension of the milui of hei: the power of hei that was hidden above. Milui always expresses what is concealed, and what was hidden above emerges from concealment into revelation below. This is the form of kefila, corresponding to the milui of the letters hei, as is known from the subject of Machpelah.
+
+
+### Explanation
+Milui is the filling of a letter by spelling out its name; here hei is filled with another hei. The text interprets that filling as a previously concealed power revealed below. It thereby returns to Machpelah and the doubled hei with which the discourse began.
+
+
+### Sources
+Text visually checked against the supplied scan and Chabad/Kehot. Scan abbreviations are preserved. Editorial study translation and explanation based on this discourse, not quotations from another commentary. Internal biblical references are retained as part of the source; independent verification is not claimed.
+
+- [Torá Or · ענין שדה המכפלה · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899147)
+
+
+## 14. The conclusion: the future revelation of hei
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 29}, "end": {"page": 1, "column": "left", "line": 33}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+
+### עברית
+אך כ"ז הוא שאנו מקבלים ההשפעה ע"י י"ב לחמים בזמן הזה, אבל לע"ל יגלה לן טעמיה דבתריסר נהמי כו' ואזי לא יהיה בחי' כפילא כו' רק הה' עצמה שלמעלה יהי' לה גילוי למטה ג"כ ע"י כי יגלה לן טעמיה כו' וכמ"ש ביום ההוא יהיה כו':
+
+
+### Translation
+But all this describes how we receive the influence through the twelve loaves at the present time. In the future, however, “He will reveal to us the meanings of the twelve loaves.” Then it will no longer be the form of kefila; rather, the higher hei itself will also be revealed below, through “He will reveal to us its meanings,” as it is written: “On that day it shall be…”.
+
+
+### Explanation
+The conclusion distinguishes present reception through kefila from the future revelation of the higher hei itself. Thus “yegale lan taamei” returns to the opening: the twelve Shabbat loaves point toward a revelation that will reach greater fullness in the future. This discourse ends here; the next sheet begins a different discourse.
 
 
 ### Sources

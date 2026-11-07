@@ -10,7 +10,7 @@ Public status: signup, voice and US$5 one-time checkout for up to 30 minutes are
 
 Doble clic en **Virtual Rabbi.app**, en el escritorio, o visita http://127.0.0.1:8790. / Double-click **Virtual Rabbi.app** on the desktop, or visit http://127.0.0.1:8790.
 
-Dos parashot: **Lej Lejá**, 62 lecciones hasta la hoja 4, y **Jayé Sará**, diez lecciones del maamar «ענין שדה המכפלה», hoja 1. Ambas tienen hebreo, español e inglés. / Two portions: **Lech Lecha**, 62 units through sheet 4, and **Chayei Sarah**, ten units of “Inyan sedeh haMachpelah,” sheet 1. Both include Hebrew, Spanish and English.
+Dos parashot: **Lej Lejá**, 62 lecciones hasta la hoja 4, y **Jayé Sará**, 14 lecciones del maamar completo «ענין שדה המכפלה», hoja 1. Ambas tienen hebreo, español e inglés. / Two portions: **Lech Lecha**, 62 units through sheet 4, and **Chayei Sarah**, 14 units covering the complete discourse “Inyan sedeh haMachpelah,” sheet 1. Both include Hebrew, Spanish and English.
 
 Jayé Sará se ampliará de cinco en cinco. Sus cuatro hojas están disponibles como facsímil, pero las dos entregas preparan desde la columna derecha, línea 1, hasta la izquierda, línea 19. / Chayei Sarah will grow in batches of five. Its four facsimile sheets are available, but the two installments cover right-column line 1 through left-column line 19.
 

@@ -38,12 +38,36 @@ class ChayeiSarah(unittest.TestCase):
         before = copy.deepcopy(doc)
         module.refresh_content(doc)
         module.refresh_content(doc)
-        self.assertEqual(len(doc['units']), 10)
+        self.assertEqual(len(doc['units']), 14)
         for key in ('current_unit','completed','cursor','location','study_language'):
             self.assertEqual(doc[key], before[key])
         self.assertEqual([u['hebrew'] for u in doc['units'][:5]], [u['hebrew'] for u in first])
         self.assertFalse(doc['units'][4]['installment_end'])
         self.assertEqual(doc['units'][4]['continues_to_unit'], doc['units'][5]['id'])
+        self.assertFalse(doc['units'][9]['installment_end'])
+        self.assertEqual(doc['units'][9]['continues_to_unit'], doc['units'][10]['id'])
+        self.assertTrue(doc['units'][-1]['discourse_end'])
+
+    def test_final_installment_covers_the_actual_end_of_the_discourse(self):
+        units = json.loads((ROOT / 'Estudio/jaye-sara/08-lecciones-03.json').read_text())
+        source = json.loads((ROOT / 'Estudio/jaye-sara/09-lineas-03.json').read_text())
+        compact = lambda s: ''.join(s.split())
+        self.assertEqual([u['id'] for u in units], [f'jaye-sara-01-{i:02}' for i in range(11, 15)])
+        self.assertEqual(compact(''.join(u['hebrew'] for u in units)), compact(''.join(l['text'] for l in source['lines'])))
+        previous = json.loads((ROOT / 'Estudio/jaye-sara/08-lecciones-02.json').read_text())[-1]
+        self.assertTrue(units[0]['hebrew'].startswith(previous['next_source_text']))
+        self.assertTrue(units[-1]['hebrew'].endswith("ההוא יהיה כו':"))
+        self.assertEqual(units[-1]['location']['end'], {'page':1, 'column':'left', 'line':33})
+        self.assertTrue(units[-1]['discourse_end'])
+        self.assertFalse(any(u['section_end'] for u in units))
+        for u in units:
+            for field in ('translation','translation_en','explanation','explanation_en'):
+                self.assertTrue(u[field])
+            self.assertEqual([r['line'] for r in u['regions']], list(range(u['location']['start']['line'], u['location']['end']['line']+1)))
+            for r in u['regions']:
+                self.assertEqual(r['column'], 'left')
+                self.assertGreater(r['top'], .60)
+                self.assertLess(r['top']+r['height'], .84)
 
     def test_five_bilingual_units_preserve_the_transcribed_source(self):
         units = json.loads((ROOT / 'Estudio/jaye-sara/08-lecciones-01.json').read_text())

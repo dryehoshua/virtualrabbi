@@ -1,8 +1,8 @@
 # Fuentes y alcance / Sources and scope
 
-Dos entregas, diez lecciones: hoja PDF 1, página impresa 30, desde la columna derecha, línea 1 (יגלה לן), hasta la columna izquierda, línea 19 (המשכה שמלמעלה דלא יגורך רע כלל). La columna izquierda se cuenta desde ובני מעיים. Cuatro hojas disponibles como facsímil; la parashá y el maamar siguen incompletos. Próxima entrega desde והנה המשכה זו היא בב׳ בחי׳ כפילא וקלישא.
+Maamar «ענין שדה המכפלה» completo en 14 lecciones: hoja PDF 1, página impresa 30, desde la columna derecha, línea 1 (יגלה לן), hasta la columna izquierda, línea 33 (ההוא יהיה כו׳). La izquierda se cuenta desde ובני מעיים. Se excluye Vayerá, impreso arriba. Las hojas 2–4 son de consulta y contienen otros discursos todavía no preparados; no está completa toda la parashá.
 
-Two installments, ten lessons: PDF sheet 1, printed page 30, from right-column line 1 (יגלה לן) through left-column line 19 (המשכה שמלמעלה דלא יגורך רע כלל). Left-column lines are counted from ובני מעיים. Four facsimile sheets are available; the portion and discourse are not yet complete. The next installment starts at והנה המשכה זו היא בב׳ בחי׳ כפילא וקלישא.
+The complete discourse “Inyan sedeh haMachpelah” in 14 lessons: PDF sheet 1, printed page 30, from right-column line 1 (יגלה לן) through left-column line 33 (ההוא יהיה כו׳). Left-column lines are counted from ובני מעיים. Vayera, printed above, is excluded. Sheets 2–4 are for reference and contain other discourses not yet prepared; the entire Torah portion is not complete.
 
 Las fuentes propuestas sin enlace recuperado no se consideran verificadas. / Proposed references without retrieved links are not treated as verified.
 

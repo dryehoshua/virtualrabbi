@@ -2,7 +2,7 @@
 
 Estudiamos el comienzo de «Inyán sedé haMajpelá», de Torá Or. El Alter Rebbe relaciona la duplicación de la letra he con la alimentación, el birur cotidiano y la vitalidad que desciende en Shabat.
 
-Dos entregas, diez lecciones: hoja PDF 1, página impresa 30, desde la columna derecha, línea 1 (יגלה לן), hasta la columna izquierda, línea 19 (המשכה שמלמעלה דלא יגורך רע כלל). La columna izquierda se cuenta desde ובני מעיים. Cuatro hojas disponibles como facsímil; la parashá y el maamar siguen incompletos. Próxima entrega desde והנה המשכה זו היא בב׳ בחי׳ כפילא וקלישא.
+Maamar «ענין שדה המכפלה» completo en 14 lecciones: hoja PDF 1, página impresa 30, desde la columna derecha, línea 1 (יגלה לן), hasta la columna izquierda, línea 33 (ההוא יהיה כו׳). La izquierda se cuenta desde ובני מעיים. Se excluye Vayerá, impreso arriba. Las hojas 2–4 son de consulta y contienen otros discursos todavía no preparados; no está completa toda la parashá.
 
 
 ## 1. El doble de la letra he
@@ -227,6 +227,98 @@ Pero quien no da a los necesitados no endulza el juicio, y el residuo permanece.
 
 ### Explicación
 El texto completa el contraste: en Yom Tov, no incluir al necesitado deja sin realizar el endulzamiento del juicio. Después vuelve a la raíz superior de la influencia de Shabat, donde no hay ese residuo que depurar. El siguiente pasaje desarrollará las dos formas de esa hamshajá: kefilá y kelishá.
+
+
+### Fuentes
+Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.
+
+- [Torá Or · ענין שדה המכפלה · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899147)
+
+
+## 11. Kelishá: de la yud a la vav
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 19}, "end": {"page": 1, "column": "left", "line": 23}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+
+### עברית
+והנה המשכה זו היא בב' בחי' כפילא וקלישא. פי' קלישא היא המשכת יודי"ן ווי"ן שמיו"ד נעשה וי"ו שהיו"ד עצמה נמשכה ונעשית וי"ו. כי לפי שהיו"ד הוא בחי' צמצום לכן יכול להיות ממנה המשכה בבחי' וי"ו מן היו"ד עצמה,
+
+
+### Traducción
+Esta influencia se presenta en dos modalidades: kefilá y kelishá. Kelishá significa la prolongación de las letras yud y vav: de la yud se forma una vav, pues la propia yud se prolonga y se convierte en vav. Como la yud expresa contracción, puede proceder de ella una influencia en forma de vav, desde la yud misma.
+
+
+### Explicación
+El Alter Rebbe vuelve a las letras para explicar la hamshajá de Shabat. La yud representa un punto contraído que puede prolongarse como una vav: la extensión procede de la propia yud. Esta modalidad prepara el contraste con la expansión de la hei.
+
+
+### Fuentes
+Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.
+
+- [Torá Or · ענין שדה המכפלה · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899147)
+
+
+## 12. La hei superior y su manifestación abajo
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 23}, "end": {"page": 1, "column": "left", "line": 25}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+
+### עברית
+אבל הה' שהיא התפשטות אורך ורוחב. ואין התפשטו' אורך ורוחב שלמעלה יכולה להתגלות למטה כמו שהוא למעלה בבחי' אורך ורוחב עד אין קץ כו' אלא ההמשכה היא בבחי' ה' אחרת למטה
+
+
+### Traducción
+Pero la hei es expansión en longitud y anchura. Esa expansión superior en longitud y anchura no puede revelarse abajo tal como existe arriba, en longitud y anchura sin límite. Por eso la influencia se manifiesta como otra hei abajo.
+
+
+### Explicación
+La diferencia está en cómo llega la revelación al nivel inferior. La extensión ilimitada simbolizada por la hei superior no se manifiesta abajo tal como es; se comunica mediante otra hei. Así se introduce el sentido de kefilá, la duplicación mencionada al comenzar el maamar.
+
+
+### Fuentes
+Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.
+
+- [Torá Or · ענין שדה המכפלה · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899147)
+
+
+## 13. Kefilá: revelar lo que estaba oculto
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 26}, "end": {"page": 1, "column": "left", "line": 29}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+
+### עברית
+והיא בחי' המילוי של ה' דהיינו כח הה' שהי' בהעלם למעלה. כי לעולם המילוי הוא מה שבהעלם ומה שבהעלם למעלה יצא מההעלם אל הגילוי למטה. והיינו בחי' כפיל' שהיא בחי' מילוי ההי"ן כנודע מענין המכפלה.
+
+
+### Traducción
+Esta es la dimensión del milui de la hei: la fuerza de la hei que estaba oculta arriba. El milui siempre expresa lo que está oculto, y lo que estaba oculto arriba sale del ocultamiento a la revelación abajo. Esta es la modalidad de kefilá, correspondiente al milui de las letras hei, como se conoce por el asunto de la Majpelá.
+
+
+### Explicación
+Milui es el llenado de una letra al escribir su nombre; aquí la hei se llena con otra hei. El texto interpreta ese llenado como una fuerza antes oculta que se revela abajo. De este modo vuelve a la Majpelá y a la hei duplicada con las que abrió el maamar.
+
+
+### Fuentes
+Texto cotejado visualmente con la hoja aportada y con Chabad/Kehot. Se conservan las abreviaturas del escaneo. Traducción de estudio y explicación editoriales basadas en este maamar; no son citas de otro comentario. Las referencias bíblicas internas se mantienen como parte del texto, sin afirmar cotejo independiente.
+
+- [Torá Or · ענין שדה המכפלה · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899147)
+
+
+## 14. El cierre: la revelación futura de la hei
+
+Location / Ubicación: {"start": {"page": 1, "column": "left", "line": 29}, "end": {"page": 1, "column": "left", "line": 33}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+
+### עברית
+אך כ"ז הוא שאנו מקבלים ההשפעה ע"י י"ב לחמים בזמן הזה, אבל לע"ל יגלה לן טעמיה דבתריסר נהמי כו' ואזי לא יהיה בחי' כפילא כו' רק הה' עצמה שלמעלה יהי' לה גילוי למטה ג"כ ע"י כי יגלה לן טעמיה כו' וכמ"ש ביום ההוא יהיה כו':
+
+
+### Traducción
+Pero todo esto describe cómo recibimos la influencia mediante los doce panes en este tiempo. En el futuro, en cambio, «nos revelará los sentidos de los doce panes». Entonces ya no será la modalidad de kefilá, sino que la propia hei superior tendrá también revelación abajo, mediante «nos revelará sus sentidos», como está escrito: «En aquel día será…».
+
+
+### Explicación
+El cierre distingue la recepción actual mediante kefilá de la revelación futura de la propia hei superior. Así, «yegale lan taamei» retoma el comienzo: los doce panes de Shabat apuntan a una revelación que alcanzará mayor plenitud en el futuro. Aquí termina este maamar; el texto de la hoja siguiente pertenece a otro discurso.
 
 
 ### Fuentes

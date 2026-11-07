@@ -1,6 +1,6 @@
 # Jayé Sará · Torá Or · עברית
 
-Dos entregas, diez lecciones: hoja PDF 1, página impresa 30, desde la columna derecha, línea 1 (יגלה לן), hasta la columna izquierda, línea 19 (המשכה שמלמעלה דלא יגורך רע כלל). La columna izquierda se cuenta desde ובני מעיים. Cuatro hojas disponibles como facsímil; la parashá y el maamar siguen incompletos. Próxima entrega desde והנה המשכה זו היא בב׳ בחי׳ כפילא וקלישא.
+Maamar «ענין שדה המכפלה» completo en 14 lecciones: hoja PDF 1, página impresa 30, desde la columna derecha, línea 1 (יגלה לן), hasta la columna izquierda, línea 33 (ההוא יהיה כו׳). La izquierda se cuenta desde ובני מעיים. Se excluye Vayerá, impreso arriba. Las hojas 2–4 son de consulta y contienen otros discursos todavía no preparados; no está completa toda la parashá.
 
 El hebreo de cada unidad es la fuente de lectura; las traducciones y explicaciones se guardan aparte. / Each unit’s Hebrew is the reading source; translations and explanations are stored separately.
 
@@ -63,3 +63,27 @@ Ubicación / Location: {"start": {"page": 1, "column": "left", "line": 10}, "end
 Ubicación / Location: {"start": {"page": 1, "column": "left", "line": 14}, "end": {"page": 1, "column": "left", "line": 19}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
 
 אבל מאן דלא יהיב למסכני כו' אין הדין נמתק ונשאר הפרש ולכן העונש הוא מדה כנגד מדה שנותנין לו הפרש כי הוא גרם שישאר פסולת הפרש בעבור שלא המתיק הדין. וזהו ביו"ט אבל בשבת אע"ג דלא יהיב למסכני אין עונשו רב כי בשבת אין פרש כלל לפי שהוא רק בחי' המשכה שמלמעלה דלא יגורך רע כלל.
+
+## 11. jaye-sara-01-11
+
+Ubicación / Location: {"start": {"page": 1, "column": "left", "line": 19}, "end": {"page": 1, "column": "left", "line": 23}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+והנה המשכה זו היא בב' בחי' כפילא וקלישא. פי' קלישא היא המשכת יודי"ן ווי"ן שמיו"ד נעשה וי"ו שהיו"ד עצמה נמשכה ונעשית וי"ו. כי לפי שהיו"ד הוא בחי' צמצום לכן יכול להיות ממנה המשכה בבחי' וי"ו מן היו"ד עצמה,
+
+## 12. jaye-sara-01-12
+
+Ubicación / Location: {"start": {"page": 1, "column": "left", "line": 23}, "end": {"page": 1, "column": "left", "line": 25}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+אבל הה' שהיא התפשטות אורך ורוחב. ואין התפשטו' אורך ורוחב שלמעלה יכולה להתגלות למטה כמו שהוא למעלה בבחי' אורך ורוחב עד אין קץ כו' אלא ההמשכה היא בבחי' ה' אחרת למטה
+
+## 13. jaye-sara-01-13
+
+Ubicación / Location: {"start": {"page": 1, "column": "left", "line": 26}, "end": {"page": 1, "column": "left", "line": 29}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+והיא בחי' המילוי של ה' דהיינו כח הה' שהי' בהעלם למעלה. כי לעולם המילוי הוא מה שבהעלם ומה שבהעלם למעלה יצא מההעלם אל הגילוי למטה. והיינו בחי' כפיל' שהיא בחי' מילוי ההי"ן כנודע מענין המכפלה.
+
+## 14. jaye-sara-01-14
+
+Ubicación / Location: {"start": {"page": 1, "column": "left", "line": 29}, "end": {"page": 1, "column": "left", "line": 33}, "printed_page": "30", "basis": "Derecha: contar desde יגלה לן; izquierda: desde ובני מעיים. Se excluye Vayerá y el encabezado. Las franjas cubren líneas completas, compartidas cuando procede. / Right: count from יגלה לן; left: from ובני מעיים. Vayera and the heading are excluded. Highlights cover whole lines, shared where needed."}
+
+אך כ"ז הוא שאנו מקבלים ההשפעה ע"י י"ב לחמים בזמן הזה, אבל לע"ל יגלה לן טעמיה דבתריסר נהמי כו' ואזי לא יהיה בחי' כפילא כו' רק הה' עצמה שלמעלה יהי' לה גילוי למטה ג"כ ע"י כי יגלה לן טעמיה כו' וכמ"ש ביום ההוא יהיה כו':

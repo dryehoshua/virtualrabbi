@@ -5,7 +5,7 @@ El proyecto incorpora las hojas que el propietario comparte en este chat, parash
 ## Entregas actuales / Current installments
 
 - **Lej Lejá / Lech Lecha**: 62 lecciones preparadas hasta la hoja 4; seis hojas de consulta. / 62 prepared units through sheet 4; six reference sheets.
-- **Jayé Sará / Chayei Sarah**: diez lecciones de «ענין שדה המכפלה»; hoja 1, desde la columna derecha, línea 1, hasta la izquierda, línea 19. Cuatro hojas de consulta. / Ten units of “Inyan sedeh haMachpelah”; sheet 1, right-column line 1 through left-column line 19. Four reference sheets.
+- **Jayé Sará / Chayei Sarah**: 14 lecciones del maamar completo «ענין שדה המכפלה»; hoja 1, desde la columna derecha, línea 1, hasta la izquierda, línea 33. Cuatro hojas de consulta. / 14 units covering the complete discourse “Inyan sedeh haMachpelah”; sheet 1, right-column line 1 through left-column line 33. Four reference sheets.
 - La entrega de Jayé Sará se detiene en המשכה שמלמעלה דלא יגורך רע כלל. Próxima entrega desde והנה המשכה זו היא בב׳ בחי׳ כפילא וקלישא. Se continuará de cinco en cinco por petición del titular; no presentar la parashá como completa. / Chayei Sarah stops at המשכה שמלמעלה דלא יגורך רע כלל; the next installment starts at והנה המשכה זו היא בב׳ בחי׳ כפילא וקלישא. Continue in batches of five at the owner's request; do not present the parashah as complete.
 - [Fuente primaria de Jayé Sará / Chayei Sarah primary source: Chabad/Kehot](https://he.chabad.org/library/article_cdo/aid/5899147).
 - Markdown conserva el material de estudio; las ubicaciones y el hebreo revisado también están en el índice JSON. / Markdown preserves the study material; locations and reviewed Hebrew are also stored in the JSON index.

@@ -1,9 +1,9 @@
-// Exercise the production controller through all five real lessons, including retries.
+// Exercise the production controller through the selected real lessons, including retries.
 import fs from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
 const language=process.env.STUDY_LANGUAGE||'es';
-const batches=process.env.STUDY_BATCH==='all'?['01','02']:[process.env.STUDY_BATCH||'01'];
+const batches=process.env.STUDY_BATCH==='all'?['01','02','03']:[process.env.STUDY_BATCH||'01'];
 const units=batches.flatMap(batch=>JSON.parse(fs.readFileSync('Estudio/jaye-sara/08-lecciones-'+batch+'.json','utf8')));
 const nodes=new Map();
 const node=()=>({style:{},classList:{add(){},remove(){},toggle(){}},append(){},replaceChildren(){},querySelector(){return node();}});
@@ -63,7 +63,7 @@ while(vm.runInContext('autoStudy',context)&&counter<300){
  await event({type:'output_audio_buffer.stopped',response_id:id});
  assert.equal(sent.filter(e=>e.type==='response.create').length,after,'duplicate playback event must not skip content');
 }
-assert(counter<300,'five lessons must complete without an unbounded loop');
+assert(counter<300,'prepared lessons must complete without an unbounded loop');
 assert.equal(vm.runInContext('unitIndex',context),units.length-1);
 assert.equal(vm.runInContext('doc.completed.length',context),units.length);
 assert.equal(vm.runInContext('lessonFlow',context),false);

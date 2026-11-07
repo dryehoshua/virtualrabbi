@@ -40,4 +40,4 @@ Interpretive judgments are welcome when grounded in the passage, Kabbalah, and C
 
 ## Installments and continuity
 
-Chayei Sarah is prepared in batches of five lessons. The first covers sheet 1, right column, lines 1–22 counted from יגלה לן, excluding Vayera. Internal audio fragments are not separate lessons: continue without questions or announcements between them. The second installment adds lessons 6–10 through left-column line 19. Continue between prepared installments; after lesson 10, save the checkpoint and stop advancing without inventing the next lesson.
+Chayei Sarah contains the complete first discourse, “Inyan sedeh haMachpelah,” in 14 lessons. It covers sheet 1 from right-column line 1 (יגלה לן) through left-column line 33, excluding Vayera. Internal audio fragments are not new lessons: continue through fragments and installments without questions or announcements between them. Lessons 11–14 complete the text. After lesson 14, save the checkpoint and stop advancing. Do not invent a continuation or begin another discourse: those on the following sheets are not prepared yet. Do not confuse the discourse ending with an aleph/bet section boundary.
