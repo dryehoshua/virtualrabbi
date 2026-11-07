@@ -306,7 +306,10 @@ class PublicHandler(server.Handler):
                 else:
                     with payments.connect(STATE) as db:
                         db.execute('UPDATE calls SET heartbeat=? WHERE id=? AND reader=?',(time.time(),call['id'],reader))
-                return self.reply({'status':payments.get_call(STATE,call['id'])['status'],'seconds':max(0,int((call['deadline'] or time.time())-time.time()))})
+                updated=payments.get_call(STATE,call['id'])
+                remaining=updated['remaining'] if updated['status']=='closed' else payments.call_remaining(updated,time.time())
+                return self.reply({'status':updated['status'],'seconds':max(0,int(remaining)),
+                                   'active':bool(json.loads(updated['channels'] or '{}')),'reason':updated['reason']})
             doc=read_document(body['id']); unit=server.get_unit(doc,body['unit_id'])
             if path == '/api/call-context':
                 return self.reply({'instructions':server.PERSONA+'\n'+server.context(doc,unit)})

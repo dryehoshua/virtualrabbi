@@ -564,9 +564,12 @@ function endPublicCall(){
  if(id)fetch('/api/call/end',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({call_id:id}),keepalive:true}).catch(()=>{});
 }
 function startPublicTimer(seconds){
- const deadline=Date.now()+seconds*1000;let label=$('classTimer');if(!label){label=element('span','');label.id='classTimer';$('callState').after(label)}
- clearInterval(publicClock);publicClock=setInterval(()=>{const left=Math.max(0,Math.ceil((deadline-Date.now())/1000));label.textContent=Math.floor(left/60)+':'+String(left%60).padStart(2,'0');if(!left){stopCall();toast(RabbiLocale.t('more'));}},1000);
- publicHeartbeat=setInterval(async()=>{if(!publicCallId)return;try{const r=await request('/api/call/heartbeat',{call_id:publicCallId});if(r.status!=='active'){stopCall();toast(RabbiLocale.t('more'));}}catch(_){stopCall();}},10000);
+ let label=$('classTimer');if(!label){label=element('span','');label.id='classTimer';$('callState').after(label)}
+ // Display the server's measured voice time, never a connection deadline.
+ const render=(left,active)=>{left=Math.max(0,Math.ceil(left));label.textContent=Math.floor(left/60)+':'+String(left%60).padStart(2,'0')+(active?'':(english()?' · Timer paused':' · Tiempo en pausa'));};
+ clearInterval(publicClock);clearInterval(publicHeartbeat);render(seconds,false);
+ let syncing=false;
+ publicHeartbeat=setInterval(async()=>{const id=publicCallId;if(!id||syncing)return;syncing=true;try{const r=await request('/api/call/heartbeat',{call_id:id});if(publicCallId!==id)return;render(r.seconds,r.active);if(r.status!=='active'){stopCall();toast(r.reason==='idle'?(english()?'Call paused due to inactivity. Your remaining time is saved.':'Llamada cerrada por inactividad. Tu tiempo restante está guardado.'):RabbiLocale.t('more'));}}catch(_){if(publicCallId===id)stopCall();}finally{syncing=false;}},5000);
 }
 window.addEventListener('pagehide',endPublicCall);
 window.addEventListener('rabbi-ready',async()=>{try{if(!doc&&docs[0])await openDocument(docs[0].id);if(doc){doc=await request('/api/language',{id:doc.id,language:RabbiLocale.get()});renderStudy();await startCall(true)}}catch(e){toast(e.message,true)}});

@@ -236,3 +236,29 @@ The public catalog returns 14 lessons and marks the final discourse boundary.
 Checkpoints are preserved; lesson 10 continues to 11. Other discourses on
 sheets 2–4 remain unprepared. All 35 Python tests and fourteen-lesson voice
 simulations in Spanish and English passed; no new paid voice call was made.
+
+## Tiempo de voz activo / Active voice time — 2026-11-06
+
+El contador descuenta la unión de la voz del alumno y del audio enviado por el
+agente, según eventos del canal de supervisión del proveedor. Conectar, generar
+una respuesta en silencio o dejar la clase pausada no descuenta minutos. Tras
+120 segundos sin voz, se cierra la llamada conservando el saldo y el marcador.
+El navegador muestra el saldo del servidor cada cinco segundos; sus latidos
+no controlan la facturación. Se conservan el límite de coste y la revocación por
+reembolsos. El contador se congela antes de colgar, incluso si falla la red.
+Una supervisión perdida puede contabilizar como máximo tres segundos adicionales.
+
+The timer counts the union of learner speech and agent audio delivery, using
+trusted provider supervision events. Idle connection and silent response
+preparation do not use class minutes. After 120 seconds without voice, the call
+closes with unused credit preserved. Browser heartbeats cannot alter accounting.
+Cost and refund controls remain in place. Termination freezes the meter before
+network retries; lost supervision adds at most three seconds beyond its last tick.
+
+Reference: [OpenAI Realtime server events](https://developers.openai.com/api/reference/resources/realtime/server-events),
+`input_audio_buffer.speech_started/stopped` and
+`output_audio_buffer.started/stopped/cleared`.
+
+Validation: idle 15-minute regression, overlapping voices, interruption, duplicate
+termination, reconnect, monitor loss, timer display and stale heartbeat tests.
+The restored support credit is recorded privately in the account ledger.

@@ -32,6 +32,7 @@ def close(state, call_id, reason='ended'):
         if call['status']=='closed': return True
         with payments.connect(state) as db:
             db.execute("UPDATE calls SET status='closing',reason=? WHERE id=?",(reason,call_id))
+        payments.freeze_meter(state,call_id)
         if call['provider']:
             try:
                 with provider_request('/'+call['provider']+'/hangup') as response: response.read()
@@ -55,8 +56,9 @@ def usage_cost(usage):
 def should_close(call, now):
     if call['revoked']: return 'refunded'
     if call['cost'] >= payments.CLASS_COST_USD: return 'budget'
-    if call['deadline'] and now >= call['deadline']: return 'time'
+    if payments.call_remaining(call,now) <= 0: return 'time'
     if now-call['heartbeat']>60: return 'disconnected'
+    if call.get('elapsed') is not None and not json.loads(call['channels']) and now-call['last_active']>=120: return 'idle'
     return None
 
 
@@ -70,9 +72,12 @@ def monitor(state, call_id, ws):
             reason=should_close(call,time.time())
             if reason: break
             try: raw=ws.recv()
-            except websocket.WebSocketTimeoutException: continue
+            except websocket.WebSocketTimeoutException:
+                payments.meter_activity(state,call_id)
+                continue
             if not raw: break
             event=json.loads(raw)
+            payments.meter_activity(state,call_id,event)
             if event.get('type')=='response.done':
                 response=event.get('response',{}); usage=response.get('usage')
                 if usage:

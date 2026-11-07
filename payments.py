@@ -29,6 +29,9 @@ def connect(state):
       CREATE UNIQUE INDEX IF NOT EXISTS one_active_call ON calls(reader) WHERE status IN ('starting','active','closing');
       CREATE TABLE IF NOT EXISTS usage (call_id TEXT, event_id TEXT, kind TEXT, cost REAL, details TEXT,
         PRIMARY KEY(call_id,event_id,kind));
+      CREATE TABLE IF NOT EXISTS call_meter (call_id TEXT PRIMARY KEY, elapsed REAL NOT NULL DEFAULT 0,
+        tick REAL NOT NULL, seen REAL NOT NULL, last_active REAL NOT NULL,
+        channels TEXT NOT NULL DEFAULT '{}');
     ''')
     return db
 
@@ -78,9 +81,10 @@ def balance(state, reader):
         row = db.execute('SELECT COALESCE(SUM(remaining),0) seconds, COUNT(*) classes FROM grants WHERE reader=? AND revoked=0 AND remaining>0 AND cost<?', (reader, CLASS_COST_USD)).fetchone()
         call = db.execute("SELECT id,deadline,status,reason FROM calls WHERE reader=? AND status IN ('starting','active','closing')", (reader,)).fetchone()
         seconds = row['seconds']
-        if call and call['deadline']:
-            active = db.execute('SELECT started FROM calls WHERE id=?', (call['id'],)).fetchone()
-            seconds = max(0, seconds - (time.time()-active['started']))
+        if call:
+            active = get_call(state, call['id'])
+            if not active['revoked'] and active['cost'] < CLASS_COST_USD:
+                seconds = max(0, seconds - elapsed_seconds(active, time.time()))
         last = db.execute('SELECT reason FROM calls WHERE reader=? ORDER BY started DESC LIMIT 1', (reader,)).fetchone()
         return {'seconds': int(seconds), 'classes': row['classes'], 'active_call': dict(call) if call else None, 'last_reason': last['reason'] if last else None}
 
@@ -105,23 +109,79 @@ def reserve(state, reader):
 def activate(state, call_id, provider, seconds):
     now=time.time()
     with connect(state) as db:
-        db.execute("UPDATE calls SET provider=?,started=?,deadline=?,heartbeat=?,status='active' WHERE id=?", (provider,now,now+seconds,now,call_id))
+        db.execute("UPDATE calls SET provider=?,started=?,deadline=NULL,heartbeat=?,status='active' WHERE id=?", (provider,now,now,call_id))
+        db.execute('INSERT INTO call_meter(call_id,tick,seen,last_active) VALUES (?,?,?,?)', (call_id,now,now,now))
 
 
 def get_call(state, call_id, reader=None):
     with connect(state) as db:
-        row=db.execute('SELECT calls.*, grants.cost, grants.revoked FROM calls JOIN grants ON grants.id=calls.grant_id WHERE calls.id=?', (call_id,)).fetchone()
+        row=db.execute('SELECT calls.*, grants.cost, grants.revoked, grants.remaining, call_meter.elapsed, call_meter.tick, call_meter.seen, call_meter.last_active, call_meter.channels FROM calls JOIN grants ON grants.id=calls.grant_id LEFT JOIN call_meter ON call_meter.call_id=calls.id WHERE calls.id=?', (call_id,)).fetchone()
         if not row or (reader is not None and row['reader'] != reader):
             raise PermissionError('Call unavailable')
         return dict(row)
 
 
+def elapsed_seconds(call, now):
+    if call.get('elapsed') is None:
+        # Old calls retain their original accounting; new calls always have a meter.
+        return max(0, now-call['started']) if call['provider'] else 0
+    # A crashed/disconnected monitor cannot charge unattended downtime.
+    tail = max(0, min(now, call['seen']+3)-call['tick']) if json.loads(call['channels']) else 0
+    return call['elapsed'] + tail
+
+
+def call_remaining(call, now):
+    return max(0, call['remaining']-elapsed_seconds(call, now))
+
+
+def meter_activity(state, call_id, event=None):
+    """Only the trusted provider monitor may update activity, never browser heartbeats.
+
+    Count the union of learner speech and delivered agent audio. Overlap is counted
+    once. Response IDs prevent an old/duplicate stop from clearing newer playback.
+    """
+    now=time.time()
+    with connect(state) as db:
+        db.execute('BEGIN IMMEDIATE')
+        row=db.execute("SELECT call_meter.* FROM call_meter JOIN calls ON calls.id=call_meter.call_id WHERE call_id=? AND status='active'", (call_id,)).fetchone()
+        if not row: return
+        channels=json.loads(row['channels'])
+        elapsed=row['elapsed'] + (max(0,min(now,row['seen']+3)-row['tick']) if channels else 0)
+        last_active=now if channels else row['last_active']
+        if event:
+            kind=event.get('type','')
+            if kind in ('input_audio_buffer.speech_started','output_audio_buffer.started'):
+                channel='input' if kind.startswith('input') else 'output'
+                channels[channel]=event.get('item_id' if channel=='input' else 'response_id') or 'active'
+                last_active=now
+            elif kind in ('input_audio_buffer.speech_stopped','output_audio_buffer.stopped','output_audio_buffer.cleared'):
+                channel='input' if kind.startswith('input') else 'output'
+                identifier=event.get('item_id' if channel=='input' else 'response_id')
+                if not identifier or channels.get(channel)==identifier:
+                    channels.pop(channel,None)
+        db.execute('UPDATE call_meter SET elapsed=?,tick=?,seen=?,last_active=?,channels=? WHERE call_id=?',
+                   (elapsed,now,now,last_active,json.dumps(channels),call_id))
+
+
+def freeze_meter(state, call_id):
+    """Freeze on termination, before provider hangup/network retries."""
+    now=time.time()
+    with connect(state) as db:
+        db.execute('BEGIN IMMEDIATE')
+        row=db.execute('SELECT * FROM call_meter WHERE call_id=?',(call_id,)).fetchone()
+        if row:
+            elapsed=row['elapsed']+(max(0,min(now,row['seen']+3)-row['tick']) if json.loads(row['channels']) else 0)
+            db.execute("UPDATE call_meter SET elapsed=?,tick=?,channels='{}' WHERE call_id=?",(elapsed,now,call_id))
+
+
 def finish(state, call_id, reason):
+    freeze_meter(state, call_id)
     with connect(state) as db:
         db.execute('BEGIN IMMEDIATE')
         row=db.execute('SELECT * FROM calls WHERE id=?', (call_id,)).fetchone()
         if not row or row['status']=='closed': return
-        elapsed=max(0, time.time()-row['started']) if row['provider'] else 0
+        meter=db.execute('SELECT elapsed FROM call_meter WHERE call_id=?',(call_id,)).fetchone()
+        elapsed=meter['elapsed'] if meter else (max(0, time.time()-row['started']) if row['provider'] else 0)
         db.execute('UPDATE grants SET remaining=MAX(0,remaining-?) WHERE id=?', (elapsed,row['grant_id']))
         if reason=='budget': db.execute('UPDATE grants SET remaining=0 WHERE id=?', (row['grant_id'],))
         db.execute("UPDATE calls SET status='closed',reason=? WHERE id=?", (reason,call_id))
