@@ -2,7 +2,7 @@
 
 Estudiamos el comienzo del maamar sobre el regreso de Yaakov y la piedra que puso como monumento.
 
-Hojas 1–2 de Vaietzé. Se completa «ושבתי בשלום אל בית אבי» con su resumen y se abre el Biur hasta והענין דכתיב. La hoja 2 es la página impresa 42 (כא ג–ד) de la edición digital.
+Tres hojas de Vaietzé. Primer maamar y resumen completos; el Biur continúa por la hoja כב (22a–b) hasta ובחי׳ זו. Cuarenta y cinco lecciones.
 
 
 ## 1. El regreso de Yaakov y la piedra
@@ -710,6 +710,328 @@ Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 43}, "end
 
 ### Explicación
 El Biur comienza retomando la pregunta desde el punto de vista de la piedra como morada para la kedushá. La última frase continúa en la página siguiente.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 32. Las 370 luces de Yaakov
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 1}, "end": {"page": 3, "column": "right", "line": 8}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+צוה ישועות יעקב בחי' יעקב נקרא ישועות וביאור מלת ישועות הנה שרש התיבה הוא ש"ע ושאר אותיות הם נוספות בתיבה כלומר שע"י בחינת יעקב מתגלין ש"ע נהורין עילאין וגם ש"ע הוא מלשון וישע ה' אל הבל שהוא לשון הפנה דהיינו שכל פינות והמשכות עליונות פונות ונמשכות ע"י בחי' יעקב יו"ד עקב. וענין נהורין והמשכות הללו היינו גילוי ההארות והמשכות מאור א"ס עצמו שכשמו כן הוא אין לו סוף כו'. ואינו בגדר עלמין כלל וכולא קמיה כלא ממש חשיב ולית מחשב' תפיסא ביה ואין ערוך אליו כו'.
+
+
+### Traducción
+«Ordena las salvaciones de Yaakov». En yeshuot, salvaciones, el Biur distingue las letras shin y áyin, cuyo valor es 370. Por Yaakov se revelan 370 luces superiores. Shin y áyin también evocan «Hashem se volvió hacia Hével»: todos esos movimientos y transmisiones superiores se dirigen y descienden por Yaakov, yud y talón. Son revelaciones y transmisiones de la propia luz del Ein Sof, que carece de fin. Trasciende el orden de los mundos: ante Él todo cuenta como nada, ningún pensamiento lo abarca y nada guarda proporción con Él.
+
+
+### Explicación
+El Biur retoma las 370 luces del maamar y añade el sentido de volverse hacia algo. Yaakov expresa la transmisión de esas luces hasta el nivel más bajo.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 33. Del resplandor a la revelación en el alma
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 8}, "end": {"page": 3, "column": "right", "line": 17}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+כי מלכותך מלכות כ"ע והודו וזיוו על ארץ ושמים כו' זיו והארה בעלמא המתלבש' ומתפשטת בתוך עלמין להוות' ולהחיותם להיות חיים וקיימים מאין ליש בבחי' העלם והסתר אור א"ס ב"ה עצמו שלא יבטלו העולמות במציאות ויחזרו להיות אין ואפס כמו שהיו דהיינו ע"י כמה צמצומים והתלבשות שונות בירידת המדרגות כדרך וסדר ההשתלשלות אבל אור א"ס ב"ה בעצמו ובכבודו רם ונשא כו' והוא למעלה מעלה מבחינת ההשתלשלות וע"י בחי' יעקב יו"ד עקב נמשך אא"ס ב"ה שלמעלה מבחי' ההשתלשלות שיאיר למטה בגילוי הנפש אלקות שבכל א' מישראל להיות גילוי אור א"ס ב"ה ממש על נפשו.
+
+
+### Traducción
+«Tu reinado es el reinado de todos los mundos» y «Su esplendor está sobre la tierra y los cielos». Un resplandor se reviste y extiende dentro de los mundos para crearlos y sostenerlos de ayin a yesh. La propia luz del Ein Sof queda velada para que los mundos conserven su existencia, mediante contracciones y revestimientos sucesivos. La propia luz es elevada y trasciende ese orden. Por Yaakov, yud y talón, esa luz que está por encima del orden de los mundos desciende para iluminar de modo manifiesto el alma divina de cada integrante de Israel.
+
+
+### Explicación
+El texto distingue la irradiación que sostiene la existencia de la revelación de la luz en el alma. La segunda es la hamshajá que Yaakov hace llegar abajo.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 34. Cómo las letras hacen una casa
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 18}, "end": {"page": 3, "column": "right", "line": 26}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+והיינו ע"י שלקח מאבני המקום וישם מראשותיו. אבנים הן אותיות כמ"ש בס"י שני אבנים בונות שתי בתים. והטעם שנקראו אותיות בשם אבנים הוא כי כמו שע"י כמה אבנים נבנה בית לשבת אדם כו' כך ע"י כמה צירופי אותיות נעשי' תיבות ומכמה צירופי תיבות נעשה ענין שלם שמתוכו מובן ומושג איזה השכלה והשגה והרי השכל שורה ומתלבש באותיות הללו וכתפארת אדם לשבת בית ע"י צירופי אבנים ועוד טעם אחר כי כמו שהאבנים הם דומם ואין להם ערך ויחוס לאדם הדר בבית שנבנה מהאבנים כך האותיות הן בחי' דומם לגבי השכל השורה ומתלבש בהם ואין להם ערך ויחוס אליו ולכן בטלים הם לגבי השכל (ועמ"ש בפ' בראשית בד"ה להבין בתוספת ביאור ענין וייצר).
+
+
+### Traducción
+Esto ocurre al tomar las piedras del lugar y ponerlas a su cabecera. Las piedras son letras, como dice Séfer Yetzirá: dos piedras construyen dos casas. Así como varias piedras forman una casa habitable, las letras combinadas forman palabras y las palabras, una idea entera que puede comprenderse. El entendimiento mora revestido en esas letras como una persona en una casa. Hay otra razón: las piedras, inanimadas, no están al nivel del habitante. Así también las letras son inanimadas con respecto al entendimiento que se reviste en ellas, no guardan proporción con él y se subordinan a él. Véase el Biur sobre Vayítzer en Bereshit.
+
+
+### Explicación
+La casa hecha de piedras permite habitar. Análogamente, las letras dan forma comunicable a una idea cuya vida procede del entendimiento.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 35. Las huestes ante el Ein Sof
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 26}, "end": {"page": 3, "column": "right", "line": 35}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+ולכן נק' הוי' צבאות אות הוא בצבא דילי' שכל העולמות והברואי' נתהוו מבחי' אותיות שבעשרה מאמרות שנברא בהם העולם יהי אור יהי רקיע כו'. וכל צבא השמים העליונים אלף אלפין ורבוא רבבן ולגדודיו אין מספר הם בטלים לגבי אור א"ס ב"ה כבטול האותיות שהן בחי' דומם לגבי השכל מאחר שהם בחי' גבול ת"ק שנה כו' ונבראים ומחודשים מאין ליש הרי אין ערוך אליו ית' וכנודע ענין הערך במספר שמספר א' לגבי אלף אלפים כו' יש לו איזה ערך ויחוס משא"כ אליו ית' שהוא א"ס ב"ה אין ערוך כלל ולכן נק' אות הוא בצבא דילי' שכל הצבאות אינן אלא בחי' אות א' לגבי אור א"ס ב"ה.
+
+
+### Traducción
+Por eso se llama Hashem Tzevaot, una letra en Su hueste: los mundos y las criaturas proceden de las letras de los diez enunciados creadores, como «haya luz» y «haya firmamento». Las huestes superiores, miles de miles y miríadas sin número, se anulan ante la luz del Ein Sof como las letras inanimadas ante el intelecto. Son limitadas, como la medida de quinientos años, y creadas de ayin a yesh. Uno guarda cierta relación con un millón, pero frente al Ein Sof no hay proporción alguna. Toda la hueste cuenta como una sola letra ante Su luz.
+
+
+### Explicación
+El contraste entre uno y un millón aún pertenece al número. El Biur lo usa para mostrar que la multitud de mundos sigue siendo finita ante el Ein Sof.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 36. Elevar las letras por encima del orden de los mundos
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 36}, "end": {"page": 3, "column": "right", "line": 40}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+והנה באבני המקום שהם בחי' אותיות כתיב וישם מראשותיו שהגביה והעלה אותם למעלה מעלה מבחי' ההשתלשל' דהיינו לבחי' סוכ"ע כי לפי שהאותיות הן בחי' דומם לכך יש להם כח ויכולת לעלות למעלה מעלה כנודע שנעוץ תחלתן בסופן דייקא וסוכ"ע הוא כמשל העיגול שממטה נעשה מעלה. וכמ"ש ומתחת זרועות עולם.
+
+
+### Traducción
+De las piedras del lugar, que son las letras, se dice que las puso a su cabecera: las elevó muy por encima del orden de los mundos, al nivel que los abarca a todos. Precisamente por pertenecer al orden inanimado, las letras pueden ascender tan alto, pues el principio está arraigado en el final. La luz que abarca todos los mundos se ilustra con un círculo en el que lo de abajo puede quedar arriba. Así se dice: «Debajo están los brazos eternos».
+
+
+### Explicación
+El Biur vincula la capacidad de elevar las letras con su posición al final. En el plano de sovev kol almín, lo inferior remite a su principio.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 37. La yud como recipiente del bitul
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 41}, "end": {"page": 3, "column": "right", "line": 45}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+והנה כתיב ויקח מאבני המקום ולא כל אבני לפי שלא כל האותיות יש להן כח זה אלא אות היו"ד שהוא בחי' כלי לחכמה וחכמה הוא כח מ"ה בחי' בטול ולכך שורה שם ומתגלה אור א"ס ב"ה הסוכ"ע כי הוי' בחכמה כו' ואין אור א"ס ב"ה שורה ומתגלה אלא במי שבטל כו'. וזהו האבן אשר שם מראשותיו (ועמ"ש ע"פ מאמר הרע"מ פ' כי תשא בענין אבנא למשקל בה דא י').
+
+
+### Traducción
+Dice que tomó «de las piedras», sin tomarlas todas. Esa capacidad corresponde a la yud, recipiente de jojmá, entendida como kóaj má, la facultad del bitul. Allí reposa y se revela la luz del Ein Sof que abarca los mundos, pues Havayá está en jojmá. La luz del Ein Sof se revela en quien tiene bitul. Ésa es la piedra que puso a su cabecera. Véase también el pasaje de Raayá Mehemná en Ki Tisá sobre la piedra de pesar y la yud.
+
+
+### Explicación
+La yud sirve de recipiente por el bitul de jojmá. Así explica el Biur por qué importa qué piedra tomó Yaakov.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 38. De la yud a la vav del monumento
+
+Location / Ubicación: {"start": {"page": 3, "column": "right", "line": 46}, "end": {"page": 3, "column": "left", "line": 7}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+ואח"כ וישם אותה מצבה וכתרגומו ושוי יתה קמא שהוא כמ"ש קמה אלמתי וגם נצבה שמה שהיתה האבן מונחת למטה בארץ אח"כ הקים אותה והגביה אותה עוד ממטה למעלה והיינו עליי' אחר עליי' לבחי' ומקורות י"ג מדות רחמים עליונים שהן בחי' יודי"ן ווי"ן כי מקום יניקת השערה והגומא שלה הוא בחי' י' והשערה עצמה שהיא המשכה היא בחי' ו' וזהו וישם מראשותיו וישם אתה מצבה שמתחלה כאשר שם מראשותיו היא בחי' יו"ד ואח"כ נעשה מצבה הוא בחי' וא"ו וכל בחי' הללו הם בחי' העלאה ממטה למעלה והיינו התעלות חכמה שבנפש לאור א"ס ב"ה השורה ומתגלה בה כי הנפש היא בחי' נברא ומחודש מאין ליש בבחי' אותיו' כו' וצריך להעלות' ממטה למעלה לאור א"ס ב"ה הסוכ"ע וישוב אל ה' וירחמהו מבחי' י"ג מדות הרחמים והעלאה זו היא בבחי' חכמה דוקא כ"ח מ"ה:
+
+
+### Traducción
+Luego alzó la piedra como monumento. El Targum la describe erguida, como «mi gavilla se levantó y quedó en pie». De la tierra, Yaakov la elevó aún más, de ascenso en ascenso, hasta las fuentes de los trece atributos superiores de misericordia, figurados en yud y vav. La raíz y el hueco de donde nace el cabello corresponden a la yud, y su prolongación a la vav. La piedra a la cabecera corresponde a la yud y el monumento erguido a la vav. Son ascensos de abajo arriba: la jojmá del alma asciende a la luz del Ein Sof que se revela en ella. El alma creada de ayin a yesh mediante las letras ha de elevarse a esa luz que abarca todos los mundos. «Que vuelva a Hashem, y Él se apiadará de él» mediante los trece atributos. El ascenso ocurre por jojmá, kóaj má.
+
+
+### Explicación
+El Biur lee el monumento como un segundo ascenso. La imagen de la raíz y la extensión del cabello introduce los trece atributos de misericordia que desarrolla la glosa.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 39. Glosa: cuándo la vav supera a la yud
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 8}, "end": {"page": 3, "column": "left", "line": 15}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+לכאורה אינו מובן כי היודי"ן שבת"ד הוא גבוה מהוי"ו כמ"ש לעיל כי מקום יניקת השערה והגומא שלה הוא בחי' יו"ד דהיינו מקום יניקתה ממו"ס שהוא הגבה מאד נעלה מהשערות עצמן שהן בחי' ו'. והרי בחי' וישם אתה מצבה משמע שהוא עלייה אחר עלייה למעלה מבחי' מראשותיו שהוא בחי' יו"ד. וזהו תרתי דסתרי. אך פי' מראשותיו הוא בחי' חכמה דאצילות ואח"כ וישם אתה מצבה שנעשית בחי' ו' הוא בחי' אבא יונק ממזלא שבחי' השערות דת"ד שהן ווי"ן גבוה מהיו"ד דח"ע.
+
+
+### Traducción
+A primera vista cuesta entenderlo: en las configuraciones de la barba, las yud son más altas que las vav. La raíz y el hueco de donde se nutre el cabello son yud, el punto que recibe de la sabiduría oculta, mucho más alta que los cabellos mismos, que son vav. Sin embargo, alzar el monumento implica ascender más allá de la piedra a la cabecera, que es yud. La solución es que la cabecera corresponde a jojmá de Atzilut. Después, el monumento como vav expresa que Abá recibe del mazal: esos cabellos, figurados como vav, están por encima de la yud de jojmá ilaá.
+
+
+### Explicación
+La glosa compara dos relaciones distintas. La raíz supera al cabello en su propio plano, mientras que ese cabello puede estar por encima de la jojmá de Atzilut.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 40. Glosa: el aceite y la Torá oral
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 15}, "end": {"page": 3, "column": "left", "line": 17}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+אח"כ ויצק שמן על ראשה היינו המשכה ממו"ס ממש לתוך המזלות כו' ומזה ממש נמשך הגלוי למטה בהלכו' שבתורה שבע"פ ששרשן מנימין דמו"ס וע"ז נאמר סלסלה ותרוממך כו':
+
+
+### Traducción
+Después, «derramó aceite sobre su cabeza»: es el descenso desde la propia sabiduría oculta hacia los mazalot. De allí procede la revelación de abajo en las halajot de la Torá oral, cuya raíz está en las hebras de esa sabiduría oculta. Sobre esto se dice: «Enaltécela y ella te elevará».
+
+
+### Explicación
+La glosa concluye llevando la imagen de las hebras hasta la halajá. El aceite señala cómo llega a ella la revelación desde la sabiduría oculta.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 41. La finalidad del aceite derramado
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 18}, "end": {"page": 3, "column": "left", "line": 24}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+אך אין זה תכלית המכוון רק שאח"כ ויצק שמן על ראשה שמן היינו המשכת חכמה עילאה שהיא התורה ורצונו ית' שנמשכו ע"י בחי' יעקב יו"ד עקב כמ"ש ויקם עדות ביעקב ותורה שם בישראל להיות בעסק התורה שלמטה בגשמיות המחליף פרה בחמור כו' גילוי המשכת חכמה עילאה שכל פרטי הלכות שנפרדו הם יסודתם בהררי קדש עליון חכמה עילאה שכך חייבה חכמתו ורצונו ית'. ואי לזאת יהי' עסק התורה ג"כ עד"ז להמשיך חכמה עילא' בנפשו ועי"ז נעשה אתכפייא סט"א ואתהפכא כו'.
+
+
+### Traducción
+El ascenso prepara lo que sigue: «derramó aceite sobre su cabeza». El aceite transmite la sabiduría superior, la Torá y Su voluntad, por Yaakov, yud y talón, como dice: «Estableció testimonio en Yaakov y puso Torá en Israel». Así, al estudiar Torá en asuntos materiales, como quien cambia una vaca por un burro, se revela la sabiduría superior. Los distintos detalles legales se fundan en las alturas sagradas de esa sabiduría, tal como lo requieren Su sabiduría y voluntad. Al estudiar de ese modo, la persona trae esa jojmá a su alma, somete el otro lado y lo transforma.
+
+
+### Explicación
+El descenso del aceite cumple la finalidad del ascenso. La sabiduría y la voluntad divinas llegan al estudio de las halajot concretas y a quien las estudia.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 42. Estudiar hoy con la reverencia del Sinaí
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 24}, "end": {"page": 3, "column": "left", "line": 34}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+ולכן ארז"ל מה להלן באימה וביראה אף כאן באימה כו' שתפול על האדם אימה ופחד בעסקו בתורה כמו בשעת קבלתו בהר סיני. והנה שם בהר סיני כל העם ראו את הקולות ואת הלפידים וכו' פנים בפנים דבר ה' עמכם כו'. והאיך ימשיך כל אדם יראה זו עליו בכל זמן אלא כאשר ישים האדם אל לבו שהתורה שהוא לומד היא המשכת חכמה עילאה ושם שורה ומתגלה אור א"ס ב"ה שלמעלה מעלה מגדר ההשתלשלות וקמיה כחשיכה כאורה מעלה ומטה רוחניות וגשמיות שוין א"כ אין כאן הסתר פנים כלל ע"כ מה להלן כו' הכל שוה.
+
+
+### Traducción
+Por eso dijeron nuestros sabios: «Así como allí fue con sobrecogimiento y reverencia, también aquí con sobrecogimiento». Al estudiar Torá, la persona ha de sentir el temor de cuando la recibió en el Sinaí. Allí todo el pueblo vio las voces y las llamas, y Hashem les habló cara a cara. ¿Cómo despertar esa reverencia en cualquier época? Al considerar que la Torá que estudia transmite la sabiduría superior. Allí se revela la luz del Ein Sof, que trasciende el orden de los mundos. Ante ella son iguales oscuridad y luz, arriba y abajo, lo espiritual y lo material. Por ello, tampoco aquí hay ocultamiento del rostro y el estudio puede vivirse como allí.
+
+
+### Explicación
+El Biur responde cómo se renueva esa reverencia al estudiar. La misma luz se revela en la jojmá de la Torá que se estudia hoy.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 43. Beer Sheva, fuente de los siete atributos
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 34}, "end": {"page": 3, "column": "left", "line": 38}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+והנה להבין תכלית ירידת יעקב יו"ד עקב להיות הש"ע נהורין בגילוי למטה וליקח מאבני המקום להעלותם למעלה ולהמשיך אח"כ בחי' שמן הוא בחי' חכמה עילאה מלמעלה למטה. וירידה זו הוא מ"ש ויצא יעקב מבאר שבע. באר הוא מקור ומעיין הנובע ז' מדות עליונות לך ה' הגדולה והגבורה כו' שהן בחי' לך בחי' ביטול.
+
+
+### Traducción
+Para entender el propósito del descenso de Yaakov, yud y talón, hay que reunir sus movimientos: revelar las 370 luces abajo, tomar y elevar las piedras del lugar y hacer descender después el aceite, la sabiduría superior. Ese descenso es «Yaakov salió de Beer Sheva». El pozo es la fuente de la que fluyen los siete atributos superiores, como en «Tuyas, Hashem, son la grandeza y la fuerza». El «Tuyas» expresa su bitul.
+
+
+### Explicación
+Beer Sheva representa la fuente de los siete atributos. En su raíz, los atributos están entregados a Hashem, como indica la palabra «Tuyas».
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 44. Jarán y la voz entrecortada
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 38}, "end": {"page": 3, "column": "left", "line": 45}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+וילך חרנה חר"ן (ע"ה) בגימ' גרו"ן רק בחי' גרו"ן היינו כשהקול יוצא כדרכו בלי עכוב ובלי מונע אבל חר"ן אותיות נחר היינו מ"ש יגעתי בקראי נחר גרוני. והיינו כשגובר בו יסוד האש כי הקול כלול אש רוח ומים. רוח הוא עיקר התפשטות הבל הלב ומים היינו לחלוחית הריאה ואש הוא המחלק את הקול להיות ההפסק להתחלק בה' מוצאות הפה כלי הדבור. וכשגובר יסוד האש ביותר הוא המפסיק את הקול עד שאינו יכול לצאת במשך ההעברה כדרכה.
+
+
+### Traducción
+«Y fue hacia Jarán». Jarán, contando además la palabra como unidad, tiene el mismo valor numérico que garón, garganta. Garón designa el paso normal de la voz, sin impedimento. Jarán contiene las letras de nijar, enronquecer, como en «me cansé de llamar, mi garganta se ha enronquecido». Ocurre cuando domina el fuego. La voz incluye fuego, aire y agua: el aire difunde el aliento del corazón, el agua es la humedad de los pulmones y el fuego divide la voz en los cinco puntos de articulación del habla. Si el fuego domina en exceso, interrumpe el flujo normal de la voz.
+
+
+### Explicación
+El fuego cumple una función al articular la voz. Su exceso, que el maamar asocia con Jarán, interrumpe ese paso.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 45. Jarán y el ocultamiento de la vitalidad
+
+Location / Ubicación: {"start": {"page": 3, "column": "left", "line": 45}, "end": {"page": 3, "column": "left", "line": 48}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+
+### עברית
+וכך הוא בחי' חרן היינו בחי' המפסיק את הקול שהוא ההמשכה מחיות ואור א"ס ב"ה שלא להיות ההמשכה כדרכה בקדושה דוקא אלא שיש גם לקליפות וס"א יניקה ואחיזה בהמשכה זו ואזי נק' בבחי' נאלמתי דומיה שנפסק הקול וההמשכה ונעשה בחי' נפרד ובחי' זו
+
+
+### Traducción
+Así es Jarán: interrumpe la voz, es decir, el fluir de la vitalidad y la luz del Ein Sof. La influencia deja de fluir solamente por el cauce de la santidad. También las kelipot y la sitrá ajrá encuentran de dónde nutrirse y aferrarse a ella. Entonces se llama «enmudecí en silencio»: quedan interrumpidas la voz y la transmisión y aparece la separación. Y este aspecto…
+
+
+### Explicación
+El texto aplica la imagen de la voz interrumpida al ocultamiento de la vitalidad divina. La aplicación al exilio y al servicio de la persona continúa en la hoja siguiente.
 
 
 ### Fuentes

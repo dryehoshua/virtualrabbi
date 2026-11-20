@@ -1,6 +1,6 @@
 # Vaietzé · Torá Or · עברית
 
-Hojas 1–2 de Vaietzé. Se completa «ושבתי בשלום אל בית אבי» con su resumen y se abre el Biur hasta והענין דכתיב. La hoja 2 es la página impresa 42 (כא ג–ד) de la edición digital.
+Tres hojas de Vaietzé. Primer maamar y resumen completos; el Biur continúa por la hoja כב (22a–b) hasta ובחי׳ זו. Cuarenta y cinco lecciones.
 
 El hebreo de cada unidad es la fuente de lectura; las traducciones y explicaciones se guardan aparte. / Each unit’s Hebrew is the reading source; translations and explanations are stored separately.
 
@@ -189,3 +189,87 @@ Ubicación / Location: {"start": {"page": 2, "column": "left", "line": 38}, "end
 Ubicación / Location: {"start": {"page": 2, "column": "left", "line": 43}, "end": {"page": 2, "column": "left", "line": 48}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
 
 והיה הוי"ה לי לאלקים והאבן הזאת אשר שמתי מצבה יהיה בית אלקים. להבין ענין תפלה ובקשה זו שהוי"ה יהי' בבחי' אלקים. והאבן בבחי' בית אלקים. וכדי להבין איך תהיה האבן במדרגה גדולה כ"כ להיות מכון ומושב להשראת קדושה עליונה עד שיהיה חל שם שמים על האבן שתהיה נק' בשם בית אלקים. הנה צריך להבין ענין הפרשה כולה ויצא יעקב כו' והענין דכתיב
+
+## 32. vaietze-01-32
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 1}, "end": {"page": 3, "column": "right", "line": 8}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+צוה ישועות יעקב בחי' יעקב נקרא ישועות וביאור מלת ישועות הנה שרש התיבה הוא ש"ע ושאר אותיות הם נוספות בתיבה כלומר שע"י בחינת יעקב מתגלין ש"ע נהורין עילאין וגם ש"ע הוא מלשון וישע ה' אל הבל שהוא לשון הפנה דהיינו שכל פינות והמשכות עליונות פונות ונמשכות ע"י בחי' יעקב יו"ד עקב. וענין נהורין והמשכות הללו היינו גילוי ההארות והמשכות מאור א"ס עצמו שכשמו כן הוא אין לו סוף כו'. ואינו בגדר עלמין כלל וכולא קמיה כלא ממש חשיב ולית מחשב' תפיסא ביה ואין ערוך אליו כו'.
+
+## 33. vaietze-01-33
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 8}, "end": {"page": 3, "column": "right", "line": 17}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+כי מלכותך מלכות כ"ע והודו וזיוו על ארץ ושמים כו' זיו והארה בעלמא המתלבש' ומתפשטת בתוך עלמין להוות' ולהחיותם להיות חיים וקיימים מאין ליש בבחי' העלם והסתר אור א"ס ב"ה עצמו שלא יבטלו העולמות במציאות ויחזרו להיות אין ואפס כמו שהיו דהיינו ע"י כמה צמצומים והתלבשות שונות בירידת המדרגות כדרך וסדר ההשתלשלות אבל אור א"ס ב"ה בעצמו ובכבודו רם ונשא כו' והוא למעלה מעלה מבחינת ההשתלשלות וע"י בחי' יעקב יו"ד עקב נמשך אא"ס ב"ה שלמעלה מבחי' ההשתלשלות שיאיר למטה בגילוי הנפש אלקות שבכל א' מישראל להיות גילוי אור א"ס ב"ה ממש על נפשו.
+
+## 34. vaietze-01-34
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 18}, "end": {"page": 3, "column": "right", "line": 26}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+והיינו ע"י שלקח מאבני המקום וישם מראשותיו. אבנים הן אותיות כמ"ש בס"י שני אבנים בונות שתי בתים. והטעם שנקראו אותיות בשם אבנים הוא כי כמו שע"י כמה אבנים נבנה בית לשבת אדם כו' כך ע"י כמה צירופי אותיות נעשי' תיבות ומכמה צירופי תיבות נעשה ענין שלם שמתוכו מובן ומושג איזה השכלה והשגה והרי השכל שורה ומתלבש באותיות הללו וכתפארת אדם לשבת בית ע"י צירופי אבנים ועוד טעם אחר כי כמו שהאבנים הם דומם ואין להם ערך ויחוס לאדם הדר בבית שנבנה מהאבנים כך האותיות הן בחי' דומם לגבי השכל השורה ומתלבש בהם ואין להם ערך ויחוס אליו ולכן בטלים הם לגבי השכל (ועמ"ש בפ' בראשית בד"ה להבין בתוספת ביאור ענין וייצר).
+
+## 35. vaietze-01-35
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 26}, "end": {"page": 3, "column": "right", "line": 35}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+ולכן נק' הוי' צבאות אות הוא בצבא דילי' שכל העולמות והברואי' נתהוו מבחי' אותיות שבעשרה מאמרות שנברא בהם העולם יהי אור יהי רקיע כו'. וכל צבא השמים העליונים אלף אלפין ורבוא רבבן ולגדודיו אין מספר הם בטלים לגבי אור א"ס ב"ה כבטול האותיות שהן בחי' דומם לגבי השכל מאחר שהם בחי' גבול ת"ק שנה כו' ונבראים ומחודשים מאין ליש הרי אין ערוך אליו ית' וכנודע ענין הערך במספר שמספר א' לגבי אלף אלפים כו' יש לו איזה ערך ויחוס משא"כ אליו ית' שהוא א"ס ב"ה אין ערוך כלל ולכן נק' אות הוא בצבא דילי' שכל הצבאות אינן אלא בחי' אות א' לגבי אור א"ס ב"ה.
+
+## 36. vaietze-01-36
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 36}, "end": {"page": 3, "column": "right", "line": 40}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+והנה באבני המקום שהם בחי' אותיות כתיב וישם מראשותיו שהגביה והעלה אותם למעלה מעלה מבחי' ההשתלשל' דהיינו לבחי' סוכ"ע כי לפי שהאותיות הן בחי' דומם לכך יש להם כח ויכולת לעלות למעלה מעלה כנודע שנעוץ תחלתן בסופן דייקא וסוכ"ע הוא כמשל העיגול שממטה נעשה מעלה. וכמ"ש ומתחת זרועות עולם.
+
+## 37. vaietze-01-37
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 41}, "end": {"page": 3, "column": "right", "line": 45}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+והנה כתיב ויקח מאבני המקום ולא כל אבני לפי שלא כל האותיות יש להן כח זה אלא אות היו"ד שהוא בחי' כלי לחכמה וחכמה הוא כח מ"ה בחי' בטול ולכך שורה שם ומתגלה אור א"ס ב"ה הסוכ"ע כי הוי' בחכמה כו' ואין אור א"ס ב"ה שורה ומתגלה אלא במי שבטל כו'. וזהו האבן אשר שם מראשותיו (ועמ"ש ע"פ מאמר הרע"מ פ' כי תשא בענין אבנא למשקל בה דא י').
+
+## 38. vaietze-01-38
+
+Ubicación / Location: {"start": {"page": 3, "column": "right", "line": 46}, "end": {"page": 3, "column": "left", "line": 7}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+ואח"כ וישם אותה מצבה וכתרגומו ושוי יתה קמא שהוא כמ"ש קמה אלמתי וגם נצבה שמה שהיתה האבן מונחת למטה בארץ אח"כ הקים אותה והגביה אותה עוד ממטה למעלה והיינו עליי' אחר עליי' לבחי' ומקורות י"ג מדות רחמים עליונים שהן בחי' יודי"ן ווי"ן כי מקום יניקת השערה והגומא שלה הוא בחי' י' והשערה עצמה שהיא המשכה היא בחי' ו' וזהו וישם מראשותיו וישם אתה מצבה שמתחלה כאשר שם מראשותיו היא בחי' יו"ד ואח"כ נעשה מצבה הוא בחי' וא"ו וכל בחי' הללו הם בחי' העלאה ממטה למעלה והיינו התעלות חכמה שבנפש לאור א"ס ב"ה השורה ומתגלה בה כי הנפש היא בחי' נברא ומחודש מאין ליש בבחי' אותיו' כו' וצריך להעלות' ממטה למעלה לאור א"ס ב"ה הסוכ"ע וישוב אל ה' וירחמהו מבחי' י"ג מדות הרחמים והעלאה זו היא בבחי' חכמה דוקא כ"ח מ"ה:
+
+## 39. vaietze-01-39
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 8}, "end": {"page": 3, "column": "left", "line": 15}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+לכאורה אינו מובן כי היודי"ן שבת"ד הוא גבוה מהוי"ו כמ"ש לעיל כי מקום יניקת השערה והגומא שלה הוא בחי' יו"ד דהיינו מקום יניקתה ממו"ס שהוא הגבה מאד נעלה מהשערות עצמן שהן בחי' ו'. והרי בחי' וישם אתה מצבה משמע שהוא עלייה אחר עלייה למעלה מבחי' מראשותיו שהוא בחי' יו"ד. וזהו תרתי דסתרי. אך פי' מראשותיו הוא בחי' חכמה דאצילות ואח"כ וישם אתה מצבה שנעשית בחי' ו' הוא בחי' אבא יונק ממזלא שבחי' השערות דת"ד שהן ווי"ן גבוה מהיו"ד דח"ע.
+
+## 40. vaietze-01-40
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 15}, "end": {"page": 3, "column": "left", "line": 17}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+אח"כ ויצק שמן על ראשה היינו המשכה ממו"ס ממש לתוך המזלות כו' ומזה ממש נמשך הגלוי למטה בהלכו' שבתורה שבע"פ ששרשן מנימין דמו"ס וע"ז נאמר סלסלה ותרוממך כו':
+
+## 41. vaietze-01-41
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 18}, "end": {"page": 3, "column": "left", "line": 24}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+אך אין זה תכלית המכוון רק שאח"כ ויצק שמן על ראשה שמן היינו המשכת חכמה עילאה שהיא התורה ורצונו ית' שנמשכו ע"י בחי' יעקב יו"ד עקב כמ"ש ויקם עדות ביעקב ותורה שם בישראל להיות בעסק התורה שלמטה בגשמיות המחליף פרה בחמור כו' גילוי המשכת חכמה עילאה שכל פרטי הלכות שנפרדו הם יסודתם בהררי קדש עליון חכמה עילאה שכך חייבה חכמתו ורצונו ית'. ואי לזאת יהי' עסק התורה ג"כ עד"ז להמשיך חכמה עילא' בנפשו ועי"ז נעשה אתכפייא סט"א ואתהפכא כו'.
+
+## 42. vaietze-01-42
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 24}, "end": {"page": 3, "column": "left", "line": 34}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+ולכן ארז"ל מה להלן באימה וביראה אף כאן באימה כו' שתפול על האדם אימה ופחד בעסקו בתורה כמו בשעת קבלתו בהר סיני. והנה שם בהר סיני כל העם ראו את הקולות ואת הלפידים וכו' פנים בפנים דבר ה' עמכם כו'. והאיך ימשיך כל אדם יראה זו עליו בכל זמן אלא כאשר ישים האדם אל לבו שהתורה שהוא לומד היא המשכת חכמה עילאה ושם שורה ומתגלה אור א"ס ב"ה שלמעלה מעלה מגדר ההשתלשלות וקמיה כחשיכה כאורה מעלה ומטה רוחניות וגשמיות שוין א"כ אין כאן הסתר פנים כלל ע"כ מה להלן כו' הכל שוה.
+
+## 43. vaietze-01-43
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 34}, "end": {"page": 3, "column": "left", "line": 38}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+והנה להבין תכלית ירידת יעקב יו"ד עקב להיות הש"ע נהורין בגילוי למטה וליקח מאבני המקום להעלותם למעלה ולהמשיך אח"כ בחי' שמן הוא בחי' חכמה עילאה מלמעלה למטה. וירידה זו הוא מ"ש ויצא יעקב מבאר שבע. באר הוא מקור ומעיין הנובע ז' מדות עליונות לך ה' הגדולה והגבורה כו' שהן בחי' לך בחי' ביטול.
+
+## 44. vaietze-01-44
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 38}, "end": {"page": 3, "column": "left", "line": 45}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+וילך חרנה חר"ן (ע"ה) בגימ' גרו"ן רק בחי' גרו"ן היינו כשהקול יוצא כדרכו בלי עכוב ובלי מונע אבל חר"ן אותיות נחר היינו מ"ש יגעתי בקראי נחר גרוני. והיינו כשגובר בו יסוד האש כי הקול כלול אש רוח ומים. רוח הוא עיקר התפשטות הבל הלב ומים היינו לחלוחית הריאה ואש הוא המחלק את הקול להיות ההפסק להתחלק בה' מוצאות הפה כלי הדבור. וכשגובר יסוד האש ביותר הוא המפסיק את הקול עד שאינו יכול לצאת במשך ההעברה כדרכה.
+
+## 45. vaietze-01-45
+
+Ubicación / Location: {"start": {"page": 3, "column": "left", "line": 45}, "end": {"page": 3, "column": "left", "line": 48}, "printed_page": "כב (כב א–ב)", "basis": "Derecha desde צוה ישועות יעקב; izquierda desde והשערה עצמה, sin contar el título de la glosa. / Right starts at צוה ישועות יעקב; left at והשערה עצמה, excluding the gloss heading."}
+
+וכך הוא בחי' חרן היינו בחי' המפסיק את הקול שהוא ההמשכה מחיות ואור א"ס ב"ה שלא להיות ההמשכה כדרכה בקדושה דוקא אלא שיש גם לקליפות וס"א יניקה ואחיזה בהמשכה זו ואזי נק' בבחי' נאלמתי דומיה שנפסק הקול וההמשכה ונעשה בחי' נפרד ובחי' זו
