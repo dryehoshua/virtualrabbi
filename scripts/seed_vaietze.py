@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""Install the reviewed Vaietzé lessons from its supplied one-page facsimile."""
+"""Install the reviewed Vaietzé lessons from the original scan and the next page of the edition."""
 import argparse
 import json
-import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -13,20 +12,44 @@ import server
 DOC_ID = '1e7e1e7a202611200000000000000003'
 
 
-def seed(source):
+def seed(source, edition):
+    from pypdf import PdfReader, PdfWriter
+
+    original = PdfReader(source)
+    continuation = PdfReader(edition)
+    if len(original.pages) != 1 or len(continuation.pages) < 50:
+        raise ValueError('Provide the original scan and the indexed digital edition.')
     target = server.folder(DOC_ID)
     scans = target / 'hojas'
     scans.mkdir(parents=True, exist_ok=True)
-    subprocess.run(['pdftoppm', '-f', '1', '-l', '1', '-scale-to', '1400',
-                    '-jpeg', '-singlefile', str(source), str(scans / 'pagina-1')], check=True)
-    shutil.copyfile(source, target / 'original.pdf')
+    # The original scan is kept first. PDF page 50 is printed page 42 (21c–d).
+    writer = PdfWriter()
+    writer.add_page(original.pages[0])
+    writer.add_page(continuation.pages[49])
+    combined = target / 'original.pdf'
+    writer.write(combined)
+    for page in (1, 2):
+        subprocess.run(['pdftoppm', '-f', str(page), '-l', str(page), '-scale-to',
+                        '1400', '-jpeg', '-singlefile', str(combined),
+                        str(scans / f'pagina-{page}')], check=True)
     old = server.load(DOC_ID) if (target / 'documento.json').exists() else {}
     corpus = server.ROOT / 'Estudio/vaietze'
     units = []
-    for name in ('08-lecciones-01.json', '08-lecciones-02.json'):
-        units.extend(json.loads((corpus / name).read_text()))
-    bands = json.loads((corpus / '09-franjas.json').read_text())
-    for index, unit in enumerate(units, 1):
+    batches = (
+        (1, '08-lecciones-01.json', '09-franjas.json'),
+        (1, '08-lecciones-02.json', '09-franjas.json'),
+        (2, '08-lecciones-03.json', '10-franjas-42.json'),
+    )
+    lesson_rows = []
+    for page, name, band_file in batches:
+        bands = json.loads((corpus / band_file).read_text())
+        lesson_rows.extend((page, bands, unit) for unit in json.loads((corpus / name).read_text()))
+    for index, (page, bands, unit) in enumerate(lesson_rows, 1):
+        units.append(unit)
+        biur = unit.get('discourse') == 'biur-veshavti'
+        source_id = '5899156' if biur else '5899155'
+        left_edge = {'right': .489, 'left': .067} if page == 2 else {'right': .500, 'left': .042}
+        width = .405 if page == 2 else .441
         spans = unit.pop('spans', None)
         if spans is None:
             spans = [['right', *unit.pop('lines')]]
@@ -36,23 +59,23 @@ def seed(source):
         for column, low, high in spans:
             for line in range(low, high+1):
                 top, bottom = bands[column][line-1]
-                regions.append(dict(page=1, column=column, line=line,
-                                    left=.500 if column=='right' else .042,
-                                    top=(top-2)/1400, width=.441, height=(bottom-top+4)/1400))
+                regions.append(dict(page=page, column=column, line=line,
+                                    left=left_edge[column],
+                                    top=(top-2)/1400, width=width, height=(bottom-top+4)/1400))
         unit.update(
-            id=f'vaietze-01-{index:02}', pages=[1], discourse='veshavti-veshalom',
+            id=f'vaietze-01-{index:02}', pages=[page], discourse=unit.get('discourse', 'veshavti-veshalom'),
             section_end=False, review_state='curated', source_status='primary_text',
             questions=[], questions_en=[], sources=[{
-                'title': 'Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot',
-                'url': 'https://he.chabad.org/library/article_cdo/aid/5899155',
+                'title': 'Torá Or · ביאור על הנ״ל · Chabad / Kehot' if biur else 'Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot',
+                'url': 'https://he.chabad.org/library/article_cdo/aid/' + source_id,
                 'kind': 'primary_text', 'checked_at': '2026-11-20'}],
             source_notes='Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.',
             source_notes_en='Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.',
             location={
-                'start': dict(page=1, column=first_column, line=start),
-                'end': dict(page=1, column=last_column, line=end),
-                'printed_page': 'כא',
-                'basis': 'Derecha desde ושבתי בשלום; izquierda desde צבאות. / Right starts at ושבתי בשלום; left at צבאות.'},
+                'start': dict(page=page, column=first_column, line=start),
+                'end': dict(page=page, column=last_column, line=end),
+                'printed_page': '42 (כא ג–ד)' if page == 2 else 'כא',
+                'basis': ('Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading.' if page == 2 else 'Derecha desde ושבתי בשלום; izquierda desde צבאות. / Right starts at ושבתי בשלום; left at צבאות.')},
             regions=regions)
     units[-1]['installment_end'] = True
     first = units[0]
@@ -60,15 +83,15 @@ def seed(source):
                title_en='Vayeitzei · Torah Or', author='Rabí Shneur Zalman de Liadí · Alter Rebbe',
                created_at=old.get('created_at', server.now()), filename=source.name,
                status='ready', preparation='curated_primary', units=units,
-               pages=[dict(number=1, raw='', hebrew='', approved=False, ocr_done=False,
-                           warnings=['Texto de Vaietzé de ambas columnas. / Vaietzé text in both columns.'])],
+               pages=[dict(number=page, raw='', hebrew='', approved=False, ocr_done=False,
+                           warnings=[]) for page in (1, 2)],
                current_unit=0, completed=[], study_language='es', error='',
                location=first['location']['start'],
                cursor=dict(unit_id=first['id'], phase='hebrew', interrupted=False),
                introduction='Estudiamos el comienzo del maamar sobre el regreso de Yaakov y la piedra que puso como monumento.',
                introduction_en='We study the opening of the discourse on Jacob’s return and the stone he set as a pillar.',
-               coverage='«ושבתי בשלום אל בית אבי», página impresa כא. Se cubre el texto de Vaietzé de la hoja aportada, desde ושבתי בשלום hasta כי הנה אבי. El maamar continúa en la hoja siguiente.',
-               coverage_en='“Veshavti Veshalom el Beit Avi,” printed page כא. Covers the Vaietzé text of the supplied sheet, from ושבתי בשלום through כי הנה אבי. The discourse continues on the next sheet.')
+               coverage='Hojas 1–2 de Vaietzé. Se completa «ושבתי בשלום אל בית אבי» con su resumen y se abre el Biur hasta והענין דכתיב. La hoja 2 es la página impresa 42 (כא ג–ד) de la edición digital.',
+               coverage_en='Vaietzé sheets 1–2. The first discourse is complete with its summary; the Biur opens and continues after והענין דכתיב. Sheet 2 is printed page 42 (21c–d) of the digital edition.')
     for field in ('current_unit', 'completed', 'study_language', 'location', 'cursor', 'location_unmapped'):
         if field in old:
             doc[field] = old[field]
@@ -78,4 +101,6 @@ def seed(source):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('pdf', type=Path)
-    seed(parser.parse_args().pdf)
+    parser.add_argument('edition', type=Path)
+    args = parser.parse_args()
+    seed(args.pdf, args.edition)

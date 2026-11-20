@@ -2,7 +2,7 @@
 
 We study the opening of the discourse on Jacob’s return and the stone he set as a pillar.
 
-“Veshavti Veshalom el Beit Avi,” printed page כא. Covers the Vaietzé text of the supplied sheet, from ושבתי בשלום through כי הנה אבי. The discourse continues on the next sheet.
+Vaietzé sheets 1–2. The first discourse is complete with its summary; the Biur opens and continues after והענין דכתיב. Sheet 2 is printed page 42 (21c–d) of the digital edition.
 
 
 ## 1. Jacob’s return and the stone
@@ -394,3 +394,325 @@ The return brings together the elevation of the stones and the drawing down of t
 Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
 
 - [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 18. Isaac and the delight of transformation
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 1}, "end": {"page": 2, "column": "right", "line": 5}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+קאי על יצחק וכמ"ש כי אתה אבינו שלע"ל יאמרו על יצחק כי אתה אבינו כו'. והנה יצחק הוא מלשון צחוק ותענוג וכמ"ש צחק עשה לי כו' כל השמע יצחק לי והוא לשון עתיד שיתגלה בחי' התענוג העליון שלמעלה והוא ע"י בחי' הבירורי' שלמטה בבחי' אתכפיא ואתהפכא מחשוכא לנהורא ע"י העלאות והמשכות כנ"ל.
+
+
+### Translation
+“My father” refers to Isaac. In the future he will be called “You are our father.” Isaac alludes to laughter and delight, as Sarah says, “He has made me laugh,” and “whoever hears will laugh with me.” The future tense points to the revelation of supernal delight through refinement below, by subduing and transforming darkness into light through the ascent and descent described earlier.
+
+
+### Explanation
+Resuming the previous sheet’s sentence, the Alter Rebbe identifies the father’s house with Isaac and connects his name with the future fruit of birur.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 19. The delight of the unexpected
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 5}, "end": {"page": 2, "column": "right", "line": 13}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+וכמו התענוג והצחוק שלמטה שאינו אלא מאיזו שינוי והתחדשות כמו למשל צפור המדברת וכדומה שאין דרכה וטבעה לדבר משא"כ מאדם המדבר אין מקבלים תענוג כלל לפי שדרכו בתמידות לדבר. וכמו"כ ממש למעלה. הנה בחי' יעקב הוא י' עקב שהוא בחי' ירידת והשתלשלות אלקות עד למטה מטה גם בבחי' עקביי' שהם עולמות הנפרדים לגמרי ובעלי גבול כו'. וכמ"ש ויצא יעקב מבאר שבע וילך חרנה שנמשך ונשתלשל בהשתלשלות וצמצומים כ"כ להתהוות יש מאין בעלי גבול ועלמין דפרודי שהם בחי' נבראי' נפרדים שהם בחי' יש ונפרד בפ"ע שנק' חר"ן והוא מלשון נחר גרוני כו'.
+
+
+### Translation
+Laughter and delight below arise from change and novelty, as when a bird speaks, since speaking is neither its habit nor its nature. Hearing a person speak gives no such delight because speech is habitual for a person. So it is above. Jacob is yud and heel: divinity descends through the levels to the heels, the separate, finite worlds. “Jacob left Beer Sheva and went toward Haran”: the influence descends through levels and contractions until finite beings arise from nothing and experience themselves as separate. This is Haran, alluding to “my throat has grown hoarse.”
+
+
+### Explanation
+The speaking bird illustrates the novelty that produces delight. The descent to Haran creates the possibility of a similarly unexpected transformation.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 20. From the parched throat to light
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 13}, "end": {"page": 2, "column": "right", "line": 21}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+והיינו שהחיות אלקות הנמשך ומתלבש בהם שנק' בחי' גרון שהוא קול כנודע מכוסה ומוסתר בהם לגמרי עד שהם עלמין דפרודי וחשך לגמרי כאלו הם יש ונפרד בפ"ע ואזי נק' חרן לשון נחר גרוני כו'. וכמ"ש נאלמתי דומיה כו'. והנה תכלית המכוון בירידת והשתלשלות אור ה' כ"כ למקום חשך ועלמין דפרודי. היינו בכדי שיהי' אתכפיא ואתהפכא מחשוכא לנהורא כו' להפוך את כל המדות רעות שהם האהבה ורשפי אש של הבלי עולם או הכעס כו' להפכם שיהיו רק לה' לבדו ולהיות בבחי' בטול הרצון לה' לבד ולא בבחי' יש ונפרד בפ"ע כו'.
+
+
+### Translation
+Divine vitality clothed in them is called the throat, associated with voice. It is concealed until the worlds appear entirely separate and dark, as if they existed on their own. This is Haran, alluding to “my throat has grown hoarse” and “I became mute with silence.” The purpose of divine light descending to that place of darkness and separation is itkafya and ithapcha, subduing and transforming darkness into light. Attachment, the fiery pursuit of worldly vanities, and anger are to be transformed and directed to Hashem alone, until the will yields to Him.
+
+
+### Explanation
+The concealed throat expresses the presence of an unperceived vitality. The avodah described here turns the energies that seemed separate from their source back toward Hashem.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 21. Teshuvah: from Haran to song
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 21}, "end": {"page": 2, "column": "right", "line": 30}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+ונק' בחי' זאת בחי' תשובה שהוא בחילא יתיר כו' דהיינו המדות רעות שהם ברשפי אש להפכם ולהשיבם לה' לבד כנ"ל (וזהו במקום שבעלי תשובה עומדין צדיקי' גמורים אין יכולים לעמוד). ועי"ז נעשה תענוג גדול למעלה והוא מבחי' אתכפיא ואתהפכא מחשוכא לנהורא שלמטה. וזהו יפה שעה אחת בתשובה כו' להיות שע"י בחי' תשובה דוקא נעשה התענוג למעלה כ"כ שהוא ממש כמשל צפור המדברת כנ"ל ואזי נעשה מבחי' חר"ן רנ"ה וכנודע על ענין חמץ ומצה שמאות החי"ת של חמ"ץ נעשה ה"א כמ"ש בזהר פ' פנחס ע"פ גער חי"ת קנה כו' ונעשה בחי' מצה. כמו"כ מחרן נעשה רנה כמ"ש באבוד רשעים רנה שהוא בחי' התענוג שנעשה למעלה מבחי' אתכפיא ואתהפכא כנ"ל.
+
+
+### Translation
+This is called teshuvah with redoubled strength: transforming negative traits that burn like fire and turning them back toward Hashem alone. Hence the completely righteous cannot stand where those who return stand. Subduing and transforming darkness into light produces great delight above. Thus “one hour of teshuvah is better.” Teshuvah yields the delight illustrated by the speaking bird. Haran becomes rinah, joyful song, as the chet of chametz becomes hei to form matzah, as explained by the Zohar in Pinchas. Thus “when the wicked perish there is rejoicing,” the delight that results from transformation.
+
+
+### Explanation
+The discourse shows two transformations in the letters: chametz to matzah and Haran to rinah. Both illustrate the delight that comes when an energy once directed elsewhere is turned back.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 22. The completion of refinement
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 30}, "end": {"page": 2, "column": "right", "line": 36}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+והנה בחי' התענוג הזה יתגלה לעתיד דוקא שאז ואת רוח הטומאה אעביר כו' שלא יהיה עוד בחי' חשך ובירורי' כמו שהוא עתה בעליות וירידות אלא כמ"ש בחריש ובקציר תשבות כמבואר במ"א. ויהיה בחי' גילוי אור ה' למטה בבחי' יחוד וביטול בתכלית כמו שהוא למעלה בעולמות עליונים דאיהו וחיוהי וגרמוהי חד כו' שעתה הוא מאין ליש כו' משא"כ לעתיד יהיה מיש לאין בבחי' ביטול ואתהפכא כו'.
+
+
+### Translation
+That delight will be revealed in the future, when “I will remove the spirit of impurity.” Darkness and the refinements that now involve ascents and descents will then cease. “In plowing and in harvest you shall rest,” as explained elsewhere. Hashem’s light will be revealed below in complete unity and bittul, as above, where He, His lights and His vessels are one. Now the movement is from ayin to yesh, from hidden origin to being. In the future it will be from yesh to ayin, through bittul and transformation.
+
+
+### Explanation
+While being experiences itself as separate, it calls for refinement. The future described by the discourse is the manifestation below of the unity that birur prepares.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 23. The world’s Shabbat and the father’s house
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 36}, "end": {"page": 2, "column": "right", "line": 44}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+ואזי יתגלה בחי' ענג העליון שהוא בבחי' א"ס והוא בחי' יום הז' יום שכולו שבת ומנוחה לחיי העולמים שהוא בחי' גילוי ענג העליון כנודע שנעשה מהבירורים שלמטה בשיתא אלפי שנין כו'. וזהו ושבתי כו' אל בית אבי שהוא בחי' חזרה והשבה של בחי' יעקב מבחי' חר"ן כנ"ל לבחי' רנה שנק' בית אבי שהוא בחי' יצחק שהוא בחי' הצחוק והתענוג העליון שיתגלה לעתיד מבחי' אתכפיא ואתהפכא הנ"ל:
+
+
+### Translation
+Then the infinite supernal delight will be revealed. This is the seventh day, wholly Shabbat and rest for the life of the worlds, the revelation of delight born of refinements below through six thousand years. Thus Jacob returns from Haran to rinah, to “my father’s house,” meaning Isaac, laughter and supernal delight that will be revealed through the subduing and transformation described above.
+
+
+### Explanation
+The seventh day gathers the labor of the six thousand years. The return to Isaac’s house names this revelation of delight.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 24. The two directions of peace
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 45}, "end": {"page": 2, "column": "left", "line": 5}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+וזהו שיאמרו לעתיד על יצחק דוקא כי אתה אבינו להיות כי זהו תכלית המכוון בירידת והשתלשלות העולמות כדי שעי"ז יהיה צחוק ותענוג למעלה כנ"ל. וזהו ושבתי בשלום כו'. כי בחי' ענג הנ"ל שיתגלה לעתיד הוא דוקא ע"י בחי' העלאות והמשכות שהם בחי' הבירורים למטה בבחי' אתכפייא ואתהפכא כנ"ל שנקרא בחי' שלום. להיות כי שלום הוא המחבר שני הפכים וכמ"ש עושה שלום במרומיו. שמיכאל שר של מים וגבריאל שר של אש כו'. והנה כתיב שלום שלום לרחוק ולקרוב והיינו ב' בחי' שלום שלום מלמטה למעלה והיינו לרחוק שנעשה קרוב שהוא בחי' העלאה ממטה למעלה. ושלום מלמעלה למטה היינו בחי' ירידת והמשכת אלקות למטה בבחי' תורה ומצות כמבואר לעיל במ"ש ויצק שמן כו'.
+
+
+### Translation
+Thus in the future they will say to Isaac, “You are our father.” The purpose of the world’s descent is that laughter and delight should arise above. “I will return in peace”: that delight is revealed through the ascents and drawings down of refinement below, the subduing and transformation called peace. Peace joins opposites, as in “He makes peace in His heights,” where Michael is prince of water and Gabriel of fire. “Peace, peace to the far and the near” indicates two directions. From below upward, the distant one draws near by ascent. From above downward, divinity descends through Torah and mitzvot, as with the oil poured on the stone.
+
+
+### Explanation
+“Peace” joins the discourse’s two movements: elevating what is distant and bringing divinity into concrete life.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 25. Delight beyond the levels
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 6}, "end": {"page": 2, "column": "left", "line": 13}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+וע"י ב' בחי' שלום הנ"ל שהם בחי' אתהפכא מחשוכא לנהורא שלא יהיו בבחי' עלמין דפרודי רק בבחי' יחוד וביטול כמו שהוא למעלה בעולמות עליוני' ממש ואזי אשוב אל בית אבי שיתגלה ממילא בחי' הענג העליון שהוא בבחי' א"ס ממש למעלה מעלה מהשתלשלות העולמות במדרגות רבות מעלה ומטה וחשך ואור. משא"כ לגבי עצמותו ומהותו ית' קטן וגדול שוים ממש בלי שינוי וכחשכה כאורה ממש. ואז והיה הוי' לי לאלקים כו'.
+
+
+### Translation
+Through the two forms of peace, darkness becomes light. The worlds pass from separation to unity and bittul, as above. Then I will return to my father’s house and supernal delight will be revealed, truly infinite and above the gradations of worlds, above and below, darkness and light. Before His very essence, small and great are equal and darkness is as light. Then “Hashem will be Elohim to me.”
+
+
+### Explanation
+Supernal delight cannot be measured on the worlds’ internal scale. That level makes it possible to understand the change in the relation between the Names.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 26. The sun and its shield
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 13}, "end": {"page": 2, "column": "left", "line": 17}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+כי הנה כתיב כי שמש ומגן הוי' אלקים שכמו שהמגן הוא נרתק להשמש ומכסה ומסתיר על אור השמש כמו"כ שם אלקים הוא בחי' נרתק לשם הוי' ומכסה ומסתיר עליו להיות נבראים בעלי גבול ונפרדים בפ"ע משא"כ שם הוי' הוא בחי' המשכת אור ה' למטה כו'.
+
+
+### Translation
+“For Hashem Elohim is a sun and shield.” As the shield houses the sun and veils its light, the name Elohim covers and conceals the name Havayah so that finite, separate creatures can exist. Havayah expresses the drawing down of divine light.
+
+
+### Explanation
+Elohim has the function of a shield within the order of the worlds. Concealment lets the finite receive light according to its capacity.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 27. The stone becomes a house of Elohim
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 17}, "end": {"page": 2, "column": "left", "line": 24}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+והנה כ"ז הוא בבחי' השתלשלות מעלה ומטה וחשך ואור אבל לעתיד שיתגלה בחי' ענג העליון שהוא למעלה מעלה מבחי' ההשתלשלות והוא למעלה מעלה מבחי' שם הוי' ושם אלקים ואזי מה שעתה הוא בחי' שם הוי' יהיה אז בחי' אלקים לגבי בחי' ענג העליון הנ"ל ואזי והאבן הזאת אשר שמתי מצבה כנ"ל יהיה בית אלקים שיהיה בית וכלי לבחי' אלקים דלעתיד שהוא בחי' הוי' עתה. וכל אשר תתן לי הוא לשון עתיד היינו כל עליות שיהיו לעתיד הכל עשר אעשרנו לך בבחי' מעשר כנודע וד"ל:
+
+
+### Translation
+All of this belongs to the order of above and below, darkness and light. In the future, supernal delight will be revealed beyond that order and beyond both Names. What is Havayah now will then be Elohim in relation to that delight. Thus “this stone that I have set as a pillar will be a house of Elohim”: it will be a house and vessel for the future aspect of Elohim, which now corresponds to Havayah. “Of all that You give me” is in the future tense: of all those elevations, “I shall surely give You a tenth,” in the dimension of tithing.
+
+
+### Explanation
+The conclusion answers the opening question by linking the two clauses of the vow. The stone becomes a vessel for what the verse calls Elohim in relation to future revelation.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 28. Summary aleph: the stones and Torah
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 25}, "end": {"page": 2, "column": "left", "line": 32}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+קיצור (א) הנה יעקב המשיך היו"ד ח"ע לבחי' עקביי' וזהו ענין יציאת יעקב מבאר שבע יסוד אי' לבחי' חרן כדי להעלות בירורי נוגה והיינו מה שלקח מאבני המקום שהם בחי' אותיות דבר ה' המלובשים בדצ"ח ועשה מהם אבן אחת הוא בחי' יו"ד שזהו וישם מראשותיו (ע' זהר ח"א דע"ב ופ' ויצא קנ"א ופ' ויחי רל"א ובמ"ש ע"פ אבן ישראל) ואח"כ וישם אותה מצבה המשכת בחי' ו' שנמשך מהיו"ד והוא ענין אורייתא מח"נ ויצק עליה שמן להיות מה להלן באימה ויראה אף כאן באימה ויראה:
+
+
+### Translation
+Summary, aleph. Jacob drew yud, supernal wisdom, down to the heels. He left Beer Sheva, the yesod of Imma, for Haran to elevate the refinements of nogah. He took the stones of the place, the letters of divine speech clothed in the inanimate, plant, animal and speaking orders, and gathered them into one, yud, at his head. See the Zohar passages and the commentary on “the stone of Israel.” Then he set the stone as a pillar: vav extends from yud, for Torah issues from supernal wisdom. He poured oil on it so that, just as there was awe and reverence there, there should be awe and reverence here as well.
+
+
+### Explanation
+The summary joins the descent, the elevation of the letters to yud, and the renewed descent of chochmah into concrete Torah.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 29. Summary bet: the return from Haran
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 32}, "end": {"page": 2, "column": "left", "line": 38}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+(ב) ועי"ז ושבתי בשלום אל בית אבי בחי' יצחק כי אתה אבינו והוא הצחוק והתענוג שיהיה לע"ל מבירורים אלו והיינו ע"י אתכפיא ואתהפכא נתברר מבחי' חר"ן ונהפך החי"ת לה"א להיות רנ"ה בחי' תענוג (ועד"ז בענין יצ"מ מיצר הגרון ע"ד בחי' חרן נחר גרוני כו' וימררו חיי אבותינו וכשנעשה יצ"מ הוא בחי' מצה משא"כ חמץ כענין ההפרש בין חרן לרנה):
+
+
+### Translation
+Bet. Thus “I will return in peace to my father’s house,” Isaac, of whom it is said, “You are our father.” This is the future laughter and delight that result from these refinements. Through subduing and transformation Haran is refined and its chet becomes hei to form rinah, delight. Likewise the Exodus from Egypt is a departure from the constriction of the throat, akin to Haran and “my throat has grown hoarse,” and to the embittering of our ancestors’ lives. After the exodus comes matzah in place of chametz, as rinah in place of Haran.
+
+
+### Explanation
+Haran and Egypt are linked here through the constriction of the throat. The summary connects overcoming it to the passage expressed by matzah.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 30. Summary gimel: the two forms of peace
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 38}, "end": {"page": 2, "column": "left", "line": 42}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+(ג) וגילוי ענג זה ע"י ב' בחי' שלום לרחוק ולקרוב ואז שם הוי' יהיה רק בבחי' אלקי' לגבי גילוי ההוא ולפיכך האבן הזאת שהיא בחי' המל' המקבלת משם הוי' יהיה בחי' בית אלקים (וגם י"ל כיון דלע"ל יאמרו ליצחק כי אתה אבינו ע"כ שייך בחי' זו בשם אלקים וז"ש צחוק עשה לי אלקים):
+
+
+### Translation
+Gimel. This delight is revealed through the two forms of peace, to the far and the near. Havayah will then be Elohim in relation to that revelation. The stone, corresponding to malchut and receiving from Havayah, therefore becomes a house of Elohim. It can also be explained that since Isaac will be told “You are our father” in the future, this aspect relates to Elohim, as Sarah says, “Elohim has made me laugh.”
+
+
+### Explanation
+The summary again links the stone, malchut and the name Elohim. Sarah’s words give another connection between that Name and Isaac’s laughter.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 31. The beginning of the Biur
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 43}, "end": {"page": 2, "column": "left", "line": 48}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+והיה הוי"ה לי לאלקים והאבן הזאת אשר שמתי מצבה יהיה בית אלקים. להבין ענין תפלה ובקשה זו שהוי"ה יהי' בבחי' אלקים. והאבן בבחי' בית אלקים. וכדי להבין איך תהיה האבן במדרגה גדולה כ"כ להיות מכון ומושב להשראת קדושה עליונה עד שיהיה חל שם שמים על האבן שתהיה נק' בשם בית אלקים. הנה צריך להבין ענין הפרשה כולה ויצא יעקב כו' והענין דכתיב
+
+
+### Translation
+“Hashem will be Elohim to me, and this stone that I set as a pillar will be a house of Elohim.” We must understand this prayer: that Havayah should be in the aspect of Elohim and the stone in that of a house of Elohim. How can the stone attain so high a level that it becomes a dwelling for supernal holiness, with the Name of Heaven resting upon it, so that it is called a house of Elohim? To understand this we must consider the whole portion, beginning “Jacob went out…” And the matter is that it is written…
+
+
+### Explanation
+The Biur begins by returning to the question of how the stone can become a dwelling for kedushah. The final sentence continues on the next page.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)

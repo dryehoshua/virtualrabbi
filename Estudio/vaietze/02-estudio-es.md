@@ -2,7 +2,7 @@
 
 Estudiamos el comienzo del maamar sobre el regreso de Yaakov y la piedra que puso como monumento.
 
-«ושבתי בשלום אל בית אבי», página impresa כא. Se cubre el texto de Vaietzé de la hoja aportada, desde ושבתי בשלום hasta כי הנה אבי. El maamar continúa en la hoja siguiente.
+Hojas 1–2 de Vaietzé. Se completa «ושבתי בשלום אל בית אבי» con su resumen y se abre el Biur hasta והענין דכתיב. La hoja 2 es la página impresa 42 (כא ג–ד) de la edición digital.
 
 
 ## 1. El regreso de Yaakov y la piedra
@@ -394,3 +394,325 @@ El regreso reúne la elevación de las piedras y el descenso del aceite. La últ
 Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
 
 - [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 18. Itzjak y el deleite de la transformación
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 1}, "end": {"page": 2, "column": "right", "line": 5}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+קאי על יצחק וכמ"ש כי אתה אבינו שלע"ל יאמרו על יצחק כי אתה אבינו כו'. והנה יצחק הוא מלשון צחוק ותענוג וכמ"ש צחק עשה לי כו' כל השמע יצחק לי והוא לשון עתיד שיתגלה בחי' התענוג העליון שלמעלה והוא ע"י בחי' הבירורי' שלמטה בבחי' אתכפיא ואתהפכא מחשוכא לנהורא ע"י העלאות והמשכות כנ"ל.
+
+
+### Traducción
+«Mi padre» se refiere a Itzjak. En el futuro se dirá de él «Tú eres nuestro padre». Itzjak alude a la risa y al deleite, como dice Sará: «Me ha hecho reír» y «quien lo oiga reirá conmigo». El futuro del verbo señala la revelación del deleite superior mediante los refinamientos de abajo, al someter y transformar la oscuridad en luz por medio de las elevaciones y los descensos antes explicados.
+
+
+### Explicación
+Al retomar la frase de la hoja anterior, el Alter Rebbe identifica la casa del padre con Itzjak y vincula su nombre con el fruto futuro del birur.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 19. El deleite de lo inesperado
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 5}, "end": {"page": 2, "column": "right", "line": 13}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+וכמו התענוג והצחוק שלמטה שאינו אלא מאיזו שינוי והתחדשות כמו למשל צפור המדברת וכדומה שאין דרכה וטבעה לדבר משא"כ מאדם המדבר אין מקבלים תענוג כלל לפי שדרכו בתמידות לדבר. וכמו"כ ממש למעלה. הנה בחי' יעקב הוא י' עקב שהוא בחי' ירידת והשתלשלות אלקות עד למטה מטה גם בבחי' עקביי' שהם עולמות הנפרדים לגמרי ובעלי גבול כו'. וכמ"ש ויצא יעקב מבאר שבע וילך חרנה שנמשך ונשתלשל בהשתלשלות וצמצומים כ"כ להתהוות יש מאין בעלי גבול ועלמין דפרודי שהם בחי' נבראי' נפרדים שהם בחי' יש ונפרד בפ"ע שנק' חר"ן והוא מלשון נחר גרוני כו'.
+
+
+### Traducción
+La risa y el deleite de abajo nacen de un cambio y una novedad, como cuando habla un pájaro, pues hablar no es su costumbre ni su naturaleza. En cambio, oír hablar a una persona no causa ese deleite porque hablar es habitual en ella. Así ocurre arriba. Yaakov es yud y talón: la divinidad desciende por los niveles hasta los talones, los mundos separados y limitados. «Yaakov salió de Beer Sheva y fue hacia Jarán»: la influencia desciende por grados y contracciones hasta que surgen de la nada seres finitos que se perciben como separados. Es Jarán, aludiendo a «mi garganta se ha enronquecido».
+
+
+### Explicación
+El pájaro que habla ilustra la novedad que produce deleite. El descenso a Jarán prepara la posibilidad de una transformación igualmente inesperada.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 20. De la garganta seca a la luz
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 13}, "end": {"page": 2, "column": "right", "line": 21}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+והיינו שהחיות אלקות הנמשך ומתלבש בהם שנק' בחי' גרון שהוא קול כנודע מכוסה ומוסתר בהם לגמרי עד שהם עלמין דפרודי וחשך לגמרי כאלו הם יש ונפרד בפ"ע ואזי נק' חרן לשון נחר גרוני כו'. וכמ"ש נאלמתי דומיה כו'. והנה תכלית המכוון בירידת והשתלשלות אור ה' כ"כ למקום חשך ועלמין דפרודי. היינו בכדי שיהי' אתכפיא ואתהפכא מחשוכא לנהורא כו' להפוך את כל המדות רעות שהם האהבה ורשפי אש של הבלי עולם או הכעס כו' להפכם שיהיו רק לה' לבדו ולהיות בבחי' בטול הרצון לה' לבד ולא בבחי' יש ונפרד בפ"ע כו'.
+
+
+### Traducción
+La vitalidad divina que se reviste en ellos se llama garganta, vinculada con la voz. Queda velada hasta que los mundos parecen enteramente separados y oscuros, como si existieran por sí mismos. A esto aluden Jarán, «mi garganta se ha enronquecido» y «enmudecí en silencio». La finalidad de que la luz divina descienda hasta ese lugar de oscuridad y separación es que haya itkafiá e ithapjá, sometimiento y transformación de la oscuridad en luz. El apego, el ardor por lo pasajero y el enojo han de transformarse y dirigirse sólo a Hashem, hasta que la voluntad se entregue a Él.
+
+
+### Explicación
+La garganta velada expresa una vitalidad presente que no se percibe. La avodá descrita aquí vuelve hacia Hashem las fuerzas que parecían separadas de su origen.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 21. Teshuvá: de Jarán a riná
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 21}, "end": {"page": 2, "column": "right", "line": 30}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+ונק' בחי' זאת בחי' תשובה שהוא בחילא יתיר כו' דהיינו המדות רעות שהם ברשפי אש להפכם ולהשיבם לה' לבד כנ"ל (וזהו במקום שבעלי תשובה עומדין צדיקי' גמורים אין יכולים לעמוד). ועי"ז נעשה תענוג גדול למעלה והוא מבחי' אתכפיא ואתהפכא מחשוכא לנהורא שלמטה. וזהו יפה שעה אחת בתשובה כו' להיות שע"י בחי' תשובה דוקא נעשה התענוג למעלה כ"כ שהוא ממש כמשל צפור המדברת כנ"ל ואזי נעשה מבחי' חר"ן רנ"ה וכנודע על ענין חמץ ומצה שמאות החי"ת של חמ"ץ נעשה ה"א כמ"ש בזהר פ' פנחס ע"פ גער חי"ת קנה כו' ונעשה בחי' מצה. כמו"כ מחרן נעשה רנה כמ"ש באבוד רשעים רנה שהוא בחי' התענוג שנעשה למעלה מבחי' אתכפיא ואתהפכא כנ"ל.
+
+
+### Traducción
+A esto se llama teshuvá con vigor redoblado: transformar los atributos negativos que arden como fuego y volverlos sólo hacia Hashem. Por eso los justos consumados no pueden estar donde están quienes retornan. De someter y transformar la oscuridad en luz surge un gran deleite arriba. Por eso «es mejor una hora de teshuvá». Por la teshuvá se produce el deleite ilustrado por el pájaro que habla. De Jarán surge riná, canto de alegría, como la jet de jametz se vuelve hei para formar matzá, según explica el Zóhar en Pinjás. Así se cumple «al perecer los malvados hay júbilo», el deleite que resulta de la transformación.
+
+
+### Explicación
+El maamar muestra dos transformaciones en las letras: de jametz a matzá y de Jarán a riná. Ambas ilustran el deleite que nace del retorno de una fuerza que estaba dirigida en sentido contrario.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 22. El final del refinamiento
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 30}, "end": {"page": 2, "column": "right", "line": 36}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+והנה בחי' התענוג הזה יתגלה לעתיד דוקא שאז ואת רוח הטומאה אעביר כו' שלא יהיה עוד בחי' חשך ובירורי' כמו שהוא עתה בעליות וירידות אלא כמ"ש בחריש ובקציר תשבות כמבואר במ"א. ויהיה בחי' גילוי אור ה' למטה בבחי' יחוד וביטול בתכלית כמו שהוא למעלה בעולמות עליונים דאיהו וחיוהי וגרמוהי חד כו' שעתה הוא מאין ליש כו' משא"כ לעתיד יהיה מיש לאין בבחי' ביטול ואתהפכא כו'.
+
+
+### Traducción
+Ese deleite se revelará en el futuro, cuando «haré pasar el espíritu de impureza». Entonces cesarán la oscuridad y los refinamientos que hoy ocurren con subidas y bajadas. «En la arada y en la cosecha descansarás», como se explica en otro lugar. La luz de Hashem se revelará abajo en completa unidad y bitul, como arriba, donde Él, Sus luces y Sus recipientes son uno. Ahora el movimiento va de ayin a yesh, del origen oculto al ser. En el futuro será de yesh a ayin, mediante bitul y transformación.
+
+
+### Explicación
+Mientras el ser se siente separado, requiere refinamiento. El futuro descrito por el maamar es la manifestación abajo de la unidad que el birur prepara.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 23. El Shabat del mundo y la casa del padre
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 36}, "end": {"page": 2, "column": "right", "line": 44}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+ואזי יתגלה בחי' ענג העליון שהוא בבחי' א"ס והוא בחי' יום הז' יום שכולו שבת ומנוחה לחיי העולמים שהוא בחי' גילוי ענג העליון כנודע שנעשה מהבירורים שלמטה בשיתא אלפי שנין כו'. וזהו ושבתי כו' אל בית אבי שהוא בחי' חזרה והשבה של בחי' יעקב מבחי' חר"ן כנ"ל לבחי' רנה שנק' בית אבי שהוא בחי' יצחק שהוא בחי' הצחוק והתענוג העליון שיתגלה לעתיד מבחי' אתכפיא ואתהפכא הנ"ל:
+
+
+### Traducción
+Entonces se revelará el deleite superior e infinito. Es el séptimo día, todo Shabat y descanso para la vida de los mundos, revelación del deleite que nace de los refinamientos de abajo durante seis mil años. Así Yaakov vuelve de Jarán a riná, a «la casa de mi padre», es decir, Itzjak, la risa y el deleite superior que se revelarán mediante el sometimiento y la transformación descritos.
+
+
+### Explicación
+El séptimo día recoge la labor de los seis mil años. El regreso a la casa de Itzjak nombra esa revelación del deleite.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 24. Las dos direcciones de la paz
+
+Location / Ubicación: {"start": {"page": 2, "column": "right", "line": 45}, "end": {"page": 2, "column": "left", "line": 5}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+וזהו שיאמרו לעתיד על יצחק דוקא כי אתה אבינו להיות כי זהו תכלית המכוון בירידת והשתלשלות העולמות כדי שעי"ז יהיה צחוק ותענוג למעלה כנ"ל. וזהו ושבתי בשלום כו'. כי בחי' ענג הנ"ל שיתגלה לעתיד הוא דוקא ע"י בחי' העלאות והמשכות שהם בחי' הבירורים למטה בבחי' אתכפייא ואתהפכא כנ"ל שנקרא בחי' שלום. להיות כי שלום הוא המחבר שני הפכים וכמ"ש עושה שלום במרומיו. שמיכאל שר של מים וגבריאל שר של אש כו'. והנה כתיב שלום שלום לרחוק ולקרוב והיינו ב' בחי' שלום שלום מלמטה למעלה והיינו לרחוק שנעשה קרוב שהוא בחי' העלאה ממטה למעלה. ושלום מלמעלה למטה היינו בחי' ירידת והמשכת אלקות למטה בבחי' תורה ומצות כמבואר לעיל במ"ש ויצק שמן כו'.
+
+
+### Traducción
+Por eso en el futuro dirán a Itzjak «Tú eres nuestro padre». El propósito del descenso de los mundos es que de él surjan risa y deleite arriba. «Volveré en paz»: ese deleite se revela mediante las elevaciones y transmisiones del refinamiento de abajo, el sometimiento y la transformación que se llaman paz. La paz une opuestos, como en «establece paz en Sus alturas», donde Mijael es príncipe del agua y Gavriel del fuego. «Paz, paz al lejano y al cercano» indica dos direcciones. De abajo arriba, el lejano se acerca por elevación. De arriba abajo, la divinidad desciende por medio de Torá y mitzvot, como en el aceite derramado sobre la piedra.
+
+
+### Explicación
+«Paz» une los dos movimientos del maamar: elevar lo lejano y traer la divinidad hasta lo concreto.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 25. El deleite por encima de los niveles
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 6}, "end": {"page": 2, "column": "left", "line": 13}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+וע"י ב' בחי' שלום הנ"ל שהם בחי' אתהפכא מחשוכא לנהורא שלא יהיו בבחי' עלמין דפרודי רק בבחי' יחוד וביטול כמו שהוא למעלה בעולמות עליוני' ממש ואזי אשוב אל בית אבי שיתגלה ממילא בחי' הענג העליון שהוא בבחי' א"ס ממש למעלה מעלה מהשתלשלות העולמות במדרגות רבות מעלה ומטה וחשך ואור. משא"כ לגבי עצמותו ומהותו ית' קטן וגדול שוים ממש בלי שינוי וכחשכה כאורה ממש. ואז והיה הוי' לי לאלקים כו'.
+
+
+### Traducción
+Por las dos formas de paz se transforma la oscuridad en luz. Los mundos pasan de la separación a la unidad y el bitul, como arriba. Entonces volveré a la casa de mi padre y se revelará el deleite superior, verdaderamente infinito y por encima de la gradación de los mundos, de arriba y abajo, oscuridad y luz. Ante Su propia esencia, lo pequeño y lo grande son iguales, y la oscuridad es como la luz. Entonces «Hashem será para mí Elohim».
+
+
+### Explicación
+El deleite superior no se mide por la escala interna de los mundos. Ese plano permite entender el cambio en la relación entre los Nombres.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 26. El sol y su escudo
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 13}, "end": {"page": 2, "column": "left", "line": 17}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+כי הנה כתיב כי שמש ומגן הוי' אלקים שכמו שהמגן הוא נרתק להשמש ומכסה ומסתיר על אור השמש כמו"כ שם אלקים הוא בחי' נרתק לשם הוי' ומכסה ומסתיר עליו להיות נבראים בעלי גבול ונפרדים בפ"ע משא"כ שם הוי' הוא בחי' המשכת אור ה' למטה כו'.
+
+
+### Traducción
+«Sol y escudo son Hashem Elohim». Así como el escudo envuelve el sol y vela su luz, el Nombre Elohim cubre y oculta el Nombre Havayá para que existan criaturas limitadas y separadas. Havayá expresa el descenso de la luz divina hacia abajo.
+
+
+### Explicación
+Elohim cumple la función del escudo dentro del orden de los mundos. El ocultamiento permite que lo finito reciba la luz según su medida.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 27. La piedra se vuelve casa de Elohim
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 17}, "end": {"page": 2, "column": "left", "line": 24}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+והנה כ"ז הוא בבחי' השתלשלות מעלה ומטה וחשך ואור אבל לעתיד שיתגלה בחי' ענג העליון שהוא למעלה מעלה מבחי' ההשתלשלות והוא למעלה מעלה מבחי' שם הוי' ושם אלקים ואזי מה שעתה הוא בחי' שם הוי' יהיה אז בחי' אלקים לגבי בחי' ענג העליון הנ"ל ואזי והאבן הזאת אשר שמתי מצבה כנ"ל יהיה בית אלקים שיהיה בית וכלי לבחי' אלקים דלעתיד שהוא בחי' הוי' עתה. וכל אשר תתן לי הוא לשון עתיד היינו כל עליות שיהיו לעתיד הכל עשר אעשרנו לך בבחי' מעשר כנודע וד"ל:
+
+
+### Traducción
+Todo esto corresponde al orden de arriba y abajo, oscuridad y luz. En el futuro se revelará el deleite superior, por encima de ese orden y de ambos Nombres. Lo que hoy es Havayá será entonces Elohim respecto de ese deleite. Por eso «esta piedra que puse como monumento será casa de Elohim»: será casa y recipiente para el aspecto futuro de Elohim, que hoy corresponde a Havayá. «De todo cuanto me des» está en futuro: de todas esas elevaciones, «ciertamente te daré el diezmo», según la dimensión del diezmo.
+
+
+### Explicación
+El cierre responde a la pregunta inicial enlazando las dos cláusulas del voto. La piedra se vuelve recipiente de aquello que el versículo llama Elohim con respecto a la revelación futura.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 28. Resumen álef: las piedras y la Torá
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 25}, "end": {"page": 2, "column": "left", "line": 32}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+קיצור (א) הנה יעקב המשיך היו"ד ח"ע לבחי' עקביי' וזהו ענין יציאת יעקב מבאר שבע יסוד אי' לבחי' חרן כדי להעלות בירורי נוגה והיינו מה שלקח מאבני המקום שהם בחי' אותיות דבר ה' המלובשים בדצ"ח ועשה מהם אבן אחת הוא בחי' יו"ד שזהו וישם מראשותיו (ע' זהר ח"א דע"ב ופ' ויצא קנ"א ופ' ויחי רל"א ובמ"ש ע"פ אבן ישראל) ואח"כ וישם אותה מצבה המשכת בחי' ו' שנמשך מהיו"ד והוא ענין אורייתא מח"נ ויצק עליה שמן להיות מה להלן באימה ויראה אף כאן באימה ויראה:
+
+
+### Traducción
+Resumen, álef. Yaakov hizo descender la yud, la sabiduría superior, hasta los talones. Salió de Beer Sheva, el yesod de Imá, hacia Jarán para elevar los refinamientos de noga. Tomó las piedras del lugar, las letras del habla divina revestidas en los órdenes inanimado, vegetal, animal y hablante, y las reunió en una sola, la yud, a su cabecera. Véanse los pasajes del Zóhar y el comentario sobre «la piedra de Israel». Luego puso la piedra como monumento: es la vav que se prolonga de la yud, pues la Torá procede de la sabiduría superior. Derramó aceite sobre ella para que, tal como allí hubo temor y reverencia, también los haya aquí.
+
+
+### Explicación
+El resumen reúne el descenso, la elevación de las letras a la yud y el nuevo descenso de jojmá en la Torá concreta.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 29. Resumen bet: el retorno desde Jarán
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 32}, "end": {"page": 2, "column": "left", "line": 38}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+(ב) ועי"ז ושבתי בשלום אל בית אבי בחי' יצחק כי אתה אבינו והוא הצחוק והתענוג שיהיה לע"ל מבירורים אלו והיינו ע"י אתכפיא ואתהפכא נתברר מבחי' חר"ן ונהפך החי"ת לה"א להיות רנ"ה בחי' תענוג (ועד"ז בענין יצ"מ מיצר הגרון ע"ד בחי' חרן נחר גרוני כו' וימררו חיי אבותינו וכשנעשה יצ"מ הוא בחי' מצה משא"כ חמץ כענין ההפרש בין חרן לרנה):
+
+
+### Traducción
+Bet. Así «volveré en paz a la casa de mi padre», Itzjak, de quien se dice «Tú eres nuestro padre». Es la risa y el deleite futuros que resultan de estos refinamientos. Por sometimiento y transformación se refina Jarán, y su jet se convierte en hei para formar riná, el deleite. Así también la salida de Egipto es la salida de la estrechez de la garganta, como Jarán y «mi garganta se ha enronquecido», y como el amargor de la vida de nuestros padres. Después del éxodo aparece la matzá frente al jametz, como riná frente a Jarán.
+
+
+### Explicación
+Jarán y Egipto se conectan aquí por la estrechez de la garganta. El resumen vincula su superación con el tránsito que expresa la matzá.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 30. Resumen guímel: las dos paces
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 38}, "end": {"page": 2, "column": "left", "line": 42}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+(ג) וגילוי ענג זה ע"י ב' בחי' שלום לרחוק ולקרוב ואז שם הוי' יהיה רק בבחי' אלקי' לגבי גילוי ההוא ולפיכך האבן הזאת שהיא בחי' המל' המקבלת משם הוי' יהיה בחי' בית אלקים (וגם י"ל כיון דלע"ל יאמרו ליצחק כי אתה אבינו ע"כ שייך בחי' זו בשם אלקים וז"ש צחוק עשה לי אלקים):
+
+
+### Traducción
+Guímel. Este deleite se revela por las dos formas de paz, al lejano y al cercano. Entonces Havayá será Elohim en relación con esa revelación. Por ello la piedra, que corresponde a maljut y recibe de Havayá, se vuelve casa de Elohim. También se puede explicar que, como en el futuro se dirá a Itzjak «Tú eres nuestro padre», este aspecto se relaciona con Elohim, como dice Sará: «Elohim me ha hecho reír».
+
+
+### Explicación
+El resumen vuelve a enlazar la piedra, maljut y el Nombre Elohim. La cita de Sará ofrece otra conexión entre ese Nombre y la risa de Itzjak.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ושבתי בשלום אל בית אבי · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899155)
+
+
+## 31. El comienzo del Biur
+
+Location / Ubicación: {"start": {"page": 2, "column": "left", "line": 43}, "end": {"page": 2, "column": "left", "line": 48}, "printed_page": "42 (כא ג–ד)", "basis": "Derecha desde קאי על יצחק; izquierda desde שלום במרומיו, sin contar el título del Biur. / Right starts at קאי על יצחק; left at שלום במרומיו, excluding the Biur heading."}
+
+
+### עברית
+והיה הוי"ה לי לאלקים והאבן הזאת אשר שמתי מצבה יהיה בית אלקים. להבין ענין תפלה ובקשה זו שהוי"ה יהי' בבחי' אלקים. והאבן בבחי' בית אלקים. וכדי להבין איך תהיה האבן במדרגה גדולה כ"כ להיות מכון ומושב להשראת קדושה עליונה עד שיהיה חל שם שמים על האבן שתהיה נק' בשם בית אלקים. הנה צריך להבין ענין הפרשה כולה ויצא יעקב כו' והענין דכתיב
+
+
+### Traducción
+«Hashem será para mí Elohim, y esta piedra que puse como monumento será casa de Elohim». Hay que entender esta plegaria: que Havayá esté en el nivel de Elohim y que la piedra esté en el nivel de casa de Elohim. ¿Cómo puede la piedra alcanzar un rango tan elevado que sirva de asiento a una santidad superior y que repose sobre ella el Nombre del Cielo, hasta llamarse casa de Elohim? Para entenderlo hay que estudiar toda la parashá, desde «Yaakov salió…». Y el asunto es que está escrito…
+
+
+### Explicación
+El Biur comienza retomando la pregunta desde el punto de vista de la piedra como morada para la kedushá. La última frase continúa en la página siguiente.
+
+
+### Fuentes
+Hebreo transcrito del facsímil y cotejado con Chabad/Kehot. Traducción y comentario de estudio.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
