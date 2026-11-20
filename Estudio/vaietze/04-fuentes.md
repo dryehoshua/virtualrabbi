@@ -1,8 +1,8 @@
 # Fuentes y alcance / Sources and scope
 
-Cinco lecciones iniciales de «ושבתי בשלום אל בית אבי». Hoja 1, página impresa כא, columna derecha, líneas 1–16 desde ושבתי בשלום. El maamar continúa.
+«ושבתי בשלום אל בית אבי», página impresa כא. Se cubre el texto de Vaietzé de la hoja aportada, desde ושבתי בשלום hasta כי הנה אבי. El maamar continúa en la hoja siguiente.
 
-Five opening lessons of “Veshavti Veshalom el Beit Avi.” Sheet 1, printed page כא, right column, lines 1–16 from ושבתי בשלום. The discourse continues.
+“Veshavti Veshalom el Beit Avi,” printed page כא. Covers the Vaietzé text of the supplied sheet, from ושבתי בשלום through כי הנה אבי. The discourse continues on the next sheet.
 
 Las fuentes propuestas sin enlace recuperado no se consideran verificadas. / Proposed references without retrieved links are not treated as verified.
 
