@@ -2,7 +2,7 @@
 
 We study the opening of the discourse on Jacob’s return and the stone he set as a pillar.
 
-Three Vaietzé sheets. The first discourse and summary are complete; the Biur continues through sheet כב (22a–b), ending at ובחי׳ זו. Forty-five lessons.
+Four Vaietzé sheets and 61 lessons. The first discourse, its summary, and the Biur are complete. Page 44 (22c–d) opens the Leah and Rachel discourse, which continues on the next sheet.
 
 
 ## 1. Jacob’s return and the stone
@@ -1038,3 +1038,371 @@ The text applies the image of the interrupted voice to the concealment of divine
 Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
 
 - [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 46. Concealment in the worlds and the soul
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 1}, "end": {"page": 4, "column": "right", "line": 5}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+הוא בין בהנהגת העולמות שהוא ענין גלות ישראל ושעבוד מצרים ובבל מחמת תגבורת האש ותוקף הדין ובין בכל נפש מישראל בעבודת ה' שעסק התורה שלו הוא בבחי' נפרד ולא בבחי' ביטול לאור א"ס ב"ה להיות גילוי חכמתו כו' מחמת תגבורת האש וחמימות שמצד גופו ונפש הבהמית אשר נמשך אחריהם.
+
+
+### Translation
+This aspect occurs both in the governance of the worlds, as in Israel’s exile and servitude in Egypt and Babylon through the predominance of fire and the force of judgment, and in the service of each Jewish soul. Torah study can remain separate, without the bittul before the light of Ein Sof that allows His wisdom to be revealed, owing to the predominance of fire and heat from the body and the animal soul that draw the person after them.
+
+
+### Explanation
+The Biur applies the interrupted voice of the previous sheet to collective exile and to each person’s service.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 47. Haran transformed into song
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 5}, "end": {"page": 4, "column": "right", "line": 11}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+אך הנה תכלית ירידה זו של בחי' יעקב מאגרא רמה מבאר שבע מקו' מדות העליונות שהן ביטול אליו ית' לך ה' הגדולה כו' לבירא עמיקתא מקום החרן המפסיק ומעכב את קול ההמשכה להיות בחי' נפרד. הוא כדי להיות אתכפיא ואתהפכא ואזי נעשה מחרן רנה כי החי"ת נפסק ונעשה ה"א. כמ"ש בזהר ע"פ גער חית קנה שמחמץ נעשה מצה. וזהו ושבתי בשלום אל בית אבי ושבתי מחר"ן.
+
+
+### Translation
+The purpose of Jacob’s descent from the heights of Beer Sheva, source of the supernal attributes yielded to Him, as in “Yours, Hashem, is the greatness,” into the deep well of Haran, which interrupts the voice and produces separation, is subduing and transformation. Haran then becomes rinah, song. Chet opens and becomes hei, as the Zohar explains on “rebuke the beast of the reeds,” and chametz becomes matzah. Thus “I will return in peace to my father’s house” expresses the return from Haran.
+
+
+### Explanation
+The changed letter shows how the place of concealment can become a source of joy through avodah.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 48. Isaac and the joy of the unexpected
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 11}, "end": {"page": 4, "column": "right", "line": 18}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+אל בית אבי זהו בחי' יצחק ויצחק נק' ע"ש צחק עשה לי אלקים והוא בחי' רנ"ה שנעשה מחר"ן וכתיב כל השומע יצחק לי יצחק הוא לשון עתיד דהיינו בביאת המשיח ב"ב שאז אהפוך אל עמים וגו' דכד אתכפייא ואתהפכא אזי נעשה בחי' צחוק וחדוה כמו עד"מ צחוק המלך והשרי' מענין התהפכות דבר רחוק וזר כמו מצפור מדברת שזהו דבר חידוש משא"כ מאדם המדבר שדרכו בכך לא שייך צחוק. ולכן ארז"ל במקום שבע"ת עומדין כו' משום דאתהפכא חשוכא כו'.
+
+
+### Translation
+“To my father’s house” alludes to Isaac, named for “Elohim has made me laugh.” It is the song that emerges from Haran. “Whoever hears will laugh with me” is in the future tense and points to Mashiach’s coming, when “I will transform the peoples…” will be fulfilled. Laughter and joy arise from subduing and transformation. As a king and ministers laugh at something unexpected, a speaking bird produces delight, while speech is ordinary in a person. Hence the sages’ teaching about the place of those who do teshuvah: there darkness is transformed.
+
+
+### Explanation
+Isaac’s joy expresses the novelty of a force changing direction. The bird illustrates why that change awakens delight.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 49. Teshuvah and redemption
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 18}, "end": {"page": 4, "column": "right", "line": 23}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+וגם ארז"ל אם ישראל עושין תשובה נגאלין כו' שזהו תכלית ביאת המשיח להיו' הצחוק והחדוה כד אתכפייא סט"א ואתהפכא חשוכא לנהורא. וזהו מארז"ל שלעתיד יאמרו על יצחק כי אתה אבינו שתכלית ירידת הנשמה בגוף בעוה"ז ותכלית ירידת ישראל בגלות ושעבוד ודוחק פרנסה הוא כדי שיעלו ויבאו ויגיעו לבחי' יצחק הוא הצחוק והחדוה כו':
+
+
+### Translation
+The sages also said that if Israel does teshuvah, it will be redeemed. The purpose of Mashiach’s coming is the laughter and joy that arise when the sitra achra is subdued and darkness is transformed into light. Hence Isaac will be told “You are our father.” The descent of the soul into the body and of Israel into exile, servitude, and hardship in livelihood leads toward ascent to Isaac, laughter and joy.
+
+
+### Explanation
+The Biur brings individual and collective descents together in the return expressed by Isaac’s name.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 50. Peace joins two movements
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 24}, "end": {"page": 4, "column": "right", "line": 29}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+אך כיצד ישוב מבחי' חרן לבחי' יצחק הנ"ל הנה לזה אמר הכתוב בשלום כי שלום הוא המחבר ומקשר ב' הפכים כמ"ש עושה שלום במרומיו בין מיכאל כו' שלום שלום לרחוק שנעשה קרוב כו' ובשלום ב' שלום ממטה למעלה וממעלה למטה כמ"ש במ"א. והנה כשיתגלה הצחוק העליון לעתיד כד אתכפיא ואתהפכא דהיינו שלא יהיה שליטה ויניקה לקליפות וסט"א כלל וכמ"ש ואת רוח הטומאה אעביר מן הארץ.
+
+
+### Translation
+How does one return from Haran to Isaac? The verse says “in peace,” for peace binds opposites, as in “He makes peace in His heights” concerning Michael, and “peace, peace to the far,” who draws near. “In peace” encompasses two forms of peace, from below to above and from above to below. When supernal laughter is revealed in the future through subduing and transformation, the kelipot and the other side will lose their dominion and nourishment, as it says, “I will remove the spirit of impurity from the land.”
+
+
+### Explanation
+Peace names the joining of ascent from below with descent from above. It is the path of return named by the verse.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 51. From separate existence to its source
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 30}, "end": {"page": 4, "column": "right", "line": 35}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+אזי יזדכך חומריות העולם וגסותו שלא יהיה בבחי' יש ודבר נפרד בפ"ע רק הכל יוכלל בבחי' אין כי זהו תכלית בריאת העולמות מאין ליש כדי לאהפכא מבחי' יש לבחי' אין ואזי והיה הוי' לי לאלקים. כי הנה אלקי' היינו ההעלם והצמצו' להיות העולמות נבראים מאין ליש והוי"ה היינו בחינת פנימיות אור א"ס ב"ה המחי' ומהוה כו' וכמ"ש כי שמש ומגן הוי"ה אלקים שאלקי' נעשה בחי' מגן לשם הוי"ה שהוא בבחי' השמש כו'.
+
+
+### Translation
+The world’s materiality and coarseness will then be refined. Everything will be included in ayin instead of experiencing itself as separate. This is the purpose of creation from ayin to yesh: to transform yesh into ayin. Then “Hashem will be Elohim to me.” Elohim expresses the concealment and contraction that allow worlds to exist, and Havayah the inner light of Ein Sof that brings them into being and sustains them. Thus “Havayah and Elohim are sun and shield”: Elohim shields the sun of Havayah.
+
+
+### Explanation
+The passage relates the reversal from yesh to ayin to the change in the function of the Names. The shield explains how light sustains limited worlds.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 52. Revelation beyond the gradations
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 36}, "end": {"page": 4, "column": "right", "line": 43}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+אך כל זה הוא בבחינת ההשתלשלות וירידת המדרגות שהוא בבחינת זיו והארה שמאור א"ס ב"ה להוות ולהחיות נבראים כסדר ירידת השתלשלות המדרגות מדרגה אחר מדרגה. שמדרגות עליונים מקבלים אור היותר עליון ורוחני כו' וכל מה שלמטה מטה מתצמצם ומתלבש כו'. אבל לע"ל כשיתגלה הצחוק העליון שהוא מבחי' אתהפכא כו' יהיה גילוי אא"ס ב"ה בעצמו ובכבודו שלמעלה מעלה מבחינת השתלשלות כי עין בעין יראו כו' וראו כל בשר כו' ובאו במערות צורים ובמחילות עפר מפני פחד ה' וגו'.
+
+
+### Translation
+All this belongs to the descent of levels: a radiance of the light of Ein Sof creates and sustains through successive grades. Higher levels receive higher, more spiritual light, and farther below it is increasingly contracted and clothed. In the future, when supernal laughter from transformation is revealed, the light of Ein Sof itself will be disclosed, far above that order. “They will see eye to eye,” “all flesh will see,” and “they will come into caves and holes in the ground in fear of Hashem.”
+
+
+### Explanation
+Gradation describes what each level receives of the radiance. Future revelation comes from beyond that scale.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 53. Havayah in relation to future revelation
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 43}, "end": {"page": 4, "column": "right", "line": 47}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+ואז יהי' בחי' הוי"ה שהוא אור א"ס ב"ה הנמשך ומתפשט להתלבש בתוך עלמין בסדר ההשתלשלות. נחשב בחי' אלקים דהיינו בחי' צמצום שבאמת אין זה אלא זיו והארה מצומצמת לגבי אור א"ס ב"ה בעצמו ובכבודו שלפניו מעלה ומטה שוין וכחשיכה כאורה.
+
+
+### Translation
+Then Havayah, the light of Ein Sof that extends and clothes itself within the worlds in their order, will be considered Elohim, meaning contraction. Relative to the light of Ein Sof itself, it is a limited radiance. Before that light, above and below are equal and darkness is as light.
+
+
+### Explanation
+The light that sustains the worlds is considered a contraction in comparison with future revelation. This is how the Biur reads “Hashem will be Elohim to me.”
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 54. The letters become a dwelling
+
+Location / Ubicación: {"start": {"page": 4, "column": "right", "line": 47}, "end": {"page": 4, "column": "left", "line": 4}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+והאבן הזאת אשר שמתי מצבה הוא בחינת יו"ד כלי החכמה שמבחי' אותיות בחי' דומם דהיינו בחי' התהוות מאין ליש רק לפי אשר שמתי מצבה שהגבהתי והעליתי כו' לכך יהי' לה כח ויכולת להיות בית אלקים שיהיה בחי' אלקים זה שהוא אוא"ס ב"ה שבתוך עלמין שורה ומתגלה בבחי' אותיות הללו והאותיות תהיינה בבחי' משכן ומכון לשבתו ית'. וכל זה הוא ע"י בחי' יעקב יו"ד עקב צוה ישועות יעקב גילוי הש"ע נהורין שבהן וע"י נזכה לכל בחי' האלו.
+
+
+### Translation
+“This stone that I set as a pillar” is yud, the vessel of chochmah, made of letters from the inanimate order that come into being from ayin to yesh. By raising it as a pillar it gains the capacity to be a house of Elohim. This Elohim, the light of Ein Sof within the worlds, rests and is revealed in the letters, which become His dwelling. All this occurs through Jacob, yud and heel, and through Jacob’s salvations, the revelation in them of the 370 lights.
+
+
+### Explanation
+The elevated stone becomes the vessel that the Biur asked about at its opening. The lights Jacob draws down can dwell and be revealed in it.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 55. The tithe that prepares another ascent
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 4}, "end": {"page": 4, "column": "left", "line": 8}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+וכל אשר תתן לי עשר אעשרנו לך. הענין הוא כי הנה נודע שיהיה עילוי אחר עילוי לאין קץ ימות המשיח ותחה"מ כמה שמיטין ויובלות כו' וכל עילוי גדול מחבירו. אך קודם העילוי שאחר העילוי צריך להיו' נשאר מעילוי הראשון בבחי' אתעדל"ת לאתעדל"ע שבעילוי הב' ואתעדל"ת זו הנשארת מן העילוי הראשון נק' בחי' מעשר.
+
+
+### Translation
+“Of everything You give me, I will tithe to You.” There will be endless ascents in the days of Mashiach and resurrection, through sabbatical and jubilee cycles. Each ascent surpasses its predecessor. Before the next one, something must remain from the first as an awakening from below, answered by the awakening from above of the second ascent. What remains is called a tithe.
+
+
+### Explanation
+The tithe represents what one ascent leaves so that the next can begin.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 56. Ascents without end
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 9}, "end": {"page": 4, "column": "left", "line": 12}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+וז"ש וכל אשר תתן לי לעתיד דהיינו כל העליות שיהיה עד אין קץ עשר אעשרנו ויהי' הרבה מעשרות לכל עילוי בחי' מעשר בפ"ע ותמיד עשר אעשרנו עד שיגיע לך לבחי' אור א"ס ב"ה עצמו וכמו שהוא ית' א"ס כך יהיו עליות עד א"ס והכל ע"י בחי' יעקב יו"ד עקב כו' כנ"ל וד"ל:
+
+
+### Translation
+Hence “of everything You give me” in the future, meaning all ascents without end, “I will tithe to You.” There will be many tithes, one for each ascent. The tithing continues until it reaches “You,” the very light of Ein Sof. As He is infinite, the ascents will be infinite. All of this comes through Jacob, yud and heel, as explained.
+
+
+### Explanation
+Jacob’s vow ends with “to You.” That word directs the succession of ascents toward Ein Sof.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 57. Keter as the link between worlds
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 13}, "end": {"page": 4, "column": "left", "line": 21}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+(ובענין מ"ש בפי' עשר אעשרנו ואתעדל"ת זו כו' נק' בחי' מעשר כו'. נראה כי הכתר הוא הממוצע בין עולם העליון לעולם התחתון שהוא סוף בחי' עליונה ומקור וראש לבחי' תחתונה כמו מלכות דאצי' כתר לבריאה ומלכות דבריאה כתר ליצירה כו'. ולכן הנה להיות עליית העולמות שיתעלה העשייה בקדוש' היצירה ממש הוא ע"י אמצעות הכתר דעשייה שהוא בחי' מעשר מע"ס דעשיי'. והענין כי כתר הוא לשון שתיקה כמו כתר לי זעיר. ושתיקה הוא בחינת בטול וע"ז נאמר יונת אלם כו'. והוא בחינת בעמדם תרפינה כנפיהן.
+
+
+### Translation
+Regarding the awakening from below being called a tithe, keter can be understood as mediating between an upper and lower world. It is the end of the upper and also the source and head of the lower. Thus the malchut of Atzilut is keter for Beriah, and the malchut of Beriah is keter for Yetzirah. For Asiyah to ascend into the holiness of Yetzirah, its keter mediates as the tithe of its ten sefirot. Keter alludes to silence, as in “wait for me a little.” Silence expresses bittul. This is described by the “mute dove” and “when they stood, they let down their wings.”
+
+
+### Explanation
+What closes one level serves as the beginning of the next. The note connects this function of keter to the silence of bittul.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 58. The seed and passage to another level
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 21}, "end": {"page": 4, "column": "left", "line": 28}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+וע"י בטול זה יוכל להתעלות אח"כ ליצירה כי א"א להיות עליי' ממהות למהות כי אם שיוכלל תחלה בבחי' אין ממש וזהו ענין העמוד שבין ג"ע התחתון לג"ע העליון כו' וכמו צמיחת התבואה מזרע הנזרע בארץ הוא ע"י שמתחלה מתבטל מהות הזרע ונעשה בחי' אין רק שנשאר כחו בכח הצומח ועי"ז אח"כ נעשה הגידול נפלא יותר מהיש שהי' תחלה כו'. ועד"ז עליי' יצירה בבריאה צ"ל תחלה בבחינת בטול ואין והוא בחי' כתר דיצירה כו'
+
+
+### Translation
+Through this bittul it can ascend to Yetzirah. To pass from one kind of being to another, it must first be included in ayin. This is the meaning of the pillar between lower and upper Gan Eden. Likewise, for a planted seed to produce grain, its initial form dissolves. Its potential remains in the power of growth, and from it emerges something greater than what existed initially. Similarly, Yetzirah’s ascent to Beriah first requires the bittul and ayin of the keter of Yetzirah.
+
+
+### Explanation
+The seed retains a potential after losing its initial form. The Biur uses this example to explain why bittul precedes ascent.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 59. The two tithes of keter
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 28}, "end": {"page": 4, "column": "left", "line": 34}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+וזהו ענין אשר שם שמות בארץ בחי' וחד חרוב ומה שהוא בבחי' אלף השביעי ולא בבחי' עשירית היינו כי היכל ק"ק שהוא היכל השביעי כולל ג"ר אבל עיקר העליי' ע"י הכתר כו'. וע"ד זה יש עליות אין קץ. ומ"ש עשר אעשרנו ב' עישורין היינו כי הכתר כלול מב' פרצופין עתיק וא"א כו' שהוא בחי' תחתונה שבמאציל ושרש הנאצלים כו' וב' בחי' אלו יחד נק' חומש כמ"ש ונתתם חמישית לפרעה כמ"ש במ"א):
+
+
+### Translation
+This is alluded to by “who has made desolations on earth” and the period of desolation. It belongs to the seventh millennium rather than the tenth because the seventh chamber, the Holy of Holies, includes the three upper levels. The ascent itself occurs through keter. In this way there are endless ascents. “I will surely tithe” alludes to two tenths, for keter includes the two configurations of Atik and Arich Anpin, the lowest aspect of the Emanator and the root of the emanated. Together they are called a fifth, as in “you shall give a fifth to Pharaoh,” as explained elsewhere.
+
+
+### Explanation
+The note ends by reading the doubled verb of the vow in light of keter’s two configurations.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · ביאור על הנ״ל · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899156)
+
+
+## 60. Leah and Rachel, thought and speech
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 35}, "end": {"page": 4, "column": "left", "line": 40}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+וללבן שתי בנות וגו'. הנה לאה ורחל הם אותיות המחשבה ואותיות הדבור. שהם עלמא דאתכסיא ועלמא דאתגליא (עיין לקמן בד"ה בכ"ה בכסליו בפי' ושם ה' קטנה רחל) וזהו ענין בארצות החיים. ב' ארצות. שבזמן שבהמ"ק היה קיים היו שני הבחינות מאירים בא"י. והעיקר היה בחי' רחל (שנקראת עקרת הבית) כי המחשבה מתלבשת בתוך הדבור והדבור היה מתגלה.
+
+
+### Translation
+“Laban had two daughters.” Leah and Rachel correspond to the letters of thought and speech, the hidden world and the revealed world. See the later discourse for the twenty-fifth of Kislev on “the name of the younger was Rachel.” This is the meaning of “in the lands of life”: two lands. While the Temple stood, both aspects shone in the Land of Israel. Rachel, called the foundation of the house, predominated because thought is clothed in speech and speech was revealed.
+
+
+### Explanation
+This discourse begins by identifying two modes of expression. Thought remains inward and speech brings it into revelation.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · וללבן שתי בנות · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899157)
+
+
+## 61. Rachel in exile and the light of Leah
+
+Location / Ubicación: {"start": {"page": 4, "column": "left", "line": 41}, "end": {"page": 4, "column": "left", "line": 50}, "printed_page": "44 (כב ג–ד)", "basis": "Derecha desde הוא בין; izquierda desde עלמין שורה. / Right starts at הוא בין; left at עלמין שורה."}
+
+
+### עברית
+ולפי שרחל שהוא בחי' הדבור הוא עלמא דאתגליא לכך היה אז בא"י גילוי אלקותו ית' שהיו חכמים גדולים בעלי רוה"ק ונביאים (וכמו שפרש"י גבי יונה ויחזקאל שאין הנבואה שורה אלא בא"י) ובפרט בהמ"ק והשראת השכינה בקה"ק ואורים ותומים ועבודת הקרבנות שהי' יורד אש שלמעלה. משא"כ אחר חורבן בהמ"ק שגלו ישראל וגלתה עמהם השכינה. שהיא בחי' רחל שהיא בבחי' גלות בע' שרי' ואינה מאירה כלל מערך הגלוי שהיתה מאירה בזמן הבית שהי' הדבור מתגלה משא"כ עכשיו כתיב כרחל לפני גוזזי' נאלמה. והעבודה היא בדרך בירורים כו' (וכמ"ש ע"פ במדבר סיני) ומ"מ נשאר מאיר בא"י בחי' לאה והיא מדרגה יותר גבוה מבחי' רחל
+
+
+### Translation
+Since Rachel corresponds to speech, the revealed world, divinity was manifest in the Land of Israel. There were great sages with divine inspiration and prophets. Rashi discusses the connection between prophecy and the Land of Israel in commenting on Jonah and Ezekiel. In particular, the Temple had the indwelling of the Shechinah in the Holy of Holies, the urim and tumim, and the service of sacrifices, upon which fire descended from above. After the Temple’s destruction, Israel went into exile and the Shechinah, the aspect of Rachel, went with them among the seventy princes. Speech ceased to be manifest as before, as in “like a ewe before its shearers, she was silent.” Service now follows the path of refinement. Even so, the aspect of Leah, higher than Rachel, still shines in the Land of Israel.
+
+
+### Explanation
+The loss of open revelation changes the form of service. The last line introduces Leah’s light, which the next sheet goes on to explain.
+
+
+### Sources
+Hebrew transcribed from the facsimile and checked against Chabad/Kehot. Study translation and commentary.
+
+- [Torá Or · וללבן שתי בנות · Chabad / Kehot](https://he.chabad.org/library/article_cdo/aid/5899157)
