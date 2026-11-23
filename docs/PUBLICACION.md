@@ -44,10 +44,14 @@ browser study session remains to be verified.
 - Público / Public: `127.0.0.1:8791`, Cloudflare Tunnel `virtualrabbi-mac`.
 - Inicio / Landing: https://virtualrabbi.net/ ; lector / reader: `/study`.
 - Servicios / Services: `net.virtualrabbi.public`, `net.virtualrabbi.tunnel`.
-- Instalar dependencias públicas / Install public dependencies:
-  `python3 -m pip install -r requirements-public.txt`.
-- Publicar catálogo / Publish curated content: `python3 scripts/publish_catalog.py`.
-- Instalar servicios / Install services: `python3 scripts/install_public.py --tunnel`.
+- Instalar o reparar el servicio público / Install or repair the public service:
+  `python3 scripts/install_public.py` con Python 3.12 o superior. Los paquetes
+  se guardan en `~/Library/Application Support/Virtual Rabbi/public-packages`.
+  Run with Python 3.12 or newer. Packages live outside the interpreter cache.
+- Publicar catálogo / Publish curated content:
+  `PYTHONPATH="$HOME/Library/Application Support/Virtual Rabbi/public-packages" python3 scripts/publish_catalog.py`.
+- Instalar también el túnel / Also install the tunnel:
+  `python3 scripts/install_public.py --tunnel`.
 - La Mac debe estar encendida, despierta, conectada y con sesión iniciada.
   The Mac must remain awake, online and logged in.
 - DNS Cloudflare: `virginia.ns.cloudflare.com`, `zeus.ns.cloudflare.com`.
